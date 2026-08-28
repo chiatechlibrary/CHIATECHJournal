@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /portal/
+Disallow: /success/
+Disallow: /admin
+Disallow: /editorial/
+Disallow: /about/editorial-board/
+Disallow: /don't%20push/
+Sitemap: https://journal.chiatechsolutions.com/sitemap.xml

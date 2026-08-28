@@ -1,0 +1,85 @@
+{
+  "version": "2026-08-28",
+  "publicCount": 6,
+  "authorMirrors": false,
+  "documents": [
+    {
+      "id": "guide",
+      "filename": "CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx",
+      "title": "Author Guidelines & Camera-Ready Guide",
+      "builder": "build_journal_documents.py",
+      "required": [
+        "Authorship",
+        "Copyright",
+        "35,000",
+        "25,000",
+        "written acceptance",
+        "12 individually named authors"
+      ]
+    },
+    {
+      "id": "camera",
+      "filename": "CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx",
+      "title": "Camera-Ready Manuscript Template",
+      "builder": "build_journal_documents.py",
+      "required": [
+        "AUTHOR ACTION",
+        "QUALITY GATE",
+        "JOURNAL CONTROL",
+        "Declarations",
+        "References"
+      ]
+    },
+    {
+      "id": "agreement",
+      "filename": "CHIATECH_JOURNAL_Copyright_Licensing_Authorship_and_Publication_Agreement.docx",
+      "title": "Copyright, Licensing, Authorship & Publication Agreement",
+      "builder": "build_journal_documents.py",
+      "required": [
+        "CC BY 4.0",
+        "Copyright remains",
+        "Signature",
+        "CRediT",
+        "12 individually named authors"
+      ]
+    },
+    {
+      "id": "collaboration",
+      "filename": "CHIATECH_JOURNAL_Large_Collaboration_Authorship_Continuation_Sheet.docx",
+      "title": "Large-Collaboration Authorship Continuation Sheet",
+      "builder": "build_journal_documents.py",
+      "required": [
+        "editorial approval",
+        "Additional qualifying authors",
+        "Signature",
+        "13",
+        "24"
+      ]
+    },
+    {
+      "id": "review",
+      "filename": "CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx",
+      "title": "Manuscript Readiness Report",
+      "builder": "build_review_report.py",
+      "required": [
+        "Crossref",
+        "Recommendations to the author",
+        "Recommendations to human editors",
+        "not an acceptance decision"
+      ]
+    },
+    {
+      "id": "title",
+      "filename": "CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx",
+      "title": "Article Title Page Template",
+      "builder": "build_journal_documents.py",
+      "required": [
+        "ORCID",
+        "CRediT",
+        "Competing interests",
+        "AI-assisted tools disclosure",
+        "Corresponding author"
+      ]
+    }
+  ]
+}

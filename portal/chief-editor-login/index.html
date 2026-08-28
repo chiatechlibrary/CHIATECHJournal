@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Editorial Control Centre | CHIATECH JOURNAL</title>
+  <meta name="description" content="Secure CHIATECH JOURNAL administration for editors, journal papers, blog posts and public journal information.">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <link rel="canonical" href="https://journal.chiatechsolutions.com/portal/chief-editor-login/">
+  <link rel="icon" href="/assets/icons/favicon-32.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/launch.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container masthead">
+      <a class="brand" href="/" aria-label="CHIATECH JOURNAL home">
+        <span class="brand-marks" aria-hidden="true">
+          <img class="publisher-mark" src="/assets/images/chiatech-logo.png" width="68" height="68" alt="">
+          <span class="brand-divider"></span>
+          <img class="journal-mark" src="/assets/images/chiatechjournal-logo.PNG" width="68" height="68" alt="">
+        </span>
+        <span class="brand-copy"><strong>CHIATECH JOURNAL</strong><small>Secure editorial control centre</small></span>
+      </a>
+      <div class="masthead-meta"><span>Published by</span><strong>CHIA TECH SOLUTIONS AND RESOURCES LIMITED</strong><small>RC 1839865 · Nigeria</small></div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero admin-hero">
+      <div class="container page-hero-grid">
+        <div>
+          <p class="eyebrow">Authorised staff only</p>
+          <h1>Editorial Control Centre</h1>
+          <p class="lead">Manage verified editor profiles, public journal notices, blog/news items and version-of-record paper metadata from one protected desk.</p>
+        </div>
+        <div class="page-hero-mark"><img src="/assets/images/chiatechjournal-logo.PNG" alt=""><small>CHIATECH JOURNAL</small></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container editorial-desk-layout">
+        <div id="editorialLoginPanel" class="editorial-panel">
+          <p class="eyebrow">Secure sign-in</p>
+          <h2>Managing Editor and invited section editors</h2>
+          <p>Sign in with your authorised editorial account. Account setup and recovery instructions are held privately by the journal administrator.</p>
+          <form id="editorialLoginForm" class="journal-form compact-form">
+            <label>Journal email<input name="email" type="email" autocomplete="username" required></label>
+            <label>Password<input name="password" type="password" autocomplete="current-password" minlength="12" required></label>
+            <button class="btn btn-accent" type="submit">Sign in securely</button>
+          </form>
+          <p id="editorialMessage" class="form-message" aria-live="polite"></p>
+          <div class="security-note">
+            <strong>Access rules</strong>
+            <p>Use an individual journal-controlled account. Never share passwords, browser sessions, invitation links or confidential manuscript data. Sign out before leaving a shared device.</p>
+          </div>
+          <p class="fine-print">New section editor? Use the time-limited activation link sent by the Managing Editor. Access concerns: <a href="mailto:chiatechlibrary@gmail.com">chiatechlibrary@gmail.com</a>.</p>
+        </div>
+
+        <div id="editorialDesk" hidden>
+          <p id="deskMessage" class="form-message" aria-live="polite"></p>
+          <div class="desk-topline">
+            <div><p class="eyebrow">Authenticated workspace</p><h2>Journal administration</h2><p id="editorialIdentity"></p></div>
+            <button id="editorialLogout" class="btn btn-outline" type="button">Sign out</button>
+          </div>
+
+          <nav class="desk-tabs" aria-label="Editorial sections">
+            <button type="button" class="is-active" data-desk-tab="overview">Overview</button>
+            <button type="button" data-desk-tab="editors" data-admin-only>Private editorial board</button>
+            <button type="button" data-desk-tab="papers" data-admin-only>Papers</button>
+            <button type="button" data-desk-tab="blog" data-admin-only>Blog / news</button>
+            <button type="button" data-desk-tab="pages" data-admin-only>Website pages</button>
+            <button type="button" data-desk-tab="settings" data-admin-only>Journal information</button>
+          </nav>
+
+          <div class="desk-pane is-active" data-desk-pane="overview">
+            <section class="desk-section">
+              <div class="section-head"><div><p class="eyebrow">Editorial intelligence desk</p><h2>Review Engine evidence inbox</h2></div><p>Automated evidence supports triage only. Open each brief, verify the underlying manuscript and declarations, and record every publication decision through qualified human review.</p></div>
+              <div class="table-wrap"><table><thead><tr><th>Report</th><th>Portfolio</th><th>Manuscript</th><th>Score</th><th>Routing result</th><th>Generated</th><th>Evidence</th></tr></thead><tbody id="reviewInbox"><tr><td colspan="7">Sign in to view routed reports.</td></tr></tbody></table></div>
+              <article id="reviewBrief" class="review-brief-panel" hidden aria-live="polite"></article>
+            </section>
+            <section class="desk-section dashboard-summary" data-admin-only>
+              <article><strong id="summaryEditors">0</strong><span>editor accounts</span></article>
+              <article><strong id="summaryPapers">0</strong><span>paper records</span></article>
+              <article><strong id="summaryPosts">0</strong><span>blog records</span></article>
+            </section>
+          </div>
+
+          <div class="desk-pane" data-desk-pane="editors" data-admin-only>
+            <section class="desk-section" data-admin-only>
+              <div class="section-head"><div><p class="eyebrow">Protected invitation</p><h2>Invite a section editor</h2></div><p>Issue access only after written appointment acceptance and identity, affiliation, expertise, conflict and role verification.</p></div>
+              <form id="staffInviteForm" class="journal-form">
+                <label>Editor’s full name<input name="name" required></label>
+                <label>Verified institutional email<input name="email" type="email" required></label>
+                <label>Affiliation<input name="affiliation" required></label>
+                <label>Country<input name="country" autocomplete="country-name" required></label>
+                <label>SETEHEM portfolio<select name="domain" required><option value="">Select portfolio</option><option>Science</option><option>Technology</option><option>Engineering</option><option>Mathematics</option><option>Education</option><option>Humanities &amp; Social Sciences</option><option>Entrepreneurship &amp; Management</option></select></label>
+                <button class="btn btn-accent" type="submit">Send protected invitation</button>
+              </form>
+            </section>
+
+            <section class="desk-section" data-admin-only>
+              <div class="section-head"><div><p class="eyebrow">Administrator-only board</p><h2>Edit an editor profile</h2></div><p>The roster, contact details, affiliations and ORCID records remain private. Only the founding editor has a public leadership page.</p></div>
+              <form id="editorProfileForm" class="journal-form" hidden>
+                <input name="editor_id" type="hidden">
+                <label>Verified full name<input name="name" required></label>
+                <label>Role title<input name="public_title" required></label>
+                <label>Affiliation<input name="affiliation" required></label>
+                <label>Country<input name="country" required></label>
+                <label>Editorial contact email<input name="public_email" type="email" required><small>Stored in the administrator-only roster.</small></label>
+                <label>ORCID iD<input name="orcid" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9Xx]"><small>Enter the verified 16-character iD only. Its canonical ORCID link appears in the administrator-only roster.</small></label>
+                <label>SETEHEM portfolio<select name="domain" required><option>Science</option><option>Technology</option><option>Engineering</option><option>Mathematics</option><option>Education</option><option>Humanities &amp; Social Sciences</option><option>Entrepreneurship &amp; Management</option></select></label>
+                <label class="full">Private board biography<textarea name="public_bio" rows="5" maxlength="1600" required></textarea></label>
+                <label>Approved portrait URL<input name="image_url" type="url"></label>
+                <label>Institutional profile URL<input name="profile_url" type="url"><small>Optional. The editor’s ORCID link is displayed separately.</small></label>
+                <label>Appointment start<input name="appointment_start" type="date"></label>
+                <label>Appointment end<input name="appointment_end" type="date"></label>
+                <label>Display order<input name="sort_order" type="number" min="1" max="99" value="1"></label>
+                <label>Board visibility<select name="public_status"><option value="PRIVATE">Administrator only</option></select></label>
+                <label>Account access<select name="access_status"><option value="INVITED">Invited</option><option value="ACTIVE">Active</option><option value="SUSPENDED">Suspended</option><option value="ARCHIVED">Archived</option></select></label>
+                <div class="form-actions full"><button class="btn btn-accent" type="submit">Save editor profile</button><button class="btn btn-outline" id="cancelEditorEdit" type="button">Cancel</button></div>
+              </form>
+            </section>
+
+            <section class="desk-section">
+              <div class="section-head"><div><p class="eyebrow">Roster</p><h2>Section-editor status</h2></div></div>
+              <div class="table-wrap"><table><thead><tr><th>Portfolio</th><th>Editor / affiliation / ORCID</th><th>Email</th><th>Access</th><th>Visibility</th><th data-admin-only>Action</th></tr></thead><tbody id="editorRoster"><tr><td colspan="6">Sign in to view the editorial roster.</td></tr></tbody></table></div>
+            </section>
+          </div>
+
+          <div class="desk-pane" data-desk-pane="papers" data-admin-only>
+            <section class="desk-section">
+              <div class="section-head"><div><p class="eyebrow">Version-of-record control</p><h2>Create or update a journal paper</h2></div><p>Save incomplete work as a draft. Publish only after documented acceptance, copyediting, author proof approval, DOI registration, accessibility review, release of matching HTML and PDF full text, and approval of the complimentary explanatory video.</p></div>
+              <form id="articlePublishForm" class="journal-form admin-content-form">
+                <label>Stable article ID<input name="article_id" pattern="[a-z0-9-]+" required><small>Lowercase letters, numbers and hyphens. It becomes the permanent public record key.</small></label>
+                <label>Article type<input name="article_type" value="Original research" required></label>
+                <label class="full">Article title<input name="title" required></label>
+                <label>SETEHEM portfolio<select name="domain" required><option value="">Select portfolio</option><option>Science</option><option>Technology</option><option>Engineering</option><option>Mathematics</option><option>Education</option><option>Humanities &amp; Social Sciences</option><option>Entrepreneurship &amp; Management</option></select></label>
+                <label>Language<input name="language" value="English" required></label>
+                <fieldset class="full author-editor"><legend>Authors in publication order</legend><div id="articleAuthorRows"></div><button id="addArticleAuthor" class="btn btn-outline btn-small" type="button">Add author</button></fieldset>
+                <label class="full">Abstract<textarea name="abstract" rows="7" maxlength="6000" required></textarea></label>
+                <label class="full">Keywords<input name="keywords" required><small>Enter three to twelve precise terms separated by commas.</small></label>
+                <label>Received<input name="received" type="date"></label>
+                <label>Revised<input name="revised" type="date"></label>
+                <label>Accepted<input name="accepted" type="date"></label>
+                <label>Published<input name="published" type="date"></label>
+                <label>Volume<input name="volume" inputmode="numeric"></label>
+                <label>Issue<input name="issue" inputmode="numeric"></label>
+                <label>Issue / collection title<input name="issue_title"></label>
+                <label>eLocator<input name="elocator"></label>
+                <label>Page range<input name="pages"></label>
+                <label>Registered article DOI<input name="doi"><small>Required for publication. Leave empty and keep the record as a draft until the DOI is formally registered and resolves correctly.</small></label>
+                <label>Licence<input name="license" value="CC BY 4.0" required></label>
+                <label>Licence URL<input name="license_url" type="url" value="https://creativecommons.org/licenses/by/4.0/"></label>
+                <label>Copyright holder<input name="copyright_holder" value="The author(s)" required></label>
+                <label class="full">Approved full-paper HTML URL<input name="html_url"><small>Use the journal-relative or HTTPS address of the accessible HTML version of record.</small></label>
+                <label class="check-label full"><input name="html_confirmed" type="checkbox" value="yes"><span>I confirm that the HTML page contains the approved full paper and agrees with the PDF, DOI metadata, figures, tables, references and licence.</span></label>
+                <label class="full">Authorised PDF reader URL<input name="pdf_url"><small>Use an HTTPS URL or a journal-relative path to the final accessible PDF.</small></label>
+                <label class="full">Direct PDF download URL<input name="pdf_download_url"><small>Optional. If empty, the reader URL is used for both actions.</small></label>
+                <label class="check-label full"><input name="pdf_confirmed" type="checkbox" value="yes"><span>I confirm that this link opens the approved full paper as a PDF and contains no tracked changes, comments or confidential editorial data.</span></label>
+                <fieldset class="full"><legend>Complimentary explanatory video</legend><p class="fine-print">Publish a concise, rights-cleared summary of the paper’s key findings using accurate narration and relevant visuals. It supplements the scholarly record and must not overstate the evidence.</p><div class="journal-form nested-form"><label class="full">Public video title<input name="video_title"><small>Identify it clearly as an explanatory summary of this paper.</small></label><label class="full">Direct video URL<input name="video_url"><small>Use an authorised HTTPS or journal-relative MP4/WebM file that works in current browsers.</small></label><label>Poster image URL<input name="video_poster_url"><small>Optional rights-cleared preview image.</small></label><label>WebVTT captions URL<input name="video_caption_url"><small>Provide accurate synchronised captions whenever available.</small></label><label class="full">Accessible transcript URL<input name="video_transcript_url"><small>At least captions or a transcript is required for publication.</small></label><label class="check-label full"><input name="video_confirmed" type="checkbox" value="yes"><span>I confirm that the narration, visuals, captions/transcript, permissions and findings were checked against the approved article and that the video itself carries no separate author or reader charge.</span></label></div></fieldset>
+                <div class="form-actions full"><button class="btn btn-outline" type="submit" value="DRAFT" formnovalidate>Save draft</button><button class="btn btn-accent" type="submit" value="PUBLISHED">Publish / update paper</button><button id="resetArticleForm" class="btn btn-secondary" type="button">Clear form</button></div>
+              </form>
+            </section>
+            <section class="desk-section"><div class="section-head"><div><p class="eyebrow">Paper registry</p><h2>Draft, published and archived records</h2></div></div><div class="table-wrap"><table><thead><tr><th>ID</th><th>Title</th><th>Portfolio</th><th>Status</th><th>Published</th><th>Actions</th></tr></thead><tbody id="publicationRegistry"><tr><td colspan="6">Sign in to view paper records.</td></tr></tbody></table></div></section>
+          </div>
+
+          <div class="desk-pane" data-desk-pane="blog" data-admin-only>
+            <section class="desk-section">
+              <div class="section-head"><div><p class="eyebrow">Reader media</p><h2>Create or update a blog, article or news item</h2></div><p>Blog content is displayed for reading, watching and sharing. The public page does not provide a copy or download action and states the applicable reuse restriction.</p></div>
+              <form id="blogPostForm" class="journal-form admin-content-form">
+                <label>Stable post ID<input name="post_id" pattern="[a-z0-9-]+" required></label>
+                <label>Content type<select name="content_type" required><option>News</option><option>Feature article</option><option>Discovery brief</option><option>Event report</option><option>Interview</option><option>Editorial</option><option>Video</option></select></label>
+                <label class="full">Title<input name="title" required></label>
+                <label>SETEHEM portfolio<select name="domain" required><option value="">Select portfolio</option><option>Science</option><option>Technology</option><option>Engineering</option><option>Mathematics</option><option>Education</option><option>Humanities &amp; Social Sciences</option><option>Entrepreneurship &amp; Management</option></select></label>
+                <label>Byline<input name="author_name" required></label>
+                <label>Publication date<input name="published" type="date"></label>
+                <label>Tags<input name="tags"><small>Separate tags with commas.</small></label>
+                <label class="full">Summary<textarea name="summary" rows="3" maxlength="900" required></textarea></label>
+                <label class="full">Reader text<textarea name="body" rows="14" maxlength="18000" required></textarea><small>Use blank lines between paragraphs; ## for headings, - for list items, **bold** and [link text](https://address). Raw HTML is never rendered.</small></label>
+                <label>Hero image URL<input name="hero_image_url"></label>
+                <label>Hero image description<input name="hero_image_alt"></label>
+                <label>Media type<select name="media_type"><option value="NONE">No additional media</option><option value="IMAGE">Image</option><option value="VIDEO">Video</option></select></label>
+                <label>Media URL<input name="media_url"><small>Use an authorised HTTPS or journal-relative image/video file.</small></label>
+                <label class="full">Rights notice<input name="rights_notice" value="Read, watch and share this page. Copying, republication and redistribution require written permission from CHIATECH JOURNAL." required></label>
+                <div class="form-actions full"><button class="btn btn-outline" type="submit" value="DRAFT" formnovalidate>Save draft</button><button class="btn btn-accent" type="submit" value="PUBLISHED">Publish / update item</button><button id="previewBlog" class="btn btn-outline" type="button">Preview story</button><button id="resetBlogForm" class="btn btn-secondary" type="button">Clear form</button></div>
+              </form>
+              <article id="blogPreview" class="editor-preview prose" hidden></article>
+            </section>
+            <section class="desk-section"><div class="section-head"><div><p class="eyebrow">Blog registry</p><h2>Draft, published and archived items</h2></div></div><div class="table-wrap"><table><thead><tr><th>ID</th><th>Title</th><th>Type</th><th>Status</th><th>Published</th><th>Actions</th></tr></thead><tbody id="blogRegistry"><tr><td colspan="6">Sign in to view blog records.</td></tr></tbody></table></div></section>
+          </div>
+
+          <div class="desk-pane" data-desk-pane="pages" data-admin-only>
+            <section class="desk-section"><div class="section-head"><div><p class="eyebrow">Public copy management</p><h2>Update website pages</h2></div><p>Manage journal information, author guidance, discipline pages and policies. A published page replaces its default text; restoring the default does not erase your saved record. Homepage, founder and fees are managed under Journal information; papers and stories have their own tabs.</p></div>
+              <form id="contentPageForm" class="journal-form">
+                <label class="full">Page<select name="path" required><option value="">Choose a page</option></select></label>
+                <label class="full">Page title<input name="title" maxlength="180" required></label>
+                <label class="full">Introduction<textarea name="summary" rows="3" maxlength="900" required></textarea></label>
+                <label class="full">Page content<textarea name="body" rows="18" maxlength="32000" required></textarea><small>Use ## headings, blank lines, - bullet lists, **bold** and [link text](https://address). Preserve all required policy statements and download links.</small></label>
+                <div class="form-actions full"><button class="btn btn-outline" type="submit" value="DRAFT" formnovalidate>Save draft</button><button class="btn btn-accent" type="submit" value="PUBLISHED">Publish page</button><button class="btn btn-outline" type="submit" value="ARCHIVED" formnovalidate>Restore default page</button><button class="btn btn-secondary" id="previewPage" type="button">Preview text</button></div>
+              </form><article id="pagePreview" class="editor-preview prose" hidden></article>
+            </section><section class="desk-section"><h2>Managed page records</h2><div class="table-wrap"><table><thead><tr><th>Page</th><th>Title</th><th>State</th><th>Action</th></tr></thead><tbody id="contentPageRegistry"></tbody></table></div></section>
+          </div>
+
+          <div class="desk-pane" data-desk-pane="settings" data-admin-only>
+            <section class="desk-section">
+              <div class="section-head"><div><p class="eyebrow">Public journal control</p><h2>Update journal identity, leadership, fees and payment guidance</h2></div><p>These approved values feed the public portal. Use confirmed facts only; never enter an identifier or status that has not been formally assigned.</p></div>
+              <form id="journalSettingsForm" class="journal-form">
+                <fieldset class="full settings-group"><legend>Journal status and contact</legend><div class="journal-form nested-form">
+                <label>ISSN status / number<input name="issn" required></label>
+                <label>DOI prefix status / number<input name="doi_prefix" required></label>
+                <label>Public contact email<input name="contact_email" type="email" required></label>
+                <label>Submission status<select name="submission_status"><option>Open</option><option>Temporarily paused</option><option>Closed</option></select></label>
+                <label>Current issue / collection label<input name="current_issue_label" required></label>
+                <label class="full">Public announcement<textarea name="public_announcement" rows="4" maxlength="500" required></textarea></label>
+                <label class="full">Homepage headline<input name="home_headline" maxlength="180" required></label>
+                <label class="full">Homepage introduction<textarea name="home_introduction" rows="3" maxlength="500" required></textarea></label>
+                </div></fieldset>
+                <fieldset class="full settings-group"><legend>Founding and Managing Editor</legend><div class="journal-form nested-form">
+                  <label>Verified display name<input name="managing_editor_name" required></label>
+                  <label>Public role title<input name="managing_editor_title" required></label>
+                  <label>Affiliation<input name="managing_editor_affiliation" required></label>
+                  <label>Country<input name="managing_editor_country" required></label>
+                  <label>ORCID iD<input name="managing_editor_orcid" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9Xx]" required></label>
+                  <label>Registered editorial DOI (optional)<input name="managing_editor_doi"><small>This is separate from the ORCID researcher iD. Leave empty unless an exact registered editorial DOI is verified; empty values are not displayed publicly.</small></label>
+                  <label>Approved portrait URL<input name="managing_editor_image_url"></label>
+                  <label class="full">Public responsibilities / biography<textarea name="managing_editor_bio" rows="5" maxlength="1600" required></textarea></label>
+                </div></fieldset>
+                <fieldset class="full settings-group"><legend>Acceptance-only publication fee</legend><div class="journal-form nested-form">
+                  <label>Standard APC (NGN)<input name="standard_publication_fee" inputmode="numeric" pattern="[0-9]+" required></label>
+                  <label>Pioneer APC (NGN)<input name="pioneer_publication_fee" inputmode="numeric" pattern="[0-9]+" required></label>
+                  <label class="full">Pioneer offer label<input name="pioneer_fee_label" required></label>
+                  <label>Payment account name<input name="payment_account_name" required></label>
+                  <label>Account number<input name="payment_account_number" inputmode="numeric" pattern="[0-9]{10,20}" required></label>
+                  <label>Bank<input name="payment_bank" required></label>
+                  <label>Receipt WhatsApp<input name="payment_receipt_whatsapp" required></label>
+                  <label>Receipt email<input name="payment_receipt_email" type="email" required></label>
+                  <label class="full">Payment instruction<textarea name="payment_instruction" rows="4" maxlength="500" required></textarea></label>
+                </div></fieldset>
+                <div class="form-actions full"><button class="btn btn-accent" type="submit">Publish approved journal information</button><a class="btn btn-outline" href="/authors/fees/" target="_blank" rel="noopener">Preview fees page</a><a class="btn btn-outline" href="/about/founding-editor/" target="_blank" rel="noopener">Preview founding editor</a></div>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-bottom"><span>© 2026 CHIA TECH SOLUTIONS AND RESOURCES LIMITED.</span><span><a href="/about/contact/">Journal contact</a> · <a href="/policies/privacy/">Privacy</a></span></div></footer>
+  <script src="/assets/js/runtime-config.js"></script>
+  <script src="/assets/js/api-client.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/content-format.js"></script>
+  <script src="/assets/js/editorial-desk.js"></script>
+</body>
+</html>

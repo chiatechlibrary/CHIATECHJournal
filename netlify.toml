@@ -1,0 +1,52 @@
+[build]
+  command = "node netlify/build-public.mjs"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions."paper-page"]
+  included_files = ["articles/read/index.html"]
+
+[functions."public-index"]
+  included_files = ["sitemap.xml"]
+
+[[redirects]]
+  from = "/api/editorial"
+  to = "/.netlify/functions/editorial-api"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/journal"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/admin"
+  to = "/portal/chief-editor-login/"
+  status = 302
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Cache-Control = "no-store"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/portal/chief-editor-login/*"
+  [headers.values]
+    Cache-Control = "no-store"
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/portal/editor-access/*"
+  [headers.values]
+    Cache-Control = "no-store"
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

@@ -1,0 +1,5 @@
+Contact: mailto:chiatechlibrary@gmail.com
+Expires: 2027-07-11T23:59:59Z
+Preferred-Languages: en
+Canonical: https://journal.chiatechsolutions.com/.well-known/security.txt
+Policy: https://journal.chiatechsolutions.com/policies/privacy/

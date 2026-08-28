@@ -1,0 +1,13 @@
+{
+  "name": "CHIATECH JOURNAL",
+  "short_name": "CHIATECH JOURNAL",
+  "description": "Open-access multidisciplinary journal connecting science, technology, engineering, mathematics, education, the humanities, society, entrepreneurship and management.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b1230",
+  "icons": [
+    {"src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}

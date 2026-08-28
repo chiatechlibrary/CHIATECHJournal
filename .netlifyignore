@@ -1,0 +1,28 @@
+.git/
+don't push/
+.env
+.env.*
+*.gs
+*.key
+*.pem
+*.log
+.agents/
+tools/docx-staging/
+tools/
+backend/
+cloudflare/
+articles/2026/
+articles/JULY 2026/
+articles/_editorial_work/
+README.md
+LAUNCH-CHECKLIST.md
+PROJECT-DIRECTORY.md
+downloads/README.txt
+~$*.docx
+assets/editors/editorial-portfolio-sheet.png
+
+netlify/
+reports/
+*.p12
+*.pfx
+*.crt

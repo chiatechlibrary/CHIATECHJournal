@@ -1,0 +1,55 @@
+# ============================================================
+# CHIATECH JOURNAL - LOCAL / PRIVATE / EMBARGO EXCLUSIONS
+# ============================================================
+
+# Explicit local/private holding area
+/don't push/
+
+# Generated/local build output
+/dist/
+
+# Local development/agent material
+/agents/
+/.agents/
+
+# Netlify local state
+/.netlify/
+
+# Dependencies
+/node_modules/
+**/node_modules/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Local QA evidence, not engineering source
+/tools/a11y-*/
+/tools/browser-qa*/
+/tools/docx-render*/
+/tools/docx-staging/
+/tools/qa-output/
+
+# Secrets and credentials - NEVER COMMIT
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# Temporary/log files
+*.log
+~$*
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# CURRENT PAPER EMBARGO
+# Chief Editor controls later publication
+# ============================================================
+
+/articles/2026/
+/articles/JULY 2026/
+/articles/_editorial_work/

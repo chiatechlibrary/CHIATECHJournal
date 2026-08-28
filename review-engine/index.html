@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CHIATECH Review Engine | Evidence-Guided Manuscript Readiness</title>
+  <meta name="description" content="Run a privacy-preserving CHIATECH JOURNAL readiness review covering structure, reporting completeness, reproducibility, disclosures, references, similarity signals and AI-use transparency.">
+  <meta name="robots" content="index,follow"><link rel="canonical" href="https://journal.chiatechsolutions.com/review-engine/">
+  <meta name="theme-color" content="#071a45"><link rel="icon" href="/assets/icons/favicon-32.png"><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/launch.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="utility-bar"><div class="container utility-inner"><span><strong>CHIATECH JOURNAL</strong> · Continuous publication · Open Access · Double-Blind Peer Review</span><span class="utility-actions"><a href="mailto:chiatechlibrary@gmail.com">chiatechlibrary@gmail.com</a><a href="https://whatsapp.com/channel/0029Vb8LKYCBKfhwAyWwtW3J" target="_blank" rel="noopener">WhatsApp Channel</a></span></div></div>
+  <header class="site-header" id="siteHeader">
+  <div class="container masthead"><a class="brand" href="/" aria-label="CHIATECH JOURNAL home">
+      <span class="brand-marks" aria-hidden="true"><img class="publisher-mark" src="/assets/images/chiatech-logo.png" width="68" height="68" alt=""><span class="brand-divider"></span><img class="journal-mark" src="/assets/images/chiatechjournal-logo.PNG" width="68" height="68" alt=""></span>
+      <span class="brand-copy"><strong>CHIATECH JOURNAL</strong><small>Science · Technology · Engineering · Mathematics · Education · Humanities &amp; Social Sciences · Entrepreneurship &amp; Management</small></span>
+    </a><div class="masthead-meta"><span>Published by</span><strong>CHIA TECH SOLUTIONS AND RESOURCES LIMITED</strong><small>RC 1839865 · Nigeria</small></div></div>
+  <nav class="primary-nav" aria-label="Primary navigation"><div class="container nav-inner"><button class="menu-toggle" aria-expanded="false" aria-controls="mainMenu"><span>Menu</span><i></i><i></i><i></i></button><ul id="mainMenu" class="nav-list"><li><a class="nav-link" href="/">Home</a></li><li><a class="nav-link" href="/about/">About</a></li><li><a class="nav-link" href="/disciplines/">SETEHEM Scope</a></li><li><a class="nav-link" href="/articles/">Papers</a></li><li><a class="nav-link" href="/blog/">Blog &amp; News</a></li><li><a class="nav-link" href="/authors/">For Authors</a></li><li><a class="nav-link" href="/ethics/">Ethics</a></li></ul><div class="nav-tools"><a class="icon-link" href="/search/" aria-label="Search the journal">⌕</a><a class="btn btn-small btn-accent" href="/review-engine/">Start Review</a></div></div></nav>
+</header>
+  <main id="main-content">
+    <section class="page-hero"><div class="container page-hero-grid"><div><p class="eyebrow">Mandatory first author step</p><h1>CHIATECH Review Engine</h1><p class="lead">A privacy-preserving evidence review that maps manuscript structure, reporting completeness, reproducibility, integrity and scholarly metadata into distinct actions for authors and qualified human editors.</p><div class="hero-actions"><a class="btn btn-accent" href="#engine">Review a DOCX now</a><a class="btn btn-outline" href="/downloads/CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx">Download report template</a></div></div><div class="page-hero-mark" aria-hidden="true"><img src="/assets/images/chiatechjournal-logo.PNG" alt=""><small>CHIATECH JOURNAL</small></div></div></section>
+    <section class="section" id="engine">
+      <div class="container">
+        <div class="review-privacy"><span aria-hidden="true">🔒</span><div><strong>Privacy-preserving manuscript review</strong><p>The DOCX is read locally in your browser. The full manuscript is not uploaded by this tool. If you authorise scholarly-registry verification, only the manuscript title, detected DOI strings and a small sample of reference lines are queried against Crossref.</p></div></div>
+        <div class="review-shell" style="margin-top:1.25rem">
+          <section class="review-panel">
+            <p class="eyebrow">Manuscript intake</p><h2>Run the standards review</h2>
+            <form class="review-form" id="reviewForm">
+              <label for="manuscriptTitle">Manuscript title<input id="manuscriptTitle" name="title" required autocomplete="off"></label>
+              <label for="authorEmail">Corresponding-author email<input id="authorEmail" name="author_email" type="email" required autocomplete="email"></label>
+              <label for="journalDomain">Primary journal domain<select id="journalDomain" name="domain" required><option value="">Select a domain</option><option>Science</option><option>Technology</option><option>Engineering</option><option>Mathematics</option><option>Education</option><option>Humanities &amp; Social Sciences</option><option>Entrepreneurship &amp; Management</option></select></label>
+              <label for="articleType">Article type<select id="articleType" name="article_type" required><option value="">Select an article type</option><option>Original research</option><option>Systematic review</option><option>Review article</option><option>Technical article</option><option>Case study</option><option>Academic resource</option></select></label>
+              <label for="manuscriptFile">Blinded manuscript DOCX<input id="manuscriptFile" name="manuscript" type="file" accept=".docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document" required></label>
+              <label class="check-label" for="registryCheck"><input id="registryCheck" type="checkbox" checked><span>Verify detected DOIs, sampled references and title similarity against the Crossref scholarly metadata registry.</span></label>
+              <label class="check-label" for="authorConsent"><input id="authorConsent" type="checkbox" required><span>I am authorised to review this manuscript and understand that the result supports—but does not replace—licensed similarity screening, editorial assessment or peer review.</span></label>
+              <label class="check-label" for="editorRoutingConsent"><input id="editorRoutingConsent" type="checkbox" required><span>I authorise CHIATECH JOURNAL to send the report summary and my contact email to the relevant section editor and Managing Editor. The manuscript file itself remains in my browser and is not sent by this tool.</span></label>
+              <button class="btn btn-accent btn-block" id="runReview" type="submit">Build my readiness evidence map</button>
+            </form>
+          </section>
+          <section class="review-results" id="reviewResults" aria-live="polite">
+            <div class="engine-state"><div><strong>Your review report will appear here</strong><span>Upload the blinded DOCX and complete the manuscript profile. The result can be downloaded as a separate Word document.</span></div></div>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-head"><div><p class="eyebrow">Evidence model</p><h2>What the engine reviews</h2></div><p>Deterministic checks are mapped to journal policy and internationally recognised reporting and publication-integrity principles.</p></div>
+        <div class="integrity-grid">
+          <article class="integrity-card"><span>01</span><h3>Journal alignment</h3><p>Domain fit, problem statement, contribution and practical relevance.</p></article>
+          <article class="integrity-card"><span>02</span><h3>Reporting completeness</h3><p>Article-specific structure and signals for CONSORT, PRISMA, STROBE, CARE, COREQ, ARRIVE, CHEERS or related guidance.</p></article>
+          <article class="integrity-card"><span>03</span><h3>Reference integrity</h3><p>In-text/reference matching, DOI extraction and live Crossref metadata verification.</p></article>
+          <article class="integrity-card"><span>04</span><h3>Originality signals</h3><p>Internal repeated-sequence analysis and prior-title metadata matches for human follow-up.</p></article>
+          <article class="integrity-card"><span>05</span><h3>AI-use transparency</h3><p>Disclosure and model-signature signals without presenting unreliable style inference as proof.</p></article>
+          <article class="integrity-card"><span>06</span><h3>Editorial routing</h3><p>A readiness score plus distinct action lists for the author and qualified human editors.</p></article>
+        </div>
+        <div class="standards-compass"><div><p class="eyebrow">Standards compass</p><h3>Designed around transparent publishing—not acceptance automation</h3><p>The evidence map reflects current publication-transparency, metadata, identifier and reporting expectations. These sources guide the checks; none endorses this journal or replaces discipline-specific review.</p></div><div class="standards-links"><a href="https://doaj.org/apply/transparency/" target="_blank" rel="noopener">DOAJ transparency principles</a><a href="https://www.crossref.org/documentation/principles-practices/best-practices/" target="_blank" rel="noopener">Crossref metadata practices</a><a href="https://info.orcid.org/documentation/integration-guide/orcid-id-display-guidelines/" target="_blank" rel="noopener">ORCID iD guidance</a><a href="https://www.equator-network.org/reporting-guidelines/" target="_blank" rel="noopener">EQUATOR reporting guidelines</a><a href="https://pmc.ncbi.nlm.nih.gov/pub/journalselect/" target="_blank" rel="noopener">NLM scientific and editorial quality</a><a href="https://publicationethics.org/resources/guidelines" target="_blank" rel="noopener">COPE publication ethics</a></div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><div class="footer-brand-marks"><img src="/assets/images/chiatech-logo.png" alt="" width="74" height="74"><img src="/assets/images/chiatechjournal-logo.PNG" alt="" width="74" height="74"></div><h2>CHIATECH JOURNAL</h2><p>Bridging theory and practical application through rigorous, ethical and useful scholarship.</p><div class="footer-social" aria-label="Social media"><a class="social-link facebook" href="https://web.facebook.com/profile.php?id=61591972178338" target="_blank" rel="noopener" aria-label="CHIATECH JOURNAL on Facebook"><span>f</span><b>Facebook</b></a><a class="social-link whatsapp" href="https://whatsapp.com/channel/0029Vb8LKYCBKfhwAyWwtW3J" target="_blank" rel="noopener" aria-label="CHIATECH JOURNAL WhatsApp Channel"><span>WA</span><b>Channel</b></a></div></div><div><h3>Journal</h3><ul><li><a href="/about/aims-scope/">Aims &amp; Scope</a></li><li><a href="/issues/">Issues &amp; Papers</a></li><li><a href="/about/founding-editor/">Founding Editor</a></li><li><a href="/about/indexing-archiving/">Indexing &amp; Archiving</a></li></ul></div><div><h3>Authors &amp; Reviewers</h3><ul><li><a href="/review-engine/">CHIATECH Review Engine</a></li><li><a href="/authors/guidelines/">Author Guidelines</a></li><li><a href="/authors/manuscript-template/">Author Templates</a></li><li><a href="/peer-review/">Peer Review</a></li><li><a href="/ethics/">Publication Ethics</a></li></ul></div><div><h3>Journal Offices</h3><p><strong>Abuja:</strong> Opposite Mini Campus, University of Abuja, Phase 1, Gwagwalada, Nigeria.</p><p><strong>Registered:</strong> No. 5 Joseph Sarwuan Tarka Road, opposite House of Mercy International, North Bank, Makurdi, Benue State, Nigeria.</p><p><a href="mailto:chiatechlibrary@gmail.com">chiatechlibrary@gmail.com</a><br><a href="https://wa.me/2349129548007">+234 912 954 8007</a></p></div></div><div class="container footer-bottom"><span>© 2026 CHIA TECH SOLUTIONS AND RESOURCES LIMITED.</span><span><a href="/policies/privacy/">Privacy</a> · <a href="/policies/copyright-licensing/">CC BY 4.0</a></span></div></footer>
+  <button class="back-to-top" aria-label="Back to top">↑</button><script src="/assets/js/runtime-config.js"></script><script src="/assets/js/api-client.js"></script><script src="/assets/js/main.js" defer></script><script src="/assets/js/review-engine.js" defer></script>
+<script src="/assets/js/journal-profile.js" defer></script><script src="/assets/js/content-format.js" defer></script><script src="/assets/js/content-pages.js" defer></script></body>
+</html>

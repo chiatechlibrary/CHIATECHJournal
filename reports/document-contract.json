@@ -1,0 +1,131 @@
+{
+  "contractVersion": "2026-08-28",
+  "publicCount": 6,
+  "physicalDownloads": [
+    "CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx",
+    "CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx",
+    "CHIATECH_JOURNAL_Copyright_Licensing_Authorship_and_Publication_Agreement.docx",
+    "CHIATECH_JOURNAL_Large_Collaboration_Authorship_Continuation_Sheet.docx",
+    "CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx",
+    "CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx"
+  ],
+  "htmlReferences": {
+    "CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx": [
+      "authors/guidelines/index.html",
+      "authors/manuscript-template/index.html",
+      "downloads/index.html"
+    ],
+    "CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx": [
+      "authors/manuscript-template/index.html",
+      "downloads/index.html"
+    ],
+    "CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx": [
+      "authors/manuscript-template/index.html",
+      "downloads/index.html"
+    ],
+    "CHIATECH_JOURNAL_Copyright_Licensing_Authorship_and_Publication_Agreement.docx": [
+      "authors/manuscript-template/index.html",
+      "downloads/index.html"
+    ],
+    "CHIATECH_JOURNAL_Large_Collaboration_Authorship_Continuation_Sheet.docx": [
+      "authors/manuscript-template/index.html",
+      "downloads/index.html"
+    ],
+    "CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx": [
+      "review-engine/index.html",
+      "downloads/index.html"
+    ]
+  },
+  "validatorExpected": [
+    "CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx",
+    "CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx",
+    "CHIATECH_JOURNAL_Copyright_Licensing_Authorship_and_Publication_Agreement.docx",
+    "CHIATECH_JOURNAL_Large_Collaboration_Authorship_Continuation_Sheet.docx",
+    "CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx",
+    "CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx"
+  ],
+  "builderOutputs": {
+    "CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx": "build_journal_documents.py",
+    "CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx": "build_journal_documents.py",
+    "CHIATECH_JOURNAL_Copyright_Licensing_Authorship_and_Publication_Agreement.docx": "build_journal_documents.py",
+    "CHIATECH_JOURNAL_Large_Collaboration_Authorship_Continuation_Sheet.docx": "build_journal_documents.py",
+    "CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx": "build_review_report.py",
+    "CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx": "build_journal_documents.py"
+  },
+  "documentationInventory": [
+    "CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx",
+    "CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx",
+    "CHIATECH_JOURNAL_Copyright_Licensing_Authorship_and_Publication_Agreement.docx",
+    "CHIATECH_JOURNAL_Large_Collaboration_Authorship_Continuation_Sheet.docx",
+    "CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx",
+    "CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx"
+  ],
+  "orphanFiles": [],
+  "brokenLinks": [],
+  "unexpectedFiles": [],
+  "missingFiles": [],
+  "documentationMismatch": [],
+  "authorMirrors": false,
+  "ignoredWordLocks": [
+    "~$IATECH-STEM_Camera-Ready_Manuscript_Template.docx"
+  ],
+  "compatibilityAliases": "HTTP redirects in _redirects; no obsolete DOCX copies",
+  "documents": [
+    {
+      "filename": "CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx",
+      "bytes": 1142241,
+      "paragraphs": 56,
+      "tables": 10,
+      "sections": 1,
+      "images": 2,
+      "sha256": "ff16740c74abf45ac2c887146625ba95b7006190b6fcc5020620533ddbc0cd5e"
+    },
+    {
+      "filename": "CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx",
+      "bytes": 1147022,
+      "paragraphs": 42,
+      "tables": 9,
+      "sections": 1,
+      "images": 2,
+      "sha256": "92388824222b107a25036dbd0af33e63704273064116a45388e210b4ca131f9d"
+    },
+    {
+      "filename": "CHIATECH_JOURNAL_Copyright_Licensing_Authorship_and_Publication_Agreement.docx",
+      "bytes": 1141660,
+      "paragraphs": 44,
+      "tables": 10,
+      "sections": 1,
+      "images": 2,
+      "sha256": "94a53933befa7a36a8767c312a28ca1f75c54d73d81e6a9d67ca9eb61d3f8c45"
+    },
+    {
+      "filename": "CHIATECH_JOURNAL_Large_Collaboration_Authorship_Continuation_Sheet.docx",
+      "bytes": 1145653,
+      "paragraphs": 13,
+      "tables": 6,
+      "sections": 1,
+      "images": 2,
+      "sha256": "f862c5879537e351ed17c36187ccd734d4c39004873c37a305163f12ca815108"
+    },
+    {
+      "filename": "CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx",
+      "bytes": 1146851,
+      "paragraphs": 18,
+      "tables": 9,
+      "sections": 1,
+      "images": 2,
+      "sha256": "9adf4956b879892db6bbc209c6784f21d547d85a4d2d7045301ea109d9b8d5ac"
+    },
+    {
+      "filename": "CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx",
+      "bytes": 1146416,
+      "paragraphs": 17,
+      "tables": 9,
+      "sections": 1,
+      "images": 2,
+      "sha256": "0e5c7cc62d86f72251ace6ba8fdef90240ccbf5d38fd286f226ddb68049bdcc4"
+    }
+  ],
+  "errors": [],
+  "visualQA": "Requires separate page renders and review"
+}
