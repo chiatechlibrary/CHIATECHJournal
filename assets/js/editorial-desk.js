@@ -10,9 +10,22 @@
   const settingsForm = document.querySelector('#journalSettingsForm');
   const pageForm = document.querySelector('#contentPageForm');
   const logoutButton = document.querySelector('#editorialLogout');
+  const sessionNotice = document.querySelector('#sessionNotice');
+  const sessionNoticeTitle = document.querySelector('#sessionNoticeTitle');
+  const sessionNoticeText = document.querySelector('#sessionNoticeText');
+  const renewSessionButton = document.querySelector('#renewEditorialSession');
   if (!loginForm || !desk || !window.CHIATECH_API) return;
 
-  const token = () => sessionStorage.getItem('chiatechEditorialToken') || '';
+  const tokenKey = 'chiatechEditorialToken';
+  const token = () => sessionStorage.getItem(tokenKey) || localStorage.getItem(tokenKey) || '';
+  const clearStoredToken = () => {
+    sessionStorage.removeItem(tokenKey);
+    localStorage.removeItem(tokenKey);
+  };
+  const storeToken = (value, persistent) => {
+    clearStoredToken();
+    (persistent ? localStorage : sessionStorage).setItem(tokenKey, value);
+  };
   const field = (form, name) => form?.elements?.namedItem(name);
   const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
   const show = (text, kind = '') => {
@@ -22,7 +35,12 @@
     target.className = `form-message ${kind}`;
     if (text) target.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   };
-  const api = payload => window.CHIATECH_API.post({ ...payload, token: token() });
+  const api = async payload => {
+    const response = await window.CHIATECH_API.post({ ...payload, token: token() });
+    if (response?.session) acceptSession(response.session);
+    if (response && response.ok === false && /session has expired|account access has changed/i.test(String(response.error || response.message || ''))) markSessionExpired();
+    return response;
+  };
   const adminOnly = value => document.querySelectorAll('[data-admin-only]').forEach(node => { node.hidden = !value; });
   const normaliseStatus = value => String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
   const dateText = value => value ? new Intl.DateTimeFormat('en', { dateStyle: 'medium' }).format(new Date(`${value}T12:00:00Z`)) : '—';
@@ -33,6 +51,105 @@
   let articleCache = [];
   let blogCache = [];
   let pageCache = [];
+  let sessionState = null;
+  let sessionExpired = false;
+  let sessionRenewalInFlight = false;
+  let lastSessionRenewalAt = 0;
+  let sessionTimer = null;
+  const dirtyForms = new Set();
+  const managedForms = [staffForm, editorForm, articleForm, blogForm, settingsForm, pageForm].filter(Boolean);
+
+  const hasUnsavedWork = () => dirtyForms.size > 0;
+  const markClean = form => { if (form) dirtyForms.delete(form); };
+  const markAllClean = () => managedForms.forEach(markClean);
+  managedForms.forEach(form => ['input', 'change'].forEach(eventName => form.addEventListener(eventName, () => dirtyForms.add(form))));
+
+  function durationText(milliseconds) {
+    const minutes = Math.max(0, Math.ceil(milliseconds / 60000));
+    if (minutes >= 60) {
+      const hours = Math.floor(minutes / 60);
+      const remaining = minutes % 60;
+      return remaining ? `${hours} hour${hours === 1 ? '' : 's'} ${remaining} minute${remaining === 1 ? '' : 's'}` : `${hours} hour${hours === 1 ? '' : 's'}`;
+    }
+    return `${minutes} minute${minutes === 1 ? '' : 's'}`;
+  }
+
+  function markSessionExpired() {
+    sessionExpired = true;
+    renderSessionState();
+  }
+
+  function acceptSession(session) {
+    if (!session?.expiresAt) return;
+    sessionState = session;
+    sessionExpired = false;
+    renderSessionState();
+    if (!sessionTimer) sessionTimer = window.setInterval(renderSessionState, 15000);
+  }
+
+  function renderSessionState() {
+    if (!sessionNotice) return;
+    const expiresAt = Date.parse(sessionState?.expiresAt || '');
+    const remaining = expiresAt - Date.now();
+    const warningWindow = Number(sessionState?.warningSeconds || 300) * 1000;
+    sessionNotice.classList.remove('warning', 'expired');
+    if (!sessionState || !Number.isFinite(expiresAt)) {
+      sessionNotice.hidden = true;
+      return;
+    }
+    sessionNotice.hidden = false;
+    if (sessionExpired || remaining <= 0) {
+      sessionExpired = true;
+      sessionNotice.classList.add('expired');
+      sessionNoticeTitle.textContent = 'Your editorial session has expired';
+      sessionNoticeText.textContent = hasUnsavedWork() ? 'Your unsaved work remains visible in this browser tab. Do not close it until you have signed in again and saved a draft.' : 'Sign in again before making another editorial change.';
+      renewSessionButton.hidden = true;
+      return;
+    }
+    if (remaining <= warningWindow) {
+      sessionNotice.classList.add('warning');
+      sessionNoticeTitle.textContent = `Session expires in ${durationText(remaining)}`;
+      sessionNoticeText.textContent = hasUnsavedWork() ? 'You have unsaved work. Save a draft now, then continue securely to renew your active session.' : 'Continue securely, or keep working, to renew this active workday session.';
+      renewSessionButton.hidden = false;
+      return;
+    }
+    sessionNoticeTitle.textContent = sessionState.trustedDevice ? 'Trusted-device workday session active' : 'Standard workday session active';
+    sessionNoticeText.textContent = `${durationText(remaining)} until the next activity check. Activity renews this session, but it never extends beyond the ${sessionState.trustedDevice ? '12-hour trusted-device' : '8-hour standard'} workday limit. Sign out when you finish.`;
+    renewSessionButton.hidden = true;
+  }
+
+  async function renewEditorialSession(announce = false) {
+    if (sessionRenewalInFlight || sessionExpired || !token() || desk.hidden) return;
+    sessionRenewalInFlight = true;
+    try {
+      const response = await api({ action: 'renewSession' });
+      if (!response.ok) throw new Error(response.error || 'Your editorial session could not be renewed.');
+      lastSessionRenewalAt = Date.now();
+      if (announce) show('Your editorial session has been renewed.', 'success');
+    } catch (error) {
+      markSessionExpired();
+      if (announce) show(error.message || 'Your editorial session could not be renewed.', 'error');
+    } finally {
+      sessionRenewalInFlight = false;
+    }
+  }
+
+  function noteEditorialActivity() {
+    if (document.hidden || desk.hidden || sessionExpired || !sessionState) return;
+    const remaining = Date.parse(sessionState.expiresAt) - Date.now();
+    if (Date.now() - lastSessionRenewalAt < 60000 && remaining > Number(sessionState.warningSeconds || 300) * 1000) return;
+    renewEditorialSession(false);
+  }
+
+  ['pointerdown', 'keydown', 'input', 'change'].forEach(eventName => document.addEventListener(eventName, noteEditorialActivity, { passive: true }));
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) noteEditorialActivity(); });
+  renewSessionButton?.addEventListener('click', () => renewEditorialSession(true));
+  window.addEventListener('beforeunload', event => {
+    if (!desk.hidden && hasUnsavedWork()) {
+      event.preventDefault();
+      event.returnValue = '';
+    }
+  });
 
   function activatePane(name) {
     if (!isAdmin && name !== 'overview') return;
@@ -222,6 +339,8 @@
     document.querySelector('#summaryPosts').textContent = String((response.blogPosts || []).length);
     loginPanel.hidden = true;
     desk.hidden = false;
+    markAllClean();
+    renderSessionState();
     show(successMessage || 'Editorial control centre updated.', 'success');
   }
 
@@ -230,11 +349,13 @@
     const submit = loginForm.querySelector('button[type="submit"]');
     submit.disabled = true;
     try {
-      const response = await window.CHIATECH_API.post({ action: 'login', email: field(loginForm, 'email').value.trim(), password: field(loginForm, 'password').value });
+      const trustedDeviceRequested = field(loginForm, 'trusted_device').checked;
+      const response = await window.CHIATECH_API.post({ action: 'login', email: field(loginForm, 'email').value.trim(), password: field(loginForm, 'password').value, trustedDevice: trustedDeviceRequested });
       if (!response.ok || !response.token) throw new Error(response.error || 'Login was not accepted.');
-      sessionStorage.setItem('chiatechEditorialToken', response.token);
+      storeToken(response.token, response.session?.persistent === true);
+      acceptSession(response.session);
       field(loginForm, 'password').value = '';
-      await loadDesk('Signed in. Journal controls are ready.');
+      await loadDesk(response.session?.trustedDevice ? 'Signed in with a trusted-device workday session. Sign out when you finish.' : 'Signed in. Journal controls are ready.');
     } catch (error) {
       show(error.message || 'The login service could not be reached.', 'error');
     } finally { submit.disabled = false; }
@@ -308,7 +429,7 @@
     finally { submit.disabled = false; }
   });
 
-  document.querySelector('#cancelEditorEdit')?.addEventListener('click', () => { editorForm.hidden = true; editorForm.reset(); });
+  document.querySelector('#cancelEditorEdit')?.addEventListener('click', () => { editorForm.hidden = true; editorForm.reset(); markClean(editorForm); });
 
   function authorRow(author = {}) {
     const row = document.createElement('div');
@@ -333,7 +454,7 @@
     })).filter(author => author.given || author.family);
   }
 
-  function resetArticle() { articleForm?.reset(); setAuthors(); }
+  function resetArticle() { articleForm?.reset(); setAuthors(); markClean(articleForm); }
   document.querySelector('#resetArticleForm')?.addEventListener('click', resetArticle);
 
   function editArticle(id) {
@@ -397,7 +518,7 @@
     finally { if (submit) submit.disabled = false; }
   });
 
-  function resetBlog() { blogForm?.reset(); }
+  function resetBlog() { blogForm?.reset(); markClean(blogForm); }
   document.querySelector('#resetBlogForm')?.addEventListener('click', resetBlog);
 
   function editBlog(id) {
@@ -527,16 +648,27 @@
   });
 
   logoutButton?.addEventListener('click', async () => {
-    try { await api({ action: 'logout' }); } catch (_) {}
-    sessionStorage.removeItem('chiatechEditorialToken');
-    desk.hidden = true;
-    loginPanel.hidden = false;
-    loginForm.reset();
-    show('You have been signed out.');
+    if (hasUnsavedWork() && !window.confirm('You have unsaved editorial work. Sign out anyway? Your unsaved changes will not be published or saved.')) return;
+    try {
+      const response = await api({ action: 'logout' });
+      if (!response.ok) throw new Error(response.error || 'The service did not confirm sign-out.');
+      clearStoredToken();
+      sessionState = null;
+      sessionExpired = false;
+      markAllClean();
+      desk.hidden = true;
+      loginPanel.hidden = false;
+      loginForm.reset();
+      renderSessionState();
+      show('You have been signed out. This browser no longer retains the editorial session.');
+    } catch (error) {
+      show(error.message || 'Sign-out could not be confirmed. Keep this page open and try again before leaving the device.', 'error');
+    }
   });
 
   if (token()) loadDesk().catch(error => {
-    sessionStorage.removeItem('chiatechEditorialToken');
+    clearStoredToken();
+    sessionState = null;
     desk.hidden = true;
     loginPanel.hidden = false;
     show(error.message || 'Please sign in.', 'error');

@@ -36,11 +36,16 @@ Record the responsible person, date, evidence location and result for every chec
 
 - [ ] `/admin` redirects to the no-index staff sign-in and is served with no-store headers.
 - [ ] Administrator login succeeds; incorrect credentials and repeated failures are rejected/throttled.
+- [ ] Standard Administrator and section-editor sessions are limited to one 8-hour workday; normal editorial activity renews only the inactivity deadline.
+- [ ] The **Keep me signed in on this trusted device** choice is available only to an authenticated Administrator, is used only on the Chief Editor's controlled device, and is capped at 12 hours.
+- [ ] A five-minute session-expiry warning appears; unsaved editorial work prompts before browser close and voluntary sign-out.
 - [ ] Sign-out invalidates the active session.
 - [ ] Admin can invite and reissue an unactivated editor link.
 - [ ] Admin can edit editor access and public-profile fields, including public contact and ORCID.
 - [ ] Admin can update Managing Editor identity, fees/payment data, contact, announcement and issue/status information.
 - [ ] Admin can save paper and blog drafts and deliberately publish, unpublish and archive records.
+- [ ] Blog / news offers `Journal-wide / General` for editorials, notices and institutional announcements without allowing that portfolio for journal papers.
+- [ ] If CHIATECHblogBOT is enabled, a signed, recorded-human-approval handoff creates only a private `DRAFT`; invalid signatures and nonce replay are rejected; the test draft is removed or archived.
 - [ ] A section editor sees only their authorised review/profile scope and cannot access admin-only mutation controls.
 - [ ] Audit rows are created for authentication, editor, settings, paper and blog actions.
 
@@ -61,7 +66,8 @@ Record the responsible person, date, evidence location and result for every chec
 - [ ] A **new version** of the existing web-app deployment is deployed.
 - [ ] The existing `/exec` URL remains private and unchanged.
 - [ ] Script Properties remain correct and contain no copied values in repository files.
-- [ ] Users headers include `public_email`; other service headers remain intact.
+- [ ] If CHIATECHblogBOT is enabled, `BLOG_BOT_HANDOFF_SECRET` exists only in the restricted Apps Script properties and the bot service's private secret store.
+- [ ] Users headers include `public_email`; the restricted `Sessions` tab has its verified service headers; other service headers remain intact.
 - [ ] Public fee/editor Setting keys are created only through authorised admin saves.
 - [ ] `/api/editorial?action=health` returns `ok: true` through Netlify.
 - [ ] Apps Script execution logs contain no unexplained errors.

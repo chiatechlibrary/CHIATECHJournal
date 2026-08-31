@@ -4,7 +4,7 @@ Use the existing journal-controlled project and deployment. Their current live s
 
 ## Incremental update for the current release
 
-The audited backend preserves private section-editor administration, public Managing Editor and fee/payment settings, and Review Engine evidence briefs. It adds stricter publication confirmations, invitation expiry checks, safe error handling and a database-connectivity health check. Update the existing Apps Script deployment:
+The audited backend preserves private section-editor administration, public Managing Editor and fee/payment settings, and Review Engine evidence briefs. It adds stricter publication confirmations, invitation expiry checks, safe error handling, database-connectivity checks and server-side workday sessions. Update the existing Apps Script deployment:
 
 1. Open the journal-controlled **CHIATECH JOURNAL Editorial Service** project.
 2. Make a restricted backup of the private Google Sheet.
@@ -46,8 +46,9 @@ The Google Sheet must remain restricted. The service uses these tabs:
 | ContentPages | Draft and published snapshots of authorised editable pages |
 | Settings | Approved public identity, contact, fee, payment and status information |
 | Audit | Security and content-management events |
+| Sessions | Hashed session references, bounded expiry/renewal timestamps and revocation status; never raw browser tokens |
 
-The revised code safely adds a missing `public_email` Users column and new Setting keys through controlled service operations. Do not pre-create, rename, reorder or delete service columns. Do not manually edit password hashes, salts, tokens, IDs, roles, states or status values.
+The revised code safely adds a missing `public_email` Users column, the `Sessions` tab and new Setting keys through controlled service operations. Do not pre-create, rename, reorder or delete service columns. Do not manually edit password hashes, salts, session rows, IDs, roles, states or status values.
 
 ## Script Properties
 
@@ -61,10 +62,30 @@ The existing project must retain:
 | `ADMIN_AFFILIATION` | Verified publisher/journal affiliation |
 | `PUBLIC_BASE_URL` | `https://journal.chiatechsolutions.com` |
 | `PASSWORD_PEPPER` | Generated and retained by the service; never copy or rotate casually |
+| `BLOG_BOT_HANDOFF_SECRET` | Required only when enabling CHIATECHblogBOT server-to-server draft handoff; a unique high-entropy value shared only with that bot's private secret store |
 
 `ADMIN_BOOTSTRAP_PASSWORD` is used only for initial bootstrap. Password recovery uses the separate `ADMIN_PASSWORD_RESET` property. It must contain at least 12 characters, be unique, remain in Script Properties only, and be automatically deleted after successful use.
 
 Do not save secrets in the Sheet, repository, Netlify public variables, HTML, browser JavaScript, manuals, email or screenshots.
+
+## Workday sessions and trusted-device choice
+
+The service now stores only a SHA-256 token hash in the restricted `Sessions` tab. It never stores a raw browser token in the Sheet.
+
+- Every Administrator and section editor starts with an 8-hour maximum workday session and a 60-minute inactivity deadline.
+- A request, dashboard refresh or browser-detected editorial activity renews the inactivity deadline while the user is active. It never extends the session beyond its original workday deadline.
+- Only a successfully authenticated `ADMIN` account may choose **Keep me signed in on this trusted device**. That choice stores the session reference in that browser and sets a 12-hour maximum. It is intended only for the Chief Editor's personal, controlled device.
+- The same checkbox is ignored for section-editor accounts; they remain nonpersistent and capped at eight hours.
+- The desk displays a five-minute expiry warning and prompts before browser close or voluntary sign-out when form work has not been saved.
+- Sign-out immediately revokes the current server-side session. Password reset, account suspension, archive and credential changes also invalidate active sessions.
+
+Never choose the trusted-device option on a shared, public, borrowed or unencrypted device. Do not change session rows manually; use **Sign out**, account status controls, and the documented password-reset process.
+
+## Optional CHIATECHblogBOT handoff
+
+The backend can accept a signed, human-approved CHIATECHblogBOT request and create only a **private Blog / news draft**. It is disabled until `BLOG_BOT_HANDOFF_SECRET` exists in Script Properties. The receiving service accepts only a timestamped, one-time HMAC-SHA-256 handoff and forces `DRAFT` status even if a payload requests publication.
+
+Follow [BLOGBOT-HANDOFF.md](BLOGBOT-HANDOFF.md) for the required bot-side request format, secret generation, replay protection, human-approval record and test procedure. Keep in mind that this repository contains the journal receiver, not the CHIATECHblogBOT application. A live connection still requires the bot owner to configure its server with the documented secret and request contract.
 
 ## First health and profile checks
 
@@ -74,9 +95,12 @@ After deploying the new Apps Script version and the current Netlify site:
 2. Open `https://journal.chiatechsolutions.com/api/editorial?action=profile` and confirm public-only values; no password, token, Sheet ID or staff-private field may appear.
 3. Sign in through `https://journal.chiatechsolutions.com/admin`.
 4. Open **Journal information** and confirm Managing Editor, fee and payment defaults.
-5. Save approved settings, sign out, sign in again and confirm persistence.
-6. Verify the public fee and founding-editor pages update; section-editor records remain private.
-7. Inspect Apps Script Executions and Netlify Function logs for errors without copying confidential request content.
+5. Sign in without the trusted-device choice and confirm the desk reports a standard workday session.
+6. On the Chief Editor's controlled device only, sign out, select the trusted-device choice, sign in again and confirm the desk reports a trusted-device workday session. Sign out, refresh the page and confirm a new sign-in is required.
+7. Edit a private draft field, confirm the five-minute warning path and browser-close/sign-out unsaved-work prompts during the controlled test, then discard the test edit or save it only as a private draft.
+8. Save approved settings, sign out, sign in again and confirm persistence.
+9. Verify the public fee and founding-editor pages update; section-editor records remain private.
+10. Inspect Apps Script Executions and Netlify Function logs for errors without copying confidential request content.
 
 ## Editor profile workflow
 
@@ -125,7 +149,7 @@ Record the Apps Script version, deployment time, Netlify deploy ID, health resul
 
 ## August 2026 audit changes
 
-Replace Code.gs and deploy a new version to activate the audited changes: strict production-confirmation booleans; invalid invitation-expiry rejection; safe provider-error handling; bounded requests; preserved date-only Sheet fields; rejection of blank/duplicate headers; and a health check that actually reads the configured database. The existing password hash format and PASSWORD_PEPPER are deliberately retained to avoid locking out current accounts. A future password-KDF migration needs separate design and compatibility testing.
+Replace Code.gs and deploy a new version to activate the audited changes: strict production-confirmation booleans; invalid invitation-expiry rejection; safe provider-error handling; bounded requests; preserved date-only Sheet fields; rejection of blank/duplicate headers; a health check that actually reads the configured database; and the 8/12-hour server-side workday-session model. The existing password hash format and PASSWORD_PEPPER are deliberately retained to avoid locking out current accounts. A future password-KDF migration needs separate design and compatibility testing.
 
 Netlify base is the repository root, build command is `node netlify/build-public.mjs`, publish directory is `dist`, and Functions directory is `netlify/functions`. The private upstream variable must be available to Functions. Do not expose the production backend to untrusted previews. Public API, dynamic paper pages and indexes now use no-store; a service-worker version change clears old public caches on activation.
 

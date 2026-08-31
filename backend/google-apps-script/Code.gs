@@ -14,6 +14,7 @@ const CONFIG = {
   contentPages: 'ContentPages',
   settings: 'Settings',
   audit: 'Audit',
+  sessions: 'Sessions',
   domains: [
     'Science',
     'Technology',
@@ -23,7 +24,11 @@ const CONFIG = {
     'Humanities & Social Sciences',
     'Entrepreneurship & Management'
   ],
-  sessionSeconds: 6 * 60 * 60,
+  journalWideDomain: 'Journal-wide / General',
+  standardSessionSeconds: 8 * 60 * 60,
+  trustedAdminSessionSeconds: 12 * 60 * 60,
+  sessionIdleSeconds: 60 * 60,
+  sessionWarningSeconds: 5 * 60,
   inviteDays: 7,
   passwordIterations: 12000,
   loginWindowSeconds: 15 * 60,
@@ -60,7 +65,8 @@ const HEADERS = {
   ],
   Settings: ['updated_at', 'key', 'value', 'public'],
   ContentPages: ['created_at', 'updated_at', 'path', 'title', 'summary', 'body', 'status', 'updated_by', 'published_title', 'published_summary', 'published_body', 'published_at'],
-  Audit: ['created_at', 'actor', 'action', 'target', 'detail']
+  Audit: ['created_at', 'actor', 'action', 'target', 'detail'],
+  Sessions: ['created_at', 'updated_at', 'token_hash', 'user_id', 'email', 'role', 'credential_version', 'trusted_device', 'expires_at', 'idle_expires_at', 'last_seen_at', 'revoked_at', 'revocation_reason']
 };
 
 const PUBLIC_DEFAULTS = {
@@ -125,6 +131,7 @@ function doPost(e) {
     const action = String(data.action || '').trim();
     if (action === 'login') return json(login(data));
     if (action === 'logout') return json(logout(data));
+    if (action === 'renewSession') return json(renewSession(data));
     if (action === 'activateEditor') return json(activateEditor(data));
     if (action === 'recordReview') return json(recordReview(data));
     if (action === 'getEditorialDashboard') return json(getEditorialDashboard(data));
@@ -138,6 +145,7 @@ function doPost(e) {
     if (action === 'saveArticle') return json(saveArticle(data));
     if (action === 'setArticleStatus') return json(setArticleStatus(data));
     if (action === 'saveBlogPost') return json(saveBlogPost(data));
+    if (action === 'importBlogBotDraft') return json(importBlogBotDraft(data));
     if (action === 'setBlogPostStatus') return json(setBlogPostStatus(data));
     if (action === 'saveSettings') return json(saveSettings(data));
     if (action === 'saveContentPage') return json(saveContentPage(data));
@@ -163,16 +171,100 @@ function login(data) {
   clearLoginFailures(email);
   updateRow(CONFIG.users, principal.row, { last_login: new Date().toISOString() });
   const token = randomToken();
-  const session = { id: principal.id, role: principal.role, email: principal.email, name: principal.name, domain: principal.domain || '', credentialVersion: principal.salt, expiresAt: Date.now() + CONFIG.sessionSeconds * 1000 };
-  CacheService.getScriptCache().put('session:' + token, JSON.stringify(session), CONFIG.sessionSeconds);
-  audit(principal.email, 'LOGIN', principal.id, 'Editorial session created');
-  return { ok: true, token: token, role: principal.role };
+  const session = createEditorialSession(token, principal, data.trustedDevice === true);
+  audit(principal.email, 'LOGIN', principal.id, session.trusted_device === 'TRUE' ? 'Trusted-device editorial workday session created' : 'Standard editorial workday session created');
+  return { ok: true, token: token, role: principal.role, session: sessionForClient(session) };
 }
 
 function logout(data) {
   const token = String(data.token || '');
-  if (token) CacheService.getScriptCache().remove('session:' + token);
+  if (!token || token.length > 256) return { ok: true };
+  const session = findByField(CONFIG.sessions, 'token_hash', sessionTokenHash(token));
+  if (session && !session.revoked_at) {
+    revokeSession(session, 'SIGN_OUT');
+    audit(session.email, 'LOGOUT', session.user_id, 'Editorial session revoked by sign-out');
+  }
   return { ok: true };
+}
+
+function renewSession(data) {
+  const user = requireSession(data.token, ['ADMIN', 'EDITOR']);
+  return { ok: true, session: user.session };
+}
+
+function createEditorialSession(token, principal, trustedRequested) {
+  const now = Date.now();
+  const trusted = principal.role === 'ADMIN' && trustedRequested === true;
+  const absoluteExpiry = now + (trusted ? CONFIG.trustedAdminSessionSeconds : CONFIG.standardSessionSeconds) * 1000;
+  const idleExpiry = Math.min(absoluteExpiry, now + CONFIG.sessionIdleSeconds * 1000);
+  const session = {
+    created_at: new Date(now).toISOString(),
+    updated_at: new Date(now).toISOString(),
+    token_hash: sessionTokenHash(token),
+    user_id: principal.id,
+    email: principal.email,
+    role: principal.role,
+    credential_version: principal.salt,
+    trusted_device: trusted ? 'TRUE' : 'FALSE',
+    expires_at: new Date(absoluteExpiry).toISOString(),
+    idle_expires_at: new Date(idleExpiry).toISOString(),
+    last_seen_at: new Date(now).toISOString(),
+    revoked_at: '',
+    revocation_reason: ''
+  };
+  withWriteLock(function () { appendObject(CONFIG.sessions, session); });
+  return session;
+}
+
+function sessionTokenHash(token) {
+  return Utilities.base64EncodeWebSafe(Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, String(token || '')));
+}
+
+function sessionTimestamp(value) {
+  const timestamp = new Date(String(value || '')).getTime();
+  return isNaN(timestamp) ? 0 : timestamp;
+}
+
+function sessionForClient(session) {
+  const absoluteExpiry = sessionTimestamp(session.expires_at);
+  const idleExpiry = sessionTimestamp(session.idle_expires_at);
+  const effectiveExpiry = Math.min(absoluteExpiry || 0, idleExpiry || 0);
+  return {
+    expiresAt: effectiveExpiry ? new Date(effectiveExpiry).toISOString() : '',
+    absoluteExpiresAt: absoluteExpiry ? new Date(absoluteExpiry).toISOString() : '',
+    idleExpiresAt: idleExpiry ? new Date(idleExpiry).toISOString() : '',
+    warningSeconds: CONFIG.sessionWarningSeconds,
+    trustedDevice: session.trusted_device === 'TRUE',
+    persistent: session.trusted_device === 'TRUE'
+  };
+}
+
+function touchSession(session) {
+  const now = Date.now();
+  const absoluteExpiry = sessionTimestamp(session.expires_at);
+  const renewedIdleExpiry = Math.min(absoluteExpiry, now + CONFIG.sessionIdleSeconds * 1000);
+  const updated = {
+    updated_at: new Date(now).toISOString(),
+    idle_expires_at: new Date(renewedIdleExpiry).toISOString(),
+    last_seen_at: new Date(now).toISOString()
+  };
+  updateRow(CONFIG.sessions, session.row, updated);
+  return Object.assign({}, session, updated);
+}
+
+function revokeSession(session, reason) {
+  if (!session || !session.row || session.revoked_at) return;
+  updateRow(CONFIG.sessions, session.row, {
+    updated_at: new Date().toISOString(),
+    revoked_at: new Date().toISOString(),
+    revocation_reason: cleanText(reason, 80)
+  });
+}
+
+function revokeSessionsForUser(userId, reason) {
+  rows(CONFIG.sessions).filter(function (session) {
+    return session.user_id === userId && !session.revoked_at;
+  }).forEach(function (session) { revokeSession(session, reason); });
 }
 
 function bootstrapAdmin(email, password) {
@@ -220,6 +312,7 @@ function resetAdminPasswordFromScriptProperties() {
       salt: salt,
       password_hash: hashPassword(password, salt)
     });
+    revokeSessionsForUser(admin.id, 'PASSWORD_RESET');
     PropertiesService.getScriptProperties().deleteProperty('ADMIN_PASSWORD_RESET');
     CacheService.getScriptCache().remove('login-fail:' + Utilities.base64EncodeWebSafe(Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, email)).slice(0, 32));
     audit(email, 'RESET_ADMIN_PASSWORD', admin.id, 'Manual break-glass recovery completed');
@@ -300,6 +393,7 @@ function getEditorialDashboard(data) {
   const response = {
     ok: true,
     user: { role: user.role, name: user.name, email: user.email, domain: user.domain },
+    session: user.session,
     editors: visibleEditors.map(editorForDashboard),
     reviews: reviews.slice(0, 80).map(reviewSummary),
     articles: user.role === 'ADMIN' ? rows(CONFIG.articles).map(articleForDashboard).sort(sortByUpdatedDescending) : [],
@@ -395,7 +489,10 @@ function updateEditor(data) {
     status: accessStatus
   };
   if (publicStatus === 'PUBLISHED' && (!updates.name || !updates.affiliation || !updates.public_email || !updates.public_bio)) return { ok: false, error: 'A public editor profile requires the verified name, affiliation, public contact email and a concise role biography.' };
-  withWriteLock(function () { updateRow(CONFIG.users, user.row, updates); });
+  withWriteLock(function () {
+    updateRow(CONFIG.users, user.row, updates);
+    if (accessStatus !== 'ACTIVE') revokeSessionsForUser(user.id, 'ACCOUNT_' + accessStatus);
+  });
   audit(admin.email, 'UPDATE_EDITOR', user.id, domain + ' / ' + publicStatus + ' / ' + accessStatus);
   return { ok: true, editor: editorForDashboard(findByField(CONFIG.users, 'id', user.id)) };
 }
@@ -476,6 +573,10 @@ function setArticleStatus(data) {
 
 function saveBlogPost(data) {
   const admin = requireSession(data.token, ['ADMIN']);
+  return saveBlogPostForActor(data, admin);
+}
+
+function saveBlogPostForActor(data, actor) {
   const id = slugify(data.id || data.title);
   const status = String(data.status || 'DRAFT').toUpperCase();
   const domain = String(data.domain || '');
@@ -486,7 +587,7 @@ function saveBlogPost(data) {
   const authorName = cleanText(data.authorName, 140);
   const published = isoDate(data.published);
   const mediaType = String(data.mediaType || 'NONE').toUpperCase();
-  if (!id || !title || CONFIG.domains.indexOf(domain) < 0 || !contentType) return { ok: false, error: 'Post ID, title, content type and a valid SETEHEM portfolio are required.' };
+  if (!id || !title || CONFIG.domains.concat([CONFIG.journalWideDomain]).indexOf(domain) < 0 || !contentType) return { ok: false, error: 'Post ID, title, content type and a valid SETEHEM or Journal-wide / General portfolio are required.' };
   if (['DRAFT', 'PUBLISHED', 'ARCHIVED'].indexOf(status) < 0) return { ok: false, error: 'Select draft, published or archived status.' };
   if (['NONE', 'IMAGE', 'VIDEO'].indexOf(mediaType) < 0) return { ok: false, error: 'Select no media, image or video.' };
   if (status === 'PUBLISHED' && (!summary || !body || !authorName || !published)) return { ok: false, error: 'A published blog item requires an author/byline, summary, complete body and publication date.' };
@@ -501,15 +602,65 @@ function saveBlogPost(data) {
     hero_image_alt: cleanText(data.heroImageAlt, 240), media_type: mediaType,
     media_url: mediaType === 'NONE' ? '' : safePublicUrl(data.mediaUrl, false),
     rights_notice: cleanText(data.rightsNotice, 300) || 'Read, watch and share this page. Copying, republication and redistribution require written permission from CHIATECH JOURNAL.',
-    status: status, published_by: status === 'PUBLISHED' ? admin.email : ''
+    status: status, published_by: status === 'PUBLISHED' ? actor.email : ''
   };
   if (mediaType !== 'NONE' && !post.media_url) return { ok: false, error: 'Provide an authorised HTTPS or journal-relative media URL.' };
   withWriteLock(function () {
     if (existing) updateRow(CONFIG.blogPosts, existing.row, post);
     else appendObject(CONFIG.blogPosts, post);
   });
-  audit(admin.email, existing ? 'UPDATE_BLOG_POST' : 'CREATE_BLOG_POST', id, title + ' / ' + status);
+  audit(actor.email, existing ? 'UPDATE_BLOG_POST' : 'CREATE_BLOG_POST', id, title + ' / ' + status);
   return { ok: true, post: blogForDashboard(findByField(CONFIG.blogPosts, 'id', id)) };
+}
+
+/*
+ * CHIATECHblogBOT may create only a private blog draft. The bot's own
+ * approval screen must collect human approval before it signs a handoff;
+ * this service verifies bot identity and never accepts a PUBLISHED status.
+ */
+function importBlogBotDraft(data) {
+  const draft = verifyBlogBotHandoff(data);
+  const title = cleanText(draft.title, 260);
+  const summary = cleanLongText(draft.summary, 900);
+  const body = cleanLongText(draft.body, 18000);
+  const authorName = cleanText(draft.authorName, 140);
+  const approvedBy = cleanText(draft.approvedBy, 140);
+  const approvedAt = new Date(String(draft.approvedAt || '')).getTime();
+  if (!title || !summary || !body || !authorName || !approvedBy || isNaN(approvedAt)) throw serviceError('The approved CHIATECHblogBOT handoff must include title, summary, reader text, byline and the human approval record.');
+  const result = saveBlogPostForActor({
+    status: 'DRAFT', id: draft.id, contentType: cleanText(draft.contentType, 80) || 'Institutional announcement',
+    title: title, domain: String(draft.domain || CONFIG.journalWideDomain), authorName: authorName,
+    published: '', tags: Array.isArray(draft.tags) ? draft.tags : [], summary: summary, body: body,
+    heroImageUrl: draft.heroImageUrl, heroImageAlt: draft.heroImageAlt,
+    mediaType: draft.mediaType, mediaUrl: draft.mediaUrl, rightsNotice: draft.rightsNotice
+  }, { email: 'CHIATECHblogBOT' });
+  if (result.ok) audit('CHIATECHblogBOT', 'IMPORT_BLOG_BOT_DRAFT', result.post.id, 'Human-approved bot handoff by ' + approvedBy + ' stored as a private draft');
+  return result;
+}
+
+function verifyBlogBotHandoff(data) {
+  const secret = property('BLOG_BOT_HANDOFF_SECRET');
+  const timestamp = String(data.timestamp || '');
+  const nonce = String(data.nonce || '');
+  const draftPayload = String(data.draftPayload || '');
+  const signature = String(data.signature || '');
+  if (!secret) throw serviceError('The CHIATECHblogBOT handoff is not configured.');
+  if (!/^\d{13}$/.test(timestamp) || Math.abs(Date.now() - Number(timestamp)) > 5 * 60 * 1000) throw serviceError('The CHIATECHblogBOT approval handoff has expired. Approve and send it again.');
+  if (!/^[A-Za-z0-9_-]{20,160}$/.test(nonce) || !draftPayload || draftPayload.length > 60000 || !signature) throw serviceError('The CHIATECHblogBOT handoff is incomplete.');
+  const expected = blogBotSignature(timestamp, nonce, draftPayload, secret);
+  if (!constantTimeEqual(signature, expected)) throw serviceError('The CHIATECHblogBOT handoff could not be verified.');
+  const replayKey = 'blogbot-handoff:' + sessionTokenHash(nonce);
+  const cache = CacheService.getScriptCache();
+  if (cache.get(replayKey)) throw serviceError('This CHIATECHblogBOT handoff was already received.');
+  const draft = parseJson(draftPayload, null);
+  if (!draft || typeof draft !== 'object' || Array.isArray(draft)) throw serviceError('The CHIATECHblogBOT handoff does not contain a valid draft package.');
+  cache.put(replayKey, '1', 10 * 60);
+  return draft;
+}
+
+function blogBotSignature(timestamp, nonce, draftPayload, secret) {
+  const key = secret === undefined ? property('BLOG_BOT_HANDOFF_SECRET') : String(secret);
+  return Utilities.base64EncodeWebSafe(Utilities.computeHmacSha256Signature(String(timestamp) + '.' + String(nonce) + '.' + String(draftPayload), key, Utilities.Charset.UTF_8));
 }
 
 function setBlogPostStatus(data) {
@@ -740,18 +891,20 @@ function sendReviewMail(recipients, review) {
 }
 
 function requireSession(token, roles) {
-  const key = 'session:' + String(token || '');
-  const cache = CacheService.getScriptCache();
-  const raw = cache.get(key);
-  if (!raw) throw serviceError('Your session has expired. Sign in again.');
-  const user = JSON.parse(raw);
-  const current = findUserByEmail(normaliseEmail(user.email));
-  if (!current || current.id !== user.id || current.status !== 'ACTIVE' || current.role !== user.role || !user.expiresAt || user.expiresAt <= Date.now() || !user.credentialVersion || current.salt !== user.credentialVersion) {
-    cache.remove(key);
+  const rawToken = String(token || '');
+  if (!rawToken || rawToken.length > 256) throw serviceError('Your session has expired. Sign in again.');
+  const session = findByField(CONFIG.sessions, 'token_hash', sessionTokenHash(rawToken));
+  if (!session || session.revoked_at) throw serviceError('Your session has expired. Sign in again.');
+  const current = findUserByEmail(normaliseEmail(session.email));
+  const absoluteExpiry = sessionTimestamp(session.expires_at);
+  const idleExpiry = sessionTimestamp(session.idle_expires_at);
+  if (!current || current.id !== session.user_id || current.status !== 'ACTIVE' || current.role !== session.role || !session.credential_version || current.salt !== session.credential_version || !absoluteExpiry || !idleExpiry || Math.min(absoluteExpiry, idleExpiry) <= Date.now()) {
+    revokeSession(session, 'EXPIRED_OR_ACCESS_CHANGED');
     throw serviceError('Your session has expired or account access has changed. Sign in again.');
   }
   if (roles.indexOf(current.role) < 0) throw serviceError('You are not authorised for this action.');
-  return { id: current.id, role: current.role, email: current.email, name: current.name, domain: current.domain || '' };
+  const refreshed = touchSession(session);
+  return { id: current.id, role: current.role, email: current.email, name: current.name, domain: current.domain || '', session: sessionForClient(refreshed) };
 }
 
 function enforceLoginRateLimit(email) {

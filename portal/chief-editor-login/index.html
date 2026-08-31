@@ -48,6 +48,7 @@
           <form id="editorialLoginForm" class="journal-form compact-form">
             <label>Journal email<input name="email" type="email" autocomplete="username" required></label>
             <label>Password<input name="password" type="password" autocomplete="current-password" minlength="12" required></label>
+            <label class="session-choice"><input name="trusted_device" type="checkbox"><span><strong>Keep me signed in on this trusted device</strong><small>For the Chief Editor/Administrator only. This keeps a trusted-device session reference in this browser for up to 12 hours; do not select it on a shared or public computer. All other editorial accounts use the standard 8-hour session.</small></span></label>
             <button class="btn btn-accent" type="submit">Sign in securely</button>
           </form>
           <p id="editorialMessage" class="form-message" aria-live="polite"></p>
@@ -64,6 +65,10 @@
             <div><p class="eyebrow">Authenticated workspace</p><h2>Journal administration</h2><p id="editorialIdentity"></p></div>
             <button id="editorialLogout" class="btn btn-outline" type="button">Sign out</button>
           </div>
+          <section id="sessionNotice" class="session-notice" hidden aria-live="polite">
+            <div><strong id="sessionNoticeTitle">Editorial session protected</strong><p id="sessionNoticeText"></p></div>
+            <button id="renewEditorialSession" class="btn btn-outline" type="button" hidden>Continue securely</button>
+          </section>
 
           <nav class="desk-tabs" aria-label="Editorial sections">
             <button type="button" class="is-active" data-desk-tab="overview">Overview</button>
@@ -171,9 +176,9 @@
               <div class="section-head"><div><p class="eyebrow">Reader media</p><h2>Create or update a blog, article or news item</h2></div><p>Blog content is displayed for reading, watching and sharing. The public page does not provide a copy or download action and states the applicable reuse restriction.</p></div>
               <form id="blogPostForm" class="journal-form admin-content-form">
                 <label>Stable post ID<input name="post_id" pattern="[a-z0-9-]+" required></label>
-                <label>Content type<select name="content_type" required><option>News</option><option>Feature article</option><option>Discovery brief</option><option>Event report</option><option>Interview</option><option>Editorial</option><option>Video</option></select></label>
+                <label>Content type<select name="content_type" required><option>News</option><option>Feature article</option><option>Discovery brief</option><option>Event report</option><option>Interview</option><option>Editorial</option><option>Institutional announcement</option><option>Video</option></select></label>
                 <label class="full">Title<input name="title" required></label>
-                <label>SETEHEM portfolio<select name="domain" required><option value="">Select portfolio</option><option>Science</option><option>Technology</option><option>Engineering</option><option>Mathematics</option><option>Education</option><option>Humanities &amp; Social Sciences</option><option>Entrepreneurship &amp; Management</option></select></label>
+                <label>Journal portfolio<select name="domain" required><option value="">Select portfolio</option><option>Journal-wide / General</option><option>Science</option><option>Technology</option><option>Engineering</option><option>Mathematics</option><option>Education</option><option>Humanities &amp; Social Sciences</option><option>Entrepreneurship &amp; Management</option></select><small>Use Journal-wide / General for editorials, notices and institutional announcements that are not owned by one SETEHEM discipline.</small></label>
                 <label>Byline<input name="author_name" required></label>
                 <label>Publication date<input name="published" type="date"></label>
                 <label>Tags<input name="tags"><small>Separate tags with commas.</small></label>

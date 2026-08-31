@@ -48,7 +48,7 @@ export async function handler(event) {
     try { payload = JSON.parse(body); }
     catch (_) { return response(400, { ok: false, error: 'Send a valid JSON editorial request.' }); }
     if (!payload || typeof payload !== 'object' || Array.isArray(payload)) return response(400, { ok: false, error: 'Send an editorial request object.' });
-    const postActions = new Set(['login', 'logout', 'activateEditor', 'recordReview', 'getEditorialDashboard', 'createEditor', 'reissueEditorInvite', 'updateEditor', 'publishArticle', 'saveArticle', 'setArticleStatus', 'saveBlogPost', 'setBlogPostStatus', 'saveSettings', 'saveContentPage']);
+    const postActions = new Set(['login', 'logout', 'renewSession', 'activateEditor', 'recordReview', 'getEditorialDashboard', 'createEditor', 'reissueEditorInvite', 'updateEditor', 'publishArticle', 'saveArticle', 'setArticleStatus', 'saveBlogPost', 'importBlogBotDraft', 'setBlogPostStatus', 'saveSettings', 'saveContentPage']);
     if (!postActions.has(payload.action)) return response(400, { ok: false, error: 'Unsupported editorial action.' });
     const result = await fetch(upstream, {
       method: 'POST',

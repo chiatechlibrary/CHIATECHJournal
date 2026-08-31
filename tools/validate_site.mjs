@@ -116,6 +116,9 @@ const admin = publicHtml.get(path.join('portal', 'chief-editor-login', 'index.ht
 for (const required of [
   'noindex,nofollow,noarchive',
   'id="editorialLoginForm"',
+  'name="trusted_device"',
+  'id="sessionNotice"',
+  'id="renewEditorialSession"',
   'data-desk-tab="overview"',
   'data-desk-tab="editors"',
   'data-desk-tab="papers"',
@@ -131,6 +134,8 @@ for (const required of [
   'name="video_transcript_url"',
   'name="video_confirmed"',
   'id="blogPostForm"',
+  'Journal-wide / General',
+  'Institutional announcement',
   'id="journalSettingsForm"'
 ]) requireText(admin, required, 'portal/chief-editor-login/index.html');
 
@@ -189,23 +194,35 @@ const appScript = await read('backend/google-apps-script/Code.gs');
 for (const required of [
   "action === 'login'",
   "action === 'logout'",
+  "action === 'renewSession'",
   "action === 'activateEditor'",
   "action === 'reissueEditorInvite'",
   "action === 'getEditorialDashboard'",
   "action === 'saveArticle'",
   "action === 'saveBlogPost'",
+  "action === 'importBlogBotDraft'",
   "action === 'saveSettings'",
   "requireSession(data.token, ['ADMIN'])",
   'ADMIN_BOOTSTRAP_PASSWORD',
   'resetAdminPasswordFromScriptProperties',
   "deleteProperty('ADMIN_BOOTSTRAP_PASSWORD')",
   'maxLoginFailures: 8',
-  'sessionSeconds: 6 * 60 * 60'
+  "sessions: 'Sessions'",
+  'standardSessionSeconds: 8 * 60 * 60',
+  'trustedAdminSessionSeconds: 12 * 60 * 60',
+  'sessionIdleSeconds: 60 * 60',
+  'sessionTokenHash',
+  'revokeSession',
+  "journalWideDomain: 'Journal-wide / General'",
+  'verifyBlogBotHandoff',
+  'blogBotSignature',
+  'BLOG_BOT_HANDOFF_SECRET'
 ]) requireText(appScript, required, 'backend/google-apps-script/Code.gs');
 
 const adminScript = await read('assets/js/editorial-desk.js');
 for (const required of [
   "action: 'login'",
+  "action: 'renewSession'",
   "action: 'createEditor'",
   "action: 'reissueEditorInvite'",
   "action: 'updateEditor'",
@@ -216,8 +233,13 @@ for (const required of [
   'htmlConfirmed',
   'videoCaptionUrl',
   'videoTranscriptUrl',
-  'videoConfirmed'
+  'videoConfirmed',
+  'trustedDeviceRequested',
+  'beforeunload',
+  'Keep this page open and try again before leaving the device'
 ]) requireText(adminScript, required, 'assets/js/editorial-desk.js');
+
+for (const required of ["'renewSession'", "'importBlogBotDraft'"]) requireText(proxy, required, 'netlify/functions/editorial-api.mjs');
 
 for (const required of [
   "'doi'", "'html_url'", "'pdf_url'", "'video_title'", "'video_url'",

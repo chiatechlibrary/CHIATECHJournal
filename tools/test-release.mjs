@@ -13,8 +13,34 @@ check('manifest is valid V8 JSON, not a .gs file', () => { const manifest = JSON
 check('guest board request returns no identities', () => { const result = JSON.parse(c.doGet({ parameter:{ action:'editors' } }).text); assert.equal(result.ok,false); assert(!JSON.stringify(result).includes('LOCAL QA EDITOR')); });
 check('admin sees board; section editor does not', () => { assert.equal(c.getEditorialDashboard({ token:adminToken }).editors.length,1); assert.equal(c.getEditorialDashboard({ token:editorToken }).editors.length,0); });
 check('unauthenticated and editor content writes are denied', () => { for (const token of ['',editorToken]) { assert.throws(() => c.saveSettings({ token, settings:{} })); assert.throws(() => c.saveContentPage({ token, path:'/about/' })); assert.throws(() => c.saveArticle({ ...h.article, token })); assert.throws(() => c.saveBlogPost({ ...h.post, token })); assert.throws(() => c.updateEditor({ token })); } });
-check('active sessions are revoked immediately on suspension and credential change', () => { h.tables.Users[1].status='SUSPENDED'; assert.throws(() => c.requireSession(editorToken,['EDITOR'])); h.tables.Users[1].status='ACTIVE'; const resetToken = h.login('EDITOR'); h.tables.Users[1].salt='changed'; assert.throws(() => c.requireSession(resetToken,['EDITOR'])); });
-check('sessions have an absolute expiry', () => { const raw = JSON.parse(h.cache.get(`session:${adminToken}`)); h.cache.set('session:expired',JSON.stringify({...raw, expiresAt:1})); assert.throws(() => c.requireSession('expired',['ADMIN'])); });
+check('active sessions are revoked immediately on suspension and credential change', () => { h.tables.Users[1].status='SUSPENDED'; assert.throws(() => c.requireSession(editorToken,['EDITOR'])); h.tables.Users[1].status='ACTIVE'; const resetToken = h.login('EDITOR'); const savedSalt = h.tables.Users[1].salt; h.tables.Users[1].salt='changed'; assert.throws(() => c.requireSession(resetToken,['EDITOR'])); h.tables.Users[1].salt=savedSalt; });
+check('standard and trusted Administrator sessions have bounded server-side lifetimes', () => {
+  const standard = h.tables.Sessions.find(session => session.token_hash === c.sessionTokenHash(adminToken));
+  assert.equal(standard.trusted_device, 'FALSE');
+  assert.equal(Date.parse(standard.expires_at) - Date.parse(standard.created_at), 8 * 60 * 60 * 1000);
+  const trustedResult = c.login({email:'qa-admin@example.invalid',password:h.password,trustedDevice:true});
+  assert.equal(trustedResult.session.persistent, true);
+  const trusted = h.tables.Sessions.find(session => session.token_hash === c.sessionTokenHash(trustedResult.token));
+  assert.equal(trusted.trusted_device, 'TRUE');
+  assert.equal(Date.parse(trusted.expires_at) - Date.parse(trusted.created_at), 12 * 60 * 60 * 1000);
+  const editorResult = c.login({email:'qa-editor@example.invalid',password:h.password,trustedDevice:true});
+  assert.equal(editorResult.session.persistent, false);
+  assert.equal(Date.parse(h.tables.Sessions.find(session => session.token_hash === c.sessionTokenHash(editorResult.token)).expires_at) - Date.parse(h.tables.Sessions.find(session => session.token_hash === c.sessionTokenHash(editorResult.token)).created_at), 8 * 60 * 60 * 1000);
+});
+check('activity renewal extends idle time without exceeding the workday deadline', () => {
+  const session = h.tables.Sessions.find(item => item.token_hash === c.sessionTokenHash(adminToken));
+  session.idle_expires_at = new Date(Date.now() + 1000).toISOString();
+  const result = c.renewSession({ token: adminToken });
+  assert.equal(result.ok, true);
+  assert(Date.parse(result.session.expiresAt) > Date.now() + 55 * 60 * 1000);
+  assert(Date.parse(result.session.expiresAt) <= Date.parse(result.session.absoluteExpiresAt));
+});
+check('sessions expire on either absolute or idle deadline', () => {
+  const raw = h.tables.Sessions.find(session => session.token_hash === c.sessionTokenHash(adminToken));
+  const expired = { ...raw, token_hash: c.sessionTokenHash('expired'), expires_at: new Date(1).toISOString(), idle_expires_at: new Date(1).toISOString() };
+  h.tables.Sessions.push(expired);
+  assert.throws(() => c.requireSession('expired',['ADMIN']));
+});
 check('unassigned founder DOI is absent; ORCID checksum validated', () => { assert.equal(c.publicProfile().managingEditorDoi,''); assert.equal(c.cleanOrcid('0009-0009-6434-4586'),'0009-0009-6434-4586'); assert.throws(() => c.cleanOrcid('0000-0000-0000-0000')); });
 check('dangerous Sheet formula prefixes are neutralised', () => { assert.equal(c.safeSheetValue('=IMPORTXML("https://invalid", "//x")'), '\'=IMPORTXML("https://invalid", "//x")'); assert.equal(c.safeSheetValue('+2347037689917'), "'+2347037689917"); });
 check('publication requires actual boolean confirmation and metadata', () => { for (const value of [false, 'false', 'true', 1, null]) assert.throws(() => c.saveArticle({...h.article,token:adminToken,pdfConfirmed:value})); assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:''})); assert.throws(() => c.saveArticle({...h.article,token:adminToken,authors:[]})); });
@@ -64,6 +90,19 @@ check('Users extension preserves existing header positions and rejects gaps', ()
 check('only published papers are public; unpublish hides reader', () => { c.saveArticle({...h.article,token:adminToken,status:'DRAFT'}); assert.equal(c.publicArticles().length,0); c.saveArticle({...h.article,token:adminToken}); assert.equal(c.publicArticles().length,1); c.setArticleStatus({token:adminToken,id:h.article.id,status:'DRAFT'}); assert.equal(c.publicArticle(h.article.id).ok,false); c.saveArticle({...h.article,token:adminToken}); });
 check('page draft preserves the last approved public version', () => { const page={token:adminToken,path:'/about/',title:'Approved title',summary:'Approved introduction',body:'Approved complete content. '.repeat(6)}; c.saveContentPage({...page,status:'PUBLISHED'}); c.saveContentPage({...page,title:'PRIVATE DRAFT',body:'Private work in progress.',status:'DRAFT'}); assert.equal(c.publicContentPage('/about/').page.title,'Approved title'); c.saveContentPage({...page,status:'ARCHIVED'}); assert.equal(c.publicContentPage('/about/').page,null); assert.equal(c.saveContentPage({...page,path:'/admin',status:'PUBLISHED'}).ok,false); });
 check('blog draft/publish/archive visibility is correct', () => { c.saveBlogPost({...h.post,token:adminToken,status:'DRAFT'}); assert.equal(c.publicBlogPosts().length,0); c.saveBlogPost({...h.post,token:adminToken}); assert.equal(c.publicBlogPosts().length,1); c.setBlogPostStatus({token:adminToken,id:h.post.id,status:'ARCHIVED'}); assert.equal(c.publicBlogPost(h.post.id).ok,false); c.saveBlogPost({...h.post,token:adminToken}); });
+check('signed CHIATECHblogBOT handoff creates one private Journal-wide draft after recorded human approval', () => {
+  const draftPayload = JSON.stringify({ id:'local-qa-bot-notice', contentType:'Institutional announcement', title:'LOCAL QA ONLY: Approved institutional notice', domain:'Journal-wide / General', authorName:'CHIATECH JOURNAL Editorial Office', summary:'A controlled bot-to-draft handoff used only to test authenticated private workflow.', body:'## Controlled handoff\n\nThis is a local test draft and must not be published.', tags:['Local QA','Announcement'], approvedBy:'Local QA Administrator', approvedAt:new Date().toISOString(), status:'PUBLISHED' });
+  const timestamp = String(Date.now()), nonce = 'localQABlogBotNonce_1234567890';
+  const signature = c.blogBotSignature(timestamp, nonce, draftPayload);
+  const result = c.importBlogBotDraft({ timestamp, nonce, draftPayload, signature });
+  assert.equal(result.ok, true);
+  assert.equal(result.post.status, 'DRAFT');
+  assert.equal(result.post.domain, 'Journal-wide / General');
+  assert.equal(c.publicBlogPost('local-qa-bot-notice').ok, false);
+  assert.throws(() => c.importBlogBotDraft({ timestamp, nonce, draftPayload, signature }), /already received/);
+  const tamperedNonce = 'localQABlogBotNonce_0987654321';
+  assert.throws(() => c.importBlogBotDraft({ timestamp, nonce:tamperedNonce, draftPayload, signature }), /could not be verified/);
+});
 const originalFetch = global.fetch, originalEnv = process.env.CHIATECH_APPS_SCRIPT_URL;
 try {
   delete process.env.CHIATECH_APPS_SCRIPT_URL;

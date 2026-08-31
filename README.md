@@ -13,7 +13,7 @@ Local checks, Netlify preview, Apps Script integration, production smoke tests a
 - Static HTML/CSS/JavaScript public pages, Netlify Forms, a public build allowlist and three Netlify Functions. No framework migration or new database is required.
 - `netlify/build-public.mjs` builds **dist**. Only dist is public. Repository source such as backend/, tools/ and reports/ must remain in Git but outside the public package.
 - `/api/editorial` relays to the private existing Google Apps Script web app. The URL is held only in Netlify's `CHIATECH_APPS_SCRIPT_URL` environment variable.
-- The private Google Sheet contains Users, Reviews, Articles, BlogPosts, ContentPages, Settings and Audit. It is never published or linked in this repository.
+- The private Google Sheet contains Users, Reviews, Articles, BlogPosts, ContentPages, Settings, Audit and hashed server-side Sessions. It is never published or linked in this repository.
 - `/articles/read/` uses a Function to render an authorised published record for crawlers, then JavaScript provides citation styles and full-text controls. `/sitemap.xml` and `/feed.xml` derive additional entries only from published records.
 - `/portal/` is the pathway hub. `/admin` and legacy editorial-board URLs redirect to `/portal/chief-editor-login/`. Both administrators and invited editors sign in there.
 
@@ -70,7 +70,8 @@ The builders preserve the supplied designs through deduplicated OOXML parts in `
 3. In Project Settings, show the existing **appsscript.json** manifest, then use the repository manifest. Do not create an `appsscript.json.gs` file.
 4. Save, then **Deploy → Manage deployments → Edit → New version → Deploy**. Keep the existing web-app deployment and `/exec` URL.
 5. Retain the private Script Properties. Do not reorder columns. Missing required columns are appended; blank or duplicate headers now fail rather than being silently overwritten.
-6. Check health, authentication, invitation/activation, suspension, logout, settings, drafts, blog lifecycle, page copy and mail. `health` now checks that the private database is reachable.
+6. Check health, standard and trusted Administrator workday sessions, activity renewal, five-minute expiry warning, unsaved-work prompts, immediate sign-out revocation, invitation/activation, suspension, settings, drafts, blog lifecycle, page copy and mail. `health` now checks that the private database is reachable.
+7. If enabling CHIATECHblogBOT, configure its separate private service only with the signed draft-handoff contract in `backend/google-apps-script/BLOGBOT-HANDOFF.md`; test that it creates a private `DRAFT` and cannot publish.
 
 See `backend/google-apps-script/SETUP.md`. No Apps Script deployment was performed by the local audit. Password recovery uses **ADMIN_PASSWORD_RESET**, not ADMIN_BOOTSTRAP_PASSWORD. Keep PASSWORD_PEPPER unchanged.
 
@@ -88,7 +89,7 @@ See `backend/google-apps-script/SETUP.md`. No Apps Script deployment was perform
 
 Do not deploy the repository root or the private holding folder. Retain the existing variable value if the Apps Script deployment URL is unchanged. Never paste it into source, screenshots or reports. Redeploy after environment changes. Use a separate test backend for mutable preview tests; do not expose production credentials to untrusted pull-request previews.
 
-The existing release branch is `release/portal-launch-2026-07`; its older name does not change the August audit date. A push to this branch is not a merge to main. Enable a branch deploy or open a reviewed pull request for a Netlify preview. Promote only after the required external checks and human approval.
+Use a new reviewed release branch for each portal update rather than force-pushing or mixing unreviewed work into a production promotion. Enable a branch deploy or open a reviewed pull request for a Netlify preview. Promote only after the required external checks and human approval.
 
 ### DNS and HTTPS
 

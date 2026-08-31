@@ -100,6 +100,20 @@ async function bodyOf(request) {
   return Buffer.concat(chunks).toString('utf8');
 }
 
+let trustedDeviceSession = false;
+function editorialSession() {
+  const now = Date.now();
+  const absoluteExpiresAt = new Date(now + (trustedDeviceSession ? 12 : 8) * 60 * 60 * 1000).toISOString();
+  return {
+    expiresAt: new Date(now + 60 * 60 * 1000).toISOString(),
+    absoluteExpiresAt,
+    idleExpiresAt: new Date(now + 60 * 60 * 1000).toISOString(),
+    warningSeconds: 300,
+    trustedDevice: trustedDeviceSession,
+    persistent: trustedDeviceSession
+  };
+}
+
 async function api(request, response, url) {
   if (request.method === 'GET') {
     const action = url.searchParams.get('action');
@@ -127,11 +141,16 @@ async function api(request, response, url) {
   }
 
   const payload = JSON.parse(await bodyOf(request));
-  if (payload.action === 'login') return json(response, { ok: true, token: 'local-browser-qa-session', role: 'ADMIN' });
-  if (payload.action === 'logout') return json(response, { ok: true });
+  if (payload.action === 'login') {
+    trustedDeviceSession = payload.trustedDevice === true;
+    return json(response, { ok: true, token: 'local-browser-qa-session', role: 'ADMIN', session: editorialSession() });
+  }
+  if (payload.action === 'logout') { trustedDeviceSession = false; return json(response, { ok: true }); }
+  if (payload.action === 'renewSession') return json(response, { ok: true, session: editorialSession() });
   if (payload.action === 'getEditorialDashboard') return json(response, {
     ok: true,
     user: { role: 'ADMIN', name: 'Release QA Administrator', email: 'qa-admin@local.invalid', domain: 'All SETEHEM portfolios' },
+    session: editorialSession(),
     editors: [editor],
     reviews: [{
       id: 'CJRE-QA-001',
@@ -302,8 +321,10 @@ try {
   assert.equal(adminResponse.status(), 200, '/admin redirect did not reach the sign-in page');
   await page.getByLabel('Journal email').fill('qa-admin@local.invalid');
   await page.getByLabel('Password').fill('local-browser-validation-password');
+  await page.getByLabel('Keep me signed in on this trusted device').check();
   await page.getByRole('button', { name: 'Sign in securely' }).click();
   await page.getByRole('heading', { name: 'Journal administration' }).waitFor();
+  await page.getByText('Trusted-device workday session active', { exact: true }).waitFor();
   await page.getByRole('button', { name: 'Private editorial board' }).click();
   await page.getByRole('button', { name: 'Send protected invitation' }).waitFor();
   await page.getByRole('button', { name: 'Papers' }).click();
