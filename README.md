@@ -51,7 +51,7 @@ ISSN remains pending and the DOI prefix is not assigned. No external indexing me
 
 The Review Engine reads DOCX locally. With consent it sends only the title, detected DOI strings and a limited reference sample to Crossref; a concise report and routing contact go to authorised editorial staff. It is not peer review, a plagiarism certificate, an AI-authorship verdict or acceptance.
 
-No paper is published by this release. Later, a human administrator must verify acceptance, authorship, permissions, declarations, authentic dates, registered DOI, matching HTML/PDF and the approved accessible explanatory video. The existing server gate requires DOI, dates, metadata, true boolean production confirmations and captions or transcript. Saving a URL does not check a production-confirmation box automatically. Technical validation cannot establish scholarly approval.
+No paper is published merely by this release. A human administrator must verify acceptance, authorship, permissions, declarations, authentic dates, matching HTML/PDF and the approved accessible explanatory video. The server normally requires a registered DOI. The sole documented exception is a visibly labelled `DOI pending registration` record for Volume 1, Issue 1, a Pioneer-labelled July 2026 article with all remaining gates satisfied; it must be updated after formal Crossref registration. Saving a URL does not check a production-confirmation box automatically. Technical validation cannot establish scholarly approval.
 
 ## Six Word resources
 

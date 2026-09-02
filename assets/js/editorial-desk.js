@@ -465,7 +465,7 @@
       language: article.language || 'English', abstract: article.abstract, keywords: (article.keywords || []).join(', '),
       received: article.received, revised: article.revised, accepted: article.accepted, published: article.published,
       volume: article.volume, issue: article.issue, issue_title: article.issueTitle, elocator: article.eLocator,
-      pages: article.pages, doi: article.doi, license: article.license, license_url: article.licenseUrl,
+      pages: article.pages, doi: article.doi, doi_status: article.doiStatus || (article.doi ? 'ASSIGNED' : 'PENDING_REGISTRATION'), license: article.license, license_url: article.licenseUrl,
       copyright_holder: article.copyrightHolder, html_url: article.htmlUrl,
       pdf_url: article.pdfUrl, pdf_download_url: article.pdfDownloadUrl,
       video_title: article.videoTitle, video_url: article.videoUrl,
@@ -498,7 +498,7 @@
         accepted: field(articleForm, 'accepted').value, published: field(articleForm, 'published').value,
         volume: field(articleForm, 'volume').value.trim(), issue: field(articleForm, 'issue').value.trim(),
         issueTitle: field(articleForm, 'issue_title').value.trim(), eLocator: field(articleForm, 'elocator').value.trim(),
-        pages: field(articleForm, 'pages').value.trim(), doi: field(articleForm, 'doi').value.trim(),
+        pages: field(articleForm, 'pages').value.trim(), doi: field(articleForm, 'doi').value.trim(), doiStatus: field(articleForm, 'doi_status').value,
         license: field(articleForm, 'license').value.trim(), licenseUrl: field(articleForm, 'license_url').value.trim(),
         copyrightHolder: field(articleForm, 'copyright_holder').value.trim(),
         htmlUrl: field(articleForm, 'html_url').value.trim(), htmlConfirmed: field(articleForm, 'html_confirmed').checked,
@@ -512,7 +512,8 @@
       });
       if (!response.ok) throw new Error(response.error || 'The paper record could not be saved.');
       resetArticle();
-      await loadDesk(status === 'PUBLISHED' ? 'Paper published. Verify the DOI, full HTML, both PDF actions, explanatory video, captions/transcript and public metadata before announcing it.' : 'Paper draft saved.');
+      const doiMessage = response.article?.doiStatus === 'PENDING_REGISTRATION' ? 'Paper published with the visible DOI pending registration notice. Verify the full HTML, both PDF actions, explanatory video, captions/transcript, public metadata and subsequent Crossref update before announcing it.' : 'Paper published. Verify the DOI, full HTML, both PDF actions, explanatory video, captions/transcript and public metadata before announcing it.';
+      await loadDesk(status === 'PUBLISHED' ? doiMessage : 'Paper draft saved.');
       activatePane('papers');
     } catch (error) { show(error.message || 'The paper record could not be saved.', 'error'); }
     finally { if (submit) submit.disabled = false; }

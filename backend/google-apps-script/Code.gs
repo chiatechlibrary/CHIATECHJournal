@@ -50,7 +50,7 @@ const HEADERS = {
   ],
   Articles: [
     'created_at', 'updated_at', 'id', 'title', 'domain', 'article_type',
-    'authors_json', 'abstract', 'keywords_json', 'doi', 'volume', 'issue',
+    'authors_json', 'abstract', 'keywords_json', 'doi', 'doi_status', 'volume', 'issue',
     'issue_title', 'elocator', 'pages', 'received', 'revised', 'accepted',
     'published', 'language', 'license', 'license_url', 'copyright_holder',
     'html_url', 'pdf_url', 'pdf_download_url', 'video_title', 'video_url',
@@ -511,7 +511,7 @@ function saveArticle(data) {
     if (existing) updateRow(CONFIG.articles, existing.row, article);
     else appendObject(CONFIG.articles, article);
   });
-  audit(admin.email, existing ? 'UPDATE_ARTICLE' : 'CREATE_ARTICLE', id, article.title + ' / ' + status);
+  audit(admin.email, existing ? 'UPDATE_ARTICLE' : 'CREATE_ARTICLE', id, article.title + ' / ' + status + ' / DOI ' + article.doi_status);
   return { ok: true, article: articleForDashboard(findByField(CONFIG.articles, 'id', id)) };
 }
 
@@ -522,6 +522,11 @@ function normaliseArticle(data, id, status, actor) {
   const abstract = cleanLongText(data.abstract, 6000);
   const keywords = (Array.isArray(data.keywords) ? data.keywords : []).map(function (item) { return cleanText(item, 80); }).filter(Boolean).slice(0, 12);
   const doi = cleanDoi(data.doi);
+  const volume = cleanText(data.volume, 30);
+  const issue = cleanText(data.issue, 30);
+  const issueTitle = cleanText(data.issueTitle, 160);
+  const published = isoDate(data.published);
+  const doiStatus = normaliseDoiStatus(data.doiStatus, doi);
   const htmlUrl = safePublicUrl(data.htmlUrl, false);
   const pdfUrl = safePublicUrl(data.pdfUrl || data.fullTextUrl, false);
   const pdfDownloadUrl = safePublicUrl(data.pdfDownloadUrl, true) || pdfUrl;
@@ -533,8 +538,8 @@ function normaliseArticle(data, id, status, actor) {
   if (!id || !title || CONFIG.domains.indexOf(domain) < 0) throw serviceError('Article ID, title and a valid SETEHEM portfolio are required.');
   if (status === 'PUBLISHED') {
     if (!authors.length || !abstract || keywords.length < 3) throw serviceError('A published paper requires verified authors, a complete abstract and at least three keywords.');
-    if (!isoDate(data.received) || !isoDate(data.accepted) || !isoDate(data.published)) throw serviceError('Record the authentic received, accepted and published dates before publication.');
-    if (!doi) throw serviceError('Register and verify the article DOI before publication.');
+    if (!isoDate(data.received) || !isoDate(data.accepted) || !published) throw serviceError('Record the authentic received, accepted and published dates before publication.');
+    if (!doi && !isEligiblePioneerDoiPendingRelease(volume, issue, issueTitle, published, doiStatus)) throw serviceError('A registered DOI is required unless this is the explicitly labelled Volume 1, Issue 1, July 2026 Pioneer Release with DOI status PENDING_REGISTRATION.');
     if (!htmlUrl || data.htmlConfirmed !== true) throw serviceError('Confirm and provide the approved full-paper HTML URL before publication.');
     if (!pdfUrl || data.pdfConfirmed !== true) throw serviceError('Confirm and provide the authorised full-paper PDF URL before publication.');
     if (!videoTitle || !videoUrl || data.videoConfirmed !== true) throw serviceError('Confirm and provide the complimentary explanatory video title and direct media URL before publication.');
@@ -544,12 +549,12 @@ function normaliseArticle(data, id, status, actor) {
     id: id, title: title, domain: domain,
     article_type: cleanText(data.articleType, 100) || 'Research article',
     authors_json: JSON.stringify(authors), abstract: abstract,
-    keywords_json: JSON.stringify(keywords), doi: doi,
-    volume: cleanText(data.volume, 30), issue: cleanText(data.issue, 30),
-    issue_title: cleanText(data.issueTitle, 160), elocator: cleanText(data.eLocator, 50),
+    keywords_json: JSON.stringify(keywords), doi: doi, doi_status: doiStatus,
+    volume: volume, issue: issue,
+    issue_title: issueTitle, elocator: cleanText(data.eLocator, 50),
     pages: cleanText(data.pages, 50), received: isoDate(data.received),
     revised: isoDate(data.revised), accepted: isoDate(data.accepted),
-    published: isoDate(data.published), language: cleanText(data.language, 40) || 'English',
+    published: published, language: cleanText(data.language, 40) || 'English',
     license: cleanText(data.license, 100) || 'CC BY 4.0',
     license_url: safePublicUrl(data.licenseUrl, true) || 'https://creativecommons.org/licenses/by/4.0/',
     copyright_holder: cleanText(data.copyrightHolder, 180) || 'The author(s)',
@@ -559,6 +564,18 @@ function normaliseArticle(data, id, status, actor) {
     status: status,
     published_by: status === 'PUBLISHED' ? actor : ''
   };
+}
+
+function normaliseDoiStatus(value, doi) {
+  if (doi) return 'ASSIGNED';
+  const status = cleanText(value, 40).toUpperCase() || 'PENDING_REGISTRATION';
+  if (status !== 'PENDING_REGISTRATION') throw serviceError('An article without a registered DOI must use DOI status PENDING_REGISTRATION.');
+  return status;
+}
+
+function isEligiblePioneerDoiPendingRelease(volume, issue, issueTitle, published, doiStatus) {
+  return doiStatus === 'PENDING_REGISTRATION' && volume === '1' && issue === '1' &&
+    /pioneer/i.test(issueTitle) && /^2026-07-/.test(published || '');
 }
 
 function setArticleStatus(data) {
@@ -807,7 +824,7 @@ function articleForPublic(article) {
     id: article.id, title: article.title, domain: article.domain,
     articleType: article.article_type, authors: parseJson(article.authors_json, []),
     abstract: article.abstract, keywords: parseJson(article.keywords_json, []),
-    doi: article.doi, volume: article.volume, issue: article.issue,
+    doi: article.doi, doiStatus: article.doi_status || (article.doi ? 'ASSIGNED' : 'PENDING_REGISTRATION'), volume: article.volume, issue: article.issue,
     issueTitle: article.issue_title, eLocator: article.elocator, pages: article.pages,
     received: article.received, revised: article.revised, accepted: article.accepted,
     published: article.published, language: article.language,

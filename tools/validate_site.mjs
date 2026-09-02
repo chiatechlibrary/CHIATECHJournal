@@ -155,7 +155,7 @@ for (const required of [
   'apa7:', 'mla9:', 'chicago18:', 'harvard:', 'ieee:', 'vancouver:',
   'recommendedStyle', 'Read full paper (HTML)', 'Read full paper (PDF)', 'Download full paper (PDF)',
   'citation_fulltext_html_url', 'citation_pdf_url', 'ScholarlyArticle', 'VideoObject',
-  'Complimentary explanatory video', 'kind="captions"', 'navigator.clipboard.writeText'
+  'Complimentary explanatory video', 'kind="captions"', 'navigator.clipboard.writeText', 'DOI pending registration'
 ]) requireText(articleScript, required, 'assets/js/article-registry.js');
 
 const blogIndex = publicHtml.get(path.join('blog', 'index.html')) || '';
@@ -230,6 +230,7 @@ for (const required of [
   "action: 'saveBlogPost'",
   "action: 'saveSettings'",
   "action: 'logout'",
+  "doiStatus",
   'htmlConfirmed',
   'videoCaptionUrl',
   'videoTranscriptUrl',
@@ -243,7 +244,7 @@ for (const required of ["'renewSession'", "'importBlogBotDraft'"]) requireText(p
 
 for (const required of [
   "'doi'", "'html_url'", "'pdf_url'", "'video_title'", "'video_url'",
-  "'video_caption_url'", "'video_transcript_url'", 'Register and verify the article DOI',
+  "'video_caption_url'", "'video_transcript_url'", "'doi_status'", 'isEligiblePioneerDoiPendingRelease', 'PENDING_REGISTRATION',
   'Confirm and provide the approved full-paper HTML URL', 'Confirm and provide the complimentary explanatory video title'
 ]) requireText(appScript, required, 'backend/google-apps-script/Code.gs');
 
