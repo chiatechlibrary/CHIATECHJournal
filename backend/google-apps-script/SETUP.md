@@ -118,7 +118,7 @@ Manually supplied ORCID iDs are checksum-validated by the service but are not eq
 
 Do not upload paper files into the repository for the current portal launch. Use a draft record only for workflow testing and ensure it is absent publicly. After launch and after real paper editing is complete, the administrator may record approved HTML/PDF/media URLs and publish only after all server-side gates and human checks pass.
 
-The backend blocks publication without required metadata, registered DOI, dates, HTML/PDF confirmation and accessible explanatory-video information. Passing the automated gate is not sufficient evidence of scholarly or production approval.
+The backend blocks publication without required metadata, authentic dates, HTML/PDF confirmation and accessible explanatory-video information. A registered DOI is normally required. The sole code-enforced exception is a visibly labelled `DOI pending registration` record for Volume 1, Issue 1, a Pioneer-labelled July 2026 article with `PENDING_REGISTRATION`, an empty DOI field and every other publication control satisfied. This exception does not create a DOI or permit date backdating; update the record after formal Crossref registration. Passing the automated gate is not sufficient evidence of scholarly or production approval.
 
 ## Administrator recovery
 
