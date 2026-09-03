@@ -1,21 +1,36 @@
 (() => {
   const configured = window.CHIATECH_RUNTIME?.apiUrl || document.querySelector('meta[name="chiatech-api-url"]')?.content?.trim() || '';
   const apiUrl = configured.trim();
+  const requestTimeoutMs = 25000;
 
-  async function request(url, options) {
-    let response;
-    try {
-      response = await fetch(url, options);
-    } catch (_) {
-      throw new Error('The editorial service could not be reached. Check your connection or contact chiatechlibrary@gmail.com.');
+  function unavailableMessage(status) {
+    if (status === 502 || status === 504) {
+      return 'The journal editorial service is temporarily unavailable. Please try again shortly. If this continues, the release owner must check the Apps Script deployment and Netlify Function logs.';
     }
+    if (status === 503) return 'The journal editorial service is not connected. Contact the release owner to restore the private service connection.';
+    return `Editorial service returned ${status}.`;
+  }
+
+  async function request(url, options = {}) {
+    let response;
+    const controller = !options.signal && typeof AbortController !== 'undefined' ? new AbortController() : null;
+    const timeout = controller ? window.setTimeout(() => controller.abort(), requestTimeoutMs) : null;
+    try {
+      response = await fetch(url, controller ? { ...options, signal: controller.signal } : options);
+    } catch (error) {
+      if (error?.name === 'AbortError') throw new Error('The editorial service did not respond in time. Please try again shortly.');
+      throw new Error('The editorial service could not be reached. Check your connection or contact chiatechlibrary@gmail.com.');
+    } finally {
+      if (timeout) window.clearTimeout(timeout);
+    }
+
+    const payload = await response.json().catch(() => null);
     if (!response.ok) {
-      let message = `Editorial service returned ${response.status}.`;
-      try { message = (await response.json()).error || message; } catch (_) {}
+      const message = typeof payload?.error === 'string' && payload.error.trim() ? payload.error : unavailableMessage(response.status);
       throw new Error(message);
     }
-    try { return await response.json(); }
-    catch (_) { throw new Error('The editorial service returned an unreadable response.'); }
+    if (!payload || typeof payload !== 'object' || Array.isArray(payload)) throw new Error('The editorial service returned an unreadable response.');
+    return payload;
   }
 
   async function post(payload) {

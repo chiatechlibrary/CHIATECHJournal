@@ -6,7 +6,17 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 
 const require = createRequire(import.meta.url);
-const { chromium } = require('playwright');
+let chromium;
+try {
+  ({ chromium } = require('playwright'));
+} catch (_) {
+  try {
+    ({ chromium } = require('playwright-core'));
+  } catch (_) {
+    // The release test needs only the browser driver; allow a managed Node runtime to provide playwright-core.
+    ({ chromium } = require(path.join(path.dirname(path.dirname(process.execPath)), 'node_modules', 'playwright-core')));
+  }
+}
 const root = path.join(process.cwd(), 'dist');
 const output = path.join(process.cwd(), 'tools', 'browser-qa-final');
 await fs.mkdir(output, { recursive: true });
@@ -320,11 +330,13 @@ try {
   const adminResponse = await page.goto(`${base}/admin`, { waitUntil: 'networkidle' });
   assert.equal(adminResponse.status(), 200, '/admin redirect did not reach the sign-in page');
   await page.getByLabel('Journal email').fill('qa-admin@local.invalid');
-  await page.getByLabel('Password').fill('local-browser-validation-password');
+  await page.getByLabel('Password', { exact: true }).fill('local-browser-validation-password');
   await page.getByLabel('Keep me signed in on this trusted device').check();
   await page.getByRole('button', { name: 'Sign in securely' }).click();
   await page.getByRole('heading', { name: 'Journal administration' }).waitFor();
   await page.getByText('Trusted-device workday session active', { exact: true }).waitFor();
+  assert.equal(await page.evaluate(() => localStorage.getItem('chiatechEditorialToken')), 'local-browser-qa-session', 'Trusted-device choice must persist only the session reference');
+  assert.equal(await page.evaluate(() => Object.values(localStorage).some(value => /password/i.test(value))), false, 'Browser storage must not contain a password');
   await page.getByRole('button', { name: 'Private editorial board' }).click();
   await page.getByRole('button', { name: 'Send protected invitation' }).waitFor();
   await page.getByRole('button', { name: 'Papers' }).click();

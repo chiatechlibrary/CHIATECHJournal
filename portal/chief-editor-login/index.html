@@ -48,7 +48,7 @@
           <form id="editorialLoginForm" class="journal-form compact-form">
             <label>Journal email<input name="email" type="email" autocomplete="username" required></label>
             <label>Password<input name="password" type="password" autocomplete="current-password" minlength="12" required></label>
-            <label class="session-choice"><input name="trusted_device" type="checkbox"><span><strong>Keep me signed in on this trusted device</strong><small>For the Chief Editor/Administrator only. This keeps a trusted-device session reference in this browser for up to 12 hours; do not select it on a shared or public computer. All other editorial accounts use the standard 8-hour session.</small></span></label>
+            <label class="session-choice"><input id="trustedDeviceChoice" name="trusted_device" type="checkbox"><span><strong>Keep me signed in on this trusted device</strong><small>For the Chief Editor/Administrator only. This stores a bounded session reference, never your password, in this browser for up to 12 hours. Do not select it on a shared or public computer. All other editorial accounts use the standard 8-hour session.</small></span></label>
             <button class="btn btn-accent" type="submit">Sign in securely</button>
           </form>
           <p id="editorialMessage" class="form-message" aria-live="polite"></p>

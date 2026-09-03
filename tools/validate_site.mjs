@@ -117,6 +117,7 @@ for (const required of [
   'noindex,nofollow,noarchive',
   'id="editorialLoginForm"',
   'name="trusted_device"',
+  'session reference, never your password',
   'id="sessionNotice"',
   'id="renewEditorialSession"',
   'data-desk-tab="overview"',
@@ -186,8 +187,11 @@ for (const required of [
   'process.env.CHIATECH_APPS_SCRIPT_URL',
   "['GET', 'POST']",
   'body.length > 400000',
-  "'Cache-Control': 'no-store'",
-  'script\\.google\\.com\\/macros'
+  "cacheControl = 'no-store'",
+  'script\\.google\\.com\\/macros',
+  'X-CHIATECH-Relay-State',
+  'forwardToUpstream',
+  'upstream-invalid-json'
 ]) requireText(proxy, required, 'netlify/functions/editorial-api.mjs');
 
 const appScript = await read('backend/google-apps-script/Code.gs');
@@ -277,7 +281,11 @@ const serviceWorker = await read('sw.js');
 for (const required of [
   "url.pathname.startsWith('/api/')",
   "url.pathname.startsWith('/portal/')",
-  "url.pathname.startsWith('/submit/')"
+  "url.pathname.startsWith('/submit/')",
+  'event.waitUntil',
+  'response.clone()',
+  'self.skipWaiting()',
+  'self.clients.claim()'
 ]) requireText(serviceWorker, required, 'sw.js');
 
 const robots = await read('robots.txt');

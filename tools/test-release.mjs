@@ -123,6 +123,16 @@ try {
   assert.equal((await relay({httpMethod:'GET',queryStringParameters:{action:'articles'}})).headers['Cache-Control'],'no-store'); checks++;
   const privateResponse=await relay({httpMethod:'POST',body:JSON.stringify({action:'getEditorialDashboard',token:adminToken})});
   assert.equal(privateResponse.headers['Cache-Control'],'no-store'); checks++;
+  global.fetch = async () => { const error = new Error('Controlled upstream timeout'); error.name = 'TimeoutError'; throw error; };
+  const timeoutResponse = await relay({httpMethod:'GET',queryStringParameters:{action:'health'}});
+  check('editorial relay turns an upstream timeout into a safe, diagnosable 502', () => { assert.equal(timeoutResponse.statusCode,502); assert.equal(timeoutResponse.headers['X-CHIATECH-Relay-State'],'upstream-timeout'); assert.match(JSON.parse(timeoutResponse.body).error,/temporarily unavailable/); });
+  global.fetch = async () => ({ ok:false, status:503, text:async()=>'{"ok":false}' });
+  const statusResponse = await relay({httpMethod:'GET',queryStringParameters:{action:'health'}});
+  check('editorial relay contains upstream HTTP failures without exposing private details', () => { assert.equal(statusResponse.statusCode,502); assert.equal(statusResponse.headers['X-CHIATECH-Relay-State'],'upstream-status'); });
+  global.fetch = async () => ({ ok:true, status:200, text:async()=>'<html>authorisation page</html>' });
+  const invalidJsonResponse = await relay({httpMethod:'GET',queryStringParameters:{action:'health'}});
+  check('editorial relay rejects a non-JSON upstream response safely', () => { assert.equal(invalidJsonResponse.statusCode,502); assert.equal(invalidJsonResponse.headers['X-CHIATECH-Relay-State'],'upstream-invalid-json'); });
+  global.fetch = async (url, options={}) => { const text = options.method === 'POST' ? c.doPost({postData:{contents:options.body}}).text : c.doGet({parameter:Object.fromEntries(new URL(url).searchParams)}).text; return {ok:true,status:200,text:async()=>text}; };
   const rendered = await paperPage({httpMethod:'GET',queryStringParameters:{id:h.article.id}});
   check('crawler receives title, authors, abstract and PDF without JavaScript', () => { assert.equal(rendered.statusCode,200); assert.equal(rendered.headers['Cache-Control'],'no-store'); assert(rendered.body.includes('name="citation_title"')); assert(rendered.body.includes('name="citation_pdf_url"')); assert(rendered.body.includes(h.article.abstract)); assert(rendered.body.includes('data-server-rendered="true"')); });
   assert.equal((await paperPage({httpMethod:'GET',queryStringParameters:{id:'missing'}})).statusCode,404); checks++;

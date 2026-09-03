@@ -349,13 +349,15 @@
     const submit = loginForm.querySelector('button[type="submit"]');
     submit.disabled = true;
     try {
-      const trustedDeviceRequested = field(loginForm, 'trusted_device').checked;
+      // A stale cached form must not stop an authorised sign-in while the new trusted-device control deploys.
+      const trustedDeviceRequested = field(loginForm, 'trusted_device')?.checked === true;
       const response = await window.CHIATECH_API.post({ action: 'login', email: field(loginForm, 'email').value.trim(), password: field(loginForm, 'password').value, trustedDevice: trustedDeviceRequested });
       if (!response.ok || !response.token) throw new Error(response.error || 'Login was not accepted.');
-      storeToken(response.token, response.session?.persistent === true);
+      const persistentSession = response.role === 'ADMIN' && response.session?.persistent === true && response.session?.trustedDevice === true;
+      storeToken(response.token, persistentSession);
       acceptSession(response.session);
       field(loginForm, 'password').value = '';
-      await loadDesk(response.session?.trustedDevice ? 'Signed in with a trusted-device workday session. Sign out when you finish.' : 'Signed in. Journal controls are ready.');
+      await loadDesk(persistentSession ? 'Signed in with a trusted-device workday session. Sign out when you finish.' : 'Signed in. Journal controls are ready.');
     } catch (error) {
       show(error.message || 'The login service could not be reached.', 'error');
     } finally { submit.disabled = false; }

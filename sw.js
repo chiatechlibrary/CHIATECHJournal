@@ -1,4 +1,4 @@
-const CACHE = 'chiatech-journal-v8-audited-release-20260828';
+const CACHE = 'chiatech-journal-v9-editorial-resilience-20260903';
 const CORE = [
   '/', '/articles/', '/blog/', '/offline.html',
   '/assets/css/style.css', '/assets/css/launch.css',
@@ -8,8 +8,8 @@ const CORE = [
   '/assets/images/chiatech-journal-wordmark.png', '/assets/images/hero-network.svg'
 ];
 
-self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE))));
-self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))));
+self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting())));
+self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   let pathname;
@@ -33,7 +33,16 @@ self.addEventListener('fetch', event => {
   ) return;
   event.respondWith(
     fetch(event.request).then(response => {
-      if (CORE.includes(pathname) && !url.search && response.ok && response.type === 'basic' && !/no-store|private/i.test(response.headers.get('Cache-Control') || '')) caches.open(CACHE).then(cache => cache.put(event.request, response.clone()));
+      const cacheable = CORE.includes(pathname) && !url.search && response.ok && response.type === 'basic' && !/no-store|private/i.test(response.headers.get('Cache-Control') || '');
+      if (cacheable) {
+        // Clone once before returning the live response; keep cache failures out of the console and never cache API/admin routes.
+        try {
+          const cacheCopy = response.clone();
+          event.waitUntil(caches.open(CACHE).then(cache => cache.put(event.request, cacheCopy)).catch(() => undefined));
+        } catch (_) {
+          // The caller still receives the successful network response if a browser has already consumed its stream.
+        }
+      }
       return response;
     }).catch(() => caches.match(event.request).then(response => response || caches.match('/offline.html')))
   );

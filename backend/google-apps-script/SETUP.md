@@ -143,6 +143,19 @@ Do not edit the Users password columns manually and do not change `PASSWORD_PEPP
 7. Confirm Sheet tabs/headers are intact and access remains restricted.
 8. Restore from a restricted backup only after documenting the exact failure and affected version.
 
+### Permanent response to a public `502` editorial error
+
+`/api/editorial` deliberately returns a same-origin `502` when the private Apps Script service cannot be reached, times out, returns an HTTP error, or returns something other than a JSON object. This is not an authentication bypass and it does not expose the private Apps Script URL. The response carries a non-secret `X-CHIATECH-Relay-State` value such as `upstream-timeout`, `upstream-status`, or `upstream-invalid-json` to direct the release owner to the correct log.
+
+1. Open `https://journal.chiatechsolutions.com/api/editorial?action=health` in a private browser window. A healthy result is JSON with `"ok":true`.
+2. If it is `502`, record the response time and the `X-CHIATECH-Relay-State` value only. Do not copy request bodies, browser tokens, the Apps Script URL, Sheet ID, or Script Properties into a ticket or screenshot.
+3. In Netlify, open the deploy's **Functions** log for `editorial-api`; compare its generic state and HTTP status with the health result.
+4. In the journal-controlled Apps Script project, open **Executions**. Resolve the matching deployment, authorisation, quota, database or code error, then create a new version of the existing web-app deployment. Preserve the existing `/exec` URL whenever possible.
+5. In Netlify, confirm privately that `CHIATECH_APPS_SCRIPT_URL` still equals the authorised existing `/exec` URL and is available to Functions. Never paste or print its value. Redeploy the site after any variable or Apps Script deployment change.
+6. Re-run the health check, then complete the standard and trusted-device administrator smoke tests below. Do not attempt a production paper publication while health remains unavailable.
+
+The service worker never caches `/api/`, `/admin`, or `/portal/`. The current worker also clones a public static response once before cache storage, contains cache-write errors, and activates a new cache version promptly. If a browser still shows an old login form after the new Netlify deploy, perform one hard reload or unregister the old service worker from browser site settings; do not clear browser storage if an authorised editor has unsaved work.
+
 ## Release evidence
 
 Record the Apps Script version, deployment time, Netlify deploy ID, health result, administrator smoke test, invitation mail test, settings persistence, backup location and rollback point in the controlled release record. Complete `LAUNCH-CHECKLIST.md` before public announcement.
