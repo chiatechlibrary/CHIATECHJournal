@@ -61,6 +61,285 @@
           "sha256": "da6313c5e9f9c0a80e9184b428dc620664f05d7cdedeafe6ae0fbefb6774a39f"
         }
       ]
+    },
+    {
+      "id": "e002",
+      "publicPath": "papers/e002",
+      "files": [
+        {
+          "path": "papers/e002/CHIATECH_JOURNAL_2026_V1I1_e002_Version_of_Record.pdf",
+          "bytes": 98830,
+          "sha256": "ae5e72d772f50577e664a3e29b291e3f3de651c653c21aa15e7d472334062a21"
+        },
+        {
+          "path": "papers/e002/assets/image1.png",
+          "bytes": 96340,
+          "sha256": "36839bfb85454c65e37529e5666c0f1e6b55fba3c325249839d9c172e46269b6"
+        },
+        {
+          "path": "papers/e002/assets/image2.png",
+          "bytes": 79936,
+          "sha256": "857215bfb54edccb71e358cc25cf3713767bbc7e2037650fcb8e1bd1b88bc6c4"
+        },
+        {
+          "path": "papers/e002/assets/image3.PNG",
+          "bytes": 106848,
+          "sha256": "564660f7a87ce9d304e0d9e66d3bb0f33091201084fa88ff388f723aa86d2c47"
+        },
+        {
+          "path": "papers/e002/assets/image4.png",
+          "bytes": 1001799,
+          "sha256": "1b45bc590ab927ea7b856e3abc5e17c27e8b156d35f31dd62951eaefdb513c51"
+        },
+        {
+          "path": "papers/e002/explanatory-transcript.html",
+          "bytes": 2379,
+          "sha256": "f97f8d8554e0165943d15e740e66cdc082555a804ea7461bacb917c2bf0046d9"
+        },
+        {
+          "path": "papers/e002/index.html",
+          "bytes": 28958,
+          "sha256": "fba2abe67e6cb8004a065c043f91a1154d8f56c51b835cdb1a69bf30d2af50a8"
+        },
+        {
+          "path": "papers/e002/media/e002-explanatory-summary-poster.png",
+          "bytes": 45616,
+          "sha256": "08e2516b7fe0c0751fea783a88066d8ff22411b4e968ecc6accdb9c6b0658b83"
+        },
+        {
+          "path": "papers/e002/media/e002-explanatory-summary.mp4",
+          "bytes": 74982,
+          "sha256": "440b301e1f09932102edb67d311f0adb920d0d1c269354e79ce1a2f1c4c9c814"
+        },
+        {
+          "path": "papers/e002/media/e002-explanatory-summary.vtt",
+          "bytes": 1351,
+          "sha256": "827dae16ae3c1da863e21c7da3fb5c12fd9292e13867c7e560362645fa61902f"
+        }
+      ]
+    },
+    {
+      "id": "e003",
+      "publicPath": "papers/e003",
+      "files": [
+        {
+          "path": "papers/e003/CHIATECH_JOURNAL_2026_V1I1_e003_Version_of_Record.pdf",
+          "bytes": 108837,
+          "sha256": "97afcf1ad971dae16bf17063f77a3b2c911b9e6122b45aa712ee7bb69cece8dc"
+        },
+        {
+          "path": "papers/e003/assets/image1.png",
+          "bytes": 196024,
+          "sha256": "e696531d0942ea5f852c2b46779bc609a83f5cfd0819e1312f29c97010bf01b4"
+        },
+        {
+          "path": "papers/e003/assets/image10.png",
+          "bytes": 231410,
+          "sha256": "5a465aeb0c16fc630636722ceb56e8145d12040e097ac1f41d85b9c0cc9a288a"
+        },
+        {
+          "path": "papers/e003/assets/image11.png",
+          "bytes": 181161,
+          "sha256": "ab4e95a7df77222e4fad8557604b6804551313277a7bb527f823d88a972e2c4a"
+        },
+        {
+          "path": "papers/e003/assets/image12.png",
+          "bytes": 296410,
+          "sha256": "10e21f59f59690426e5f0d07843c66a466a3ce5f1c26fb846c366e634f383faf"
+        },
+        {
+          "path": "papers/e003/assets/image13.png",
+          "bytes": 106848,
+          "sha256": "564660f7a87ce9d304e0d9e66d3bb0f33091201084fa88ff388f723aa86d2c47"
+        },
+        {
+          "path": "papers/e003/assets/image14.png",
+          "bytes": 1001799,
+          "sha256": "1b45bc590ab927ea7b856e3abc5e17c27e8b156d35f31dd62951eaefdb513c51"
+        },
+        {
+          "path": "papers/e003/assets/image2.png",
+          "bytes": 2868756,
+          "sha256": "ecb6292ac06486046fb38e801215d8433c6abd1134b70132db896934d2d3647c"
+        },
+        {
+          "path": "papers/e003/assets/image3.png",
+          "bytes": 1569568,
+          "sha256": "530fbbd024b240c269b0e68669a5d9a5782b6c9f70fc907c074e13b882256abb"
+        },
+        {
+          "path": "papers/e003/assets/image4.png",
+          "bytes": 1484310,
+          "sha256": "4427ec25df34fa664dc784d425856d7821d3c9035c7f572239a9b642f3001992"
+        },
+        {
+          "path": "papers/e003/assets/image5.png",
+          "bytes": 144524,
+          "sha256": "19db3bc58768e2c8fb26cfa9c54fae743ade3e0c7ceeca87d3d463a2ee71f48f"
+        },
+        {
+          "path": "papers/e003/assets/image6.png",
+          "bytes": 171205,
+          "sha256": "4be870cdf453c1d6a5034484a1bbe4f0299ccc4dd844d72e744addd134813602"
+        },
+        {
+          "path": "papers/e003/assets/image7.png",
+          "bytes": 120963,
+          "sha256": "0e4e9e814349c1d988e3f4ea7829b6976b45567568dfd4e160e2c56c1538b273"
+        },
+        {
+          "path": "papers/e003/assets/image8.png",
+          "bytes": 130963,
+          "sha256": "d269c65a52de209e8d4d1418955b0d67332d93b25033ce5ca776e6808cdb78fa"
+        },
+        {
+          "path": "papers/e003/assets/image9.png",
+          "bytes": 121179,
+          "sha256": "ac86d3057de9c189d52a9e3a64696435496093e0c0b8ca2d7194e5a0ca2c917d"
+        },
+        {
+          "path": "papers/e003/explanatory-transcript.html",
+          "bytes": 2472,
+          "sha256": "36d6a7f5fe0b930252d8e59ba0d84751e43a6e291f5bf082bf2d90dc2b71b20f"
+        },
+        {
+          "path": "papers/e003/index.html",
+          "bytes": 43963,
+          "sha256": "fc183e6aac9443fe046d5ca3b56cf9848dca1c61e24ed2798bf5667bcf50069e"
+        },
+        {
+          "path": "papers/e003/media/e003-explanatory-summary-poster.png",
+          "bytes": 47545,
+          "sha256": "e2c49bc1206d201b53907a571eed5860d7def569b617aa34b1b4cceed85441c9"
+        },
+        {
+          "path": "papers/e003/media/e003-explanatory-summary.mp4",
+          "bytes": 79970,
+          "sha256": "72f0aaa13daad37a11c577c0259354651ebe38bbb90dfd650e5880456aef2c1d"
+        },
+        {
+          "path": "papers/e003/media/e003-explanatory-summary.vtt",
+          "bytes": 1428,
+          "sha256": "6f13ec9fb9d8033f418795a925dd06c5ec00053fd8b9fc1dd938d0fef71d8d29"
+        }
+      ]
+    },
+    {
+      "id": "e004",
+      "publicPath": "papers/e004",
+      "files": [
+        {
+          "path": "papers/e004/CHIATECH_JOURNAL_2026_V1I1_e004_Version_of_Record.pdf",
+          "bytes": 106990,
+          "sha256": "1cafe07e06ba94018f3ac365a79ee26f37bf83d89bbd0110a303f7a6d2a0b81e"
+        },
+        {
+          "path": "papers/e004/assets/image1.png",
+          "bytes": 109986,
+          "sha256": "df15203ff481bd5613f884033b5a029b11ba48db4511d307d2a9f47c64a04425"
+        },
+        {
+          "path": "papers/e004/assets/image2.png",
+          "bytes": 69473,
+          "sha256": "56760d508f1e738a6616cb56318a73d7b927144b96c179bc930389ea7880aca9"
+        },
+        {
+          "path": "papers/e004/assets/image3.png",
+          "bytes": 92235,
+          "sha256": "3f4365f124da76905184aa95c1f2eed7797f8bc61231f709c59b994273a551f9"
+        },
+        {
+          "path": "papers/e004/assets/image4.png",
+          "bytes": 106848,
+          "sha256": "564660f7a87ce9d304e0d9e66d3bb0f33091201084fa88ff388f723aa86d2c47"
+        },
+        {
+          "path": "papers/e004/assets/image5.png",
+          "bytes": 1001799,
+          "sha256": "1b45bc590ab927ea7b856e3abc5e17c27e8b156d35f31dd62951eaefdb513c51"
+        },
+        {
+          "path": "papers/e004/explanatory-transcript.html",
+          "bytes": 2466,
+          "sha256": "bef9f8bfe1dbc432af62ce994f604688ff80765b2931f637a9199e4ab109f5d5"
+        },
+        {
+          "path": "papers/e004/index.html",
+          "bytes": 42565,
+          "sha256": "069105455d843172e18c5d5a4604235ce0b30f629fd69a1fbb47f6ca8bda2e75"
+        },
+        {
+          "path": "papers/e004/media/e004-explanatory-summary-poster.png",
+          "bytes": 46246,
+          "sha256": "ddda6d69d507f2ddc2b12ac870f07c35ae687b6f01069e14b7141e3168c8df98"
+        },
+        {
+          "path": "papers/e004/media/e004-explanatory-summary.mp4",
+          "bytes": 77331,
+          "sha256": "a9f6ef891964ca5a4e12f2db7c19d3c7efa0f3c2569a0fb15d43ee7faf7f0790"
+        },
+        {
+          "path": "papers/e004/media/e004-explanatory-summary.vtt",
+          "bytes": 1427,
+          "sha256": "b1e19deb252603a328ca8cc43c33c0aca55083c4da83b52d2e7096d30bde25c0"
+        }
+      ]
+    },
+    {
+      "id": "e005",
+      "publicPath": "papers/e005",
+      "files": [
+        {
+          "path": "papers/e005/CHIATECH_JOURNAL_2026_V1I1_e005_Version_of_Record.pdf",
+          "bytes": 102899,
+          "sha256": "a13ec00d8d2e64a414aded9fc841dcfd483e77b4e6f2f244e34168bbd09f2461"
+        },
+        {
+          "path": "papers/e005/assets/image1.png",
+          "bytes": 71545,
+          "sha256": "82ae2e939dd964eca71b9d701bba5b99a625375523b10139ab422e0fa4cddbb1"
+        },
+        {
+          "path": "papers/e005/assets/image2.png",
+          "bytes": 73371,
+          "sha256": "b314ef4437d8e15c3165cf238a1a63e398ff472993aa7829202a006709c57de3"
+        },
+        {
+          "path": "papers/e005/assets/image3.png",
+          "bytes": 1001799,
+          "sha256": "1b45bc590ab927ea7b856e3abc5e17c27e8b156d35f31dd62951eaefdb513c51"
+        },
+        {
+          "path": "papers/e005/assets/image4.PNG",
+          "bytes": 106848,
+          "sha256": "564660f7a87ce9d304e0d9e66d3bb0f33091201084fa88ff388f723aa86d2c47"
+        },
+        {
+          "path": "papers/e005/explanatory-transcript.html",
+          "bytes": 2348,
+          "sha256": "26932a02e3a2ae1f6e9e26bb36715fd900bba0005146e8608a8edb8eb95ca149"
+        },
+        {
+          "path": "papers/e005/index.html",
+          "bytes": 33880,
+          "sha256": "7c439a0b019b849c5c64df65e10851fcb9383d5e0622419b7f96c7fa778f7de0"
+        },
+        {
+          "path": "papers/e005/media/e005-explanatory-summary-poster.png",
+          "bytes": 48190,
+          "sha256": "cadfb6f0af3b368b43b4ab9f1ea7421355572a2e8c6b05dea39b1eedd6bdf7e8"
+        },
+        {
+          "path": "papers/e005/media/e005-explanatory-summary.mp4",
+          "bytes": 81856,
+          "sha256": "91613f89ac9428a0c3d49e4f24777ff0ef6fb0d37355135065f317b748f10315"
+        },
+        {
+          "path": "papers/e005/media/e005-explanatory-summary.vtt",
+          "bytes": 1298,
+          "sha256": "5fa56b28fc13efa711dd41f5e8373bb2d64129a33d07059302178b7e4679cc8b"
+        }
+      ]
     }
   ]
 }

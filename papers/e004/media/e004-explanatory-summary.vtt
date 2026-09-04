@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.111
+CHIATECH JOURNAL explanatory summary: Netlify or Render for an Open-Access Journal Portal? Evidence-Based Deployment Selection for the CHIATECH JOURNAL Architecture
+
+00:00:10.111 --> 00:00:25.556
+Article focus: Background: CHIATECH JOURNAL is implemented as a crawlable static publication portal with a same-origin serverless editorial relay, a private Google Apps Script service and a private Google Sheet.
+
+00:00:25.556 --> 00:00:36.111
+Research context: The repository is already strongly coupled to Netlify through Functions, redirects, headers, deployment previews and release controls.
+
+00:00:36.111 --> 00:00:52.889
+Study approach: Objective: This study compared Netlify and Render to determine the better production deployment platform for the journal's current architecture and to identify the conditions under which migration would become technically justified.
+
+00:00:52.889 --> 00:01:02.556
+Reported findings: Methods: A technical case-study and weighted multi-criteria decision analysis were conducted on 17 July 2026.
+
+00:01:02.556 --> 00:01:14.444
+Interpretation: Primary evidence comprised the journal production guide, repository map, launch checklist, Netlify configuration, redirect/header rules, ignore rules and service-worker controls.
+
+00:01:14.444 --> 00:01:23.667
+Publication record: e004 · Volume 1, Issue 1 · July 2026 Pioneer Issue. DOI pending registration.
