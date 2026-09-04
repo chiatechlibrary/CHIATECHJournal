@@ -1,0 +1,66 @@
+{
+  "schema": "chiatech-journal-public-asset-manifest/v1",
+  "articles": [
+    {
+      "id": "e001",
+      "publicPath": "papers/e001",
+      "files": [
+        {
+          "path": "papers/e001/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf",
+          "bytes": 924466,
+          "sha256": "790eaadaebb331a6f72e2fa868743d55411262d35afe061e841ba7de82c44ad4"
+        },
+        {
+          "path": "papers/e001/assets/figure-1-logical-architecture.png",
+          "bytes": 216461,
+          "sha256": "2f9e7f4b564b4814cf1c0d3694d4f46a634248582f5f8630c13defa29a33c987"
+        },
+        {
+          "path": "papers/e001/assets/figure-2-live-exam-workflow.png",
+          "bytes": 166663,
+          "sha256": "17bff1c0416bcecf771979c9e92c5b7c1826eef38da592abcdda3a15d404c244"
+        },
+        {
+          "path": "papers/e001/assets/figure-3-pairwise-overlap.png",
+          "bytes": 113648,
+          "sha256": "ee3af16dc65d83b8877ec81c8ee2d4aebf0251e66ec0ab5f7837e01d203b6a3f"
+        },
+        {
+          "path": "papers/e001/assets/figure-4-item-exposure.png",
+          "bytes": 96647,
+          "sha256": "1e6368f29a2afbd241cd5309bdec9eb3430c9c8999bbcb1402bbf3f06e401681"
+        },
+        {
+          "path": "papers/e001/assets/figure-5-bank-size-sensitivity.png",
+          "bytes": 131734,
+          "sha256": "00a2df1bfdcec7931aa78b51a565932d6bde17f9ede10ce94ee12a6442f48d00"
+        },
+        {
+          "path": "papers/e001/explanatory-transcript.html",
+          "bytes": 5298,
+          "sha256": "f5978da1ac662be23c2ea5abd099ce1b96935f0d5c92582a4038e1c0cda732ab"
+        },
+        {
+          "path": "papers/e001/index.html",
+          "bytes": 63427,
+          "sha256": "ba6dfa38deb44e98d34f02cef7f849af79046c21dbaa6fafd6996f31a68efe0b"
+        },
+        {
+          "path": "papers/e001/media/e001-explanatory-summary-poster.png",
+          "bytes": 49607,
+          "sha256": "5696610933309b7bcd2350ee2f7ab9cb8f9134f6b83d4bcd7c6d660095931c61"
+        },
+        {
+          "path": "papers/e001/media/e001-explanatory-summary.mp4",
+          "bytes": 8063121,
+          "sha256": "11b4cc415da8c2084b22e5cf96b4ca765246c6a15e010e55dde6ecfa1474ed2d"
+        },
+        {
+          "path": "papers/e001/media/e001-explanatory-summary.vtt",
+          "bytes": 3978,
+          "sha256": "da6313c5e9f9c0a80e9184b428dc620664f05d7cdedeafe6ae0fbefb6774a39f"
+        }
+      ]
+    }
+  ]
+}

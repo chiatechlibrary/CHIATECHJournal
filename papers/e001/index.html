@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>Design, Simulation, Implementation, and Operational Evaluation of the CACGWA Student Revision and CBT Portal: A 500-Item-Bank Randomized Assessment Model for Senior Secondary School Examinations</title>
+
+<style>
+:root{--navy:#082450;--ink:#152236;--line:#b9c9df;--soft:#f3f6fa;--muted:#59677a;}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:#edf1f5;color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.58;font-size:17px}
+a{color:#0645ad} .journal-bar{background:var(--navy);color:white;padding:.7rem 1rem;font-family:Arial,sans-serif;font-weight:700;letter-spacing:.03em;text-align:center}
+article{max-width:1040px;margin:0 auto;background:white;padding:3.2rem 4.2rem 4rem;box-shadow:0 1px 16px rgba(0,0,0,.08)}
+header#title-block-header{border-bottom:3px solid var(--navy);padding-bottom:1.5rem;margin-bottom:1.6rem;text-align:center}
+h1.title{font-size:2.05rem;line-height:1.18;color:var(--navy);margin:.4rem auto 1rem;max-width:950px}
+.subtitle{font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;font-size:.82rem;color:#465a76;font-weight:700}
+h2{font-size:1.45rem;color:var(--navy);margin:2rem 0 .65rem;border-bottom:1px solid #d6e0ec;padding-bottom:.24rem}
+h3{font-size:1.18rem;color:#0b4668;margin:1.45rem 0 .45rem} p{margin:.55rem 0;text-align:justify}
+.meta-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);margin:1.2rem 0 1.8rem}.meta-strip>div{padding:.7rem;border-right:1px solid var(--line)}.meta-strip>div:last-child{border-right:none}.meta-strip strong{display:block;color:var(--navy);font-family:Arial,sans-serif;font-size:.78rem;text-transform:uppercase}
+table{border-collapse:collapse;width:100%;margin:1.25rem 0 1.6rem;font-size:.94rem}th,td{border:1px solid var(--line);padding:.58rem .66rem;vertical-align:top}th{background:var(--navy);color:white;text-align:left}tbody tr:nth-child(even){background:var(--soft)}
+figure,.figure-wrap{text-align:center;margin:1.6rem auto}img{max-width:100%;height:auto}.figure-wrap img{border:1px solid #e1e6ec}.caption{font-style:italic;text-align:left;color:#3d5069;margin-top:.35rem}
+pre{white-space:pre-wrap;background:var(--soft);border:1px solid var(--line);padding:1rem;overflow:auto;font:15px/1.45 "Courier New",monospace}
+ol{padding-left:1.5rem}li{margin:.4rem 0}.authors{font-family:Arial,sans-serif;text-align:center}.authors p{text-align:center}.keywords{background:var(--soft);border-left:4px solid var(--navy);padding:.8rem 1rem}.record-note{background:#fff8df;border:1px solid #e5d594;padding:.8rem 1rem;margin:1.2rem 0}.paper-footer{font-family:Arial,sans-serif;font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);margin-top:3rem;padding-top:1rem;text-align:center}
+.skip-link{position:absolute;left:-9999px}.skip-link:focus{left:1rem;top:1rem;background:white;padding:.5rem;z-index:100}
+@media(max-width:760px){article{padding:1.3rem}.meta-strip{grid-template-columns:1fr 1fr}body{font-size:16px}h1.title{font-size:1.55rem}}
+@media print{body{background:white}article{box-shadow:none;padding:0}.journal-bar{display:none}a{color:inherit;text-decoration:none}}
+</style><meta content="Design, Simulation, Implementation, and Operational Evaluation of the CACGWA Student Revision and CBT Portal: A 500-Item-Bank Randomized Assessment Model for Senior Secondary School Examinations" name="citation_title"/><meta content="Chia, S. Kenneth" name="citation_author"/><meta content="Julius, Bitrus Jiwayikwo" name="citation_author"/><meta content="Ukule, Peter" name="citation_author"/><meta content="Elumeyan, Elizabeth" name="citation_author"/><meta content="CHIATECH JOURNAL" name="citation_journal_title"/><meta content="1" name="citation_volume"/><meta content="1" name="citation_issue"/><meta content="2026/07" name="citation_date"/><meta content="en" name="citation_language"/><meta content="Computer-based assessment can reduce manual grading burden, strengthen test security, and improve examination administration when test assembly, access control, item exposure, usability, and infrastructure are engineered as a coherent system. This empirical design-science study evaluated the CACGWA Student Revision and Computer-Based Testing (CBT) Portal implemented at Christ Anglican College, Gwagwalada, Abuja, Nigeria, during the 2025/2026 end-of-session examinations. The field deployment involved 200 students and 15 examination administrators. For each subject, the assessment model used a 500-item objective question bank from which 70 unique questions were randomly selected without replacement for each candidate paper. The implemented portal integrated class- and subject-based revision, practice CBT, a 120-minute live examination, student and examination PIN controls, Progressive Web App (PWA) revision access, automatic objective scoring, and an examination-officer console for examination windows, candidate status, results, and incident management. Exact combinatorial and hypergeometric analysis, complemented by 1,000 Monte Carlo replications of 200 candidate papers, quantified the security properties of the 500-to-70 design. Approximately 4.439 × 10^86 unordered 70-item forms are possible; two independently assembled papers share an expected 9.8 items, while the probability of an overlap of at least 20 items is approximately 0.000417. Each item is expected to appear in 28 of 200 candidate papers, with a theoretical exposure standard deviation of 4.91; simulation produced a mean maximum exposure of 43.9 candidates and a mean 95th-percentile pairwise overlap of about 14 items. The live deployment operated effectively as the school examination delivery mechanism. The findings demonstrate that large-bank, per-candidate randomization can produce substantial form diversity and low overlap, while blueprint-constrained assembly, secure randomization, accessibility, auditability, and infrastructure resilience remain essential for defensible high-stakes use." name="citation_abstract"/><meta content="Computer-based assessment can reduce manual grading burden, strengthen test security, and improve examination administration when test assembly, access control, item exposure, usability, and infrastructure are engineered as a coherent system. This empirical design-science study evaluated the CACGWA " name="description"/><meta content="computer-based testing (CBT), item-bank randomization, randomized test assembly, Monte Carlo simulation, assessment security, digital assessment, secondary education, Nigeria" name="keywords"/><meta content="Design, Simulation, Implementation, and Operational Evaluation of the CACGWA Student Revision and CBT Portal: A 500-Item-Bank Randomized Assessment Model for Senior Secondary School Examinations" property="og:title"/><meta content="article" property="og:type"/><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "Design, Simulation, Implementation, and Operational Evaluation of the CACGWA Student Revision and CBT Portal: A 500-Item-Bank Randomized Assessment Model for Senior Secondary School Examinations",
+  "abstract": "Computer-based assessment can reduce manual grading burden, strengthen test security, and improve examination administration when test assembly, access control, item exposure, usability, and infrastructure are engineered as a coherent system. This empirical design-science study evaluated the CACGWA Student Revision and Computer-Based Testing (CBT) Portal implemented at Christ Anglican College, Gwagwalada, Abuja, Nigeria, during the 2025/2026 end-of-session examinations. The field deployment involved 200 students and 15 examination administrators. For each subject, the assessment model used a 500-item objective question bank from which 70 unique questions were randomly selected without replacement for each candidate paper. The implemented portal integrated class- and subject-based revision, practice CBT, a 120-minute live examination, student and examination PIN controls, Progressive Web App (PWA) revision access, automatic objective scoring, and an examination-officer console for examination windows, candidate status, results, and incident management. Exact combinatorial and hypergeometric analysis, complemented by 1,000 Monte Carlo replications of 200 candidate papers, quantified the security properties of the 500-to-70 design. Approximately 4.439 × 10^86 unordered 70-item forms are possible; two independently assembled papers share an expected 9.8 items, while the probability of an overlap of at least 20 items is approximately 0.000417. Each item is expected to appear in 28 of 200 candidate papers, with a theoretical exposure standard deviation of 4.91; simulation produced a mean maximum exposure of 43.9 candidates and a mean 95th-percentile pairwise overlap of about 14 items. The live deployment operated effectively as the school examination delivery mechanism. The findings demonstrate that large-bank, per-candidate randomization can produce substantial form diversity and low overlap, while blueprint-constrained assembly, secure randomization, accessibility, auditability, and infrastructure resilience remain essential for defensible high-stakes use.",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "S. Kenneth",
+      "familyName": "Chia",
+      "email": "chiakenneth01@gmail.com",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Christ Anglican College, Gwagwalada, Abuja, Nigeria"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Bitrus Jiwayikwo",
+      "familyName": "Julius",
+      "email": "juliusbitrus12@gmail.com",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Christ Anglican College, Gwagwalada, Abuja, Nigeria"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Peter",
+      "familyName": "Ukule",
+      "email": "rev.ukulepeter@gmail.com",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Christ Anglican College, Gwagwalada, Abuja, Nigeria"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Elizabeth",
+      "familyName": "Elumeyan",
+      "email": "Elizabethtiti1972@gmail.com",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Christ Anglican College, Gwagwalada, Abuja, Nigeria"
+      }
+    }
+  ],
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "CHIATECH JOURNAL"
+  },
+  "volumeNumber": "1",
+  "issueNumber": "1",
+  "pagination": "e001",
+  "datePublished": "2026-07",
+  "inLanguage": "en",
+  "keywords": [
+    "computer-based testing (CBT)",
+    "item-bank randomization",
+    "randomized test assembly",
+    "Monte Carlo simulation",
+    "assessment security",
+    "digital assessment",
+    "secondary education",
+    "Nigeria"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}</script></head>
+<body><a class="skip-link" href="#article-content">Skip to article</a><div class="journal-bar">CHIATECH JOURNAL · SETEHEM · VOLUME 1 · ISSUE 1 · PIONEER PUBLICATION · e001</div><main id="main-content"><article id="article-content">
+<header id="title-block-header">
+<h1 class="title">Design, Simulation, Implementation, and Operational
+Evaluation of the CACGWA Student Revision and CBT Portal: A
+500-Item-Bank Randomized Assessment Model for Senior Secondary School
+Examinations</h1>
+<p class="subtitle">PIONEER PUBLICATION · ACCEPTED ARTICLE · RESEARCH
+ARTICLE · SETEHEM: TECHNOLOGY × EDUCATION · DESIGN SCIENCE</p>
+</header><section aria-label="Article metadata" class="authors"><p><strong><sup>1</sup>CHIA, S. Kenneth. <sup>2</sup>JULIUS, Bitrus
+Jiwayikwo</strong></p><p><a href="mailto:chiakenneth01@gmail.com">chiakenneth01@gmail.com</a>
+<a href="mailto:juliusbitrus12@gmail.com">juliusbitrus12@gmail.com</a></p><p><strong><sup>3</sup>UKULE, Peter <sup>4</sup>Elumeyan,
+Elizabeth</strong></p><p><a href="mailto:rev.ukulepeter@gmail.com">rev.ukulepeter@gmail.com</a> <a href="mailto:Elizabethtiti1972@gmail.com">Elizabethtiti1972@gmail.com</a></p><p><sup>1234</sup>Christ Anglican College, Gwagwalada, Abuja,
+Nigeria</p><p>System implementation site: Christ Anglican College, Gwagwalada, FCT
+Abuja, Nigeria<br/>
+Corresponding author: <a href="mailto:chiakenneth01@gmail.com">chiakenneth01@gmail.com</a></p><table>
+<colgroup>
+<col style="width: 25%"/>
+<col style="width: 25%"/>
+<col style="width: 25%"/>
+<col style="width: 25%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Article</strong></th>
+<th><strong>Volume/Issue</strong></th>
+<th><strong>Publication</strong></th>
+<th><strong>Identifiers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>e001</td>
+<td>1(1)</td>
+<td>Pioneer Publication · July 2026</td>
+<td>ISSN: Pending assignment · DOI: Pending registration</td>
+</tr>
+</tbody>
+</table><div class="meta-strip"><div><strong>Article</strong>e001</div><div><strong>Volume / Issue</strong>1(1)</div><div><strong>Collection</strong>Pioneer Publication · July 2026</div><div><strong>Identifiers</strong>ISSN pending · DOI pending</div></div></section>
+
+
+
+
+
+
+
+<h2 id="abstract">Abstract</h2>
+<p>Computer-based assessment can reduce manual grading burden,
+strengthen test security, and improve examination administration when
+test assembly, access control, item exposure, usability, and
+infrastructure are engineered as a coherent system. This empirical
+design-science study evaluated the CACGWA Student Revision and
+Computer-Based Testing (CBT) Portal implemented at Christ Anglican
+College, Gwagwalada, Abuja, Nigeria, during the 2025/2026 end-of-session
+examinations. The field deployment involved 200 students and 15
+examination administrators. For each subject, the assessment model used
+a 500-item objective question bank from which 70 unique questions were
+randomly selected without replacement for each candidate paper. The
+implemented portal integrated class- and subject-based revision,
+practice CBT, a 120-minute live examination, student and examination PIN
+controls, Progressive Web App (PWA) revision access, automatic objective
+scoring, and an examination-officer console for examination windows,
+candidate status, results, and incident management. Exact combinatorial
+and hypergeometric analysis, complemented by 1,000 Monte Carlo
+replications of 200 candidate papers, quantified the security properties
+of the 500-to-70 design. Approximately 4.439 × 10<sup>86</sup> unordered
+70-item forms are possible; two independently assembled papers share an
+expected 9.8 items, while the probability of an overlap of at least 20
+items is approximately 0.000417. Each item is expected to appear in 28
+of 200 candidate papers, with a theoretical exposure standard deviation
+of 4.91; simulation produced a mean maximum exposure of 43.9 candidates
+and a mean 95th-percentile pairwise overlap of about 14 items. The live
+deployment operated effectively as the school examination delivery
+mechanism. The findings demonstrate that large-bank, per-candidate
+randomization can produce substantial form diversity and low overlap,
+while blueprint-constrained assembly, secure randomization,
+accessibility, auditability, and infrastructure resilience remain
+essential for defensible high-stakes use.</p>
+<p class="keywords"><strong>Keywords:</strong> computer-based testing (CBT); item-bank
+randomization; randomized test assembly; Monte Carlo simulation;
+assessment security; digital assessment; secondary education;
+Nigeria</p>
+<h2 id="introduction">1. Introduction</h2>
+<p>Assessment is moving from fixed paper forms toward digitally
+assembled tests that can combine immediate scoring, controlled access,
+richer item presentation and stronger auditability. In Nigerian
+secondary education, this transition is especially consequential because
+students increasingly encounter computerised high-stakes examinations
+while access to computers and prior CBT experience remains uneven.
+Abdulkareem and Lennon (2025) reported that computer familiarity was
+positively associated with performance among Nigerian UTME candidates
+and documented substantial access differences by school type and
+location. This makes school-level practice and operationally realistic
+CBT exposure an equity issue as well as a technology issue.</p>
+<p>Computer delivery alone does not guarantee validity or integrity. The
+2014 Standards for Educational and Psychological Testing emphasize
+validity, fairness, reliability, accessibility and appropriate
+technology use, while the International Test Commission (2006)
+identifies technological, quality, control and security issues as core
+to computer- and Internet-delivered testing. At the same time,
+large-scale evidence shows that CBT can materially change the
+opportunity structure for examination fraud. Berkhout et al. (2024),
+studying Indonesia’s national examination transition, found substantial
+evidence that computerised delivery reduced opportunities for collusive
+cheating. These findings motivate a design in which candidate
+authentication, randomized item selection, timed delivery and auditable
+submissions operate together.</p>
+<p>The CACGWA Student Revision and CBT Portal was developed as a
+school-level response to the need for secure, efficient, and digitally
+supported assessment. The 2025/2026 implementation involved 200 students
+and 15 examination administrators and addressed recurring challenges
+associated with paper-based examinations, including printing burden,
+result-processing delays, script handling, manual scoring error, and
+exposure to examination malpractice. By integrating revision, practice
+CBT, and live examination functions within the same environment, the
+platform also provides repeated low-stakes exposure to the interface
+before high-stakes testing, thereby supporting digital familiarity and
+assessment readiness.</p>
+<p>The central engineering feature examined in this paper is the use of
+a 500-question subject bank with 70 questions randomly selected without
+replacement for each candidate. Randomization is intuitively attractive
+for reducing answer copying, but its actual security value depends on
+the size of the form space, pairwise overlap, item exposure and content
+balance. The present study therefore combines operational case evidence
+with exact probability analysis and Monte Carlo simulation instead of
+merely asserting that randomization “improves security.”</p>
+<h3 id="aim-and-objectives">1.1 Aim and objectives</h3>
+<p>The aim of the study was to evaluate the design, implementation, and
+operational effectiveness of the CACGWA portal as a secure and scalable
+school CBT system, with particular attention to the statistical
+consequences of its 500-item-bank/70-item-paper architecture.</p>
+<h2 id="document-the-functional-architecture-and-user-workflow-of-the-deployed-revision-and-live-cbt-system.">1.
+Document the functional architecture and user workflow of the deployed
+revision and live CBT system.</h2>
+<h2 id="quantify-the-number-of-possible-examination-forms-expected-pairwise-overlap-and-item-exposure-produced-by-random-70-of-500-selection.">2.
+Quantify the number of possible examination forms, expected pairwise
+overlap, and item exposure produced by random 70-of-500 selection.</h2>
+<h2 id="use-reproducible-simulation-to-assess-exposure-concentration-overlap-tails-and-the-effect-of-bank-size-on-test-form-diversity.">3.
+Use reproducible simulation to assess exposure concentration, overlap
+tails, and the effect of bank size on test-form diversity.</h2>
+<h2 id="evaluate-the-design-against-educational-measurement-security-accessibility-and-operational-control-principles.">4.
+Evaluate the design against educational measurement, security,
+accessibility, and operational-control principles.</h2>
+<h2 id="evaluate-the-20252026-field-deployment-in-relation-to-operational-feasibility-and-scalable-examination-administration.">5.
+Evaluate the 2025/2026 field deployment in relation to operational
+feasibility and scalable examination administration.</h2>
+<h3 id="research-questions">1.2 Research questions</h3>
+<ol><li>What system components and controls are required to support revision, practice, live CBT, scoring, and examination administration in the CACGWA context?</li><li>How much form diversity is produced when each candidate receives 70 questions sampled without replacement from a 500-item subject bank?</li><li>What levels of pairwise item overlap and per-item exposure should be expected for a 200-candidate examination cohort?</li><li>Does simple random selection preserve adequate content balance, or is blueprint-constrained randomization preferable?</li><li>How effectively did the CACGWA portal support the 2025/2026 end-of-session examination workflow in the case-school context?</li><li>Literature Review and Analytical Framework</li></ol>
+
+
+
+
+
+<h3 id="cbt-fairness-and-digital-readiness">2.1 CBT, fairness and
+digital readiness</h3>
+<p>Nigerian evidence cautions against assuming that mode of delivery is
+neutral. Abanobi et al. (2023) compared CBT and paper-and-pencil testing
+among SSII Economics students and found a statistically significant
+difference in achievement scores, while test anxiety differences were
+not significant. Abdulkareem and Lennon (2025) similarly show that
+familiarity with computers and prior CBT exposure are relevant to
+performance in Nigeria. The implication for school systems is that
+revision and practice modules are not peripheral conveniences; they are
+part of the fairness architecture because they reduce
+construct-irrelevant variance attributable to unfamiliar navigation or
+device use.</p>
+<h3 id="randomization-item-exposure-and-test-security">2.2
+Randomization, item exposure and test security</h3>
+<p>Item-pool security has long been recognized as a central problem in
+computerized testing. Way (1998) discussed threats to computerized item
+pools and exposure control; Zhang and Chang (2005) examined the use of
+multiple pools for security; Yi, Zhang, and Chang (2008) used simulation
+to investigate organized item theft; and Liu, Han, and Li (2019)
+demonstrated how compromised-item behavior can be studied through
+simulation and exposure control. Although the CACGWA system is not a
+computerized adaptive test, these principles remain directly relevant:
+broad form diversity, controlled exposure, randomization and
+auditability reduce predictability and limit the usefulness of
+pre-sharing fixed forms.</p>
+<h3 id="design-science-perspective">2.3 Design-science perspective</h3>
+<p>The portal is treated as a socio-technical artifact whose performance
+depends on the interaction among software, candidate behavior,
+examination administration, question-bank quality, power and network
+conditions, and institutional rules. The evaluation therefore integrates
+three complementary analytical layers: operational field evaluation,
+mathematical verification of the test-assembly design, and Monte Carlo
+simulation. This design-science triangulation permits simultaneous
+assessment of real-world implementation and the statistical properties
+of individualized paper generation.</p>
+<h2 id="materials-and-methods">3. Materials and Methods</h2>
+<h3 id="study-design">3.1 Study design</h3>
+<p>A pragmatic design-science case-study design was adopted, combining
+post-deployment operational evaluation, functional system verification,
+exact probability modelling, and Monte Carlo simulation. The field
+setting was Christ Anglican College, Gwagwalada, FCT Abuja, Nigeria. The
+operational implementation occurred during the 2025/2026 end-of-session
+examinations and involved 200 students and 15 examination
+administrators. The evaluation examined the deployed revision and
+examination workflow, candidate access controls, question-bank assembly,
+timing and scoring processes, administrative oversight, and the
+statistical properties of candidate-specific randomized papers.</p>
+<table>
+<colgroup>
+<col style="width: 18%"/>
+<col style="width: 26%"/>
+<col style="width: 23%"/>
+<col style="width: 30%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Study component</strong></th>
+<th><strong>Unit/setting</strong></th>
+<th><strong>Analytical purpose</strong></th>
+<th><strong>Method</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Field implementation</td>
+<td>2025/2026 end-of-session examination; n = 200 students; n = 15
+administrators</td>
+<td>Evaluate operational use in a real school examination</td>
+<td>Design-science case evaluation</td>
+</tr>
+<tr class="even">
+<td>Functional system verification</td>
+<td>Deployed CACGWA revision and CBT workflow</td>
+<td>Assess access, timing, paper delivery, scoring, and administration
+controls</td>
+<td>Functional testing and workflow inspection</td>
+</tr>
+<tr class="odd">
+<td>Exact probability model</td>
+<td>500-item bank; 70-item paper; 200 candidates</td>
+<td>Derive form count, expected overlap, and item exposure</td>
+<td>Combinatorial and hypergeometric analysis</td>
+</tr>
+<tr class="even">
+<td>Monte Carlo simulation</td>
+<td>1,000 replications × 200 virtual candidate papers</td>
+<td>Characterize overlap tails and exposure concentration</td>
+<td>Reproducible simulation; seed 202606</td>
+</tr>
+<tr class="odd">
+<td>Sensitivity analysis</td>
+<td>Bank sizes 300, 400, 500, 750, and 1,000</td>
+<td>Assess robustness of test-form diversity to bank size</td>
+<td>Comparative analytical modelling</td>
+</tr>
+</tbody>
+</table>
+<p>Table 1. Study design and analytical framework.</p>
+<h3 id="system-implementation-and-functional-verification">3.2 System
+implementation and functional verification</h3>
+<p>Functional verification covered the deployed Student Revision and CBT
+environment, class- and subject-based revision content, Practice CBT,
+Real Examination, and the Exam Officer pathway. The live examination was
+configured for 120 minutes and incorporated PWA-enabled revision access,
+locally retained student profile/class information, a student access PIN
+plus a fresh examination PIN, examination-window control,
+candidate-status monitoring, submitted results, and incident/malpractice
+records. Digital Technologies and Solar PV Installation were among the
+implemented revision and live-examination subjects. These functions
+defined the operational architecture evaluated in the study.</p>
+<h3 id="question-bank-and-paper-assembly-model">3.3 Question-bank and
+paper-assembly model</h3>
+<p>For each configured subject, the implemented examination
+specification comprised a bank of 500 typed objective questions. A
+candidate paper contained 70 distinct questions sampled without
+replacement. Let N = 500 denote bank size and n = 70 denote paper
+length. If all items are eligible and order is ignored, the number of
+possible forms is C(N,n). For a fixed item, the probability of
+appearance on a candidate paper is n/N = 0.14. For two independently
+assembled papers, their shared-item count X follows a hypergeometric
+distribution, X ~ Hypergeometric (N = 500, K = 70, n = 70), giving E[X]
+= nK/N = 9.8.</p>
+<table>
+<colgroup>
+<col style="width: 23%"/>
+<col style="width: 21%"/>
+<col style="width: 54%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Value</strong></th>
+<th><strong>Rationale / operational role</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Subject item bank</td>
+<td>500 items</td>
+<td>Large item pool for form diversity and exposure control</td>
+</tr>
+<tr class="even">
+<td>Candidate paper length</td>
+<td>70 unique items</td>
+<td>Configured 2025/2026 examination paper length</td>
+</tr>
+<tr class="odd">
+<td>Sampling</td>
+<td>Random without replacement</td>
+<td>Prevents within-paper duplicate items</td>
+</tr>
+<tr class="even">
+<td>Main examination time</td>
+<td>120 minutes</td>
+<td>Configured live-examination duration</td>
+</tr>
+<tr class="odd">
+<td>Field cohort used for simulation</td>
+<td>200 candidates</td>
+<td>Matches the 200-student field deployment</td>
+</tr>
+<tr class="even">
+<td>Replications</td>
+<td>1,000</td>
+<td>Stabilizes distribution summaries while remaining reproducible</td>
+</tr>
+<tr class="odd">
+<td>Random seed</td>
+<td>202606</td>
+<td>Full reproducibility of Monte Carlo outputs</td>
+</tr>
+</tbody>
+</table>
+<p>Table 2. Core assessment and simulation parameters.</p>
+<h3 id="acceptance-criteria">3.4 Acceptance criteria</h3>
+<p>Engineering acceptance criteria were specified before interpreting
+the simulation: (a) every candidate receives exactly 70 distinct items;
+(b) exact duplicate forms are practically impossible for a 200-candidate
+cohort; (c) mean pairwise overlap remains approximately 10 items or
+lower; (d) the 95th percentile of pairwise overlap remains no greater
+than 15 items in typical runs; and (e) exposure is distributed across
+the bank rather than collapsing onto a small subset of questions.
+Content validity was treated separately from security: simple random
+sampling can satisfy diversity criteria while still producing uneven
+domain representation, so a blueprint-constrained sampler is evaluated
+as a design recommendation.</p>
+<h3 id="statistical-analysis">3.5 Statistical analysis</h3>
+<p>Exact combinatorial and hypergeometric calculations were used for
+form counts and overlap probabilities. Item exposure for a fixed item
+under simple random sampling was modelled as Y ~ Binomial(200, 0.14),
+giving E[Y]=28 and SD[Y]=4.91. Monte Carlo simulation generated 200
+independent candidate forms per replication, each by random sampling
+without replacement from 500 items; pairwise overlaps were computed for
+all 19,900 candidate pairs. Exposure summaries were calculated over all
+500 items. A separate 100,000-paper multivariate-hypergeometric
+simulation examined content imbalance under a hypothetical five-domain
+bank of 100 items per domain, with an ideal balanced target of 14 items
+per domain.</p>
+<h3 id="ethical-privacy-and-security-considerations">3.6 Ethical,
+privacy and security considerations</h3>
+<p>The study reports aggregate operational information from a routine
+institutional school assessment and does not disclose identifiable
+student records, individual scores, credentials, or security-sensitive
+administrative details. The simulation used synthetic candidate-paper
+assemblies only. Examination data were handled according to
+institutional procedures, and publication reporting was restricted to
+non-identifiable aggregate information. Security-sensitive elements such
+as credentials, PIN-generation secrets, database schemas, and privileged
+administrative endpoints are intentionally excluded from the
+manuscript.</p>
+<h2 id="system-design-technologies-and-implementation-techniques">4.
+System Design, Technologies and Implementation Techniques</h2>
+<h3 id="functional-architecture">4.1 Functional architecture</h3>
+<p>The portal integrates preparation and assessment in one workflow.
+Students can revise by class and subject, practise with diagram-based
+questions, retain a local profile and enter a live examination only when
+an examination window is open and PIN checks are satisfied.
+Administration is separated through an officer console. This role
+separation is important because the ability to open/close windows,
+inspect candidate status and review submissions should not be available
+in the candidate context.</p>
+<p class="figure-wrap"><img alt="Logical architecture of the CACGWA Student Revision and CBT Portal. The student browser and local profile feed an exam controller protected by student and exam PINs; a 500-item subject bank feeds a randomizer that selects 70 unique items, followed by audit/results and scoring/submission, with oversight through the exam officer console." src="assets/figure-1-logical-architecture.png" style="width:6.8in;height:4.05662in"/></p>
+<p>Figure 1. Logical architecture of the CACGWA Student Revision and CBT
+Portal, showing the functional layers for candidate access, test
+assembly, scoring, auditing, and examination administration.</p>
+<h3 id="technology-and-technique-matrix">4.2 Technology and technique
+matrix</h3>
+<table>
+<colgroup>
+<col style="width: 14%"/>
+<col style="width: 21%"/>
+<col style="width: 29%"/>
+<col style="width: 35%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Layer</strong></th>
+<th><strong>Technology / technique</strong></th>
+<th><strong>Function</strong></th>
+<th><strong>Implementation status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Presentation</td>
+<td>Responsive web interface (HTML/CSS/JavaScript class)</td>
+<td>Cross-device student and staff interaction</td>
+<td>Deployed responsive web interface</td>
+</tr>
+<tr class="even">
+<td>Progressive web capability</td>
+<td>PWA caching for revision content</td>
+<td>Supports revision access after the first successful visit</td>
+<td>Implemented for revision access</td>
+</tr>
+<tr class="odd">
+<td>Client state</td>
+<td>Device-local student profile and class</td>
+<td>Reduces repeated identity/class entry</td>
+<td>Implemented in student workflow</td>
+</tr>
+<tr class="even">
+<td>Authentication</td>
+<td>Student access PIN + fresh exam PIN</td>
+<td>Two-step gating before live exam</td>
+<td>Implemented dual-PIN access control</td>
+</tr>
+<tr class="odd">
+<td>Scheduling</td>
+<td>Exam window control + timer</td>
+<td>Restricts when live paper may be loaded; enforces session
+duration</td>
+<td>Implemented exam-window and 120-minute timing control</td>
+</tr>
+<tr class="even">
+<td>Assessment engine</td>
+<td>Subject filtering + random sampling without replacement</td>
+<td>Constructs individualized 70-item papers from a 500-item bank</td>
+<td>Implemented 500-item bank with 70-item sampling</td>
+</tr>
+<tr class="odd">
+<td>Scoring</td>
+<td>Automatic objective-item marking</td>
+<td>Automates objective-item marking and result computation</td>
+<td>Implemented automatic objective scoring</td>
+</tr>
+<tr class="even">
+<td>Administration</td>
+<td>Exam officer console</td>
+<td>Manages examination windows, candidate status, results, and incident
+records</td>
+<td>Implemented examination-officer control functions</td>
+</tr>
+<tr class="odd">
+<td>Security technique</td>
+<td>Per-candidate form randomization</td>
+<td>Reduces value of adjacent answer copying and fixed-form leakage</td>
+<td>Implemented and quantitatively evaluated</td>
+</tr>
+<tr class="even">
+<td>Security hardening</td>
+<td>Cryptographically secure PRNG; TLS; server-side authorization; rate
+limiting; immutable logs</td>
+<td>Strengthens unpredictability, confidentiality, authorization, and
+auditability for higher-stakes use</td>
+<td>Recommended for higher-stakes scaling</td>
+</tr>
+</tbody>
+</table>
+<p>Table 3. Technologies, tools, techniques, and control functions in
+the CACGWA portal architecture.</p>
+<h3 id="live-examination-transaction">4.3 Live examination
+transaction</h3>
+<p class="figure-wrap"><img alt="Eight-step live examination workflow: profile and class; validate student and exam PINs; check the examination window; load the 500-item subject bank; select 70 unique items; present paper with timer; submit and auto-score; record result and audit event." src="assets/figure-2-live-exam-workflow.png" style="width:6.8in;height:3.01911in"/></p>
+<p>Figure 2. Live examination workflow and candidate-specific randomized
+paper assembly.</p>
+<h3 id="randomization-algorithm">4.4 Randomization algorithm</h3>
+<p>A minimal secure test-assembly procedure is shown below. The
+important properties are subject scoping, eligibility filtering,
+without-replacement sampling, server-side persistence of the selected
+item identifiers for audit/recovery, and a candidate/session binding
+that prevents re-rolling the paper after the examination begins.</p>
+<table>
+<colgroup>
+<col style="width: 100%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th>01 eligible_items ← QuestionBank.filter(subject = candidate.subject,
+active = TRUE)<br/>
+02 assert count(eligible_items) ≥ 70<br/>
+03 seed/session_nonce ← secure_random_source()<br/>
+04 selected_ids ← sample_without_replacement(eligible_items, 70,
+seed/session_nonce)<br/>
+05 save ExamSession(candidate_id, subject, selected_ids, started_at,
+exam_window_id)<br/>
+06 present items in randomized order; persist responses
+incrementally<br/>
+07 on submit or timeout: lock session → score keyed objective items →
+write Result + AuditLog</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<p>Algorithm 1. Reference randomized test-assembly and
+session-persistence procedure. This pseudocode is
+implementation-neutral.</p>
+<h3 id="question-bank-governance">4.5 Question-bank governance</h3>
+<p>A large bank increases security only if the items themselves are
+instructionally valid. For publication-grade use, each subject bank
+should carry at least: item ID, class, subject, curriculum objective,
+content domain, cognitive level, stem, options, keyed answer,
+explanation/rationale where appropriate, media dependency, difficulty
+estimate when available, item status, author/reviewer, version and
+last-review date. Duplicate and near-duplicate items should be flagged
+before activation. High-stakes forms should preferably be assembled with
+blueprint constraints so every candidate receives equivalent domain
+coverage rather than purely unconstrained random draws.</p>
+<h2 id="results">5. Results</h2>
+<h3 id="operational-field-validation">5.1 Operational field
+validation</h3>
+<p>The CACGWA portal was used as the live examination delivery mechanism
+during the 2025/2026 end-of-session examinations involving 200 students
+and 15 examination administrators. Operational validation confirmed
+candidate authentication, timed examination delivery, individualized
+paper assembly, automatic objective scoring, submission capture,
+candidate-status monitoring, and examination-officer oversight. The
+system performed effectively in the case-school environment and
+supported the complete revision-to-examination workflow required for the
+sitting. These field results establish successful operational
+implementation, while the analytical results below quantify the
+form-diversity, overlap, and item-exposure properties of the configured
+500-to-70 assessment model.</p>
+<h3 id="exact-form-space-and-overlap-results">5.2 Exact form-space and
+overlap results</h3>
+<table>
+<colgroup>
+<col style="width: 40%"/>
+<col style="width: 23%"/>
+<col style="width: 35%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Metric</strong></th>
+<th><strong>Value</strong></th>
+<th><strong>Interpretation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Possible unordered 70-item forms</td>
+<td>4.43901e+86</td>
+<td>log10 = 86.647</td>
+</tr>
+<tr class="even">
+<td>Probability a particular item appears on one paper</td>
+<td>0.140</td>
+<td>14.0%</td>
+</tr>
+<tr class="odd">
+<td>Expected shared items for two papers</td>
+<td>9.80</td>
+<td>14.0% of each 70-item paper</td>
+</tr>
+<tr class="even">
+<td>P(pair overlap ≥ 15 items)</td>
+<td>0.045121</td>
+<td>4.512%</td>
+</tr>
+<tr class="odd">
+<td>P(pair overlap ≥ 20 items)</td>
+<td>0.000417472</td>
+<td>0.04175%</td>
+</tr>
+<tr class="even">
+<td>Approx. probability of any exact duplicate among 200 papers</td>
+<td>4.483e-83</td>
+<td>Birthday-bound approximation; negligible</td>
+</tr>
+<tr class="odd">
+<td>Expected exposure per item across 200 candidates</td>
+<td>28.0</td>
+<td>28 candidate papers</td>
+</tr>
+<tr class="even">
+<td>Theoretical exposure SD</td>
+<td>4.91</td>
+<td>Binomial approximation</td>
+</tr>
+</tbody>
+</table>
+<p>Table 4. Exact analytical properties of the
+500-item-bank/70-item-paper design.</p>
+
+<h3 id="monte-carlo-overlap-and-exposure">5.3 Monte Carlo overlap and
+exposure</h3>
+<table>
+<colgroup>
+<col style="width: 42%"/>
+<col style="width: 18%"/>
+<col style="width: 39%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Simulation statistic</strong></th>
+<th><strong>Result</strong></th>
+<th><strong>Interpretation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mean pairwise overlap across replications</td>
+<td>9.800</td>
+<td>SD across replications 0.020</td>
+</tr>
+<tr class="even">
+<td>Mean 95th-percentile pairwise overlap</td>
+<td>14.00</td>
+<td>Typical 95th percentile ≈ 14 items</td>
+</tr>
+<tr class="odd">
+<td>Mean maximum pairwise overlap per 200-candidate run</td>
+<td>21.69</td>
+<td>95th percentile of run maximum = 24</td>
+</tr>
+<tr class="even">
+<td>Mean minimum item exposure per run</td>
+<td>14.19</td>
+<td>Observed range across runs 9–18 candidates</td>
+</tr>
+<tr class="odd">
+<td>Mean maximum item exposure per run</td>
+<td>43.88</td>
+<td>95th percentile = 48; range 39–51</td>
+</tr>
+<tr class="even">
+<td>Mean SD of item exposure</td>
+<td>4.907</td>
+<td>Closely matches theoretical SD 4.91</td>
+</tr>
+</tbody>
+</table>
+<p>Table 5. Monte Carlo results from 1,000 independent 200-candidate
+examination replications (seed 202606).</p>
+<p class="figure-wrap"><img alt="Histogram of shared items between pairs of 70-item papers in one 200-candidate simulation. The distribution is centered near the expected overlap of 9.8 items and falls rapidly toward larger overlaps." src="assets/figure-3-pairwise-overlap.png" style="width:6.9382in;height:4.6747in"/></p>
+<p>Figure 3. Distribution of pairwise item overlap in a representative
+200-candidate simulated examination.</p>
+<p class="figure-wrap"><img alt="Histogram of item exposure across a 500-item bank for 200 candidates. Most items appear near the expected exposure of 28 candidate papers, with a smaller tail toward higher exposures." src="assets/figure-4-item-exposure.png" style="width:6.81754in;height:4.71717in"/></p>
+<p>Figure 4. Item exposure distribution for one representative
+200-candidate simulated examination.</p>
+<h3 id="content-balance-risk-under-unconstrained-randomization">5.4
+Content-balance risk under unconstrained randomization</h3>
+<p>Pure randomization is strong for diversity but does not guarantee
+equivalent content coverage. In a hypothetical bank divided evenly into
+five content domains (100 items each), the target balanced paper would
+contain 14 items per domain. Across 100,000 simulated simple-random
+papers, 72.7% had at least one domain deviating from 14 by four or more
+items, and 50.4% deviated by five or more. This is not a flaw in the
+500-item bank itself; it shows why high-stakes test assembly should
+combine randomization with a blueprint (for example, randomly selecting
+14 of 100 eligible items within each of five domains).
+Blueprint-constrained randomization preserves diversity while fixing
+domain counts.</p>
+<table>
+<colgroup>
+<col style="width: 100%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Interpretation</strong><br/>
+Security randomization and content equivalence are separate design
+objectives. A paper can be highly unique yet educationally unbalanced.
+The preferred production rule is therefore random selection within
+curriculum/blueprint strata, not unrestricted random selection across
+the entire bank.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<h3 id="sensitivity-to-question-bank-size">5.5 Sensitivity to
+question-bank size</h3>
+<table>
+<colgroup>
+<col style="width: 18%"/>
+<col style="width: 24%"/>
+<col style="width: 25%"/>
+<col style="width: 31%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Bank size</strong></th>
+<th><strong>Expected overlap</strong></th>
+<th><strong>P(overlap ≥20)</strong></th>
+<th><strong>log10 possible forms</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>300</td>
+<td>16.33</td>
+<td>1.534e-01</td>
+<td>69.52</td>
+</tr>
+<tr class="even">
+<td>400</td>
+<td>12.25</td>
+<td>7.917e-03</td>
+<td>79.28</td>
+</tr>
+<tr class="odd">
+<td>500</td>
+<td>9.80</td>
+<td>4.175e-04</td>
+<td>86.65</td>
+</tr>
+<tr class="even">
+<td>750</td>
+<td>6.53</td>
+<td>8.059e-07</td>
+<td>99.73</td>
+</tr>
+<tr class="odd">
+<td>1000</td>
+<td>4.90</td>
+<td>6.059e-09</td>
+<td>108.85</td>
+</tr>
+</tbody>
+</table>
+<p>Table 6. Sensitivity of 70-item paper diversity to subject-bank
+size.</p>
+<p class="figure-wrap"><img alt="Line chart showing expected shared items between two 70-item papers declining as question-bank size increases from 300 to 1,000 items; the value at a 500-item bank is 9.8 shared items." src="assets/figure-5-bank-size-sensitivity.png" style="width:6.74301in;height:4.6656in"/></p>
+<p>Figure 5. Expected pairwise overlap falls rapidly as the item bank
+becomes larger.</p>
+<h2 id="discussion">6. Discussion</h2>
+<h3 id="what-the-500-to-70-architecture-achieves">6.1 What the 500-to-70
+architecture achieves</h3>
+<p>The strongest quantitative finding is that the configured bank is
+already large enough to make exact duplicate papers effectively
+impossible for a 200-candidate sitting. Approximately 4.439×10^86
+unordered forms are possible, vastly exceeding the cohort size. More
+importantly, security does not depend only on exact duplicates:
+candidate pairs share an expected 9.8 questions, and overlap of 20 or
+more items is very uncommon under the model. This means that even when
+adjacent candidates see some of the same curriculum content, the
+majority of each paper is different. Such diversity directly reduces the
+utility of simple answer copying and fixed-form memorization.</p>
+<h3 id="item-exposure-and-leakage-control">6.2 Item exposure and leakage
+control</h3>
+<p>A 70-of-500 design exposes only 14% of the bank to any one candidate.
+Across 200 candidates, each item is expected to appear 28 times. The
+simulation shows natural exposure variation, with typical run maxima in
+the mid-40s. That level is not automatically problematic, but it
+provides a measurable quantity the exam officer can monitor. If
+particular items become overexposed because of weighting, blueprint
+scarcity or repeated sittings, exposure caps, rotating sub-pools or
+multiple calibrated banks can be introduced, consistent with the
+item-pool security literature (Way, 1998; Zhang &amp; Chang, 2005; Liu
+et al., 2019).</p>
+<h3 id="why-revision-and-practice-matter-for-fairness">6.3 Why revision
+and practice matter for fairness</h3>
+<p>The CACGWA design is stronger than a stand-alone exam page because
+the deployed portal supports revision and practice before live testing.
+This feature addresses an important Nigerian equity concern: students
+who lack prior computer experience may be disadvantaged by CBT even when
+they understand the academic content. Abdulkareem and Lennon (2025)
+found a positive relationship between computer familiarity and UTME
+performance, and Abanobi et al. (2023) showed that test mode can be
+associated with performance differences. Rehearsal with the same
+navigation style therefore supports construct validity by reducing
+irrelevant interface unfamiliarity.</p>
+<h3 id="operational-effectiveness-and-field-relevance">6.4 Operational
+effectiveness and field relevance</h3>
+<p>The 2025/2026 end-of-session deployment confirms that the CACGWA
+portal functioned as an operational school examination system rather
+than as a prototype. For the 200-student implementation, candidate
+access, individualized paper delivery, timing, objective scoring,
+submission handling, and examination administration operated as
+intended. This supports the operational feasibility of the integrated
+revision-and-CBT model in the case-school context. The principal
+quantitative contribution of the present study concerns test-form
+diversity, overlap, and exposure; future comparative studies can extend
+the evidence base by estimating effects on achievement, processing time,
+candidate experience, and malpractice outcomes.</p>
+<h3 id="security-availability-and-resilience">6.5 Security, availability
+and resilience</h3>
+<p>The portal’s two-PIN live-entry logic, time window and officer
+console establish a basic control structure. For future high-stakes
+scaling, the architecture should add or formally document: TLS-only
+traffic, cryptographically secure random selection, server-side
+authorization for every privileged action, hashed credentials/PINs,
+replay protection, immutable append-only audit events, device/session
+fingerprinting limited by privacy principles, rate limiting, automated
+backups, recovery checkpoints, and power/network contingency plans.
+Public revision may remain PWA-cached, but live examination integrity
+generally requires controlled synchronization and authoritative
+server-side session state.</p>
+<h2 id="threats-to-validity-operational-risks-and-mitigation">7. Threats
+to Validity, Operational Risks and Mitigation</h2>
+<table>
+<colgroup>
+<col style="width: 28%"/>
+<col style="width: 28%"/>
+<col style="width: 42%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Risk / validity threat</strong></th>
+<th><strong>Potential consequence</strong></th>
+<th><strong>Mitigation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Single-school case design</td>
+<td>Findings may not generalize to schools with different
+infrastructure, staffing, or candidate profiles</td>
+<td>Conduct multi-school replication across contrasting infrastructure
+and school contexts</td>
+</tr>
+<tr class="even">
+<td>Pure random sampling across all 500 items</td>
+<td>Content-domain imbalance between candidate papers</td>
+<td>Use blueprint-constrained randomization within topic/cognitive
+strata</td>
+</tr>
+<tr class="odd">
+<td>Weak/random-number implementation</td>
+<td>Predictable paper assembly</td>
+<td>Use server-side CSPRNG; store nonces and selected item IDs for
+audit</td>
+</tr>
+<tr class="even">
+<td>Unequal device/computer familiarity</td>
+<td>Construct-irrelevant score variance</td>
+<td>Mandatory practice sessions and consistent interface across
+practice/live CBT</td>
+</tr>
+<tr class="odd">
+<td>Power or connectivity interruption</td>
+<td>Incomplete sessions or inequitable time loss</td>
+<td>UPS/solar backup, local network fallback where feasible, resumable
+server sessions</td>
+</tr>
+<tr class="even">
+<td>Item leakage over repeated sittings</td>
+<td>Compromised bank validity</td>
+<td>Exposure monitoring, scheduled retirement, rotating calibrated
+pools, item-analysis review</td>
+</tr>
+<tr class="odd">
+<td>Shared PINs or impersonation</td>
+<td>Unauthorized access</td>
+<td>Candidate-specific credentials, identity verification and login
+audit trail</td>
+</tr>
+<tr class="even">
+<td>Automatic scoring key errors</td>
+<td>Systematic mis-scoring</td>
+<td>Dual review of answer keys, version control, post-exam key audit and
+re-score capability</td>
+</tr>
+<tr class="odd">
+<td>Accessibility barriers</td>
+<td>Unfair disadvantage to candidates with disabilities</td>
+<td>Keyboard operability, readable contrast, scalable text, alternative
+text for diagrams and documented accommodations</td>
+</tr>
+</tbody>
+</table>
+<p>Table 7. Principal validity and operational risks with recommended
+controls.</p>
+<h2 id="replicable-implementation-protocol">8. Replicable Implementation
+Protocol</h2>
+<p>The following protocol converts the case-study design into a
+reproducible institutional workflow.</p>
+<h2 id="curriculum-blueprinting-define-examinable-domains-learning-outcomes-and-target-cognitive-levels-for-every-subject-and-class.">1.
+Curriculum blueprinting: define examinable domains, learning outcomes,
+and target cognitive levels for every subject and class.</h2>
+<h2 id="bank-construction-create-at-least-500-uniquely-identified-keyed-items-per-subject-attach-domain-cognitive-level-media-and-version-metadata.">2.
+Bank construction: create at least 500 uniquely identified, keyed items
+per subject; attach domain, cognitive level, media, and version
+metadata.</h2>
+<h2 id="quality-review-subject-teachers-review-stem-clarity-distractor-plausibility-key-correctness-curriculum-alignment-diagram-legibility-and-duplicate-or-near-duplicate-content.">3.
+Quality review: subject teachers review stem clarity, distractor
+plausibility, key correctness, curriculum alignment, diagram legibility,
+and duplicate or near-duplicate content.</h2>
+<h2 id="candidate-preparation-provide-revision-and-practice-cbt-using-the-same-navigation-conventions-as-the-live-system-while-keeping-live-questions-segregated.">4.
+Candidate preparation: provide revision and practice CBT using the same
+navigation conventions as the live system while keeping live questions
+segregated.</h2>
+<h2 id="exam-configuration-set-class-subject-examination-window-duration-paper-length-eligible-bank-version-and-access-credentials-freeze-the-bank-version-for-the-sitting.">5.
+Exam configuration: set class, subject, examination window, duration,
+paper length, eligible bank version, and access credentials; freeze the
+bank version for the sitting.</h2>
+<h2 id="candidate-launch-validate-the-student-profile-classsubject-student-access-pin-and-fresh-examination-pin-before-creating-the-examination-session.">6.
+Candidate launch: validate the student profile, class/subject, student
+access PIN, and fresh examination PIN before creating the examination
+session.</h2>
+<h2 id="paper-assembly-select-70-unique-eligible-items-preferably-within-blueprint-strata-persist-the-selected-items-to-the-candidate-session-and-randomize-presentationorder-as-configured.">7.
+Paper assembly: select 70 unique eligible items, preferably within
+blueprint strata; persist the selected items to the candidate session
+and randomize presentation/order as configured.</h2>
+<h2 id="response-persistence-save-responses-incrementally-and-record-timestamps-sufficient-for-recovery-and-audit-without-exposing-answer-keys-to-the-client.">8.
+Response persistence: save responses incrementally and record timestamps
+sufficient for recovery and audit without exposing answer keys to the
+client.</h2>
+<h2 id="submission-and-scoring-lock-the-session-on-submission-or-timeout-score-against-the-frozen-key-version-store-the-result-and-write-an-auditable-submission-event.">9.
+Submission and scoring: lock the session on submission or timeout, score
+against the frozen key version, store the result, and write an auditable
+submission event.</h2>
+<h2 id="post-exam-audit-and-bank-maintenance-reconcile-candidate-roster-and-submissions-review-incidents-and-item-exposure-conduct-item-analysis-when-adequate-data-accumulate-retire-weak-or-compromised-items-and-replenish-the-bank.">10.
+Post-exam audit and bank maintenance: reconcile candidate roster and
+submissions, review incidents and item exposure, conduct item analysis
+when adequate data accumulate, retire weak or compromised items, and
+replenish the bank.</h2>
+<h2 id="conclusion-and-recommendations">9. Conclusion and
+Recommendations</h2>
+<p>The CACGWA Student Revision and CBT Portal provides a practical
+school-level model for integrating preparation, practice, secure live
+testing, automatic scoring, and examination administration. Its central
+500-question-bank/70-question-paper architecture has an exceptionally
+large combinatorial form space and low expected pairwise overlap. Exact
+analysis and 1,000 Monte Carlo replications show that the design
+produces strong candidate-paper diversity and distributes item exposure
+across the bank. The 2025/2026 end-of-session deployment involving 200
+students and 15 examination administrators demonstrated successful
+operational use of the revision, live-examination, PWA, scoring, and
+officer-management functions.</p>
+<p>For higher-stakes and wider institutional deployment, the recommended
+next stage is blueprint-constrained randomization, formal documentation
+of random-number and server-side security controls, immutable
+examination logging, systematic accessibility testing, resilient
+power/network arrangements, and periodic item-exposure and psychometric
+review. Multi-school replication and longitudinal analysis should
+examine completion, reliability, scoring turnaround, candidate
+experience, and malpractice outcomes across different infrastructure
+conditions. The study contributes both a functioning institutional CBT
+model and a reproducible quantitative framework for evaluating whether
+question-bank randomization is sufficiently secure, balanced, and
+educationally defensible.</p>
+<h2 id="declarations">Declarations</h2>
+<table>
+<colgroup>
+<col style="width: 21%"/>
+<col style="width: 78%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Item</strong></th>
+<th><strong>Statement</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ethics and consent</td>
+<td>The study concerned routine institutional examination implementation
+and reports only aggregate, non-identifiable operational information.
+The school examination was conducted under institutional authority, and
+no identifiable student records are disclosed in this publication.</td>
+</tr>
+<tr class="even">
+<td>Funding</td>
+<td>The study received no specific external grant funding.</td>
+</tr>
+<tr class="odd">
+<td>Competing interests</td>
+<td>The author participated in the design and implementation of the
+CACGWA portal and is affiliated with CHIA TECH SOLUTIONS AND RESOURCES
+LIMITED. This relationship is declared for transparency.</td>
+</tr>
+<tr class="even">
+<td>Data availability</td>
+<td>The principal analytical parameters, equations, simulation seed, and
+reproducibility specification are provided in the manuscript.
+Student-identifiable institutional examination records are not publicly
+released.</td>
+</tr>
+<tr class="odd">
+<td>Software / reproducibility</td>
+<td>Simulation used Python 3 with NumPy/SciPy-compatible random sampling
+and hypergeometric calculations. The random seed was 202606.</td>
+</tr>
+<tr class="even">
+<td>AI-assisted tools</td>
+<td>AI-assisted language-editing and document-production tools were used
+during manuscript preparation. The author and editorial team verified
+the data, calculations, citations, and final text and accept full
+responsibility for the published content.</td>
+</tr>
+<tr class="odd">
+<td>Author contributions</td>
+<td>S. K. Chia: Conceptualization; system design and implementation;
+methodology; formal analysis; visualization; writing - original draft;
+writing - review and editing.</td>
+</tr>
+<tr class="even">
+<td><strong>Peer review</strong></td>
+<td>The article underwent double-blind peer review and was accepted for
+the CHIATECH JOURNAL Pioneer Publication, Volume 1, Issue 1, July
+2026.</td>
+</tr>
+<tr class="odd">
+<td><strong>Copyright and licence</strong></td>
+<td>© 2026 The authors. Published open access under the Creative Commons
+Attribution 4.0 International (CC BY 4.0) licence.</td>
+</tr>
+</tbody>
+</table>
+<p>Table 8. Publication declarations, author contribution, and
+reproducibility statements.</p>
+<h2 id="references">References</h2>
+<p>Abanobi, C. C. (2022). Comparative analysis of academic achievement
+scores of secondary school students exposed to Computer-Based Test (CBT)
+and Paper and Pen Test (PPT) in Economics in Nigeria. Asian Journal of
+Advances in Research, 16(1), 11–21.</p>
+<p>Abanobi, C. C., Agu, N. N., Eleje, L. I., Metu, I. C., Mbelede, N.
+G., &amp; Ezeugo, N. C. (2023). Effects of Computer-Based Test (CBT) and
+Paper and Pencil Test (PPT) on academic achievement and test anxiety of
+secondary school students in Economics. Innovare Journal of Education,
+11(1), 35–41. https://doi.org/10.22159/ijoe.2023v11i1.45960</p>
+<p>Abdulkareem, Z., &amp; Lennon, M. (2025). Impact of digital divide on
+students’ performance in computerised UTME in Nigeria. Information
+Development, 41(4), 1265–1280.
+https://doi.org/10.1177/02666669231191734</p>
+<p>American Educational Research Association, American Psychological
+Association, &amp; National Council on Measurement in Education. (2014).
+Standards for educational and psychological testing. American
+Educational Research Association.</p>
+<p>Berkhout, E., Pradhan, M., Rahmawati, Suryadarma, D., &amp; Swarnata,
+A. (2024). Using technology to prevent fraud in high stakes national
+school examinations: Evidence from Indonesia. Journal of Development
+Economics, 170, 103307.
+https://doi.org/10.1016/j.jdeveco.2024.103307</p>
+<p>Christ Anglican College, Gwagwalada. (2026). CACGWA Student Revision
+and CBT Portal. https://cacgwa.com.ng/portal</p>
+<p>International Test Commission. (2006). International guidelines on
+computer-based and Internet-delivered testing. International Journal of
+Testing, 6(2), 143–171. https://doi.org/10.1207/s15327574ijt0602_4</p>
+<p>Liu, C., Han, K. T., &amp; Li, J. (2019). Compromised item detection
+for computerized adaptive testing. Frontiers in Psychology, 10, 829.
+https://doi.org/10.3389/fpsyg.2019.00829</p>
+<p>Scheuermann, F., &amp; Björnsson, J. (Eds.). (2009). The transition
+to computer-based assessment: New approaches to skills assessment and
+implications for large-scale testing. Office for Official Publications
+of the European Communities.</p>
+<p>Way, W. D. (1998). Protecting the integrity of computerized testing
+item pools. Educational Measurement: Issues and Practice, 17(4), 17–27.
+https://doi.org/10.1111/j.1745-3992.1998.tb00632.x</p>
+<p>Yi, Q., Zhang, J., &amp; Chang, H.-H. (2008). Severity of organized
+item theft in computerized adaptive testing: A simulation study. Applied
+Psychological Measurement, 32(7), 543–558.
+https://doi.org/10.1177/0146621607311336</p>
+<p>Zhang, J., &amp; Chang, H.-H. (2005). The effectiveness of enhancing
+test security by using multiple item pools (ETS Research Report
+RR-05-19). Educational Testing Service.
+https://doi.org/10.1002/j.2333-8504.2005.tb01996.x</p>
+<h2 id="appendix.-reproducible-simulation-specification">Appendix.
+Reproducible Simulation Specification</h2>
+<p>The following compact specification reproduces the principal
+simulation results and provides an implementation-neutral analytical
+reference for the 500-item-bank/70-item-paper model.</p>
+<table>
+<colgroup>
+<col style="width: 100%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th>seed = 202606<br/>
+bank_size = 500<br/>
+paper_length = 70<br/>
+candidates = 200<br/>
+replications = 1000<br/>
+<br/>
+for r in 1..replications:<br/>
+for candidate in 1..candidates:<br/>
+form[candidate] = random_sample_without_replacement(1..500, 70)<br/>
+exposure[item] = count(candidate forms containing item)<br/>
+overlap[i,j] = size(intersection(form[i], form[j])) for all i&lt;j<br/>
+save mean(overlap), percentile95(overlap), max(overlap),
+min/max/sd(exposure)<br/>
+<br/>
+Exact model:<br/>
+pairwise overlap X ~ Hypergeometric(N=500, K=70, n=70)<br/>
+fixed-item exposure Y ~ Binomial(n=200, p=70/500)</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<h2 id="publication-record">Publication record</h2>
+<table>
+<colgroup>
+<col style="width: 100%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th>How to cite: Chia, S. K., Julius, B. J., Ukule, P., &amp; Elumeyan,
+E. (2026). Design, simulation, implementation, and operational
+evaluation of the CACGWA Student Revision and CBT Portal: A
+500-item-bank randomized assessment model for senior secondary school
+examinations. CHIATECH JOURNAL, 1(1), e001. DOI pending.<br/>
+Article: e001 · Pioneer Publication · Volume 1, Issue 1 · July
+2026<br/>
+ISSN: Pending assignment · DOI: Pending registration<br/>
+Publisher: CHIA TECH SOLUTIONS AND RESOURCES LIMITED · RC 1839865 ·
+Nigeria<br/>
+Journal contact: chiatechlibrary@gmail.com</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<footer class="paper-footer">Published by <strong>CHIA TECH SOLUTIONS AND RESOURCES LIMITED</strong> · © 2026 The authors · CC BY 4.0 · Article e001<br/>DOI and ISSN remain pending registration in the supplied accepted record.</footer></article></main></body>
+</html>

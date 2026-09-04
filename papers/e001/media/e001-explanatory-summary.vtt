@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:23.634
+This is an explanatory summary of CHIATECH Journal article e zero zero one. The paper evaluates the design, simulation, implementation and operational use of the CACGWA Student Revision and Computer-Based Testing Portal. The central assessment design draws seventy unique questions from a five hundred item subject bank for each candidate.
+
+2
+00:00:23.634 --> 00:00:58.848
+The field deployment took place during the twenty twenty five to twenty twenty six end-of-session examinations at Christ Anglican College in Gwagwalada, Abuja. It involved two hundred students and fifteen examination administrators. The portal combined revision, practice computer-based tests, a one hundred and twenty minute live examination, student and examination PIN controls, progressive web revision access, automatic objective scoring, and an examination-officer console.
+
+3
+00:00:58.848 --> 00:01:22.353
+The logical architecture separates candidate access, local profile information, examination control, the subject bank, randomized assembly, audit and results, scoring, and examination-officer oversight. This role separation is important because administrative actions should not be exposed in the candidate context.
+
+4
+00:01:22.353 --> 00:01:49.724
+The live transaction validates the candidate and examination PINs, checks the examination window, loads the five hundred item bank, selects seventy unique items without replacement, presents the timed paper, then locks, scores and audits the submission. The paper recommends persisting the selected item identifiers so a session cannot simply re-roll a new paper after it begins.
+
+5
+00:01:49.724 --> 00:02:16.699
+The exact model gives an expected pairwise overlap of nine point eight items between two independently assembled seventy-item papers. The probability of an overlap of at least twenty items is approximately zero point zero zero zero four one seven. One thousand Monte Carlo replications of two hundred candidate papers produced a mean ninety-fifth percentile overlap of about fourteen items.
+
+6
+00:02:16.699 --> 00:02:41.310
+For item exposure, a particular question has a fourteen percent chance of appearing on one paper, so its expected exposure across two hundred candidates is twenty eight papers. Simulation gave a mean maximum item exposure of forty three point eight eight and an exposure standard deviation of about four point nine one, closely matching the theoretical value.
+
+7
+00:02:41.310 --> 00:03:06.663
+Bank size materially changes overlap. With seventy-item papers, expected overlap is about sixteen point three three items for a three hundred item bank, nine point eight for a five hundred item bank, and four point nine for a one thousand item bank. Larger pools therefore provide more form diversity, provided the items remain instructionally valid.
+
+8
+00:03:06.663 --> 00:03:46.120
+The paper also shows why security and content balance must be managed separately. In a hypothetical five-domain bank, unconstrained random selection often produced domain-count imbalance. The recommended production rule is blueprint-constrained randomization: randomly select within curriculum or cognitive strata. For higher-stakes scaling, the article also recommends cryptographically secure random generation, server-side authorization, immutable logging, accessibility testing, resilient power and network arrangements, and periodic item review.
+
+9
+00:03:46.120 --> 00:04:21.198
+In conclusion, the deployment demonstrated an operational school examination workflow rather than a prototype alone. The evidence supports strong candidate-paper diversity and low expected overlap for the implemented five-hundred-to-seventy design, while wider multi-school validation is still needed. The article is CHIATECH Journal volume one, issue one, article e zero zero one, published under Creative Commons Attribution four point zero. DOI and ISSN remain pending in the supplied accepted record.
