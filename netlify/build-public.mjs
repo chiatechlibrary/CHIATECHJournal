@@ -26,8 +26,15 @@ if (!Array.isArray(registry) || registry.length) throw new Error('Portal release
 
 const publicAssetManifest = JSON.parse(await fs.readFile(path.join(root, 'data', 'public-asset-manifest.json'), 'utf8'));
 const publicAssetExtensions = new Set(['.css', '.html', '.jpeg', '.jpg', '.pdf', '.png', '.svg', '.vtt', '.webm', '.webp', '.mp4']);
+const lineEndingNormalisedExtensions = new Set(['.html', '.vtt']);
 const maximumPublicAssetBytes = 30 * 1024 * 1024;
 const sha256 = async file => createHash('sha256').update(await fs.readFile(file)).digest('hex');
+const manifestBytes = async relative => {
+  const bytes = await fs.readFile(path.resolve(root, relative));
+  return lineEndingNormalisedExtensions.has(path.extname(relative).toLowerCase())
+    ? Buffer.from(bytes.toString('utf8').replace(/\r?\n/g, '\r\n'), 'utf8')
+    : bytes;
+};
 
 async function filesWithin(directory) {
   const files = [];
@@ -96,8 +103,10 @@ async function copyValidatedPublicationAssets() {
     const source = path.resolve(root, relative);
     if (!source.startsWith(publicationRoot + path.sep)) throw new Error(`Unsafe public publication asset path: ${relative}`);
     const information = await fs.lstat(source);
-    if (!information.isFile() || information.isSymbolicLink() || information.size !== declared.bytes) throw new Error(`Publication asset size or type mismatch: ${relative}`);
-    if (await sha256(source) !== declared.sha256) throw new Error(`Publication asset checksum mismatch: ${relative}`);
+    if (!information.isFile() || information.isSymbolicLink()) throw new Error(`Publication asset type mismatch: ${relative}`);
+    const bytes = await manifestBytes(relative);
+    if (bytes.length !== declared.bytes) throw new Error(`Publication asset size mismatch: ${relative}`);
+    if (createHash('sha256').update(bytes).digest('hex') !== declared.sha256) throw new Error(`Publication asset checksum mismatch: ${relative}`);
     const target = path.resolve(output, relative);
     if (!target.startsWith(output + path.sep)) throw new Error(`Unsafe publication output path: ${relative}`);
     await fs.mkdir(path.dirname(target), { recursive: true });
