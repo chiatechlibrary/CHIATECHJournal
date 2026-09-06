@@ -537,7 +537,11 @@ function normaliseArticle(data, id, status, actor) {
   const videoTranscriptUrl = safePublicUrl(data.videoTranscriptUrl, true);
   if (!id || !title || CONFIG.domains.indexOf(domain) < 0) throw serviceError('Article ID, title and a valid SETEHEM portfolio are required.');
   if (status === 'PUBLISHED') {
-    if (!authors.length || !abstract || keywords.length < 3) throw serviceError('A published paper requires verified authors, a complete abstract and at least three keywords.');
+    const metadataIssues = [];
+    if (!authors.length) metadataIssues.push('at least one author');
+    if (!abstract) metadataIssues.push('a complete abstract');
+    if (keywords.length < 3) metadataIssues.push('at least three keywords');
+    if (metadataIssues.length) throw serviceError('Publication metadata is incomplete: add ' + metadataIssues.join(', ') + '. Refresh the Editorial Desk and try again.');
     if (!isoDate(data.received) || !isoDate(data.accepted) || !published) throw serviceError('Record the authentic received, accepted and published dates before publication.');
     if (!doi && !isEligiblePioneerDoiPendingRelease(volume, issue, issueTitle, published, doiStatus)) throw serviceError('A registered DOI is required unless this is the explicitly labelled Volume 1, Issue 1, July 2026 Pioneer Release with DOI status PENDING_REGISTRATION.');
     if (!htmlUrl || data.htmlConfirmed !== true) throw serviceError('Confirm and provide the approved full-paper HTML URL before publication.');

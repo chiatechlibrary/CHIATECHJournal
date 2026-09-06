@@ -456,6 +456,14 @@
     })).filter(author => author.given || author.family);
   }
 
+  function publicationMetadataIssues(authors, abstract, keywords) {
+    const issues = [];
+    if (!authors.length) issues.push('at least one author');
+    if (!abstract) issues.push('a complete abstract');
+    if (keywords.length < 3) issues.push('at least three keywords');
+    return issues;
+  }
+
   function resetArticle() { articleForm?.reset(); setAuthors(); markClean(articleForm); }
   document.querySelector('#resetArticleForm')?.addEventListener('click', resetArticle);
 
@@ -490,12 +498,16 @@
     const submit = event.submitter;
     if (submit) submit.disabled = true;
     try {
+      const authors = collectAuthors();
+      const abstract = field(articleForm, 'abstract').value.trim();
+      const keywords = field(articleForm, 'keywords').value.split(',').map(item => item.trim()).filter(Boolean);
+      const metadataIssues = status === 'PUBLISHED' ? publicationMetadataIssues(authors, abstract, keywords) : [];
+      if (metadataIssues.length) throw new Error(`Publication metadata is incomplete: add ${metadataIssues.join(', ')}.`);
       const response = await api({
         action: 'saveArticle', status, id: field(articleForm, 'article_id').value.trim(),
         articleType: field(articleForm, 'article_type').value.trim(), title: field(articleForm, 'title').value.trim(),
         domain: field(articleForm, 'domain').value, language: field(articleForm, 'language').value.trim(),
-        authors: collectAuthors(), abstract: field(articleForm, 'abstract').value.trim(),
-        keywords: field(articleForm, 'keywords').value.split(',').map(item => item.trim()).filter(Boolean),
+        authors, abstract, keywords,
         received: field(articleForm, 'received').value, revised: field(articleForm, 'revised').value,
         accepted: field(articleForm, 'accepted').value, published: field(articleForm, 'published').value,
         volume: field(articleForm, 'volume').value.trim(), issue: field(articleForm, 'issue').value.trim(),
