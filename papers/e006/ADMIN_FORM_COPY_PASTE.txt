@@ -1,0 +1,65 @@
+CHIATECH JOURNAL — E006 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e006
+Title: Verified Early Warning, Lawful Reporting and Community Safety: Church Engagement and Perceived Insecurity Reduction in Abuja, Nigeria
+Article type: Empirical Research Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Syrenius Dangana Okoriko
+   Given names: Syrenius Dangana
+   Family name: Okoriko
+   Affiliation: Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+2. Charles Ogundu Nnaji
+   Given names: Charles Ogundu
+   Family name: Nnaji
+   Affiliation: Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+3. Adeola Kehinde
+   Given names: Adeola
+   Family name: Kehinde
+   Affiliation: Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+Author contributionsS.D.O.: conceptualization, investigation, data curation, formal analysis and original drafting. C.O.N.: supervision, methodology review, interpretation and critical revision. A.K.: co-supervision, theological interpretation and critical revision. All authors approved the submitted version and accept responsibility for the work.
+
+ABSTRACT
+Background: Community-security engagement and early-warning support is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between community-security engagement and early-warning support and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: CSEW had weighted M=3.652 (SD=0.868), α=0.800, ω=0.803. Its weighted association with PRCI was ρ=0.445 (pairwise n=503). In the full model, B=0.269, 95% CI [.161, .376], standardized β=0.284, Holm p=<.001, with ΔR²=0.059. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: the prespecified CSEW objective concerning verified warning, lawful reporting, preparedness and safeguarding
+
+KEYWORDS
+early warning; community security; church engagement; risk communication; lawful reporting; safeguarding; human security; Abuja
+
+RECOMMENDED CITATION
+Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Verified Early Warning, Lawful Reporting and Community Safety: Church Engagement and Perceived Insecurity Reduction in Abuja, Nigeria. CHIATECH JOURNAL, 1(1), e006. https://journal.chiatechsolutions.com/papers/e006/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e006/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e006/CHIATECH_JOURNAL_2026_V1I1_e006_Version_of_Record.pdf
+Local asset: present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e006/CHIATECH_JOURNAL_2026_V1I1_e006_Version_of_Record.pdf
+Local asset: present
+videoUrl: https://journal.chiatechsolutions.com/papers/e006/media/e006-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e006/media/e006-explanatory-summary-poster.png
+Local asset: present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e006/media/e006-explanatory-summary.vtt
+Local asset: present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e006/explanatory-transcript.html
+Local asset: present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

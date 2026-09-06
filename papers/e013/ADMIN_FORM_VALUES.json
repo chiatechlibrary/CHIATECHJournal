@@ -1,0 +1,109 @@
+{
+  "form_values": {
+    "articleId": "e013",
+    "eLocator": "e013",
+    "articleType": "Original Research Article",
+    "title": "When Policy Does Not Open the Door: Physical Accessibility and Disability-Inclusion Governance in Anglican Seminaries in Nigeria",
+    "authors": [
+      {
+        "given": "Peter",
+        "family": "Ukule",
+        "display": "Peter Ukule",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "given": "Charles Ogundu",
+        "family": "Nnaji",
+        "display": "Charles Ogundu Nnaji",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "given": "Adeola",
+        "family": "Kehinde",
+        "display": "Adeola Kehinde",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Background: Formal non-discrimination language can coexist with material and procedural barriers that make theological education inaccessible. Objective: This study examined the physical, educational, technological and policy conditions affecting access for persons with physical disabilities in sampled Anglican seminaries in Nigeria. Methods: The article reports the institutional strand of a post-defence harmonised sequential explanatory mixed-methods Ph.D. study. Seminary Accessibility Assessment Tool (SAAT) audits and Seminary Policy Analysis Matrix (SPAM) reviews were completed at 10 seminaries in five geopolitical zones. The SAAT assessed entrances, learning spaces, worship, sanitation, residence, alternative formats, library access, assistive technology and digital resources; SPAM assessed whether inclusion commitments were present and whether implementation mechanisms were documented. Results: Overall SAAT accessibility was 19.8%. The highest domain was chapel/worship access (35%), while dormitory/accommodation access was 9%, alternative formats 5% and assistive technology 3%. Nine of 10 seminaries had a general disability non-discrimination statement, but only one showed systematic implementation. Admission accommodation policies were present in 20% of institutions but had no documented implementation; academic accommodation was present in 10% with no documented implementation; no institution documented disability-specific financial aid or a field-education accessibility plan. Conclusion: The dominant institutional problem was not a lack of declaratory commitment but a governance gap between statement, procedure, budget, responsibility and remedy. Accessibility should be treated as a core quality standard of ministerial formation, supported by annual audits, phased universal-design investment and enforceable accommodation processes.",
+    "keywords": [
+      "seminary accessibility",
+      "disability inclusion",
+      "Anglican theological education",
+      "reasonable accommodation",
+      "policy implementation",
+      "universal design",
+      "Nigeria"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": null,
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e013/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e013/CHIATECH_JOURNAL_2026_V1I1_e013_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e013/CHIATECH_JOURNAL_2026_V1I1_e013_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e013/media/e013-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e013/media/e013-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e013/media/e013-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e013/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e013/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e013/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e013/CHIATECH_JOURNAL_2026_V1I1_e013_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e013_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e013_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e013/CHIATECH_JOURNAL_2026_V1I1_e013_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e013_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e013_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e013/media/e013-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e013_PUBLICATION_READY_PACKAGE/video/e013-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e013/media/e013-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e013_PUBLICATION_READY_PACKAGE/video/e013-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e013/media/e013-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e013_PUBLICATION_READY_PACKAGE/video/e013-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e013/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e013_PUBLICATION_READY_PACKAGE/video/e013-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

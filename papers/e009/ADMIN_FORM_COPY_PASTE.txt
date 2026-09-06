@@ -1,0 +1,65 @@
+CHIATECH JOURNAL — E009 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e009
+Title: Church Engagement and Human Security in Nigeria: An Integrative Review of Practical Theology, Conflict Transformation and Social Capital with Implications for Abuja
+Article type: Integrative Review
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Syrenius Dangana Okoriko
+   Given names: Syrenius Dangana
+   Family name: Okoriko
+   Affiliation: Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+2. Charles Ogundu Nnaji
+   Given names: Charles Ogundu
+   Family name: Nnaji
+   Affiliation: Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+3. Adeola Kehinde
+   Given names: Adeola
+   Family name: Kehinde
+   Affiliation: Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+Author contributionsS.D.O.: conceptualization, literature synthesis, framework development and original drafting. C.O.N.: supervision, methodological and conceptual review, interpretation and critical revision. A.K.: co-supervision, theological interpretation and critical revision. All authors approved the submitted version and accept responsibility for the work.
+
+ABSTRACT
+Background: Nigeria’s insecurity is multidimensional, and the social reach of religious institutions has generated recurring claims that the Church can contribute to peace and community resilience. Those claims require a framework that distinguishes legitimate complementary action from coercive or state-substituting roles. Objective: To synthesize theological, peacebuilding, human-security and Nigerian evidence into a defensible framework for evaluating Church engagement with insecurity, with particular attention to the FCT. Methods: A critical integrative review synthesized foundational theory, Nigerian empirical/theological scholarship and recent official security evidence used in the doctoral research corpus. Sources were organized around five practice pathways: peace formation; mediation/advocacy; socioeconomic/psychosocial care; early warning/community safety; and institutional/interfaith collaboration. Synthesis: Human Security defines the people-centred outcome; Conflict Transformation explains changes in relationships, patterns and institutions; Social Capital explains the mobilization and risk of trust-bearing networks; practical theology disciplines the movement from description to normative judgement and action. Recent Nigeria/FCT evidence supports a multi-actor preventive approach but also shows why religious authority must be bounded by law, inclusion, verification, professional referral and public accountability. Conclusion: The Church’s most credible security role is complementary rather than substitutive. It lies in forming nonviolent moral agency, mediating and advocating without partisanship, reducing vulnerability through fair care, supporting verified/lawful early warning, and sustaining cross-boundary collaboration. Empirical evaluation should measure these practices and human-security outcomes without claiming causal crime reduction from institutional visibility alone.
+
+KEYWORDS
+human security; practical theology; conflict transformation; social capital; religious peacebuilding; church and insecurity; interfaith collaboration; Nigeria
+
+RECOMMENDED CITATION
+Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Church Engagement and Human Security in Nigeria: An Integrative Review of Practical Theology, Conflict Transformation and Social Capital with Implications for Abuja. CHIATECH JOURNAL, 1(1), e009. https://journal.chiatechsolutions.com/papers/e009/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e009/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e009/CHIATECH_JOURNAL_2026_V1I1_e009_Version_of_Record.pdf
+Local asset: present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e009/CHIATECH_JOURNAL_2026_V1I1_e009_Version_of_Record.pdf
+Local asset: present
+videoUrl: https://journal.chiatechsolutions.com/papers/e009/media/e009-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e009/media/e009-explanatory-summary-poster.png
+Local asset: present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e009/media/e009-explanatory-summary.vtt
+Local asset: present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e009/explanatory-transcript.html
+Local asset: present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

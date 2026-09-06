@@ -1,0 +1,110 @@
+{
+  "form_values": {
+    "articleId": "e005",
+    "eLocator": "e005",
+    "articleType": "Research Article",
+    "title": "Church Engagement and Perceived Reduction of Community Insecurity in Abuja, Nigeria: Survey-Weighted Evidence Across the Six FCT Area Councils",
+    "authors": [
+      {
+        "display": "Syrenius Dangana Okoriko",
+        "given": "Syrenius Dangana",
+        "family": "Okoriko",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "display": "Charles Ogundu Nnaji",
+        "given": "Charles Ogundu",
+        "family": "Nnaji",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "display": "Adeola Kehinde",
+        "given": "Adeola",
+        "family": "Kehinde",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Background: Religious institutions are socially influential in Nigeria, but their public-security contribution should be measured as specific practices rather than presumed from visibility or doctrine. Objective: To estimate the relationship between five dimensions of Church engagement and perceived reduction of community insecurity (PRCI) across the Federal Capital Territory. Methods: A stratified multistage household survey generated 586 response records from 642 field contacts in 24 clusters. The CECIQ measured TPEMF, MDPA, SEHPC, CSEW, IIC and PRCI. Weighted Spearman correlations and a survey-weighted, cluster-robust multiple regression with prespecified covariates and Holm correction were used. Results: All five Church-engagement constructs correlated positively with PRCI (weighted ρ=.376–.450). The full model used 366 complete cases and explained 45.3% of weighted PRCI variance. TPEMF (B=.143, 95% CI [.043,.243], Holm p=.027), CSEW (B=.269, [.161,.376], p<.001) and IIC (B=.157, [.031,.283], p=.050) retained positive adjusted relationships; MDPA and SEHPC did not retain independent support after correction. CSEW was the strongest distinct predictor (standardized β=.284; ΔR²=.059). Conclusion: The evidence supports a real but bounded complementary role for Church engagement. The most defensible pattern combines peace-ethical formation, verified and lawful community-safety practice, and sustained cross-boundary collaboration. Cross-sectional perception data do not establish a causal fall in recorded crime. ",
+    "keywords": [
+      "Church engagement",
+      "community insecurity",
+      "human security",
+      "practical theology",
+      "early warning",
+      "interfaith collaboration",
+      "survey weighting",
+      "Federal Capital Territory"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": "Author contributionsS.D.O.: conceptualization, investigation, data curation, formal analysis and original drafting. C.O.N.: supervision, methodology review, interpretation and critical revision. A.K.: co-supervision, theological interpretation and critical revision. All authors approved the submitted version and accept responsibility for the work.",
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e005/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e005/CHIATECH_JOURNAL_2026_V1I1_e005_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e005/CHIATECH_JOURNAL_2026_V1I1_e005_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e005/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e005/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e005/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e005/CHIATECH_JOURNAL_2026_V1I1_e005_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e005_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e005_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e005/CHIATECH_JOURNAL_2026_V1I1_e005_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e005_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e005_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e005_PUBLICATION_READY_PACKAGE/video/e005-explanatory-summary.mp4",
+      "present": true,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e005_PUBLICATION_READY_PACKAGE/video/e005-explanatory-summary-poster.png",
+      "present": true,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e005_PUBLICATION_READY_PACKAGE/video/e005-explanatory-summary.vtt",
+      "present": true,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e005/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e005_PUBLICATION_READY_PACKAGE/video/e005-explanatory-transcript.html",
+      "present": true,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

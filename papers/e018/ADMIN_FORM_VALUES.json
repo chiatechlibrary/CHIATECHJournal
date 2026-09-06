@@ -1,0 +1,98 @@
+{
+  "form_values": {
+    "articleId": "e018",
+    "eLocator": "e018",
+    "articleType": "Grounded Theory Study",
+    "title": "Deconstructing the Mechanisms Linking Youth Unemployment to Criminality in Nigeria’s North-Central Region: A Grounded Theory Study",
+    "authors": [
+      {
+        "given": "Iboro Tom",
+        "family": "Idim",
+        "display": "Iboro Tom Idim",
+        "affiliation": "Department of Economics, University of Abuja, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Background: The unemployment–crime relationship is often reported as a correlation, but policy design depends on knowing the processes through which labour-market exclusion can become criminal involvement. Objective: This study identified and integrated the mechanisms through which unemployed youth may move toward criminal participation across Nigeria’s North-Central region. Methods: A constructivist grounded-theory design drew on a field corpus reported as 87 in-depth interviews, 14 focus-group discussions and documentary sources from Benue, Kogi, Kwara, Nasarawa, Niger, Plateau and the Federal Capital Territory. The archived sampling table explicitly classified 75 interviewees as unemployed youth, rehabilitated former offenders, community leaders and law-enforcement personnel; the remaining interview classifications were not disaggregated in that table. Analysis used open, focused, axial and theoretical coding, constant comparison, triangulation, member checking, reflexive memoing and an audit trail. Results: Six interacting pathways were identified: idleness and routine disruption; survival-economy pressure; social-network recruitment; grievance activation; cognitive transformation; and opportunity substitution. Social-network recruitment was especially prominent among former offenders, 73% of whom reported entry through existing social ties. The mechanisms varied by settlement type, livelihood structure and crime context, and were better understood as interacting configurations than as a single linear sequence. Conclusion: Youth unemployment should not be treated as an automatic cause of crime. The findings support a mechanism-specific prevention model in which livelihood restoration, structured engagement, network disruption, psychosocial and grievance-sensitive intervention, and credible legitimate opportunities are matched to the pathway observed in a locality.",
+    "keywords": [
+      "youth unemployment",
+      "criminality",
+      "grounded theory",
+      "crime mechanisms",
+      "social-network recruitment",
+      "human security",
+      "North-Central Nigeria",
+      "criminal opportunity structures"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": null,
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e018/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e018/CHIATECH_JOURNAL_2026_V1I1_e018_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e018/CHIATECH_JOURNAL_2026_V1I1_e018_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e018/media/e018-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e018/media/e018-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e018/media/e018-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e018/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e018/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e018/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e018/CHIATECH_JOURNAL_2026_V1I1_e018_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e018_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e018_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e018/CHIATECH_JOURNAL_2026_V1I1_e018_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e018_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e018_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e018/media/e018-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e018_PUBLICATION_READY_PACKAGE/video/e018-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e018/media/e018-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e018_PUBLICATION_READY_PACKAGE/video/e018-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e018/media/e018-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e018_PUBLICATION_READY_PACKAGE/video/e018-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e018/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e018_PUBLICATION_READY_PACKAGE/video/e018-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

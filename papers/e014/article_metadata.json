@@ -1,0 +1,63 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e014",
+  "title": "Who Is Considered Fit for Ministry? Age, Region and Disability-Inclusion Attitudes among Anglican Clergy, Faculty and Administrators in Nigeria",
+  "author_folder": "UKULE_Peter__NNAJI_Charles_Ogundu__KEHINDE_Adeola",
+  "source_path": "CHIATECH_JOURNAL_2026_V1I1_e014_Age_Region_Ministerial_Fitness_Attitudes_Ukule_Nnaji_Kehinde.docx",
+  "source_sha256": "297955426bcf3d1f01117959e8f3972dc4222fed341efbca74596a0f1892cfed",
+  "final_path": "04_AUTHORS/UKULE_Peter__NNAJI_Charles_Ogundu__KEHINDE_Adeola/e014/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e014_Who_Is_Considered_Fit_for_Ministry_Age_Region_and_Disability_Inclusion_Attitudes_among_Anglican.docx",
+  "final_sha256": "297955426BCF3D1F01117959E8F3972DC4222FED341EFBCA74596A0F1892CFED",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 2,
+  "figure_or_diagram_objects": 2,
+  "figure_objects_with_adjacent_caption": 2,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e014",
+  "authors": [
+    {
+      "given": "Peter",
+      "family": "Ukule",
+      "display": "Peter Ukule",
+      "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+    },
+    {
+      "given": "Charles Ogundu",
+      "family": "Nnaji",
+      "display": "Charles Ogundu Nnaji",
+      "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+    },
+    {
+      "given": "Adeola",
+      "family": "Kehinde",
+      "display": "Adeola Kehinde",
+      "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+    }
+  ],
+  "abstract": "Background: Institutional access is shaped not only by buildings and policy but by the judgments of gatekeepers who interpret ministerial fitness, approve accommodations and influence placement. Objective: This paper examined generational and regional differences in disability-inclusion attitudes among Anglican clergy, seminary faculty and administrators. Methods: The analysis uses the post-defence corrected quantitative results of the Inclusion Attitudes in Theological Education Survey. A total of 175 usable questionnaires were returned from 198 distributed (88.4%). The respondent group was predominantly male (90.9%) and experienced, with 85.7% reporting more than six years of service. Corrected direction-consistent scoring was applied to exclusionary items. Age-group willingness to accommodate and regional differences in theological inclusivity and perceived ministerial fitness were examined using the verified t-test, ANOVA and effect-size results. Results: Younger respondents aged 18–45 (n=86) reported greater willingness to accommodate (M=3.89, SD=.88) than respondents aged 46+ (n=89; M=3.21, SD=.95), t≈4.91, p<.001, d≈.74. Regional comparison showed significant differences for theological inclusivity, F=9.51, p=.002, partial η²≈.052, and perceived ministerial fitness, F=6.89, p=.009, partial η²≈.038. The age effect was substantively larger than the regional effects. Conclusion: The findings identify a generational leadership challenge rather than an immutable Anglican position on disability. Reform should therefore include continuing formation for senior leaders, explicit ministerial-fitness criteria and structured exposure to disability theology and lived experience rather than relying on gradual generational replacement.",
+  "keywords": [
+    "ministerial fitness",
+    "disability attitudes",
+    "Anglican clergy",
+    "generational differences",
+    "theological education",
+    "accommodation",
+    "Nigeria"
+  ],
+  "article_type": "Original Research Article",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e014/",
+  "recommended_citation": "Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). Who Is Considered Fit for Ministry? Age, Region and Disability-Inclusion Attitudes among Anglican Clergy, Faculty and Administrators in Nigeria. CHIATECH JOURNAL, 1(1), e014. https://journal.chiatechsolutions.com/papers/e014/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e014_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e014_Who_Is_Considered_Fit_for_Ministry_Age_Region_and_Disability_Inclusion_Attitudes_among_Anglican.docx",
+  "author_contributions": null,
+  "update_date": "2026-09-05"
+}

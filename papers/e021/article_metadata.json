@@ -1,0 +1,52 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e021",
+  "title": "Integrated Livestock Feed Zones, Crop-Residue Utilisation and Economic Growth in Nigeria, 1990–2025: Cointegration, Causality and Error-Correction Evidence",
+  "author_folder": "IDIM_Iboro_Tom",
+  "source_path": "CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e021_Integrated_Livestock_Feed_Zones_Economic_Growth_Nigeria.docx",
+  "source_sha256": "c5039b565a23605e6acf3f077cce4f8d9f8e4d6359f85d223cdb72786295cc89",
+  "final_path": "04_AUTHORS/IDIM_Iboro_Tom/e021/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e021_Integrated_Livestock_Feed_Zones_Crop_Residue_Utilisation_and_Economic_Growth_in_Nigeria_19902025_Cointegration.docx",
+  "final_sha256": "79048DAB85937ACB191BAF9B1113E9C952A5E56822400FC85A292B4BCDA00791",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 4,
+  "figure_or_diagram_objects": 1,
+  "figure_objects_with_adjacent_caption": 1,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e021",
+  "authors": [
+    {
+      "given": "Iboro Tom",
+      "family": "Idim",
+      "display": "Iboro Tom Idim",
+      "affiliation": "Department of Economics, University of Abuja, Abuja, Nigeria"
+    }
+  ],
+  "abstract": "Background: Nigeria produces large volumes of crop residues while livestock production remains constrained by feed costs, import dependence and uneven feed-and-fodder infrastructure. Objective: This study examined the long-run and short-run relationships among crop-residue utilisation for livestock feed, livestock output, feed imports, an integration index and Nigeria’s economic growth over 1990–2025. Methods: A quantitative longitudinal ex-post-facto design used annual secondary series compiled from national and international statistical sources. The reported econometric sequence included unit-root testing, Johansen cointegration, Granger-causality analysis, log-linear OLS estimation, an error-correction model and diagnostic/robustness checks. The harmonised estimation sample comprised 35 annual observations after source alignment. Results: The reported Johansen statistics supported multiple long-run relationships; the maximum-eigenvalue criterion indicated two cointegrating equations. In the log-linear GDP model, crop-residue utilisation was positively associated with GDP (B=.158, p=.0053) and livestock output showed a larger positive coefficient (B=.590, p<.001), while feed imports were negatively associated with GDP (B=−.469, p<.001). The integration index was also negative (B=−.444, p<.001), an unexpected result interpreted cautiously as possible transition cost, threshold behaviour or measurement error. The error-correction term was −.457 (p=.0012), implying about 45.7% annual adjustment toward long-run equilibrium. Conclusion: The results support crop-residue valorisation and domestic feed development as potentially important components of livestock-sector growth, but they do not justify simple extrapolation from coefficients to national GDP gains. Policy should prioritise feed-and-fodder infrastructure, data quality, crop-production stability and staged evaluation of integration investments.",
+  "keywords": [
+    "crop residues",
+    "livestock feed",
+    "economic growth",
+    "cointegration",
+    "error correction model",
+    "import substitution",
+    "agricultural value chains",
+    "Nigeria"
+  ],
+  "article_type": "Econometric Research Article",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e021/",
+  "recommended_citation": "Idim, I. T. (2026). Integrated Livestock Feed Zones, Crop-Residue Utilisation and Economic Growth in Nigeria, 1990–2025: Cointegration, Causality and Error-Correction Evidence. CHIATECH JOURNAL, 1(1), e021. https://journal.chiatechsolutions.com/papers/e021/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e021_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e021_Integrated_Livestock_Feed_Zones_Crop_Residue_Utilisation_and_Economic_Growth_in_Nigeria_19902025_Cointegration.docx",
+  "author_contributions": null,
+  "update_date": "2026-09-05"
+}

@@ -1,0 +1,109 @@
+{
+  "form_values": {
+    "articleId": "e012",
+    "eLocator": "e012",
+    "articleType": "Original Research Article",
+    "title": "Theology in Principle, Inclusion in Practice? Divine Calling and the Theology–Practice Gap in Nigerian Anglican Seminaries",
+    "authors": [
+      {
+        "given": "Peter",
+        "family": "Ukule",
+        "display": "Peter Ukule",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "given": "Charles Ogundu",
+        "family": "Nnaji",
+        "display": "Charles Ogundu Nnaji",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "given": "Adeola",
+        "family": "Kehinde",
+        "display": "Adeola Kehinde",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Background: Anglican theology affirms the dignity of persons created in the image of God and the vocational agency of every member of the body of Christ, yet those affirmations do not automatically determine seminary practice. Objective: This paper examined whether inclusive theological convictions among Anglican clergy, faculty and administrators were accompanied by comparable recognition of the ministerial fitness and participation of persons with physical disabilities. Methods: A focused secondary analysis was conducted from the post-defence harmonised results of a sequential explanatory mixed-methods Ph.D. study. The realised institutional sample comprised 10 Anglican seminaries across five geopolitical zones. Of 198 Inclusion Attitudes in Theological Education Survey questionnaires distributed, 175 were returned (88.4%). Corrected direction-consistent scoring was used for theological understanding of disability (TUD) and perceived ministerial fitness (PMF); explanatory qualitative evidence came from students with physical disabilities, alumni, diocesan leaders and focus groups. Results: The corrected TUD composite was approximately 3.81/5 and the inclusion-oriented PMF composite approximately 3.54/5. Respondents strongly affirmed the Imago Dei (M=4.68), the indispensability of disabled members in the body of Christ (M=4.45), a theological mandate to remove barriers (M=4.39), and the incompatibility of exclusion with the Gospel (M=4.21). Mixed-method integration nevertheless showed that affirmation did not reliably translate into access, accommodation or recognition of leadership capacity. Conclusion: The central problem is not the total absence of inclusive doctrine but its incomplete institutionalisation. Disability inclusion becomes ecclesially credible only when confession is connected to discernment, accommodation, formation, leadership and accountable participation.",
+    "keywords": [
+      "disability theology",
+      "divine calling",
+      "Anglican seminaries",
+      "ministerial fitness",
+      "theology–practice gap",
+      "Nigeria",
+      "inclusive theological education"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": null,
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e012/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e012/CHIATECH_JOURNAL_2026_V1I1_e012_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e012/CHIATECH_JOURNAL_2026_V1I1_e012_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e012/media/e012-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e012/media/e012-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e012/media/e012-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e012/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e012/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e012/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e012/CHIATECH_JOURNAL_2026_V1I1_e012_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e012_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e012_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e012/CHIATECH_JOURNAL_2026_V1I1_e012_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e012_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e012_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e012/media/e012-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e012_PUBLICATION_READY_PACKAGE/video/e012-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e012/media/e012-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e012_PUBLICATION_READY_PACKAGE/video/e012-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e012/media/e012-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e012_PUBLICATION_READY_PACKAGE/video/e012-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e012/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e012_PUBLICATION_READY_PACKAGE/video/e012-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

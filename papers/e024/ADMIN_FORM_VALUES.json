@@ -1,0 +1,99 @@
+{
+  "form_values": {
+    "articleId": "e024",
+    "eLocator": "e024",
+    "articleType": "Theory Development Article",
+    "title": "The SETEHEM Model for Knowledge Democratization and Workforce Innovation in Nigeria: A Bidirectional Interdisciplinary Framework Linking Education, Technology and Entrepreneurship",
+    "authors": [
+      {
+        "given": "Shiaondo Kenneth",
+        "family": "Chia",
+        "display": "Shiaondo Kenneth Chia",
+        "affiliation": "CHIATECH Solutions and Resources Ltd, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Purpose: Disciplinary specialization is essential for depth, yet Nigeria’s education-to-work transition increasingly requires graduates who can combine technical knowledge with pedagogy, social interpretation, enterprise creation and implementation capability. This article develops the SETEHEM Model as a bidirectional interdisciplinary framework for knowledge democratization and workforce innovation. Conceptual approach: Its core constructs were mapped to diffusion of innovations, constructivist/experiential learning, systems thinking, absorptive capacity and Triple/Quadruple Helix perspectives, then aligned with current Nigerian higher-education and labour-market policy. Model: In this framework SETEHEM denotes Science, Engineering, Technology, Education, Humanities, Entrepreneurship and Mathematics. Management is treated as a cross-cutting implementation capability governing coordination, resources, incentives, quality and scaling. The model proposes bidirectional knowledge exchange among disciplines through challenge studios, co-teaching, industry/community projects, internships, incubation and applied research. Six testable propositions link interdisciplinary breadth, bidirectional exchange, experiential challenge work, ecosystem partnerships, management capability and contextual equity to problem framing, technology adoption, job versatility and entrepreneurial outcomes. Implications: The National Universities Commission’s 70% core/30% institution-specific CCMAS structure and its Skills Development and Entrepreneurship mandate create policy space for locally designed interdisciplinary modules. Conclusion: SETEHEM is best viewed as a theoretically grounded, testable architecture—not as a validated effect model. Its value will depend on implementation fidelity and future multi-institutional evaluation using explicit constructs and outcome measures.",
+    "keywords": [
+      "SETEHEM",
+      "interdisciplinary education",
+      "knowledge democratization",
+      "entrepreneurship",
+      "innovation",
+      "employability",
+      "university–industry linkage",
+      "Triple Helix",
+      "Nigeria"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": "Author contributionsChia Shiaondo Kenneth: original SETEHEM concept, conceptualization, theory integration, framework development and manuscript authorship.",
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e024/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e024/CHIATECH_JOURNAL_2026_V1I1_e024_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e024/CHIATECH_JOURNAL_2026_V1I1_e024_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e024/media/e024-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e024/media/e024-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e024/media/e024-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e024/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e024/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e024/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e024/CHIATECH_JOURNAL_2026_V1I1_e024_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e024_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e024_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e024/CHIATECH_JOURNAL_2026_V1I1_e024_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e024_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e024_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e024/media/e024-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e024_PUBLICATION_READY_PACKAGE/video/e024-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e024/media/e024-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e024_PUBLICATION_READY_PACKAGE/video/e024-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e024/media/e024-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e024_PUBLICATION_READY_PACKAGE/video/e024-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e024/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e024_PUBLICATION_READY_PACKAGE/video/e024-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

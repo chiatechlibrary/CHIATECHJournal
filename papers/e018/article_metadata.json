@@ -1,0 +1,52 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e018",
+  "title": "Deconstructing the Mechanisms Linking Youth Unemployment to Criminality in Nigeria’s North-Central Region: A Grounded Theory Study",
+  "author_folder": "IDIM_Iboro_Tom",
+  "source_path": "CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e018_Youth_Unemployment_Criminality_Mechanisms.docx",
+  "source_sha256": "7df6f1709fdd03b6f58ad7a4a124114998118fa31f46bb944d1482c178ea9f92",
+  "final_path": "04_AUTHORS/IDIM_Iboro_Tom/e018/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e018_Deconstructing_the_Mechanisms_Linking_Youth_Unemployment_to_Criminality_in_Nigerias_North_Central_Region_A.docx",
+  "final_sha256": "545B23C870E309B3177B4B89AE5A3A76B6AE25D062B859255E0D1F89A04F9294",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 4,
+  "figure_or_diagram_objects": 1,
+  "figure_objects_with_adjacent_caption": 1,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e018",
+  "authors": [
+    {
+      "given": "Iboro Tom",
+      "family": "Idim",
+      "display": "Iboro Tom Idim",
+      "affiliation": "Department of Economics, University of Abuja, Abuja, Nigeria"
+    }
+  ],
+  "abstract": "Background: The unemployment–crime relationship is often reported as a correlation, but policy design depends on knowing the processes through which labour-market exclusion can become criminal involvement. Objective: This study identified and integrated the mechanisms through which unemployed youth may move toward criminal participation across Nigeria’s North-Central region. Methods: A constructivist grounded-theory design drew on a field corpus reported as 87 in-depth interviews, 14 focus-group discussions and documentary sources from Benue, Kogi, Kwara, Nasarawa, Niger, Plateau and the Federal Capital Territory. The archived sampling table explicitly classified 75 interviewees as unemployed youth, rehabilitated former offenders, community leaders and law-enforcement personnel; the remaining interview classifications were not disaggregated in that table. Analysis used open, focused, axial and theoretical coding, constant comparison, triangulation, member checking, reflexive memoing and an audit trail. Results: Six interacting pathways were identified: idleness and routine disruption; survival-economy pressure; social-network recruitment; grievance activation; cognitive transformation; and opportunity substitution. Social-network recruitment was especially prominent among former offenders, 73% of whom reported entry through existing social ties. The mechanisms varied by settlement type, livelihood structure and crime context, and were better understood as interacting configurations than as a single linear sequence. Conclusion: Youth unemployment should not be treated as an automatic cause of crime. The findings support a mechanism-specific prevention model in which livelihood restoration, structured engagement, network disruption, psychosocial and grievance-sensitive intervention, and credible legitimate opportunities are matched to the pathway observed in a locality.",
+  "keywords": [
+    "youth unemployment",
+    "criminality",
+    "grounded theory",
+    "crime mechanisms",
+    "social-network recruitment",
+    "human security",
+    "North-Central Nigeria",
+    "criminal opportunity structures"
+  ],
+  "article_type": "Grounded Theory Study",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e018/",
+  "recommended_citation": "Idim, I. T. (2026). Deconstructing the Mechanisms Linking Youth Unemployment to Criminality in Nigeria’s North-Central Region: A Grounded Theory Study. CHIATECH JOURNAL, 1(1), e018. https://journal.chiatechsolutions.com/papers/e018/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e018_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e018_Deconstructing_the_Mechanisms_Linking_Youth_Unemployment_to_Criminality_in_Nigerias_North_Central_Region_A.docx",
+  "author_contributions": null,
+  "update_date": "2026-09-05"
+}

@@ -1,0 +1,57 @@
+CHIATECH JOURNAL — E021 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e021
+Title: Integrated Livestock Feed Zones, Crop-Residue Utilisation and Economic Growth in Nigeria, 1990–2025: Cointegration, Causality and Error-Correction Evidence
+Article type: Econometric Research Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Iboro Tom Idim
+   Given names: Iboro Tom
+   Family name: Idim
+   Affiliation: Department of Economics, University of Abuja, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+No separate contribution statement was located in the supplied manuscript; obtain the authors’ statement. Do not copy e001 roles into this paper.
+
+ABSTRACT
+Background: Nigeria produces large volumes of crop residues while livestock production remains constrained by feed costs, import dependence and uneven feed-and-fodder infrastructure. Objective: This study examined the long-run and short-run relationships among crop-residue utilisation for livestock feed, livestock output, feed imports, an integration index and Nigeria’s economic growth over 1990–2025. Methods: A quantitative longitudinal ex-post-facto design used annual secondary series compiled from national and international statistical sources. The reported econometric sequence included unit-root testing, Johansen cointegration, Granger-causality analysis, log-linear OLS estimation, an error-correction model and diagnostic/robustness checks. The harmonised estimation sample comprised 35 annual observations after source alignment. Results: The reported Johansen statistics supported multiple long-run relationships; the maximum-eigenvalue criterion indicated two cointegrating equations. In the log-linear GDP model, crop-residue utilisation was positively associated with GDP (B=.158, p=.0053) and livestock output showed a larger positive coefficient (B=.590, p<.001), while feed imports were negatively associated with GDP (B=−.469, p<.001). The integration index was also negative (B=−.444, p<.001), an unexpected result interpreted cautiously as possible transition cost, threshold behaviour or measurement error. The error-correction term was −.457 (p=.0012), implying about 45.7% annual adjustment toward long-run equilibrium. Conclusion: The results support crop-residue valorisation and domestic feed development as potentially important components of livestock-sector growth, but they do not justify simple extrapolation from coefficients to national GDP gains. Policy should prioritise feed-and-fodder infrastructure, data quality, crop-production stability and staged evaluation of integration investments.
+
+KEYWORDS
+crop residues; livestock feed; economic growth; cointegration; error correction model; import substitution; agricultural value chains; Nigeria
+
+RECOMMENDED CITATION
+Idim, I. T. (2026). Integrated Livestock Feed Zones, Crop-Residue Utilisation and Economic Growth in Nigeria, 1990–2025: Cointegration, Causality and Error-Correction Evidence. CHIATECH JOURNAL, 1(1), e021. https://journal.chiatechsolutions.com/papers/e021/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e021/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e021/CHIATECH_JOURNAL_2026_V1I1_e021_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e021/CHIATECH_JOURNAL_2026_V1I1_e021_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e021/media/e021-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e021/media/e021-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e021/media/e021-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e021/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

@@ -1,0 +1,57 @@
+CHIATECH JOURNAL — E011 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e011
+Title: Integrating Defensive and Offensive Cybersecurity Education: A Lab-Based Competency Framework for Workforce-Ready Learning
+Article type: Curriculum and Competency Framework Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Shiaondo Kenneth Chia
+   Given names: Shiaondo Kenneth
+   Family name: Chia
+   Affiliation: CHIATECH Solutions and Resources Ltd, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+Author contributionsChia Shiaondo Kenneth: conceptualization, source framework, critical synthesis, framework development, interpretation and manuscript authorship.
+
+ABSTRACT
+Background: Cybersecurity education often separates defensive operations from offensive testing even though workforce practice requires professionals to understand how attack paths, controls, detection and response interact. Objective: This article develops a curriculum and competency framework that integrates defensive and offensive perspectives within authorized, isolated and ethically governed laboratories. Methods: A design synthesis mapped the source curriculum against the NIST Cybersecurity Framework 2.0, the NICE Workforce Framework for Cybersecurity, CSEC2017 curricular guidance and recent research on cybersecurity teaching. Results: The proposed architecture progresses through foundations and lab setup, defensive engineering, authorized adversary emulation, specialized domains, threat hunting/incident response, automation and governance. A purple-team learning loop—understand risk, defend, emulate threats safely, detect/investigate, respond/improve—connects technical tasks to organizational outcomes. Assessment emphasizes observable competencies through threat models, hardening plans, log analysis, vulnerability reports, secure configurations, incident reports and capstone exercises. Offensive content is bounded by written authorization, scoped targets, isolated environments, no external persistence and evidence-based reporting. Conclusion: Defensive and offensive knowledge should be integrated educationally but separated operationally by strict authorization and safety controls. Workforce readiness depends on demonstrated capability, ethical judgment and communication as much as on tool familiarity.
+
+KEYWORDS
+cybersecurity education; NICE Framework; NIST CSF 2.0; ethical hacking; defensive security; cyber ranges; workforce development
+
+RECOMMENDED CITATION
+Chia, S. K. (2026). Integrating Defensive and Offensive Cybersecurity Education: A Lab-Based Competency Framework for Workforce-Ready Learning. CHIATECH JOURNAL, 1(1), e011. https://journal.chiatechsolutions.com/papers/e011/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e011/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e011/CHIATECH_JOURNAL_2026_V1I1_e011_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e011/CHIATECH_JOURNAL_2026_V1I1_e011_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e011/media/e011-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e011/media/e011-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e011/media/e011-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e011/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

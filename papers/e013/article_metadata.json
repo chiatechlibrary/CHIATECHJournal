@@ -1,0 +1,63 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e013",
+  "title": "When Policy Does Not Open the Door: Physical Accessibility and Disability-Inclusion Governance in Anglican Seminaries in Nigeria",
+  "author_folder": "UKULE_Peter__NNAJI_Charles_Ogundu__KEHINDE_Adeola",
+  "source_path": "CHIATECH_JOURNAL_2026_V1I1_e013_Accessibility_Policy_Governance_Anglican_Seminaries_Ukule_Nnaji_Kehinde.docx",
+  "source_sha256": "7e0808759d45b27809221e5af98f17ee7c3996689aeab66e8cfd49021680741b",
+  "final_path": "04_AUTHORS/UKULE_Peter__NNAJI_Charles_Ogundu__KEHINDE_Adeola/e013/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e013_When_Policy_Does_Not_Open_the_Door_Physical_Accessibility_and_Disability_Inclusion_Governance_in.docx",
+  "final_sha256": "7E0808759D45B27809221E5AF98F17EE7C3996689AEAB66E8CFD49021680741B",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 2,
+  "figure_or_diagram_objects": 2,
+  "figure_objects_with_adjacent_caption": 2,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e013",
+  "authors": [
+    {
+      "given": "Peter",
+      "family": "Ukule",
+      "display": "Peter Ukule",
+      "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+    },
+    {
+      "given": "Charles Ogundu",
+      "family": "Nnaji",
+      "display": "Charles Ogundu Nnaji",
+      "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+    },
+    {
+      "given": "Adeola",
+      "family": "Kehinde",
+      "display": "Adeola Kehinde",
+      "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+    }
+  ],
+  "abstract": "Background: Formal non-discrimination language can coexist with material and procedural barriers that make theological education inaccessible. Objective: This study examined the physical, educational, technological and policy conditions affecting access for persons with physical disabilities in sampled Anglican seminaries in Nigeria. Methods: The article reports the institutional strand of a post-defence harmonised sequential explanatory mixed-methods Ph.D. study. Seminary Accessibility Assessment Tool (SAAT) audits and Seminary Policy Analysis Matrix (SPAM) reviews were completed at 10 seminaries in five geopolitical zones. The SAAT assessed entrances, learning spaces, worship, sanitation, residence, alternative formats, library access, assistive technology and digital resources; SPAM assessed whether inclusion commitments were present and whether implementation mechanisms were documented. Results: Overall SAAT accessibility was 19.8%. The highest domain was chapel/worship access (35%), while dormitory/accommodation access was 9%, alternative formats 5% and assistive technology 3%. Nine of 10 seminaries had a general disability non-discrimination statement, but only one showed systematic implementation. Admission accommodation policies were present in 20% of institutions but had no documented implementation; academic accommodation was present in 10% with no documented implementation; no institution documented disability-specific financial aid or a field-education accessibility plan. Conclusion: The dominant institutional problem was not a lack of declaratory commitment but a governance gap between statement, procedure, budget, responsibility and remedy. Accessibility should be treated as a core quality standard of ministerial formation, supported by annual audits, phased universal-design investment and enforceable accommodation processes.",
+  "keywords": [
+    "seminary accessibility",
+    "disability inclusion",
+    "Anglican theological education",
+    "reasonable accommodation",
+    "policy implementation",
+    "universal design",
+    "Nigeria"
+  ],
+  "article_type": "Original Research Article",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e013/",
+  "recommended_citation": "Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). When Policy Does Not Open the Door: Physical Accessibility and Disability-Inclusion Governance in Anglican Seminaries in Nigeria. CHIATECH JOURNAL, 1(1), e013. https://journal.chiatechsolutions.com/papers/e013/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e013_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e013_When_Policy_Does_Not_Open_the_Door_Physical_Accessibility_and_Disability_Inclusion_Governance_in.docx",
+  "author_contributions": null,
+  "update_date": "2026-09-05"
+}

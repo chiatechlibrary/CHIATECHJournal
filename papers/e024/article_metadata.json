@@ -1,0 +1,53 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e024",
+  "title": "The SETEHEM Model for Knowledge Democratization and Workforce Innovation in Nigeria: A Bidirectional Interdisciplinary Framework Linking Education, Technology and Entrepreneurship",
+  "author_folder": "CHIA_Shiaondo_Kenneth",
+  "source_path": "CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e024_SETEHEM_Model_Knowledge_Democratization.docx",
+  "source_sha256": "7cf3fc1313a32140faa93cf645fea96fcc72acf6826f1f095162f19ed9e8accd",
+  "final_path": "04_AUTHORS/CHIA_Shiaondo_Kenneth/e024/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e024_The_SETEHEM_Model_for_Knowledge_Democratization_and_Workforce_Innovation_in_Nigeria_A_Bidirectional_Interdisci.docx",
+  "final_sha256": "7CF3FC1313A32140FAA93CF645FEA96FCC72ACF6826F1F095162F19ED9E8ACCD",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 4,
+  "figure_or_diagram_objects": 1,
+  "figure_objects_with_adjacent_caption": 1,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e024",
+  "authors": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia",
+      "display": "Shiaondo Kenneth Chia",
+      "affiliation": "CHIATECH Solutions and Resources Ltd, Abuja, Nigeria"
+    }
+  ],
+  "abstract": "Purpose: Disciplinary specialization is essential for depth, yet Nigeria’s education-to-work transition increasingly requires graduates who can combine technical knowledge with pedagogy, social interpretation, enterprise creation and implementation capability. This article develops the SETEHEM Model as a bidirectional interdisciplinary framework for knowledge democratization and workforce innovation. Conceptual approach: Its core constructs were mapped to diffusion of innovations, constructivist/experiential learning, systems thinking, absorptive capacity and Triple/Quadruple Helix perspectives, then aligned with current Nigerian higher-education and labour-market policy. Model: In this framework SETEHEM denotes Science, Engineering, Technology, Education, Humanities, Entrepreneurship and Mathematics. Management is treated as a cross-cutting implementation capability governing coordination, resources, incentives, quality and scaling. The model proposes bidirectional knowledge exchange among disciplines through challenge studios, co-teaching, industry/community projects, internships, incubation and applied research. Six testable propositions link interdisciplinary breadth, bidirectional exchange, experiential challenge work, ecosystem partnerships, management capability and contextual equity to problem framing, technology adoption, job versatility and entrepreneurial outcomes. Implications: The National Universities Commission’s 70% core/30% institution-specific CCMAS structure and its Skills Development and Entrepreneurship mandate create policy space for locally designed interdisciplinary modules. Conclusion: SETEHEM is best viewed as a theoretically grounded, testable architecture—not as a validated effect model. Its value will depend on implementation fidelity and future multi-institutional evaluation using explicit constructs and outcome measures.",
+  "keywords": [
+    "SETEHEM",
+    "interdisciplinary education",
+    "knowledge democratization",
+    "entrepreneurship",
+    "innovation",
+    "employability",
+    "university–industry linkage",
+    "Triple Helix",
+    "Nigeria"
+  ],
+  "article_type": "Theory Development Article",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e024/",
+  "recommended_citation": "Chia, S. K. (2026). The SETEHEM Model for Knowledge Democratization and Workforce Innovation in Nigeria: A Bidirectional Interdisciplinary Framework Linking Education, Technology and Entrepreneurship. CHIATECH JOURNAL, 1(1), e024. https://journal.chiatechsolutions.com/papers/e024/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e024_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e024_The_SETEHEM_Model_for_Knowledge_Democratization_and_Workforce_Innovation_in_Nigeria_A_Bidirectional_Interdisci.docx",
+  "author_contributions": "Author contributionsChia Shiaondo Kenneth: original SETEHEM concept, conceptualization, theory integration, framework development and manuscript authorship.",
+  "update_date": "2026-09-05"
+}

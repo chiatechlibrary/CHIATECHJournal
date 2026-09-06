@@ -1,0 +1,18 @@
+{
+  "id": "e022",
+  "source_sha256": "32651efda84f38f297b0f32d216dab9010035f42dd14fd4e5c4c6c5219044005",
+  "html_sha256": "4cc63ec0c0f758092be48cc07a45ee6dff31cd0d93ee6572cf55b473b483576a",
+  "top_level_source_blocks": 120,
+  "paragraphs": 125,
+  "tables": 2,
+  "images": 4,
+  "equations": 0,
+  "text_fidelity": true,
+  "changes": [],
+  "issues": [
+    "Use the reconciled e022 oncology manuscript, not the older special-stains filename at workspace root."
+  ],
+  "docx_pdf_status": "REVISION_AND_RENDER_REVIEW_PENDING",
+  "video_status": "HUMAN_RECORDING_REQUIRED",
+  "deployment_status": "NOT_DEPLOYED"
+}

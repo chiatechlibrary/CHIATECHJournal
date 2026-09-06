@@ -1,0 +1,100 @@
+{
+  "form_values": {
+    "articleId": "e023",
+    "eLocator": "e023",
+    "articleType": "Review and Conceptual Article",
+    "title": "Rethinking STEM Teaching and Learning in Nigeria: An Integrated, Inquiry-Driven and Digitally Resilient Framework for the Revised Curriculum Era",
+    "authors": [
+      {
+        "given": "Shiaondo Kenneth",
+        "family": "Chia",
+        "display": "Shiaondo Kenneth Chia",
+        "affiliation": "CHIATECH Solutions and Resources Ltd, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Purpose: Nigeria’s revised school curriculum creates an opportunity to move STEM education from subject coverage toward integrated problem solving, practical competence and purposeful technology use. This article critically synthesizes the author’s STEM reform manuscript, current curriculum policy and recent research to specify a practical framework for teaching and learning. Approach: A critical integrative review was used rather than a systematic review. The synthesis combines the source manuscript’s constructivist and interdisciplinary argument with official Nigerian curriculum documents, recent integrated-STEM evidence and two author-supplied Gwagwalada field summaries: a survey of 150 STEM teachers and an evaluative CBT case involving 200 students and 15 administrators. Findings: Contemporary evidence converges on integration, real-world problems, inquiry, design and teamwork as core features of integrated STEM. The local summaries identify implementation constraints that matter for Nigeria: only 28% of surveyed teachers reportedly used digital tools actively in practical STEM, 72% reported infrastructure deficits, 65% reported insufficient digital skills and 84% perceived stronger e-learning capacity as an added security resilience measure. In the CBT case, result-processing time reportedly fell by 85%, 76% of students developed high usability skills after orientation, and a 1:3 computer-to-student ratio plus weak alternative power constrained deployment. Contribution: The article proposes a seven-pillar Nigerian STEM implementation framework linking integrated problem contexts, guided inquiry/PBL/design, digital and offline resilience, teacher capability, authentic assessment, equity/local relevance, and partnership with continuous evaluation. Conclusion: Curriculum reform will produce stronger STEM outcomes only when pedagogy, teacher development, infrastructure, assessment and equity are implemented as one system rather than as separate projects.",
+    "keywords": [
+      "STEM education",
+      "Nigeria",
+      "revised curriculum",
+      "inquiry-based learning",
+      "problem-based learning",
+      "design thinking",
+      "teacher capacity",
+      "e-learning",
+      "CBT",
+      "equity"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": "Author contributionsChia Shiaondo Kenneth: conceptualization, source review manuscript, local field-study summaries, framework development and manuscript authorship.",
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e023/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e023/CHIATECH_JOURNAL_2026_V1I1_e023_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e023/CHIATECH_JOURNAL_2026_V1I1_e023_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e023/media/e023-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e023/media/e023-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e023/media/e023-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e023/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e023/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e023/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e023/CHIATECH_JOURNAL_2026_V1I1_e023_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e023_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e023_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e023/CHIATECH_JOURNAL_2026_V1I1_e023_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e023_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e023_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e023/media/e023-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e023_PUBLICATION_READY_PACKAGE/video/e023-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e023/media/e023-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e023_PUBLICATION_READY_PACKAGE/video/e023-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e023/media/e023-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e023_PUBLICATION_READY_PACKAGE/video/e023-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e023/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e023_PUBLICATION_READY_PACKAGE/video/e023-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

@@ -1,0 +1,110 @@
+{
+  "form_values": {
+    "articleId": "e008",
+    "eLocator": "e008",
+    "articleType": "Empirical Research Article",
+    "title": "Bridging Faith Communities and Public Institutions: Interfaith and Institutional Collaboration and Perceived Community Security in Abuja, Nigeria",
+    "authors": [
+      {
+        "display": "Syrenius Dangana Okoriko",
+        "given": "Syrenius Dangana",
+        "family": "Okoriko",
+        "affiliation": "Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "display": "Charles Ogundu Nnaji",
+        "given": "Charles Ogundu",
+        "family": "Nnaji",
+        "affiliation": "Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "display": "Adeola Kehinde",
+        "given": "Adeola",
+        "family": "Kehinde",
+        "affiliation": "Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Background: Institutional and interfaith collaboration is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between institutional and interfaith collaboration and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: IIC had weighted M=3.753 (SD=0.909), α=0.858, ω=0.860. Its weighted association with PRCI was ρ=0.450 (pairwise n=492). In the full model, B=0.157, 95% CI [.031, .283], standardized β=0.174, Holm p=.050, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: the prespecified IIC objective concerning denominational, interfaith, governmental and professional collaboration ",
+    "keywords": [
+      "interfaith collaboration",
+      "institutional collaboration",
+      "social capital",
+      "religious peacebuilding",
+      "human security",
+      "church engagement",
+      "Abuja",
+      "Nigeria"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": "Author contributionsS.D.O.: conceptualization, investigation, data curation, formal analysis and original drafting. C.O.N.: supervision, methodology review, interpretation and critical revision. A.K.: co-supervision, theological interpretation and critical revision. All authors approved the submitted version and accept responsibility for the work.",
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e008/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e008/CHIATECH_JOURNAL_2026_V1I1_e008_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e008/CHIATECH_JOURNAL_2026_V1I1_e008_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e008/media/e008-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e008/media/e008-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e008/media/e008-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e008/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e008/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e008/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e008/CHIATECH_JOURNAL_2026_V1I1_e008_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e008_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e008_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e008/CHIATECH_JOURNAL_2026_V1I1_e008_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e008_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e008_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e008/media/e008-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e008_PUBLICATION_READY_PACKAGE/video/e008-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e008/media/e008-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e008_PUBLICATION_READY_PACKAGE/video/e008-explanatory-summary-poster.png",
+      "present": true,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e008/media/e008-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e008_PUBLICATION_READY_PACKAGE/video/e008-explanatory-summary.vtt",
+      "present": true,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e008/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e008_PUBLICATION_READY_PACKAGE/video/e008-explanatory-transcript.html",
+      "present": true,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

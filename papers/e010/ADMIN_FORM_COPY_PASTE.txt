@@ -1,0 +1,57 @@
+CHIATECH JOURNAL — E010 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e010
+Title: Selecting Generative AI Systems for Education and Business in 2026: A Capability–Risk Framework for Comparing Frontier and Open-Weight Model Ecosystems
+Article type: Critical Comparative Review
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. CHIA Shiaondo Kenneth
+   Given names: Shiaondo Kenneth
+   Family name: Chia
+   Affiliation: CHIATECH Solutions and Resources Ltd, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+Author contributionsChia Shiaondo Kenneth: conceptualization, source framework, critical synthesis, framework development, interpretation and manuscript authorship.
+
+ABSTRACT
+Background: Generative AI procurement is increasingly difficult because model capability, tool access, multimodality, deployment control, safety controls and pricing evolve faster than conventional technology-selection cycles. Objective: This article constructs a five-system comparison time-stamped, evidence-disciplined framework for selecting generative AI systems in education and business. Methods: A critical comparative review triangulated independent evaluation scholarship with official model and system documentation available through 29 August 2026. The review considers GPT-5.6 Sol, Claude Opus 5, Gemini 3.1 Pro, DeepSeek-V4-Pro and Llama 4 Maverick as representative ecosystems rather than treating vendor benchmark claims as directly commensurable scores. Results: The comparison shows persistent trade-offs. Closed frontier systems provide strong managed capabilities and integrated tools but create dependence on provider controls, pricing and service architecture. Open-weight models provide greater deployment and adaptation control but shift security, evaluation and governance burdens to the adopter. Multimodality, context length and agent functionality are increasingly common, making grounding quality, workflow control, data governance, evaluation discipline and total cost of ownership more discriminating than a single benchmark rank. Conclusion: Organizations should replace model leaderboards with use-case portfolios, risk tiers and repeatable local evaluations. The best system is the one that achieves acceptable task quality under the institution’s evidence, privacy, safety, latency, cost and audit requirements.
+
+KEYWORDS
+generative AI; large language models; AI evaluation; education technology; enterprise AI; AI governance; model selection
+
+RECOMMENDED CITATION
+Chia, S. K. (2026). Selecting Generative AI Systems for Education and Business in 2026: A Capability–Risk Framework for Comparing Frontier and Open-Weight Model Ecosystems. CHIATECH JOURNAL, 1(1), e010. https://journal.chiatechsolutions.com/papers/e010/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e010/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e010/CHIATECH_JOURNAL_2026_V1I1_e010_Version_of_Record.pdf
+Local asset: present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e010/CHIATECH_JOURNAL_2026_V1I1_e010_Version_of_Record.pdf
+Local asset: present
+videoUrl: https://journal.chiatechsolutions.com/papers/e010/media/e010-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e010/media/e010-explanatory-summary-poster.png
+Local asset: present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e010/media/e010-explanatory-summary.vtt
+Local asset: present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e010/explanatory-transcript.html
+Local asset: present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

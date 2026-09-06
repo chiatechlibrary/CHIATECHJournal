@@ -1,0 +1,65 @@
+CHIATECH JOURNAL — E013 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e013
+Title: When Policy Does Not Open the Door: Physical Accessibility and Disability-Inclusion Governance in Anglican Seminaries in Nigeria
+Article type: Original Research Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Peter Ukule
+   Given names: Peter
+   Family name: Ukule
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+2. Charles Ogundu Nnaji
+   Given names: Charles Ogundu
+   Family name: Nnaji
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+3. Adeola Kehinde
+   Given names: Adeola
+   Family name: Kehinde
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+No separate contribution statement was located in the supplied manuscript; obtain the authors’ statement. Do not copy e001 roles into this paper.
+
+ABSTRACT
+Background: Formal non-discrimination language can coexist with material and procedural barriers that make theological education inaccessible. Objective: This study examined the physical, educational, technological and policy conditions affecting access for persons with physical disabilities in sampled Anglican seminaries in Nigeria. Methods: The article reports the institutional strand of a post-defence harmonised sequential explanatory mixed-methods Ph.D. study. Seminary Accessibility Assessment Tool (SAAT) audits and Seminary Policy Analysis Matrix (SPAM) reviews were completed at 10 seminaries in five geopolitical zones. The SAAT assessed entrances, learning spaces, worship, sanitation, residence, alternative formats, library access, assistive technology and digital resources; SPAM assessed whether inclusion commitments were present and whether implementation mechanisms were documented. Results: Overall SAAT accessibility was 19.8%. The highest domain was chapel/worship access (35%), while dormitory/accommodation access was 9%, alternative formats 5% and assistive technology 3%. Nine of 10 seminaries had a general disability non-discrimination statement, but only one showed systematic implementation. Admission accommodation policies were present in 20% of institutions but had no documented implementation; academic accommodation was present in 10% with no documented implementation; no institution documented disability-specific financial aid or a field-education accessibility plan. Conclusion: The dominant institutional problem was not a lack of declaratory commitment but a governance gap between statement, procedure, budget, responsibility and remedy. Accessibility should be treated as a core quality standard of ministerial formation, supported by annual audits, phased universal-design investment and enforceable accommodation processes.
+
+KEYWORDS
+seminary accessibility; disability inclusion; Anglican theological education; reasonable accommodation; policy implementation; universal design; Nigeria
+
+RECOMMENDED CITATION
+Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). When Policy Does Not Open the Door: Physical Accessibility and Disability-Inclusion Governance in Anglican Seminaries in Nigeria. CHIATECH JOURNAL, 1(1), e013. https://journal.chiatechsolutions.com/papers/e013/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e013/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e013/CHIATECH_JOURNAL_2026_V1I1_e013_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e013/CHIATECH_JOURNAL_2026_V1I1_e013_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e013/media/e013-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e013/media/e013-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e013/media/e013-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e013/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

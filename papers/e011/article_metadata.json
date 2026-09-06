@@ -1,0 +1,51 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e011",
+  "title": "Integrating Defensive and Offensive Cybersecurity Education: A Lab-Based Competency Framework for Workforce-Ready Learning",
+  "author_folder": "CHIA_Shiaondo_Kenneth",
+  "source_path": "CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e011_Integrating_Defensive_and_Offensive_Cybersecurity_Education.docx",
+  "source_sha256": "568e2dc787dab60b919e4c9cbec9c54862180c03b53a418dd0b6d1e5753b63ed",
+  "final_path": "04_AUTHORS/CHIA_Shiaondo_Kenneth/e011/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e011_Integrating_Defensive_and_Offensive_Cybersecurity_Education_A_Lab_Based_Competency_Framework_for_Workforce_Rea.docx",
+  "final_sha256": "568E2DC787DAB60B919E4C9CBEC9C54862180C03B53A418DD0B6D1E5753B63ED",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 4,
+  "figure_or_diagram_objects": 1,
+  "figure_objects_with_adjacent_caption": 1,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e011",
+  "authors": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia",
+      "display": "Shiaondo Kenneth Chia",
+      "affiliation": "CHIATECH Solutions and Resources Ltd, Abuja, Nigeria"
+    }
+  ],
+  "abstract": "Background: Cybersecurity education often separates defensive operations from offensive testing even though workforce practice requires professionals to understand how attack paths, controls, detection and response interact. Objective: This article develops a curriculum and competency framework that integrates defensive and offensive perspectives within authorized, isolated and ethically governed laboratories. Methods: A design synthesis mapped the source curriculum against the NIST Cybersecurity Framework 2.0, the NICE Workforce Framework for Cybersecurity, CSEC2017 curricular guidance and recent research on cybersecurity teaching. Results: The proposed architecture progresses through foundations and lab setup, defensive engineering, authorized adversary emulation, specialized domains, threat hunting/incident response, automation and governance. A purple-team learning loop—understand risk, defend, emulate threats safely, detect/investigate, respond/improve—connects technical tasks to organizational outcomes. Assessment emphasizes observable competencies through threat models, hardening plans, log analysis, vulnerability reports, secure configurations, incident reports and capstone exercises. Offensive content is bounded by written authorization, scoped targets, isolated environments, no external persistence and evidence-based reporting. Conclusion: Defensive and offensive knowledge should be integrated educationally but separated operationally by strict authorization and safety controls. Workforce readiness depends on demonstrated capability, ethical judgment and communication as much as on tool familiarity.",
+  "keywords": [
+    "cybersecurity education",
+    "NICE Framework",
+    "NIST CSF 2.0",
+    "ethical hacking",
+    "defensive security",
+    "cyber ranges",
+    "workforce development"
+  ],
+  "article_type": "Curriculum and Competency Framework Article",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e011/",
+  "recommended_citation": "Chia, S. K. (2026). Integrating Defensive and Offensive Cybersecurity Education: A Lab-Based Competency Framework for Workforce-Ready Learning. CHIATECH JOURNAL, 1(1), e011. https://journal.chiatechsolutions.com/papers/e011/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e011_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e011_Integrating_Defensive_and_Offensive_Cybersecurity_Education_A_Lab_Based_Competency_Framework_for_Workforce_Rea.docx",
+  "author_contributions": "Author contributionsChia Shiaondo Kenneth: conceptualization, source framework, critical synthesis, framework development, interpretation and manuscript authorship.",
+  "update_date": "2026-09-05"
+}

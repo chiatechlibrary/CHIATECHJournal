@@ -1,0 +1,65 @@
+CHIATECH JOURNAL — E022 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e022
+Title: Multiplex Immunohistochemistry and Immunophenotyping in Predictive Cancer Biomarker Discovery and Targeted Therapy
+Article type: Narrative Technical Review
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. M. M. Nengem
+   Given names: M. M.
+   Family name: Nengem
+   Affiliation: Department of Medical Laboratory Science, Faculty of Applied Health Sciences, Edo State University Iyamho, Nigeria
+2. G. O. Avwioro
+   Given names: G. O.
+   Family name: Avwioro
+   Affiliation: Department of Medical Laboratory Science, Faculty of Allied Health Sciences, Delta State University, Abraka, Nigeria
+3. G. I. Iyare
+   Given names: G. I.
+   Family name: Iyare
+   Affiliation: Department of Medical Laboratory Science, Faculty of Applied Health Sciences, Edo State University Iyamho, Nigeria
+
+AUTHOR CONTRIBUTIONS
+No separate contribution statement was located in the supplied manuscript; obtain the authors’ statement. Do not copy e001 roles into this paper.
+
+ABSTRACT
+Precision oncology increasingly depends on assays that preserve both biomarker identity and the spatial context of the tumor microenvironment (TME). Conventional single-plex chromogenic immunohistochemistry remains clinically valuable, but its limited plex and loss of cell-to-cell context can constrain assessment of heterogeneous immune and stromal compartments. This narrative technical review examines multiplex immunohistochemistry and immunofluorescence, high-dimensional immunophenotyping, imaging mass cytometry, and oligonucleotide-barcoded imaging systems as complementary approaches for predictive biomarker discovery and targeted therapy. It also reviews the computational pathway from image acquisition and registration through cell segmentation, phenotyping, dimensionality reduction, spatial statistics, and clinically interpretable tissue architectures. Across the cited literature, spatially resolved multi-marker measurements provide information that is not captured by isolated marker percentages or bulk molecular averages, including immune-cell proximity, exclusion, co-expression, and neighborhood organization. These features can refine hypotheses about response and resistance to immune-checkpoint inhibition and support rational combination-therapy design, while artificial-intelligence methods can improve reproducibility in segmentation and high-dimensional pattern recognition. However, translation into routine diagnostics requires standardized pre-analytics, validated antibody panels, transparent computational pipelines, external clinical validation, data infrastructure, and multidisciplinary quality assurance. Multiplex spatial pathology should therefore be viewed as a rapidly advancing complementary framework for precision oncology whose strongest clinical claims remain dependent on prospective validation and laboratory standardization.
+
+KEYWORDS
+multiplex immunohistochemistry; tumor microenvironment; precision oncology; immunophenotyping; spatial analysis; immune checkpoint inhibition
+
+RECOMMENDED CITATION
+Nengem, M. M., Avwioro, G. O., & Iyare, G. I. (2026). Multiplex Immunohistochemistry and Immunophenotyping in Predictive Cancer Biomarker Discovery and Targeted Therapy. CHIATECH JOURNAL, 1(1), e022. https://journal.chiatechsolutions.com/papers/e022/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e022/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e022/CHIATECH_JOURNAL_2026_V1I1_e022_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e022/CHIATECH_JOURNAL_2026_V1I1_e022_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e022/media/e022-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e022/media/e022-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e022/media/e022-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e022/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

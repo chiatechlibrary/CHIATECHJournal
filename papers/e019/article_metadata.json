@@ -1,0 +1,52 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e019",
+  "title": "Youth Labour-Market Vulnerability in Nigeria’s North-Central Zone: Mixed-Methods Evidence on Skills Mismatch, Informality, Gender and Conflict Exposure",
+  "author_folder": "IDIM_Iboro_Tom",
+  "source_path": "CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e019_Youth_Labour_Market_Vulnerability.docx",
+  "source_sha256": "db3f7d22400244bc041d9fac7cb1842357195e177cc07432f117e10a4e02dace",
+  "final_path": "04_AUTHORS/IDIM_Iboro_Tom/e019/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e019_Youth_Labour_Market_Vulnerability_in_Nigerias_North_Central_Zone_Mixed_Methods_Evidence_on_Skills.docx",
+  "final_sha256": "3D5ED168D65CCE8749DD7F78913610FB7DE8B7E65160BD7A1292595AB46EAF54",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 4,
+  "figure_or_diagram_objects": 1,
+  "figure_objects_with_adjacent_caption": 1,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e019",
+  "authors": [
+    {
+      "given": "Iboro Tom",
+      "family": "Idim",
+      "display": "Iboro Tom Idim",
+      "affiliation": "Department of Economics, University of Abuja, Abuja, Nigeria"
+    }
+  ],
+  "abstract": "Background: Youth unemployment in Nigeria’s North-Central zone is intertwined with underemployment, informal work, skills mismatch, gendered barriers and insecurity. Objective: This study examined the structural and social factors associated with youth labour-market vulnerability across Benue, Kogi, Kwara, Nasarawa, Niger, Plateau and the Federal Capital Territory. Methods: The parent study used a sequential mixed-method design. A structured survey was administered to 882 youth respondents (126 per constituent unit), with reported internal consistency of α=.81. The qualitative strand comprised 35 focus-group discussions, 70 key-informant interviews and intensive case studies in Guma, Benue State, and Riyom, Plateau State. Quantitative analysis used descriptive statistics, cross-tabulation, chi-square tests and binary logistic regression; qualitative material was analysed thematically. Because Nigeria introduced a revised Labour Force Survey methodology in 2023, this article does not treat pre-2023 and revised national unemployment estimates as one directly comparable time series. Results: The source analysis reports that 73% of employed youth in the survey worked in informal activities and more than 80% of those informal workers earned below the statutory minimum wage applicable during fieldwork. Holding a tertiary Arts or Social Sciences degree rather than a STEM/vocational qualification was associated with 1.8 times the odds of unemployment (p<.01), while female respondents had 1.5 times the odds after adjustment for education and location (p<.001). Conflict exposure was closely linked to livelihood disruption, displacement and reduced youth agricultural engagement. Conclusion: The evidence supports an integrated jobs strategy combining demand-led skills, agro-industrial and digital opportunities, gender-responsive access to assets, conflict-sensitive livelihood restoration and stronger labour-market information.",
+  "keywords": [
+    "youth unemployment",
+    "underemployment",
+    "informal employment",
+    "skills mismatch",
+    "gender inequality",
+    "conflict exposure",
+    "mixed methods",
+    "North-Central Nigeria"
+  ],
+  "article_type": "Mixed-Methods Research Article",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e019/",
+  "recommended_citation": "Idim, I. T. (2026). Youth Labour-Market Vulnerability in Nigeria’s North-Central Zone: Mixed-Methods Evidence on Skills Mismatch, Informality, Gender and Conflict Exposure. CHIATECH JOURNAL, 1(1), e019. https://journal.chiatechsolutions.com/papers/e019/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e019_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e019_Youth_Labour_Market_Vulnerability_in_Nigerias_North_Central_Zone_Mixed_Methods_Evidence_on_Skills.docx",
+  "author_contributions": null,
+  "update_date": "2026-09-05"
+}

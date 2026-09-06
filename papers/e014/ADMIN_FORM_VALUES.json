@@ -1,0 +1,109 @@
+{
+  "form_values": {
+    "articleId": "e014",
+    "eLocator": "e014",
+    "articleType": "Original Research Article",
+    "title": "Who Is Considered Fit for Ministry? Age, Region and Disability-Inclusion Attitudes among Anglican Clergy, Faculty and Administrators in Nigeria",
+    "authors": [
+      {
+        "given": "Peter",
+        "family": "Ukule",
+        "display": "Peter Ukule",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "given": "Charles Ogundu",
+        "family": "Nnaji",
+        "display": "Charles Ogundu Nnaji",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      },
+      {
+        "given": "Adeola",
+        "family": "Kehinde",
+        "display": "Adeola Kehinde",
+        "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Background: Institutional access is shaped not only by buildings and policy but by the judgments of gatekeepers who interpret ministerial fitness, approve accommodations and influence placement. Objective: This paper examined generational and regional differences in disability-inclusion attitudes among Anglican clergy, seminary faculty and administrators. Methods: The analysis uses the post-defence corrected quantitative results of the Inclusion Attitudes in Theological Education Survey. A total of 175 usable questionnaires were returned from 198 distributed (88.4%). The respondent group was predominantly male (90.9%) and experienced, with 85.7% reporting more than six years of service. Corrected direction-consistent scoring was applied to exclusionary items. Age-group willingness to accommodate and regional differences in theological inclusivity and perceived ministerial fitness were examined using the verified t-test, ANOVA and effect-size results. Results: Younger respondents aged 18–45 (n=86) reported greater willingness to accommodate (M=3.89, SD=.88) than respondents aged 46+ (n=89; M=3.21, SD=.95), t≈4.91, p<.001, d≈.74. Regional comparison showed significant differences for theological inclusivity, F=9.51, p=.002, partial η²≈.052, and perceived ministerial fitness, F=6.89, p=.009, partial η²≈.038. The age effect was substantively larger than the regional effects. Conclusion: The findings identify a generational leadership challenge rather than an immutable Anglican position on disability. Reform should therefore include continuing formation for senior leaders, explicit ministerial-fitness criteria and structured exposure to disability theology and lived experience rather than relying on gradual generational replacement.",
+    "keywords": [
+      "ministerial fitness",
+      "disability attitudes",
+      "Anglican clergy",
+      "generational differences",
+      "theological education",
+      "accommodation",
+      "Nigeria"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": null,
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e014/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e014/CHIATECH_JOURNAL_2026_V1I1_e014_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e014/CHIATECH_JOURNAL_2026_V1I1_e014_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e014/media/e014-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e014/media/e014-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e014/media/e014-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e014/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e014/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e014/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e014/CHIATECH_JOURNAL_2026_V1I1_e014_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e014_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e014_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e014/CHIATECH_JOURNAL_2026_V1I1_e014_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e014_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e014_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e014/media/e014-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e014_PUBLICATION_READY_PACKAGE/video/e014-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e014/media/e014-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e014_PUBLICATION_READY_PACKAGE/video/e014-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e014/media/e014-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e014_PUBLICATION_READY_PACKAGE/video/e014-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e014/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e014_PUBLICATION_READY_PACKAGE/video/e014-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

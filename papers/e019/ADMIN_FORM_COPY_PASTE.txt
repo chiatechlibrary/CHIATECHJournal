@@ -1,0 +1,57 @@
+CHIATECH JOURNAL — E019 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e019
+Title: Youth Labour-Market Vulnerability in Nigeria’s North-Central Zone: Mixed-Methods Evidence on Skills Mismatch, Informality, Gender and Conflict Exposure
+Article type: Mixed-Methods Research Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Iboro Tom Idim
+   Given names: Iboro Tom
+   Family name: Idim
+   Affiliation: Department of Economics, University of Abuja, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+No separate contribution statement was located in the supplied manuscript; obtain the authors’ statement. Do not copy e001 roles into this paper.
+
+ABSTRACT
+Background: Youth unemployment in Nigeria’s North-Central zone is intertwined with underemployment, informal work, skills mismatch, gendered barriers and insecurity. Objective: This study examined the structural and social factors associated with youth labour-market vulnerability across Benue, Kogi, Kwara, Nasarawa, Niger, Plateau and the Federal Capital Territory. Methods: The parent study used a sequential mixed-method design. A structured survey was administered to 882 youth respondents (126 per constituent unit), with reported internal consistency of α=.81. The qualitative strand comprised 35 focus-group discussions, 70 key-informant interviews and intensive case studies in Guma, Benue State, and Riyom, Plateau State. Quantitative analysis used descriptive statistics, cross-tabulation, chi-square tests and binary logistic regression; qualitative material was analysed thematically. Because Nigeria introduced a revised Labour Force Survey methodology in 2023, this article does not treat pre-2023 and revised national unemployment estimates as one directly comparable time series. Results: The source analysis reports that 73% of employed youth in the survey worked in informal activities and more than 80% of those informal workers earned below the statutory minimum wage applicable during fieldwork. Holding a tertiary Arts or Social Sciences degree rather than a STEM/vocational qualification was associated with 1.8 times the odds of unemployment (p<.01), while female respondents had 1.5 times the odds after adjustment for education and location (p<.001). Conflict exposure was closely linked to livelihood disruption, displacement and reduced youth agricultural engagement. Conclusion: The evidence supports an integrated jobs strategy combining demand-led skills, agro-industrial and digital opportunities, gender-responsive access to assets, conflict-sensitive livelihood restoration and stronger labour-market information.
+
+KEYWORDS
+youth unemployment; underemployment; informal employment; skills mismatch; gender inequality; conflict exposure; mixed methods; North-Central Nigeria
+
+RECOMMENDED CITATION
+Idim, I. T. (2026). Youth Labour-Market Vulnerability in Nigeria’s North-Central Zone: Mixed-Methods Evidence on Skills Mismatch, Informality, Gender and Conflict Exposure. CHIATECH JOURNAL, 1(1), e019. https://journal.chiatechsolutions.com/papers/e019/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e019/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e019/CHIATECH_JOURNAL_2026_V1I1_e019_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e019/CHIATECH_JOURNAL_2026_V1I1_e019_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e019/media/e019-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e019/media/e019-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e019/media/e019-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e019/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

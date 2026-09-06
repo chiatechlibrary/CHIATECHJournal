@@ -1,0 +1,18 @@
+{
+  "id": "e025",
+  "source_sha256": "999d06dd10799e9c91af12625fd1b2c55957477eb1cb9d725a859695249f531f",
+  "html_sha256": "d7737eaed21509a7cf97f5a3af1aa2379397324f72b9cc659b0029d0be90e552",
+  "top_level_source_blocks": 133,
+  "paragraphs": 264,
+  "tables": 7,
+  "images": 4,
+  "equations": 0,
+  "text_fidelity": true,
+  "changes": [],
+  "issues": [
+    "Source review includes literature through August 2026, while the issue label is July 2026; preserve genuine release dates and review chronology."
+  ],
+  "docx_pdf_status": "REVISION_AND_RENDER_REVIEW_PENDING",
+  "video_status": "HUMAN_RECORDING_REQUIRED",
+  "deployment_status": "NOT_DEPLOYED"
+}

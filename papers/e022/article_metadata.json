@@ -1,0 +1,62 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e022",
+  "title": "Multiplex Immunohistochemistry and Immunophenotyping in Predictive Cancer Biomarker Discovery and Targeted Therapy",
+  "author_folder": "NENGEM_M_M__AVWIORO_G_O__IYARE_G_I",
+  "source_path": "CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e022_Special_Stains_Infectious_Disease_Histopathology_REVIEW_PUBLICATION_READY.docx",
+  "source_sha256": "32651efda84f38f297b0f32d216dab9010035f42dd14fd4e5c4c6c5219044005",
+  "final_path": "04_AUTHORS/NENGEM_M_M__AVWIORO_G_O__IYARE_G_I/e022/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e022_Multiplex_Immunohistochemistry_and_Immunophenotyping_in_Predictive_Cancer_Biomarker_Discovery_and_Targeted_The.docx",
+  "final_sha256": "32651EFDA84F38F297B0F32D216DAB9010035F42DD14FD4E5C4C6C5219044005",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 1,
+  "figure_or_diagram_objects": 4,
+  "figure_objects_with_adjacent_caption": 4,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e022",
+  "authors": [
+    {
+      "given": "M. M.",
+      "family": "Nengem",
+      "display": "M. M. Nengem",
+      "affiliation": "Department of Medical Laboratory Science, Faculty of Applied Health Sciences, Edo State University Iyamho, Nigeria"
+    },
+    {
+      "given": "G. O.",
+      "family": "Avwioro",
+      "display": "G. O. Avwioro",
+      "affiliation": "Department of Medical Laboratory Science, Faculty of Allied Health Sciences, Delta State University, Abraka, Nigeria"
+    },
+    {
+      "given": "G. I.",
+      "family": "Iyare",
+      "display": "G. I. Iyare",
+      "affiliation": "Department of Medical Laboratory Science, Faculty of Applied Health Sciences, Edo State University Iyamho, Nigeria"
+    }
+  ],
+  "abstract": "Precision oncology increasingly depends on assays that preserve both biomarker identity and the spatial context of the tumor microenvironment (TME). Conventional single-plex chromogenic immunohistochemistry remains clinically valuable, but its limited plex and loss of cell-to-cell context can constrain assessment of heterogeneous immune and stromal compartments. This narrative technical review examines multiplex immunohistochemistry and immunofluorescence, high-dimensional immunophenotyping, imaging mass cytometry, and oligonucleotide-barcoded imaging systems as complementary approaches for predictive biomarker discovery and targeted therapy. It also reviews the computational pathway from image acquisition and registration through cell segmentation, phenotyping, dimensionality reduction, spatial statistics, and clinically interpretable tissue architectures. Across the cited literature, spatially resolved multi-marker measurements provide information that is not captured by isolated marker percentages or bulk molecular averages, including immune-cell proximity, exclusion, co-expression, and neighborhood organization. These features can refine hypotheses about response and resistance to immune-checkpoint inhibition and support rational combination-therapy design, while artificial-intelligence methods can improve reproducibility in segmentation and high-dimensional pattern recognition. However, translation into routine diagnostics requires standardized pre-analytics, validated antibody panels, transparent computational pipelines, external clinical validation, data infrastructure, and multidisciplinary quality assurance. Multiplex spatial pathology should therefore be viewed as a rapidly advancing complementary framework for precision oncology whose strongest clinical claims remain dependent on prospective validation and laboratory standardization.",
+  "keywords": [
+    "multiplex immunohistochemistry",
+    "tumor microenvironment",
+    "precision oncology",
+    "immunophenotyping",
+    "spatial analysis",
+    "immune checkpoint inhibition"
+  ],
+  "article_type": "Narrative Technical Review",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e022/",
+  "recommended_citation": "Nengem, M. M., Avwioro, G. O., & Iyare, G. I. (2026). Multiplex Immunohistochemistry and Immunophenotyping in Predictive Cancer Biomarker Discovery and Targeted Therapy. CHIATECH JOURNAL, 1(1), e022. https://journal.chiatechsolutions.com/papers/e022/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e022_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e022_Multiplex_Immunohistochemistry_and_Immunophenotyping_in_Predictive_Cancer_Biomarker_Discovery_and_Targeted_The.docx",
+  "author_contributions": null,
+  "update_date": "2026-09-05"
+}

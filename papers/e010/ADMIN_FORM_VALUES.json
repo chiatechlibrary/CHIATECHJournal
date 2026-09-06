@@ -1,0 +1,99 @@
+{
+  "form_values": {
+    "articleId": "e010",
+    "eLocator": "e010",
+    "articleType": "Critical Comparative Review",
+    "title": "Selecting Generative AI Systems for Education and Business in 2026: A Capability–Risk Framework for Comparing Frontier and Open-Weight Model Ecosystems",
+    "authors": [
+      {
+        "display": "CHIA Shiaondo Kenneth",
+        "given": "Shiaondo Kenneth",
+        "family": "Chia",
+        "affiliation": "CHIATECH Solutions and Resources Ltd, Abuja, Nigeria",
+        "orcid": "0009-0009-6434-4586",
+        "email": "chiakenneth01@gmail.com"
+      }
+    ],
+    "abstract": "Background: Generative AI procurement is increasingly difficult because model capability, tool access, multimodality, deployment control, safety controls and pricing evolve faster than conventional technology-selection cycles. Objective: This article constructs a five-system comparison time-stamped, evidence-disciplined framework for selecting generative AI systems in education and business. Methods: A critical comparative review triangulated independent evaluation scholarship with official model and system documentation available through 29 August 2026. The review considers GPT-5.6 Sol, Claude Opus 5, Gemini 3.1 Pro, DeepSeek-V4-Pro and Llama 4 Maverick as representative ecosystems rather than treating vendor benchmark claims as directly commensurable scores. Results: The comparison shows persistent trade-offs. Closed frontier systems provide strong managed capabilities and integrated tools but create dependence on provider controls, pricing and service architecture. Open-weight models provide greater deployment and adaptation control but shift security, evaluation and governance burdens to the adopter. Multimodality, context length and agent functionality are increasingly common, making grounding quality, workflow control, data governance, evaluation discipline and total cost of ownership more discriminating than a single benchmark rank. Conclusion: Organizations should replace model leaderboards with use-case portfolios, risk tiers and repeatable local evaluations. The best system is the one that achieves acceptable task quality under the institution’s evidence, privacy, safety, latency, cost and audit requirements.",
+    "keywords": [
+      "generative AI",
+      "large language models",
+      "AI evaluation",
+      "education technology",
+      "enterprise AI",
+      "AI governance",
+      "model selection"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": "Author contributionsChia Shiaondo Kenneth: conceptualization, source framework, critical synthesis, framework development, interpretation and manuscript authorship.",
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e010/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e010/CHIATECH_JOURNAL_2026_V1I1_e010_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e010/CHIATECH_JOURNAL_2026_V1I1_e010_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e010/media/e010-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e010/media/e010-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e010/media/e010-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e010/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e010/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e010/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e010/CHIATECH_JOURNAL_2026_V1I1_e010_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e010_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e010_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e010/CHIATECH_JOURNAL_2026_V1I1_e010_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e010_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e010_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e010/media/e010-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e010_PUBLICATION_READY_PACKAGE/video/e010-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e010/media/e010-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e010_PUBLICATION_READY_PACKAGE/video/e010-explanatory-summary-poster.png",
+      "present": true,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e010/media/e010-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e010_PUBLICATION_READY_PACKAGE/video/e010-explanatory-summary.vtt",
+      "present": true,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e010/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e010_PUBLICATION_READY_PACKAGE/video/e010-explanatory-transcript.html",
+      "present": true,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

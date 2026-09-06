@@ -1,0 +1,112 @@
+{
+  "form_values": {
+    "articleId": "e025",
+    "eLocator": "e025",
+    "articleType": "Critical Narrative Review",
+    "title": "Multiplex Immunohistochemistry and Spatial Immunophenotyping in Precision Oncology: Predictive Biomarkers, AI-Assisted Analysis and Clinical Translation",
+    "authors": [
+      {
+        "given": "M. M.",
+        "family": "Nengem",
+        "display": "M. M. Nengem",
+        "affiliation": "Department of Medical Laboratory Science, Faculty of Applied Health Sciences, Edo State University Iyamho, Nigeria"
+      },
+      {
+        "given": "G. O.",
+        "family": "Avwioro",
+        "display": "G. O. Avwioro",
+        "affiliation": "Department of Medical Laboratory Science, Faculty of Allied Health Sciences, Delta State University, Abraka, Nigeria"
+      },
+      {
+        "given": "G. I.",
+        "family": "Iyare",
+        "display": "G. I. Iyare",
+        "affiliation": "Department of Medical Laboratory Science, Faculty of Applied Health Sciences, Edo State University Iyamho, Nigeria"
+      }
+    ],
+    "abstract": "Background: Precision oncology increasingly depends on tissue assays that preserve biomarker identity together with the spatial architecture of the tumor microenvironment (TME). Single-plex immunohistochemistry remains indispensable for routine diagnosis, but it cannot fully resolve multicellular phenotypes, immune-exclusion patterns or cell-to-cell neighborhoods that may influence response and resistance to targeted and immune therapies. Objective: To critically synthesize the technical, computational and translational evidence supporting multiplex immunohistochemistry/immunofluorescence (mIHC/IF), high-parameter spatial proteomics and AI-assisted immunophenotyping as platforms for predictive biomarker discovery. Evidence approach: The seminar evidence base was updated through a targeted review of PubMed-indexed literature, professional guidance and peer-reviewed publisher sources available through August 2026. Priority was given to formalin-fixed paraffin-embedded tissue workflows, assay validation, image analysis, spatial biomarker studies and reporting standards; this is a critical narrative review rather than a systematic review or meta-analysis. Synthesis: TSA-based multiplex fluorescence, imaging mass cytometry, MIBI-like metal-tag imaging and DNA-barcoded cyclic systems can quantify multiple proteins while retaining tissue geography. Spatial endpoints—including intratumoral CD8+ density, tumor-margin gradients, immune-exclusion patterns, tertiary lymphoid structure organization and suppressive-cell neighborhoods—provide information not available from bulk abundance alone. High-plex imaging studies and recent immunotherapy cohorts demonstrate that topology can be prognostic or predictive, but clinical use requires analytical validation, external replication and demonstration of incremental utility over established biomarkers. AI enables artifact detection, segmentation, phenotyping, clustering and graph-based spatial analysis, yet algorithmic outputs remain vulnerable to pre-analytic variation, batch effects, domain shift and opaque feature definitions. Conclusion: The most defensible near-term role of multiplex spatial pathology is not replacement of conventional pathology, but a validated extension of morphology into cell-resolved, quantitative and spatially explicit biomarker science. Standardized assay design, STORMI-aligned reporting, transparent computational pipelines and prospective clinical validation are essential for translating discovery-grade spatial signatures into clinically actionable tests.",
+    "keywords": [
+      "multiplex immunohistochemistry",
+      "multiplex immunofluorescence",
+      "spatial immunophenotyping",
+      "tumor microenvironment",
+      "predictive biomarkers",
+      "spatial proteomics",
+      "immune checkpoint inhibition",
+      "computational pathology",
+      "artificial intelligence",
+      "precision oncology"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": null,
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e025/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e025/CHIATECH_JOURNAL_2026_V1I1_e025_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e025/CHIATECH_JOURNAL_2026_V1I1_e025_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e025/media/e025-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e025/media/e025-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e025/media/e025-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e025/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e025/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e025/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e025/CHIATECH_JOURNAL_2026_V1I1_e025_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e025_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e025_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e025/CHIATECH_JOURNAL_2026_V1I1_e025_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e025_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e025_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e025/media/e025-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e025_PUBLICATION_READY_PACKAGE/video/e025-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e025/media/e025-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e025_PUBLICATION_READY_PACKAGE/video/e025-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e025/media/e025-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e025_PUBLICATION_READY_PACKAGE/video/e025-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e025/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e025_PUBLICATION_READY_PACKAGE/video/e025-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

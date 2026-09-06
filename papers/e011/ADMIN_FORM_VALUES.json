@@ -1,0 +1,97 @@
+{
+  "form_values": {
+    "articleId": "e011",
+    "eLocator": "e011",
+    "articleType": "Curriculum and Competency Framework Article",
+    "title": "Integrating Defensive and Offensive Cybersecurity Education: A Lab-Based Competency Framework for Workforce-Ready Learning",
+    "authors": [
+      {
+        "given": "Shiaondo Kenneth",
+        "family": "Chia",
+        "display": "Shiaondo Kenneth Chia",
+        "affiliation": "CHIATECH Solutions and Resources Ltd, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Background: Cybersecurity education often separates defensive operations from offensive testing even though workforce practice requires professionals to understand how attack paths, controls, detection and response interact. Objective: This article develops a curriculum and competency framework that integrates defensive and offensive perspectives within authorized, isolated and ethically governed laboratories. Methods: A design synthesis mapped the source curriculum against the NIST Cybersecurity Framework 2.0, the NICE Workforce Framework for Cybersecurity, CSEC2017 curricular guidance and recent research on cybersecurity teaching. Results: The proposed architecture progresses through foundations and lab setup, defensive engineering, authorized adversary emulation, specialized domains, threat hunting/incident response, automation and governance. A purple-team learning loop—understand risk, defend, emulate threats safely, detect/investigate, respond/improve—connects technical tasks to organizational outcomes. Assessment emphasizes observable competencies through threat models, hardening plans, log analysis, vulnerability reports, secure configurations, incident reports and capstone exercises. Offensive content is bounded by written authorization, scoped targets, isolated environments, no external persistence and evidence-based reporting. Conclusion: Defensive and offensive knowledge should be integrated educationally but separated operationally by strict authorization and safety controls. Workforce readiness depends on demonstrated capability, ethical judgment and communication as much as on tool familiarity.",
+    "keywords": [
+      "cybersecurity education",
+      "NICE Framework",
+      "NIST CSF 2.0",
+      "ethical hacking",
+      "defensive security",
+      "cyber ranges",
+      "workforce development"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": "Author contributionsChia Shiaondo Kenneth: conceptualization, source framework, critical synthesis, framework development, interpretation and manuscript authorship.",
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e011/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e011/CHIATECH_JOURNAL_2026_V1I1_e011_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e011/CHIATECH_JOURNAL_2026_V1I1_e011_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e011/media/e011-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e011/media/e011-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e011/media/e011-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e011/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e011/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e011/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e011/CHIATECH_JOURNAL_2026_V1I1_e011_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e011_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e011_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e011/CHIATECH_JOURNAL_2026_V1I1_e011_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e011_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e011_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e011/media/e011-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e011_PUBLICATION_READY_PACKAGE/video/e011-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e011/media/e011-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e011_PUBLICATION_READY_PACKAGE/video/e011-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e011/media/e011-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e011_PUBLICATION_READY_PACKAGE/video/e011-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e011/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e011_PUBLICATION_READY_PACKAGE/video/e011-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

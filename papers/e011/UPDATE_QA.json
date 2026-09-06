@@ -1,0 +1,18 @@
+{
+  "id": "e011",
+  "source_sha256": "568e2dc787dab60b919e4c9cbec9c54862180c03b53a418dd0b6d1e5753b63ed",
+  "html_sha256": "ed03ff2804a46b868a4a97715b2cacf3a9bdc9d9dee1130da7de5784777a3eb4",
+  "top_level_source_blocks": 54,
+  "paragraphs": 99,
+  "tables": 3,
+  "images": 1,
+  "equations": 0,
+  "text_fidelity": true,
+  "changes": [
+    "Corrected abstract typo develps to develops."
+  ],
+  "issues": [],
+  "docx_pdf_status": "REVISION_AND_RENDER_REVIEW_PENDING",
+  "video_status": "HUMAN_RECORDING_REQUIRED",
+  "deployment_status": "NOT_DEPLOYED"
+}

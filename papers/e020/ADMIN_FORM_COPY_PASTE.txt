@@ -1,0 +1,57 @@
+CHIATECH JOURNAL — E020 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e020
+Title: The Given–Unknown–Equation–Substitute–Solve (GUESS) Principle for Quantitative STEM Problem Solving: A Mixed-Methods Evaluation Across Four Undergraduate Disciplines
+Article type: Mixed-Methods Research Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Shiaondo Kenneth Chia
+   Given names: Shiaondo Kenneth
+   Family name: Chia
+   Affiliation: CHIATECH Solutions and Resources Ltd, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+Author contributionsChia Shiaondo Kenneth: GUESS concept, study/source manuscript, interpretation and authorship.
+
+ABSTRACT
+Background: Students often possess isolated formulas yet struggle to represent quantitative problems, select appropriate equations and transfer a workable solution routine across STEM disciplines. Objective: This study evaluated the Given–Unknown–Equation–Substitute–Solve (GUESS) principle as a five-step scaffold for well-structured calculation problems. Methods: A sequential explanatory mixed-methods design was reported across General Chemistry I (n=78), Calculus I (n=65), Engineering Mechanics (n=42) and Introduction to Physics (n=56) at the University of Abuja during 2023–2024 (N=241). Students were assigned within courses to GUESS or traditional instruction. Pre/post problem-solving tests, structured error analysis, student interviews (n=40), classroom observations, instructor journals and think-aloud protocols (n=20) were used. Results: Reported pre–post gains were larger in GUESS groups in every course (14.7–18.2 points) than in controls (6.2–8.6 points). The reported two-way ANOVA showed a main effect of teaching approach, F(1,233)=42.68, p<.001, partial η²=.155, with no significant discipline effect or approach×discipline interaction. Equation-selection errors were 16% in the GUESS group versus 36% in controls, and variable-misidentification errors were 12% versus 24% (both p<.001). Consistent use of all five steps had the largest reported regression coefficient (B=.45, SE=.09, p<.001). Qualitative evidence indicated improved problem representation, confidence and cross-course transfer, alongside an initial time cost and resistance among some high-performing students. Conclusion: The evidence supports GUESS as a promising cross-disciplinary scaffold for well-structured quantitative problems, especially where novices need an explicit bridge from problem representation to execution. Replication should report group sizes, attrition, instrument reliability, ethics procedures and raw data so that effects can be independently verified.
+
+KEYWORDS
+GUESS principle; STEM education; quantitative problem solving; metacognition; cognitive load; worked examples; transfer; University of Abuja
+
+RECOMMENDED CITATION
+Chia, S. K. (2026). The Given–Unknown–Equation–Substitute–Solve (GUESS) Principle for Quantitative STEM Problem Solving: A Mixed-Methods Evaluation Across Four Undergraduate Disciplines. CHIATECH JOURNAL, 1(1), e020. https://journal.chiatechsolutions.com/papers/e020/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e020/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e020/CHIATECH_JOURNAL_2026_V1I1_e020_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e020/CHIATECH_JOURNAL_2026_V1I1_e020_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e020/media/e020-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e020/media/e020-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e020/media/e020-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e020/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

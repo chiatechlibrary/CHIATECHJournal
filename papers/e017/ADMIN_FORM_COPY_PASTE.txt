@@ -1,0 +1,57 @@
+CHIATECH JOURNAL — E017 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e017
+Title: Designing the Seminary for Human Diversity: Universal Design, Reasonable Accommodation and Disability-Inclusive Theological Education — A Review
+Article type: Review Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Peter Ukule
+   Given names: Peter
+   Family name: Ukule
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+No separate contribution statement was located in the supplied manuscript; obtain the authors’ statement. Do not copy e001 roles into this paper.
+
+ABSTRACT
+Background: Theological education combines academic learning, residential life, worship and field formation, so disability access cannot be reduced to a ramp or a single admissions clause. Objective: This review synthesises scholarship on universal design, reasonable accommodation, accessible admissions, disability justice and theological education to propose an integrated “architecture of welcome” for seminaries.Approach: A critical narrative review was conducted using the literature corpus assembled in the parent doctoral study, including theological-education research, higher-education inclusion scholarship, disability-rights literature and ecumenical guidance. The review is conceptual and does not claim systematic-review completeness. Synthesis: Effective inclusion requires ten linked domains: governance, admissions, routes and entrances, teaching spaces, library/ICT, residence and sanitation, chapel/formation, transport/placement, safeguarding and participation. Universal design should minimise predictable barriers at the system level; reasonable accommodation should address individual needs that remain. Written policy must specify ownership, procedure, budget, monitoring and remedy. Conclusion: A seminary is not accessible because it can improvise help for a particular student. It is accessible when diverse bodies are anticipated in ordinary institutional design and when accommodation is a transparent right-bearing process. Annual accessibility audits, user co-design and phased capital planning provide a practical route from goodwill to measurable institutional capability.
+
+KEYWORDS
+universal design; reasonable accommodation; theological education; seminary accessibility; disability justice; inclusive pedagogy; Anglican formation
+
+RECOMMENDED CITATION
+Ukule, P. (2026). Designing the Seminary for Human Diversity: Universal Design, Reasonable Accommodation and Disability-Inclusive Theological Education — A Review. CHIATECH JOURNAL, 1(1), e017. https://journal.chiatechsolutions.com/papers/e017/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e017/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e017/CHIATECH_JOURNAL_2026_V1I1_e017_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e017/CHIATECH_JOURNAL_2026_V1I1_e017_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e017/media/e017-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e017/media/e017-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e017/media/e017-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e017/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

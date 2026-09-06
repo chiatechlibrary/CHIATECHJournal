@@ -1,0 +1,99 @@
+{
+  "form_values": {
+    "articleId": "e002",
+    "eLocator": "e002",
+    "articleType": "Research Article",
+    "title": "Event Decoration as a Source of Household Income Sustainability in Garkawa, Plateau State, Nigeria: A Descriptive Survey",
+    "authors": [
+      {
+        "display": "Lydia Kachollom AKILA",
+        "given": "Lydia Kachollom",
+        "family": "Akila",
+        "affiliation": "¹Department of Home and Rural Economics, Plateau State College of Agriculture, Garkawa, Plateau State, Nigeria",
+        "email": "lydiaakila1@gmail.com"
+      }
+    ],
+    "abstract": "Background: Event decoration is an increasingly visible creative-service microenterprise in Nigeria and can diversify household livelihoods through income generated from weddings, birthdays, corporate functions, religious events and other ceremonies. Purpose: This study examined the demographic profile, service portfolio, income contribution and operating constraints of practising event decorators in Garkawa, Plateau State, Nigeria. Methods: A descriptive cross-sectional survey was conducted among 50 practising event decorators using a structured questionnaire. Data were analysed with frequencies, percentages and arithmetic means. Results: Seventy-six percent of respondents were aged 20–40 years, 56% were women, 56% had secondary education and 24% had tertiary education. Mean reported income from event decoration was ₦35,000 per month, equivalent to ₦420,000 annually, and represented an average of 45% of total household income. Wedding decoration was offered by 90% of respondents and was perceived as the most profitable service category. Major constraints were cost and access to materials/equipment, price competition, mismatch between client expectations and budgets, transport difficulties and infrastructure limitations. Conclusion: Event decoration constitutes a meaningful source of supplementary household income in Garkawa and offers a practical pathway for creative entrepreneurship and livelihood diversification. Enterprise outcomes can be strengthened through improved costing, record keeping, equipment access, digital marketing, cooperative asset sharing and targeted business-development support.",
+    "keywords": [
+      "event decoration",
+      "creative entrepreneurship",
+      "household income diversification",
+      "microenterprise",
+      "sustainable livelihoods",
+      "informal economy",
+      "women entrepreneurship",
+      "Plateau State, Nigeria"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": "Author contributionLydia Kachollom Akila is the sole author and contributed to conceptualisation, investigation, data collection, analysis, interpretation, manuscript preparation and final approval.",
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e002/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e002/CHIATECH_JOURNAL_2026_V1I1_e002_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e002/CHIATECH_JOURNAL_2026_V1I1_e002_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e002/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e002/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e002/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e002/CHIATECH_JOURNAL_2026_V1I1_e002_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e002_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e002_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e002/CHIATECH_JOURNAL_2026_V1I1_e002_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e002_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e002_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e002_PUBLICATION_READY_PACKAGE/video/e002-explanatory-summary.mp4",
+      "present": true,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e002_PUBLICATION_READY_PACKAGE/video/e002-explanatory-summary-poster.png",
+      "present": true,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e002_PUBLICATION_READY_PACKAGE/video/e002-explanatory-summary.vtt",
+      "present": true,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e002/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e002_PUBLICATION_READY_PACKAGE/video/e002-explanatory-transcript.html",
+      "present": true,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

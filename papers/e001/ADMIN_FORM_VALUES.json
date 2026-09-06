@@ -1,0 +1,124 @@
+{
+  "form_values": {
+    "articleId": "e001",
+    "eLocator": "e001",
+    "articleType": "Research Article",
+    "title": "Design, Simulation, Implementation, and Operational Evaluation of the CACGWA Student Revision and CBT Portal: A 500-Item-Bank Randomized Assessment Model for Senior Secondary School Examinations",
+    "authors": [
+      {
+        "given": "S. Kenneth",
+        "family": "Chia",
+        "display": "CHIA, S. Kenneth",
+        "email": "chiakenneth01@gmail.com",
+        "affiliation": "Christ Anglican College, Gwagwalada, Abuja, Nigeria",
+        "contribution": "Simulation; design; technology; backend programming; system control."
+      },
+      {
+        "given": "Bitrus Jiwayikwo",
+        "family": "Julius",
+        "display": "JULIUS, Bitrus Jiwayikwo",
+        "email": "juliusbitrus12@gmail.com",
+        "affiliation": "Christ Anglican College, Gwagwalada, Abuja, Nigeria",
+        "contribution": "Mathematical permutation codes; system testing; debugging."
+      },
+      {
+        "given": "Peter",
+        "family": "Ukule",
+        "display": "UKULE, Peter",
+        "email": "rev.ukulepeter@gmail.com",
+        "affiliation": "Christ Anglican College, Gwagwalada, Abuja, Nigeria",
+        "contribution": "Educational curriculum alignment; ethics; examination malpractice control."
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Elumeyan",
+        "display": "Elumeyan, Elizabeth",
+        "email": "Elizabethtiti1972@gmail.com",
+        "affiliation": "Christ Anglican College, Gwagwalada, Abuja, Nigeria",
+        "contribution": "Feasibility analysis; data science."
+      }
+    ],
+    "abstract": "Computer-based assessment can reduce manual grading burden, strengthen test security, and improve examination administration when test assembly, access control, item exposure, usability, and infrastructure are engineered as a coherent system. This empirical design-science study evaluated the CACGWA Student Revision and Computer-Based Testing (CBT) Portal implemented at Christ Anglican College, Gwagwalada, Abuja, Nigeria, during the 2025/2026 end-of-session examinations. The field deployment involved 200 students and 15 examination administrators. For each subject, the assessment model used a 500-item objective question bank from which 70 unique questions were randomly selected without replacement for each candidate paper. The implemented portal integrated class- and subject-based revision, practice CBT, a 120-minute live examination, student and examination PIN controls, Progressive Web App (PWA) revision access, automatic objective scoring, and an examination-officer console for examination windows, candidate status, results, and incident management. Exact combinatorial and hypergeometric analysis, complemented by 1,000 Monte Carlo replications of 200 candidate papers, quantified the security properties of the 500-to-70 design. Approximately 4.439 × 1086 unordered 70-item forms are possible; two independently assembled papers share an expected 9.8 items, while the probability of an overlap of at least 20 items is approximately 0.000417. Each item is expected to appear in 28 of 200 candidate papers, with a theoretical exposure standard deviation of 4.91; simulation produced a mean maximum exposure of 43.9 candidates and a mean 95th-percentile pairwise overlap of about 14 items. The live deployment operated effectively as the school examination delivery mechanism. The findings demonstrate that large-bank, per-candidate randomization can produce substantial form diversity and low overlap, while blueprint-constrained assembly, secure randomization, accessibility, auditability, and infrastructure resilience remain essential for defensible high-stakes use.",
+    "keywords": [
+      "computer-based testing (CBT)",
+      "item-bank randomization",
+      "randomized test assembly",
+      "Monte Carlo simulation",
+      "assessment security",
+      "digital assessment",
+      "secondary education",
+      "Nigeria"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": "Chia, S. K.: Simulation; design; technology; backend programming; system control.\nJulius, B. J.: Mathematical permutation codes; system testing; debugging.\nUkule, P.: Educational curriculum alignment; ethics; examination malpractice control.\nElumeyan, E.: Feasibility analysis; data science.",
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e001/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e001/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e001/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e001/media/e001-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e001/media/e001-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e001/media/e001-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e001/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e001/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e001/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e001/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e001_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e001/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e001_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf",
+      "present": true,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e001/media/e001-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e001_PUBLICATION_READY_PACKAGE/video/e001-explanatory-summary.mp4",
+      "present": true,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e001/media/e001-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e001_PUBLICATION_READY_PACKAGE/video/e001-explanatory-summary-poster.png",
+      "present": true,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e001/media/e001-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e001_PUBLICATION_READY_PACKAGE/video/e001-explanatory-summary.vtt",
+      "present": true,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e001/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e001_PUBLICATION_READY_PACKAGE/video/e001-explanatory-transcript.html",
+      "present": true,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

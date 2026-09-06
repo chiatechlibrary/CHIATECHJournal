@@ -1,0 +1,98 @@
+{
+  "form_values": {
+    "articleId": "e021",
+    "eLocator": "e021",
+    "articleType": "Econometric Research Article",
+    "title": "Integrated Livestock Feed Zones, Crop-Residue Utilisation and Economic Growth in Nigeria, 1990–2025: Cointegration, Causality and Error-Correction Evidence",
+    "authors": [
+      {
+        "given": "Iboro Tom",
+        "family": "Idim",
+        "display": "Iboro Tom Idim",
+        "affiliation": "Department of Economics, University of Abuja, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Background: Nigeria produces large volumes of crop residues while livestock production remains constrained by feed costs, import dependence and uneven feed-and-fodder infrastructure. Objective: This study examined the long-run and short-run relationships among crop-residue utilisation for livestock feed, livestock output, feed imports, an integration index and Nigeria’s economic growth over 1990–2025. Methods: A quantitative longitudinal ex-post-facto design used annual secondary series compiled from national and international statistical sources. The reported econometric sequence included unit-root testing, Johansen cointegration, Granger-causality analysis, log-linear OLS estimation, an error-correction model and diagnostic/robustness checks. The harmonised estimation sample comprised 35 annual observations after source alignment. Results: The reported Johansen statistics supported multiple long-run relationships; the maximum-eigenvalue criterion indicated two cointegrating equations. In the log-linear GDP model, crop-residue utilisation was positively associated with GDP (B=.158, p=.0053) and livestock output showed a larger positive coefficient (B=.590, p<.001), while feed imports were negatively associated with GDP (B=−.469, p<.001). The integration index was also negative (B=−.444, p<.001), an unexpected result interpreted cautiously as possible transition cost, threshold behaviour or measurement error. The error-correction term was −.457 (p=.0012), implying about 45.7% annual adjustment toward long-run equilibrium. Conclusion: The results support crop-residue valorisation and domestic feed development as potentially important components of livestock-sector growth, but they do not justify simple extrapolation from coefficients to national GDP gains. Policy should prioritise feed-and-fodder infrastructure, data quality, crop-production stability and staged evaluation of integration investments.",
+    "keywords": [
+      "crop residues",
+      "livestock feed",
+      "economic growth",
+      "cointegration",
+      "error correction model",
+      "import substitution",
+      "agricultural value chains",
+      "Nigeria"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": null,
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e021/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e021/CHIATECH_JOURNAL_2026_V1I1_e021_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e021/CHIATECH_JOURNAL_2026_V1I1_e021_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e021/media/e021-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e021/media/e021-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e021/media/e021-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e021/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e021/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e021/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e021/CHIATECH_JOURNAL_2026_V1I1_e021_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e021_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e021_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e021/CHIATECH_JOURNAL_2026_V1I1_e021_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e021_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e021_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e021/media/e021-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e021_PUBLICATION_READY_PACKAGE/video/e021-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e021/media/e021-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e021_PUBLICATION_READY_PACKAGE/video/e021-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e021/media/e021-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e021_PUBLICATION_READY_PACKAGE/video/e021-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e021/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e021_PUBLICATION_READY_PACKAGE/video/e021-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

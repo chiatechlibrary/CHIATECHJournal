@@ -1,0 +1,57 @@
+CHIATECH JOURNAL — E018 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e018
+Title: Deconstructing the Mechanisms Linking Youth Unemployment to Criminality in Nigeria’s North-Central Region: A Grounded Theory Study
+Article type: Grounded Theory Study
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Iboro Tom Idim
+   Given names: Iboro Tom
+   Family name: Idim
+   Affiliation: Department of Economics, University of Abuja, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+No separate contribution statement was located in the supplied manuscript; obtain the authors’ statement. Do not copy e001 roles into this paper.
+
+ABSTRACT
+Background: The unemployment–crime relationship is often reported as a correlation, but policy design depends on knowing the processes through which labour-market exclusion can become criminal involvement. Objective: This study identified and integrated the mechanisms through which unemployed youth may move toward criminal participation across Nigeria’s North-Central region. Methods: A constructivist grounded-theory design drew on a field corpus reported as 87 in-depth interviews, 14 focus-group discussions and documentary sources from Benue, Kogi, Kwara, Nasarawa, Niger, Plateau and the Federal Capital Territory. The archived sampling table explicitly classified 75 interviewees as unemployed youth, rehabilitated former offenders, community leaders and law-enforcement personnel; the remaining interview classifications were not disaggregated in that table. Analysis used open, focused, axial and theoretical coding, constant comparison, triangulation, member checking, reflexive memoing and an audit trail. Results: Six interacting pathways were identified: idleness and routine disruption; survival-economy pressure; social-network recruitment; grievance activation; cognitive transformation; and opportunity substitution. Social-network recruitment was especially prominent among former offenders, 73% of whom reported entry through existing social ties. The mechanisms varied by settlement type, livelihood structure and crime context, and were better understood as interacting configurations than as a single linear sequence. Conclusion: Youth unemployment should not be treated as an automatic cause of crime. The findings support a mechanism-specific prevention model in which livelihood restoration, structured engagement, network disruption, psychosocial and grievance-sensitive intervention, and credible legitimate opportunities are matched to the pathway observed in a locality.
+
+KEYWORDS
+youth unemployment; criminality; grounded theory; crime mechanisms; social-network recruitment; human security; North-Central Nigeria; criminal opportunity structures
+
+RECOMMENDED CITATION
+Idim, I. T. (2026). Deconstructing the Mechanisms Linking Youth Unemployment to Criminality in Nigeria’s North-Central Region: A Grounded Theory Study. CHIATECH JOURNAL, 1(1), e018. https://journal.chiatechsolutions.com/papers/e018/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e018/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e018/CHIATECH_JOURNAL_2026_V1I1_e018_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e018/CHIATECH_JOURNAL_2026_V1I1_e018_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e018/media/e018-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e018/media/e018-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e018/media/e018-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e018/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

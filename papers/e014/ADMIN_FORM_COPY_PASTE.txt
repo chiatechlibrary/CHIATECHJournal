@@ -1,0 +1,65 @@
+CHIATECH JOURNAL — E014 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e014
+Title: Who Is Considered Fit for Ministry? Age, Region and Disability-Inclusion Attitudes among Anglican Clergy, Faculty and Administrators in Nigeria
+Article type: Original Research Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Peter Ukule
+   Given names: Peter
+   Family name: Ukule
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+2. Charles Ogundu Nnaji
+   Given names: Charles Ogundu
+   Family name: Nnaji
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+3. Adeola Kehinde
+   Given names: Adeola
+   Family name: Kehinde
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+No separate contribution statement was located in the supplied manuscript; obtain the authors’ statement. Do not copy e001 roles into this paper.
+
+ABSTRACT
+Background: Institutional access is shaped not only by buildings and policy but by the judgments of gatekeepers who interpret ministerial fitness, approve accommodations and influence placement. Objective: This paper examined generational and regional differences in disability-inclusion attitudes among Anglican clergy, seminary faculty and administrators. Methods: The analysis uses the post-defence corrected quantitative results of the Inclusion Attitudes in Theological Education Survey. A total of 175 usable questionnaires were returned from 198 distributed (88.4%). The respondent group was predominantly male (90.9%) and experienced, with 85.7% reporting more than six years of service. Corrected direction-consistent scoring was applied to exclusionary items. Age-group willingness to accommodate and regional differences in theological inclusivity and perceived ministerial fitness were examined using the verified t-test, ANOVA and effect-size results. Results: Younger respondents aged 18–45 (n=86) reported greater willingness to accommodate (M=3.89, SD=.88) than respondents aged 46+ (n=89; M=3.21, SD=.95), t≈4.91, p<.001, d≈.74. Regional comparison showed significant differences for theological inclusivity, F=9.51, p=.002, partial η²≈.052, and perceived ministerial fitness, F=6.89, p=.009, partial η²≈.038. The age effect was substantively larger than the regional effects. Conclusion: The findings identify a generational leadership challenge rather than an immutable Anglican position on disability. Reform should therefore include continuing formation for senior leaders, explicit ministerial-fitness criteria and structured exposure to disability theology and lived experience rather than relying on gradual generational replacement.
+
+KEYWORDS
+ministerial fitness; disability attitudes; Anglican clergy; generational differences; theological education; accommodation; Nigeria
+
+RECOMMENDED CITATION
+Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). Who Is Considered Fit for Ministry? Age, Region and Disability-Inclusion Attitudes among Anglican Clergy, Faculty and Administrators in Nigeria. CHIATECH JOURNAL, 1(1), e014. https://journal.chiatechsolutions.com/papers/e014/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e014/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e014/CHIATECH_JOURNAL_2026_V1I1_e014_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e014/CHIATECH_JOURNAL_2026_V1I1_e014_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e014/media/e014-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e014/media/e014-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e014/media/e014-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e014/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

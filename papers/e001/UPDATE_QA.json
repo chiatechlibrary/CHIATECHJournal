@@ -1,0 +1,20 @@
+{
+  "id": "e001",
+  "source_sha256": "4bf2d4ccb9d6cb102735468aed5a3fe051c8c02177d3dab25ea3b303f6b12e6f",
+  "html_sha256": "77f5694f7d8b33692ef4576f66cd9b85fd1492b4604944229acc3cd779f2732f",
+  "top_level_source_blocks": 149,
+  "paragraphs": 365,
+  "tables": 13,
+  "images": 5,
+  "equations": 0,
+  "text_fidelity": true,
+  "changes": [
+    "Author contributions replaced with the four responsibilities supplied by the Chief Editor on 5 September 2026."
+  ],
+  "issues": [
+    "DOCX and PDF contribution section still requires synchronized revision and page review."
+  ],
+  "docx_pdf_status": "REVISION_AND_RENDER_REVIEW_PENDING",
+  "video_status": "HUMAN_RECORDING_REQUIRED",
+  "deployment_status": "NOT_DEPLOYED"
+}

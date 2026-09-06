@@ -1,0 +1,98 @@
+{
+  "form_values": {
+    "articleId": "e019",
+    "eLocator": "e019",
+    "articleType": "Mixed-Methods Research Article",
+    "title": "Youth Labour-Market Vulnerability in Nigeria’s North-Central Zone: Mixed-Methods Evidence on Skills Mismatch, Informality, Gender and Conflict Exposure",
+    "authors": [
+      {
+        "given": "Iboro Tom",
+        "family": "Idim",
+        "display": "Iboro Tom Idim",
+        "affiliation": "Department of Economics, University of Abuja, Abuja, Nigeria"
+      }
+    ],
+    "abstract": "Background: Youth unemployment in Nigeria’s North-Central zone is intertwined with underemployment, informal work, skills mismatch, gendered barriers and insecurity. Objective: This study examined the structural and social factors associated with youth labour-market vulnerability across Benue, Kogi, Kwara, Nasarawa, Niger, Plateau and the Federal Capital Territory. Methods: The parent study used a sequential mixed-method design. A structured survey was administered to 882 youth respondents (126 per constituent unit), with reported internal consistency of α=.81. The qualitative strand comprised 35 focus-group discussions, 70 key-informant interviews and intensive case studies in Guma, Benue State, and Riyom, Plateau State. Quantitative analysis used descriptive statistics, cross-tabulation, chi-square tests and binary logistic regression; qualitative material was analysed thematically. Because Nigeria introduced a revised Labour Force Survey methodology in 2023, this article does not treat pre-2023 and revised national unemployment estimates as one directly comparable time series. Results: The source analysis reports that 73% of employed youth in the survey worked in informal activities and more than 80% of those informal workers earned below the statutory minimum wage applicable during fieldwork. Holding a tertiary Arts or Social Sciences degree rather than a STEM/vocational qualification was associated with 1.8 times the odds of unemployment (p<.01), while female respondents had 1.5 times the odds after adjustment for education and location (p<.001). Conflict exposure was closely linked to livelihood disruption, displacement and reduced youth agricultural engagement. Conclusion: The evidence supports an integrated jobs strategy combining demand-led skills, agro-industrial and digital opportunities, gender-responsive access to assets, conflict-sensitive livelihood restoration and stronger labour-market information.",
+    "keywords": [
+      "youth unemployment",
+      "underemployment",
+      "informal employment",
+      "skills mismatch",
+      "gender inequality",
+      "conflict exposure",
+      "mixed methods",
+      "North-Central Nigeria"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "issueTitle": "July 2026 Pioneer Launch Issue",
+    "authorContributions": null,
+    "doi": "",
+    "received": null,
+    "revised": null,
+    "accepted": null,
+    "published": null,
+    "htmlUrl": null,
+    "pdfUrl": null,
+    "pdfDownloadUrl": null,
+    "videoUrl": null,
+    "htmlConfirmed": false,
+    "pdfConfirmed": false,
+    "videoConfirmed": false
+  },
+  "planned_url_values_after_verification": {
+    "htmlUrl": "https://journal.chiatechsolutions.com/papers/e019/",
+    "pdfUrl": "https://journal.chiatechsolutions.com/papers/e019/CHIATECH_JOURNAL_2026_V1I1_e019_Version_of_Record.pdf",
+    "pdfDownloadUrl": "https://journal.chiatechsolutions.com/papers/e019/CHIATECH_JOURNAL_2026_V1I1_e019_Version_of_Record.pdf",
+    "videoUrl": "https://journal.chiatechsolutions.com/papers/e019/media/e019-explanatory-summary.mp4",
+    "videoPosterUrl": "https://journal.chiatechsolutions.com/papers/e019/media/e019-explanatory-summary-poster.png",
+    "videoCaptionUrl": "https://journal.chiatechsolutions.com/papers/e019/media/e019-explanatory-summary.vtt",
+    "videoTranscriptUrl": "https://journal.chiatechsolutions.com/papers/e019/explanatory-transcript.html"
+  },
+  "asset_inventory": {
+    "htmlUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e019/",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/PIONEER_UPDATE_2026-09-05/e019/html/index.html",
+      "present": true,
+      "live_verified": false
+    },
+    "pdfUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e019/CHIATECH_JOURNAL_2026_V1I1_e019_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e019_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e019_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "pdfDownloadUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e019/CHIATECH_JOURNAL_2026_V1I1_e019_Version_of_Record.pdf",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e019_PUBLICATION_READY_PACKAGE/pdf/CHIATECH_JOURNAL_2026_V1I1_e019_Version_of_Record.pdf",
+      "present": false,
+      "live_verified": false
+    },
+    "videoUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e019/media/e019-explanatory-summary.mp4",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e019_PUBLICATION_READY_PACKAGE/video/e019-explanatory-summary.mp4",
+      "present": false,
+      "live_verified": false
+    },
+    "videoPosterUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e019/media/e019-explanatory-summary-poster.png",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e019_PUBLICATION_READY_PACKAGE/video/e019-explanatory-summary-poster.png",
+      "present": false,
+      "live_verified": false
+    },
+    "videoCaptionUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e019/media/e019-explanatory-summary.vtt",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e019_PUBLICATION_READY_PACKAGE/video/e019-explanatory-summary.vtt",
+      "present": false,
+      "live_verified": false
+    },
+    "videoTranscriptUrl": {
+      "url": "https://journal.chiatechsolutions.com/papers/e019/explanatory-transcript.html",
+      "local_file": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e019_PUBLICATION_READY_PACKAGE/video/e019-explanatory-transcript.html",
+      "present": false,
+      "live_verified": false
+    }
+  },
+  "narration_status": "HUMAN_LAGOS_ENGLISH_RECORDING_REQUIRED",
+  "publication_status": "UPDATE_CANDIDATE_NOT_DEPLOYED"
+}

@@ -1,0 +1,76 @@
+CHIATECH JOURNAL — E001 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e001
+Title: Design, Simulation, Implementation, and Operational Evaluation of the CACGWA Student Revision and CBT Portal: A 500-Item-Bank Randomized Assessment Model for Senior Secondary School Examinations
+Article type: Research Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. CHIA, S. Kenneth
+   Given names: S. Kenneth
+   Family name: Chia
+   Affiliation: Christ Anglican College, Gwagwalada, Abuja, Nigeria
+   Contribution: Simulation; design; technology; backend programming; system control.
+2. JULIUS, Bitrus Jiwayikwo
+   Given names: Bitrus Jiwayikwo
+   Family name: Julius
+   Affiliation: Christ Anglican College, Gwagwalada, Abuja, Nigeria
+   Contribution: Mathematical permutation codes; system testing; debugging.
+3. UKULE, Peter
+   Given names: Peter
+   Family name: Ukule
+   Affiliation: Christ Anglican College, Gwagwalada, Abuja, Nigeria
+   Contribution: Educational curriculum alignment; ethics; examination malpractice control.
+4. Elumeyan, Elizabeth
+   Given names: Elizabeth
+   Family name: Elumeyan
+   Affiliation: Christ Anglican College, Gwagwalada, Abuja, Nigeria
+   Contribution: Feasibility analysis; data science.
+
+AUTHOR CONTRIBUTIONS
+Chia, S. K.: Simulation; design; technology; backend programming; system control.
+Julius, B. J.: Mathematical permutation codes; system testing; debugging.
+Ukule, P.: Educational curriculum alignment; ethics; examination malpractice control.
+Elumeyan, E.: Feasibility analysis; data science.
+
+ABSTRACT
+Computer-based assessment can reduce manual grading burden, strengthen test security, and improve examination administration when test assembly, access control, item exposure, usability, and infrastructure are engineered as a coherent system. This empirical design-science study evaluated the CACGWA Student Revision and Computer-Based Testing (CBT) Portal implemented at Christ Anglican College, Gwagwalada, Abuja, Nigeria, during the 2025/2026 end-of-session examinations. The field deployment involved 200 students and 15 examination administrators. For each subject, the assessment model used a 500-item objective question bank from which 70 unique questions were randomly selected without replacement for each candidate paper. The implemented portal integrated class- and subject-based revision, practice CBT, a 120-minute live examination, student and examination PIN controls, Progressive Web App (PWA) revision access, automatic objective scoring, and an examination-officer console for examination windows, candidate status, results, and incident management. Exact combinatorial and hypergeometric analysis, complemented by 1,000 Monte Carlo replications of 200 candidate papers, quantified the security properties of the 500-to-70 design. Approximately 4.439 × 1086 unordered 70-item forms are possible; two independently assembled papers share an expected 9.8 items, while the probability of an overlap of at least 20 items is approximately 0.000417. Each item is expected to appear in 28 of 200 candidate papers, with a theoretical exposure standard deviation of 4.91; simulation produced a mean maximum exposure of 43.9 candidates and a mean 95th-percentile pairwise overlap of about 14 items. The live deployment operated effectively as the school examination delivery mechanism. The findings demonstrate that large-bank, per-candidate randomization can produce substantial form diversity and low overlap, while blueprint-constrained assembly, secure randomization, accessibility, auditability, and infrastructure resilience remain essential for defensible high-stakes use.
+
+KEYWORDS
+computer-based testing (CBT); item-bank randomization; randomized test assembly; Monte Carlo simulation; assessment security; digital assessment; secondary education; Nigeria
+
+RECOMMENDED CITATION
+Chia, S. K., Julius, B. J., Ukule, P., & Elumeyan, E. (2026). Design, Simulation, Implementation, and Operational Evaluation of the CACGWA Student Revision and CBT Portal: A 500-Item-Bank Randomized Assessment Model for Senior Secondary School Examinations. CHIATECH JOURNAL, 1(1), e001. https://journal.chiatechsolutions.com/papers/e001/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e001/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e001/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf
+Local asset: present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e001/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf
+Local asset: present
+videoUrl: https://journal.chiatechsolutions.com/papers/e001/media/e001-explanatory-summary.mp4
+Local asset: present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e001/media/e001-explanatory-summary-poster.png
+Local asset: present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e001/media/e001-explanatory-summary.vtt
+Local asset: present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e001/explanatory-transcript.html
+Local asset: present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

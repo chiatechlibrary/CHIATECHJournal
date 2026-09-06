@@ -1,0 +1,65 @@
+CHIATECH JOURNAL — E012 CHIEF EDITOR COPY AND PASTE
+
+Article ID / eLocator: e012
+Title: Theology in Principle, Inclusion in Practice? Divine Calling and the Theology–Practice Gap in Nigerian Anglican Seminaries
+Article type: Original Research Article
+Volume: 1
+Issue: 1
+Issue title: July 2026 Pioneer Launch Issue
+Language: English
+
+AUTHORS IN PUBLICATION ORDER
+1. Peter Ukule
+   Given names: Peter
+   Family name: Ukule
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+2. Charles Ogundu Nnaji
+   Given names: Charles Ogundu
+   Family name: Nnaji
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+3. Adeola Kehinde
+   Given names: Adeola
+   Family name: Kehinde
+   Affiliation: ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria
+
+AUTHOR CONTRIBUTIONS
+No separate contribution statement was located in the supplied manuscript; obtain the authors’ statement. Do not copy e001 roles into this paper.
+
+ABSTRACT
+Background: Anglican theology affirms the dignity of persons created in the image of God and the vocational agency of every member of the body of Christ, yet those affirmations do not automatically determine seminary practice. Objective: This paper examined whether inclusive theological convictions among Anglican clergy, faculty and administrators were accompanied by comparable recognition of the ministerial fitness and participation of persons with physical disabilities. Methods: A focused secondary analysis was conducted from the post-defence harmonised results of a sequential explanatory mixed-methods Ph.D. study. The realised institutional sample comprised 10 Anglican seminaries across five geopolitical zones. Of 198 Inclusion Attitudes in Theological Education Survey questionnaires distributed, 175 were returned (88.4%). Corrected direction-consistent scoring was used for theological understanding of disability (TUD) and perceived ministerial fitness (PMF); explanatory qualitative evidence came from students with physical disabilities, alumni, diocesan leaders and focus groups. Results: The corrected TUD composite was approximately 3.81/5 and the inclusion-oriented PMF composite approximately 3.54/5. Respondents strongly affirmed the Imago Dei (M=4.68), the indispensability of disabled members in the body of Christ (M=4.45), a theological mandate to remove barriers (M=4.39), and the incompatibility of exclusion with the Gospel (M=4.21). Mixed-method integration nevertheless showed that affirmation did not reliably translate into access, accommodation or recognition of leadership capacity. Conclusion: The central problem is not the total absence of inclusive doctrine but its incomplete institutionalisation. Disability inclusion becomes ecclesially credible only when confession is connected to discernment, accommodation, formation, leadership and accountable participation.
+
+KEYWORDS
+disability theology; divine calling; Anglican seminaries; ministerial fitness; theology–practice gap; Nigeria; inclusive theological education
+
+RECOMMENDED CITATION
+Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). Theology in Principle, Inclusion in Practice? Divine Calling and the Theology–Practice Gap in Nigerian Anglican Seminaries. CHIATECH JOURNAL, 1(1), e012. https://journal.chiatechsolutions.com/papers/e012/
+
+EXACT PUBLICATION URLS
+These are destination URLs, not proof that the revised content is deployed.
+htmlUrl: https://journal.chiatechsolutions.com/papers/e012/
+Local asset: present
+pdfUrl: https://journal.chiatechsolutions.com/papers/e012/CHIATECH_JOURNAL_2026_V1I1_e012_Version_of_Record.pdf
+Local asset: not present
+pdfDownloadUrl: https://journal.chiatechsolutions.com/papers/e012/CHIATECH_JOURNAL_2026_V1I1_e012_Version_of_Record.pdf
+Local asset: not present
+videoUrl: https://journal.chiatechsolutions.com/papers/e012/media/e012-explanatory-summary.mp4
+Local asset: not present — human narration NOT verified
+videoPosterUrl: https://journal.chiatechsolutions.com/papers/e012/media/e012-explanatory-summary-poster.png
+Local asset: not present
+videoCaptionUrl: https://journal.chiatechsolutions.com/papers/e012/media/e012-explanatory-summary.vtt
+Local asset: not present
+videoTranscriptUrl: https://journal.chiatechsolutions.com/papers/e012/explanatory-transcript.html
+Local asset: not present
+
+EDITORIAL DATES AND IDENTIFIERS
+Received: not supplied
+Revised: not supplied
+Accepted: exact date not supplied
+Published: actual release date not supplied; July is the issue label
+DOI: leave empty pending registration
+Licence: Check the manuscript licence declaration; no licence is inferred here
+
+UPDATE RELEASE STATUS
+Full-text HTML export prepared. Word/PDF synchronization and visual proof review remain pending.
+Clear, natural HUMAN Nigerian Lagos-English narration is required. No completed human recording is claimed.
+Keep HTML/PDF/video confirmation fields false until the revised assets are verified.

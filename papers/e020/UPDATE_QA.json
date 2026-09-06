@@ -1,0 +1,16 @@
+{
+  "id": "e020",
+  "source_sha256": "727cd56f321469cda301a442ccd63c3c67f9221ccaed1a164ae217741380d488",
+  "html_sha256": "d788e7e9a0064e0eea49282043baf9566b0a3a02309db945f7437b1d6f28c5cd",
+  "top_level_source_blocks": 72,
+  "paragraphs": 224,
+  "tables": 7,
+  "images": 2,
+  "equations": 0,
+  "text_fidelity": true,
+  "changes": [],
+  "issues": [],
+  "docx_pdf_status": "REVISION_AND_RENDER_REVIEW_PENDING",
+  "video_status": "HUMAN_RECORDING_REQUIRED",
+  "deployment_status": "NOT_DEPLOYED"
+}

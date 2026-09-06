@@ -1,0 +1,63 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e015",
+  "title": "Restricted Inclusion as an Institutional System: Mixed-Methods Evidence on Lived Experience, Gatekeeping and Barriers in Anglican Ministerial Formation in Nigeria",
+  "author_folder": "UKULE_Peter__NNAJI_Charles_Ogundu__KEHINDE_Adeola",
+  "source_path": "CHIATECH_JOURNAL_2026_V1I1_e015_Restricted_Inclusion_Lived_Experience_Systemic_Barriers_Ukule_Nnaji_Kehinde.docx",
+  "source_sha256": "0d64fcd947ca1df2b2c904dd4c165d5cd65e8a9bed858c9dfc8ed0deef0985ca",
+  "final_path": "04_AUTHORS/UKULE_Peter__NNAJI_Charles_Ogundu__KEHINDE_Adeola/e015/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e015_Restricted_Inclusion_as_an_Institutional_System_Mixed_Methods_Evidence_on_Lived_Experience_Gatekeeping_and.docx",
+  "final_sha256": "0D64FCD947CA1DF2B2C904DD4C165D5CD65E8A9BED858C9DFC8ED0DEEF0985CA",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 2,
+  "figure_or_diagram_objects": 2,
+  "figure_objects_with_adjacent_caption": 2,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e015",
+  "authors": [
+    {
+      "given": "Peter",
+      "family": "Ukule",
+      "display": "Peter Ukule",
+      "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+    },
+    {
+      "given": "Charles Ogundu",
+      "family": "Nnaji",
+      "display": "Charles Ogundu Nnaji",
+      "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+    },
+    {
+      "given": "Adeola",
+      "family": "Kehinde",
+      "display": "Adeola Kehinde",
+      "affiliation": "¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
+    }
+  ],
+  "abstract": "Background: Disability exclusion in theological education is often discussed as a list of separate barriers. A systems perspective asks how theology, infrastructure, policy, attitudes and placement reinforce one another. Objective: This paper developed an empirically grounded account of “restricted inclusion” by integrating the major quantitative and qualitative findings of a sequential explanatory study of Anglican seminaries in Nigeria. Methods: The parent study combined 175 returned IATES surveys, SAAT accessibility audits and SPAM policy analyses at 10 seminaries in five geopolitical zones with interviews involving 65 current students with physical disabilities, 38 alumni and 28 diocesan leaders, plus six focus groups. This article uses the post-defence joint-display and coding framework to integrate the evidence without introducing new unverified participant quotations. Results: Five signals converged: TUD≈3.81/5 showed broad theological affirmation; PMF≈3.54/5 showed more conditional ministerial recognition; SAAT accessibility was 19.8%; 90% of seminaries had a general non-discrimination statement but only 10% showed systematic implementation; and younger respondents were more willing to accommodate than older respondents (d≈.74). Qualitative integration identified four mutually reinforcing layers: theological inconsistency, built-environment barriers, policy/resource vacuum and attitudinal gatekeeping. Students could be welcomed pastorally while still lacking secure agency in formation and placement. Conclusion: Restricted inclusion is best understood as an institutional system rather than a single prejudiced decision. Effective reform must act simultaneously on theology, access, governance, formation and participation, shifting the institutional logic from discretionary charity to accountable ecclesial participation.",
+  "keywords": [
+    "restricted inclusion",
+    "mixed methods",
+    "disability theology",
+    "institutional gatekeeping",
+    "Anglican seminaries",
+    "lived experience",
+    "Nigeria"
+  ],
+  "article_type": "Original Research Article",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e015/",
+  "recommended_citation": "Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). Restricted Inclusion as an Institutional System: Mixed-Methods Evidence on Lived Experience, Gatekeeping and Barriers in Anglican Ministerial Formation in Nigeria. CHIATECH JOURNAL, 1(1), e015. https://journal.chiatechsolutions.com/papers/e015/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e015_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e015_Restricted_Inclusion_as_an_Institutional_System_Mixed_Methods_Evidence_on_Lived_Experience_Gatekeeping_and.docx",
+  "author_contributions": null,
+  "update_date": "2026-09-05"
+}

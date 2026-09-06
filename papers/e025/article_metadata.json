@@ -1,0 +1,66 @@
+{
+  "journal": "CHIATECH JOURNAL",
+  "portfolio": "SETEHEM",
+  "volume": "1",
+  "issue": "1",
+  "month": "JULY 2026",
+  "year": "2026",
+  "elocator": "e025",
+  "title": "Multiplex Immunohistochemistry and Spatial Immunophenotyping in Precision Oncology: Predictive Biomarkers, AI-Assisted Analysis and Clinical Translation",
+  "author_folder": "NENGEM_M_M__AVWIORO_G_O__IYARE_G_I",
+  "source_path": "CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e025_Multiplex_IHC_Spatial_Immunophenotyping_Precision_Oncology.docx",
+  "source_sha256": "999d06dd10799e9c91af12625fd1b2c55957477eb1cb9d725a859695249f531f",
+  "final_path": "04_AUTHORS/NENGEM_M_M__AVWIORO_G_O__IYARE_G_I/e025/final/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e025_Multiplex_Immunohistochemistry_and_Spatial_Immunophenotyping_in_Precision_Oncology_Predictive_Biomarkers_AI_As.docx",
+  "final_sha256": "999D06DD10799E9C91AF12625FD1B2C55957477EB1CB9D725A859695249F531F",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "chief_editor_authorisation": "30 August 2026",
+  "doi_status": "PENDING_REGISTRATION",
+  "public_version_of_record_status": "NOT_CLAIMED_UNTIL_DOI_REGISTRATION_AND_RELEASE_CHECKS_COMPLETE",
+  "title_paragraph_index": 1,
+  "figure_or_diagram_objects": 4,
+  "figure_objects_with_adjacent_caption": 4,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "comment_markers": 0,
+  "unresolved_placeholder_terms": 0,
+  "stable_article_id": "e025",
+  "authors": [
+    {
+      "given": "M. M.",
+      "family": "Nengem",
+      "display": "M. M. Nengem",
+      "affiliation": "Department of Medical Laboratory Science, Faculty of Applied Health Sciences, Edo State University Iyamho, Nigeria"
+    },
+    {
+      "given": "G. O.",
+      "family": "Avwioro",
+      "display": "G. O. Avwioro",
+      "affiliation": "Department of Medical Laboratory Science, Faculty of Allied Health Sciences, Delta State University, Abraka, Nigeria"
+    },
+    {
+      "given": "G. I.",
+      "family": "Iyare",
+      "display": "G. I. Iyare",
+      "affiliation": "Department of Medical Laboratory Science, Faculty of Applied Health Sciences, Edo State University Iyamho, Nigeria"
+    }
+  ],
+  "abstract": "Background: Precision oncology increasingly depends on tissue assays that preserve biomarker identity together with the spatial architecture of the tumor microenvironment (TME). Single-plex immunohistochemistry remains indispensable for routine diagnosis, but it cannot fully resolve multicellular phenotypes, immune-exclusion patterns or cell-to-cell neighborhoods that may influence response and resistance to targeted and immune therapies. Objective: To critically synthesize the technical, computational and translational evidence supporting multiplex immunohistochemistry/immunofluorescence (mIHC/IF), high-parameter spatial proteomics and AI-assisted immunophenotyping as platforms for predictive biomarker discovery. Evidence approach: The seminar evidence base was updated through a targeted review of PubMed-indexed literature, professional guidance and peer-reviewed publisher sources available through August 2026. Priority was given to formalin-fixed paraffin-embedded tissue workflows, assay validation, image analysis, spatial biomarker studies and reporting standards; this is a critical narrative review rather than a systematic review or meta-analysis. Synthesis: TSA-based multiplex fluorescence, imaging mass cytometry, MIBI-like metal-tag imaging and DNA-barcoded cyclic systems can quantify multiple proteins while retaining tissue geography. Spatial endpoints—including intratumoral CD8+ density, tumor-margin gradients, immune-exclusion patterns, tertiary lymphoid structure organization and suppressive-cell neighborhoods—provide information not available from bulk abundance alone. High-plex imaging studies and recent immunotherapy cohorts demonstrate that topology can be prognostic or predictive, but clinical use requires analytical validation, external replication and demonstration of incremental utility over established biomarkers. AI enables artifact detection, segmentation, phenotyping, clustering and graph-based spatial analysis, yet algorithmic outputs remain vulnerable to pre-analytic variation, batch effects, domain shift and opaque feature definitions. Conclusion: The most defensible near-term role of multiplex spatial pathology is not replacement of conventional pathology, but a validated extension of morphology into cell-resolved, quantitative and spatially explicit biomarker science. Standardized assay design, STORMI-aligned reporting, transparent computational pipelines and prospective clinical validation are essential for translating discovery-grade spatial signatures into clinically actionable tests.",
+  "keywords": [
+    "multiplex immunohistochemistry",
+    "multiplex immunofluorescence",
+    "spatial immunophenotyping",
+    "tumor microenvironment",
+    "predictive biomarkers",
+    "spatial proteomics",
+    "immune checkpoint inhibition",
+    "computational pathology",
+    "artificial intelligence",
+    "precision oncology"
+  ],
+  "article_type": "Critical Narrative Review",
+  "canonical_url": "https://journal.chiatechsolutions.com/papers/e025/",
+  "recommended_citation": "Nengem, M. M., Avwioro, G. O., & Iyare, G. I. (2026). Multiplex Immunohistochemistry and Spatial Immunophenotyping in Precision Oncology: Predictive Biomarkers, AI-Assisted Analysis and Clinical Translation. CHIATECH JOURNAL, 1(1), e025. https://journal.chiatechsolutions.com/papers/e025/",
+  "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e025_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e025_Multiplex_Immunohistochemistry_and_Spatial_Immunophenotyping_in_Precision_Oncology_Predictive_Biomarkers_AI_As.docx",
+  "author_contributions": null,
+  "update_date": "2026-09-05"
+}
