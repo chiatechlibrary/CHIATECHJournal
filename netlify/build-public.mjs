@@ -50,6 +50,13 @@ async function filesWithin(directory) {
   return files;
 }
 
+const privateEditorialPaperEntry = relative => {
+  const segments = relative.split('/');
+  const filename = segments.at(-1);
+  return ['ADMIN_FORM_COPY_PASTE.txt', 'ADMIN_FORM_VALUES.json', 'SOURCE_FULL_TEXT.txt', 'UPDATE_QA.json', 'article_metadata.json', 'recommended_citation.txt'].includes(filename)
+    || ['html', 'manuscript', 'pdf', 'video'].some(directory => segments.includes(directory));
+};
+
 async function copyValidatedPublicationAssets() {
   if (!publicAssetManifest || publicAssetManifest.schema !== 'chiatech-journal-public-asset-manifest/v1' || !Array.isArray(publicAssetManifest.articles)) {
     throw new Error('Invalid public publication-asset manifest.');
@@ -74,7 +81,11 @@ async function copyValidatedPublicationAssets() {
   }
 
   const publicationRoot = path.join(root, 'papers');
-  const actual = new Set((await filesWithin(publicationRoot)).map(file => path.relative(root, file).replaceAll('\\', '/')));
+  const actual = new Set(
+    (await filesWithin(publicationRoot))
+      .map(file => path.relative(root, file).replaceAll('\\', '/'))
+      .filter(relative => !privateEditorialPaperEntry(relative))
+  );
   const unexpected = [...actual].filter(relative => !expected.has(relative));
   const missing = [...expected.keys()].filter(relative => !actual.has(relative));
   if (unexpected.length || missing.length) {

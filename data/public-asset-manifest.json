@@ -2,6 +2,47 @@
   "schema": "chiatech-journal-public-asset-manifest/v1",
   "articles": [
     {
+      "id": "e001",
+      "publicPath": "papers/e001",
+      "files": [
+        {
+          "path": "papers/e001/CHIATECH_JOURNAL_2026_V1I1_e001_Version_of_Record.pdf",
+          "bytes": 845386,
+          "sha256": "667eac01f0b182ff8d53c9d6aff1c09e5782f56af96e5dffe767f21c1999a435"
+        },
+        {
+          "path": "papers/e001/assets/image1.png",
+          "bytes": 216461,
+          "sha256": "2f9e7f4b564b4814cf1c0d3694d4f46a634248582f5f8630c13defa29a33c987"
+        },
+        {
+          "path": "papers/e001/assets/image2.png",
+          "bytes": 166663,
+          "sha256": "17bff1c0416bcecf771979c9e92c5b7c1826eef38da592abcdda3a15d404c244"
+        },
+        {
+          "path": "papers/e001/assets/image3.png",
+          "bytes": 113648,
+          "sha256": "ee3af16dc65d83b8877ec81c8ee2d4aebf0251e66ec0ab5f7837e01d203b6a3f"
+        },
+        {
+          "path": "papers/e001/assets/image4.png",
+          "bytes": 96647,
+          "sha256": "1e6368f29a2afbd241cd5309bdec9eb3430c9c8999bbcb1402bbf3f06e401681"
+        },
+        {
+          "path": "papers/e001/assets/image5.png",
+          "bytes": 131734,
+          "sha256": "00a2df1bfdcec7931aa78b51a565932d6bde17f9ede10ce94ee12a6442f48d00"
+        },
+        {
+          "path": "papers/e001/index.html",
+          "bytes": 59541,
+          "sha256": "77f5694f7d8b33692ef4576f66cd9b85fd1492b4604944229acc3cd779f2732f"
+        }
+      ]
+    },
+    {
       "id": "e002",
       "publicPath": "papers/e002",
       "files": [
