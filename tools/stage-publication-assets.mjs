@@ -18,8 +18,14 @@ if (args.includes('--help') || !packageOption) {
 }
 
 const approvedExtensions = new Set(['.css', '.html', '.jpeg', '.jpg', '.pdf', '.png', '.svg', '.vtt', '.webm', '.webp', '.mp4']);
+const lineEndingNormalisedExtensions = new Set(['.html', '.vtt']);
 const maximumAssetBytes = 30 * 1024 * 1024;
-const checksum = async file => createHash('sha256').update(await fs.readFile(file)).digest('hex');
+const manifestBytes = async file => {
+  const bytes = await fs.readFile(file);
+  return lineEndingNormalisedExtensions.has(path.extname(file).toLowerCase())
+    ? Buffer.from(bytes.toString('utf8').replace(/\r?\n/g, '\r\n'), 'utf8')
+    : bytes;
+};
 const normalise = value => String(value || '').replaceAll('\\', '/');
 const isInside = (parent, candidate) => candidate === parent || candidate.startsWith(parent + path.sep);
 const withMainLandmark = html => {
@@ -103,8 +109,8 @@ if (current.schema !== 'chiatech-journal-public-asset-manifest/v1' || !Array.isA
 const files = [];
 for (const target of [...sourceToTarget.keys()].sort()) {
   const destination = path.resolve(root, target);
-  const information = await fs.stat(destination);
-  files.push({ path: target, bytes: information.size, sha256: await checksum(destination) });
+  const bytes = await manifestBytes(destination);
+  files.push({ path: target, bytes: bytes.length, sha256: createHash('sha256').update(bytes).digest('hex') });
 }
 const articleEntry = { id: articleId, publicPath: `papers/${articleId}`, files };
 const articles = current.articles.filter(article => article?.id !== articleId);
