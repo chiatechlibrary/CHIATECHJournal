@@ -1,0 +1,31 @@
+{
+  "article_id": "e048",
+  "title": "Loss-Aware Reliability Analysis and Contemporary Re-Engineering of a 24 V-to-19 V, 66.5 W PWM Buck Converter: Component Stress, Efficiency Bounds and Validation Protocol",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/23_e048__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e048_Loss_Aware_Reliability_Analysis_and_Contemporary_Re_Engineering_of_a_24_V_to_19.docx",
+  "source_sha256": "D57624F28AF8A7011DEAF954746C185F934E5BCEF7ADB77D51F2D6D0BC09DC43",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e048/manuscript/CHIATECH_JOURNAL_2026_V1I1_e048_PIONEER_PART2.docx",
+  "manuscript_sha256": "926D5636AF265F751757EFE54A1731FBE0E7CEAE947707C703A434E3A6443648",
+  "conceptual_diagram_redraws": [
+    "e048-01.png",
+    "e048-02.png",
+    "e048-03.png",
+    "e048-04.png",
+    "e048-05.png",
+    "e048-06.png",
+    "e048-07.png",
+    "e048-08.png",
+    "e048-09.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE"
+}

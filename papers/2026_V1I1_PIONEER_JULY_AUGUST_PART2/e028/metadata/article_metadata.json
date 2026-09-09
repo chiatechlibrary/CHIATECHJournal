@@ -1,0 +1,24 @@
+{
+  "article_id": "e028",
+  "title": "Microlearning for Faculty TPACK Development in Higher Education: An Evidence-Informed Design and Evaluation Framework",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/03_e028__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e028_Microlearning_for_Faculty_TPACK_Development_in_Higher_Education_An_Evidence_Informed_Design_and_Evaluation.docx",
+  "source_sha256": "B5D269C9D928A741B05F4AC0A1EAE0393643C0CEC46D58F90A45C8FF9F62E147",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e028/manuscript/CHIATECH_JOURNAL_2026_V1I1_e028_PIONEER_PART2.docx",
+  "manuscript_sha256": "46B9788520FE51338AFB0F256813D05D7749C8DC6D897C61E34173D2FECBA907",
+  "conceptual_diagram_redraws": [
+    "e028-01.png",
+    "e028-02.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE"
+}

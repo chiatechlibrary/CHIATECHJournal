@@ -1,0 +1,24 @@
+{
+  "article_id": "e029",
+  "title": "Augmented-Reality-Enhanced Problem-Based Learning in STEM Education: Mechanisms, Evidence and an Implementation Framework for Engagement and Critical Thinking",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/04_e029__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e029_Augmented_Reality_Enhanced_Problem_Based_Learning_in_STEM_Education_Mechanisms_Evidence_and_an_Implementation.docx",
+  "source_sha256": "C829DB04B4AB5C93DE5EE9661BFCF70EDE5482C962A176B0F60E8393DD299F50",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e029/manuscript/CHIATECH_JOURNAL_2026_V1I1_e029_PIONEER_PART2.docx",
+  "manuscript_sha256": "75F08E47949E69346794CC54B2FDC2402060EC5810794FA0B15C0E8884BB8B36",
+  "conceptual_diagram_redraws": [
+    "e029-01.png",
+    "e029-02.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE"
+}

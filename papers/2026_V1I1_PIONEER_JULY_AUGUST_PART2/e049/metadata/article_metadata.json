@@ -1,0 +1,31 @@
+{
+  "article_id": "e049",
+  "title": "Control-Oriented Mathematical Review of a 24 V-to-19 V PWM Buck Converter: State-Space Averaging, CCM Boundary, Type-III Loop Compensation and Design Consistency",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/24_e049__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e049_Control_Oriented_Mathematical_Review_of_a_24_V_to_19_V_PWM_Buck_Converter.docx",
+  "source_sha256": "BB7B326C351BC7FC9DD3CBC2B2C28597ABBFC79FF160F933D905792F90CDC5E2",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e049/manuscript/CHIATECH_JOURNAL_2026_V1I1_e049_PIONEER_PART2.docx",
+  "manuscript_sha256": "C4AAE76942111F68C03FE499F8A6E626B6C05C9F7291B835F715281BF1339872",
+  "conceptual_diagram_redraws": [
+    "e049-01.png",
+    "e049-02.png",
+    "e049-03.png",
+    "e049-04.png",
+    "e049-05.png",
+    "e049-06.png",
+    "e049-07.png",
+    "e049-08.png",
+    "e049-09.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE"
+}

@@ -1,0 +1,26 @@
+{
+  "article_id": "e055",
+  "title": "From Antibiograms to Whole-Genome Surveillance: A Critical Review of Methicillin-Resistant Staphylococcus aureus in Nigeria Across Clinical, Environmental and One Health Interfaces",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/30_e055__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e055_From_Antibiograms_to_Whole_Genome_Surveillance_A_Critical_Review_of_Methicillin_Resistant_Staphylococcus_aureu.docx",
+  "source_sha256": "70F14F539042D9A038C7C45128A61F819B776BBFB29BC7A35D45B88755DBA31F",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e055/manuscript/CHIATECH_JOURNAL_2026_V1I1_e055_PIONEER_PART2.docx",
+  "manuscript_sha256": "628D8D8B563815A3F73B3034CD2CAD8B9A921988F03735130B9981E5D9ADEC88",
+  "conceptual_diagram_redraws": [
+    "e055-01.png",
+    "e055-02.png",
+    "e055-03.png",
+    "e055-04.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE"
+}

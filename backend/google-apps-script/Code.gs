@@ -575,7 +575,7 @@ function normaliseDoiStatus(value, doi) {
 
 function isEligiblePioneerDoiPendingRelease(volume, issue, issueTitle, published, doiStatus) {
   return doiStatus === 'PENDING_REGISTRATION' && volume === '1' && issue === '1' &&
-    /pioneer/i.test(issueTitle) && /^2026-07-/.test(published || '');
+    /pioneer/i.test(issueTitle) && /^2026-(07|08)-/.test(published || '');
 }
 
 function setArticleStatus(data) {
