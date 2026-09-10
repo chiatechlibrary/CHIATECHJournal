@@ -1,0 +1,24 @@
+{
+  "article_id": "e042",
+  "title": "Artificial Intelligence and Smart Border Surveillance for Intellectual Property Rights Enforcement at Nigeria’s Land Borders: A Critical Evidence Review and Responsible Implementation Framework",
+  "author": [
+    {
+      "given": "Gbaden",
+      "family": "Amenger"
+    }
+  ],
+  "author_source_text": "AMENGER, Gbaden; Nigeria Customs Service, Ogun State Command, Nigeria",
+  "abstract": "Background: Counterfeit and pirated trade undermines intellectual property rights (IPR), consumer safety, legitimate enterprise and revenue administration. Border enforcement is becoming harder as illicit trade fragments into small consignments and adapts to complex logistics. Objective: This article critically reviews the evidence for artificial intelligence (AI), data analytics and smart border-surveillance technologies in strengthening IPR enforcement at Nigeria’s land borders and develops a legally bounded implementation framework. Review approach: A structured critical review prioritized official evidence from the World Customs Organization (WCO), World Trade Organization (WTO), OECD/EUIPO, Nigeria Customs Service (NCS), Nigeria Data Protection Commission (NDPC) and African Union, supplemented by peer-reviewed customs-risk, African surveillance and IPR-enforcement scholarship published principally from 2020 to August 2026. Synthesis: OECD/EUIPO estimates place global counterfeit and pirated trade at about USD 467 billion in 2021, equivalent to 2.3% of global imports; shipments of fewer than ten items accounted for 79% of customs seizures in 2020–2021, intensifying selectivity pressures. WCO guidance identifies AI/ML, data analytics and cloud technologies as high-interest Customs technologies but stresses data governance, interoperability, cybersecurity, cost-benefit analysis, workforce capability, MLOps, fairness and transparency. Nigeria has moved beyond conceptual readiness: NCS modernization plans include AI-supported risk management, data analytics and geospatial surveillance, while a 2026 Nigeria–Benin operation demonstrated operational use of geospatial intelligence, drones, shared communications and risk profiling. For IPR enforcement, however, technology must be integrated with TRIPS-compliant border procedures, rights-holder product intelligence, human adjudication and data-protection safeguards. Conclusion: The strongest policy case is for phased, evidence-gated adoption rather than technology-first procurement. A Nigerian smart-IPR border architecture should combine reliable Customs data, rights-holder authentication, risk analytics, geospatial targeting and non-intrusive inspection with human review, auditable decisions, privacy-by-design and cross-border cooperation.",
+  "keywords": "artificial intelligence; smart customs; intellectual property rights; counterfeiting; Nigeria Customs Service; border surveillance; geospatial intelligence; customs risk management; responsible AI; trade facilitation",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e042",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e042/html/e042.html",
+  "source_package": "controlled Part 2 August package"
+}

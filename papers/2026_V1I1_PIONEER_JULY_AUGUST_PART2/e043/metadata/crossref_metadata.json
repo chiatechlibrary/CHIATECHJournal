@@ -1,0 +1,24 @@
+{
+  "article_id": "e043",
+  "title": "From Risk Profiles to Counterfeit Interception: AI-Enabled Customs Risk Targeting, Geospatial Intelligence and Non-Intrusive Inspection at Nigeria’s Land Borders",
+  "author": [
+    {
+      "given": "Gbaden",
+      "family": "Amenger"
+    }
+  ],
+  "author_source_text": "AMENGER, Gbaden; Nigeria Customs Service, Ogun State Command, Nigeria",
+  "abstract": "Background: Customs administrations must identify high-risk consignments while allowing compliant trade to move with minimal delay. At Nigeria’s land borders, porous routes, infrastructure constraints, fragmented data and high inspection demands make this selectivity problem particularly acute. Objective: This review examines the operational evidence for AI/ML risk targeting, anomaly detection, geospatial intelligence (GEOINT), AI-assisted non-intrusive inspection (NII) and product-authentication systems, and proposes a performance-assured detection architecture for counterfeit and other IPR-infringing goods. Review approach: Current WCO, WTO, NCS and OECD/EUIPO evidence through August 2026 was synthesized with peer-reviewed Customs risk-management and AI literature. Synthesis: International practice supports a layered model in which structured declaration data, trader history, seizure outcomes and rights-holder alerts feed risk analytics; GEOINT directs attention to spatial hotspots; NII and computer vision support cargo examination; and product-authentication platforms support IPR-specific verification. Nigeria has relevant operational foundations. NCS has documented GEOINT use for illicit-route detection and corridor monitoring, while the 2026 Nigeria–Benin Operation GEOCONTROL used GIS/GEOINT, drones, risk profiling and near-real-time information exchange and recorded 37 seizures during an eight-day operation. Internationally, China Customs has deployed AI-assisted inspection-image analysis at scale, demonstrating technical feasibility but not automatic transferability to Nigeria. The review argues that model quality must be measured with enforcement and facilitation metrics together: precision, recall, calibration, false-positive inspections, clearance time, robustness across border posts and commodities, human override, cybersecurity and cost per actionable hit. Conclusion: A Nigerian smart-border detection system should be multi-modal, human-in-the-loop and locally validated. The operational goal is not maximum automation but better allocation of scarce inspection resources with transparent evidence, continuous monitoring and legally defensible officer decisions.",
+  "keywords": "customs risk management; artificial intelligence; anomaly detection; geospatial intelligence; non-intrusive inspection; computer vision; counterfeiting; intellectual property enforcement; Nigeria; smart borders",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e043",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e043/html/e043.html",
+  "source_package": "controlled Part 2 August package"
+}

@@ -1,0 +1,32 @@
+{
+  "article_id": "e035",
+  "title": "Optimizing Primary-School Uniform Mass Production Through Computer-Aided Basic-Block Development: A Reproducible Parametric Grading and Marker-Planning Experiment",
+  "author": [
+    {
+      "given": "Lydia Kachollom",
+      "family": "Akila"
+    },
+    {
+      "given": "Godiya Chindang",
+      "family": "Mwanle"
+    },
+    {
+      "given": "Mariya Mohammed",
+      "family": "Usman"
+    }
+  ],
+  "author_source_text": "Lydia Kachollom AKILA¹*, Godiya Chindang MWANLE¹ and Mariya Mohammed USMAN²; ¹Department of Home and Rural Economics, Plateau State College of Agriculture, Garkawa, Plateau State, Nigeria; ²Home Economics Department, Federal College of Education (Technical), Gombe, Gombe State, Nigeria; *Corresponding author: lydiaakila1@gmail.com · Co-authors: godiyakady@gmail.com; mariyamusman1977@gmail.com",
+  "abstract": "Background: Primary-school uniform production depends on repeatable sizing, accurate blocks and economical markers. Yet many small and medium clothing operations still redraft patterns by size and plan cutting layouts sequentially. Purpose: This study developed and evaluated a software-neutral, computer-aided workflow for translating a local three-size body chart into parametric school-shirt and trouser cutting envelopes and mixed-size marker plans. Methods: The design experiment used published aggregate measurements for 367 children aged 6-12 years in Jos, Nigeria. Three base profiles - JOS-115, JOS-130 and JOS-145 - supplied stature, chest, waist and hip inputs. Transparent drafting rules produced 15 cutting envelopes per uniform set. A deterministic best-fit-decreasing shelf algorithm was compared with a size-batched next-fit-row baseline under four production mixes and usable fabric widths of 140, 147 and 150 cm, yielding 12 scenarios. Primary outcomes were marker length and percentage reduction; modelled planar occupancy and fabric area were secondary diagnostics. Results: Across the nine 30-set production scenarios, optimized marker length was 7.51-12.32% lower than the baseline (mean 9.59%). Mean modelled planar occupancy increased from 63.57% to 70.31%, a gain of 6.74 percentage points. At 147 cm width, marker-length reductions were 8.61%, 9.31% and 10.21% for balanced, younger-heavy and older-heavy size mixes, respectively. These corresponded to projected savings of 107.4-140.3 linear metres of 147 cm fabric per 1,000 uniform sets under the model assumptions. Conclusion: Parametric grading and mixed-size marker planning can convert a local body chart into a consistent, auditable pre-production system and materially reduce modelled fabric demand. The cutting envelopes are proof-of-concept geometry, not production patterns; physical toile fitting, fabric-specific constraints, shrinkage and factory validation remain mandatory before adoption.",
+  "keywords": "computer-aided design; school uniform; basic block; parametric grading; marker planning; fabric utilization; mass production; Jos; Nigeria",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e035",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e035/html/e035.html",
+  "source_package": "controlled Part 2 August package"
+}

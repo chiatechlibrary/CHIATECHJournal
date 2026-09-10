@@ -1,0 +1,24 @@
+{
+  "article_id": "e031",
+  "title": "Fundamental Tools for Ethical Hacking in the AI Era: Ethical Procedures, Current Standards, and a Defensible Technical Workflow for Authorized Cybersecurity Assessment",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    }
+  ],
+  "author_source_text": "CHIA Shiaondo Kenneth",
+  "abstract": "Background: Ethical hacking has moved from a tool-centric craft toward an evidence-driven security assurance discipline operating across cloud, identity, software supply chains, AI-enabled systems and continuously changing attack surfaces. Artificial intelligence now assists analysts with reconnaissance synthesis, code and configuration review, vulnerability correlation, log interpretation and report drafting, but it also introduces hallucination, prompt-injection, data-leakage, automation and accountability risks. Objective: This article defines a technically rigorous, legally bounded and standards-aligned foundation for ethical hacking in the AI era, with emphasis on current tools, procedures, evidence, prioritization and human control. Methods: A structured technical synthesis was conducted using authoritative standards and practice references current to August 2026, including NIST CSF 2.0, NIST SP 800-115, NIST SP 800-61 Rev. 3, NICE Framework Components 2.2.0, OWASP Top 10:2025, OWASP ASVS 5.0.0, OWASP WSTG 4.2, CIS Controls v8.1, MITRE ATT&CK v19.2, ISO/IEC 27001/27002/27005, ISO/IEC 29147 and 30111, FIRST CVSS v4.0 and EPSS, CISA KEV, and NIST AI-security publications. Nigerian legal context is considered through the Cybercrimes (Prohibition, Prevention, etc.) (Amendment) Act 2024 and Nigeria Data Protection Act 2023. Results: The paper proposes a seven-layer ethical-hacking toolchain, a gated assessment lifecycle, a standards crosswalk, an AI-assistance control plane and an evidence-based vulnerability prioritization method that combines technical severity, exploit likelihood, known exploitation, exposure, asset criticality and compensating controls. It distinguishes vulnerability assessment, penetration testing, adversary emulation and red teaming, and specifies mandatory rules of engagement, data handling, stop conditions, reporting and coordinated disclosure. Conclusion: In the AI era, ethical hacking competence is not measured by the number of exploits executed or tools installed. It is measured by authorized scope discipline, technical reproducibility, defensible evidence, safe validation, prioritized remediation, transparent use of AI and the ability to improve organizational security without creating new risk.",
+  "keywords": "ethical hacking; penetration testing; AI security; NIST CSF 2.0; OWASP ASVS; MITRE ATT&CK; vulnerability management; CVSS v4.0; EPSS; cybersecurity governance",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e031",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e031/html/e031.html",
+  "source_package": "controlled Part 2 August package"
+}

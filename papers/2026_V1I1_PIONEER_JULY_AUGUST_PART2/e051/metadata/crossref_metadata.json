@@ -1,0 +1,24 @@
+{
+  "article_id": "e051",
+  "title": "Antimicrobial Resistance Profiles of Clinical and Environmental Staphylococcus aureus Across Six Secondary Health-Care Centres in Taraba State, Nigeria: Laboratory Evidence and Contemporary AMR Implications",
+  "author": [
+    {
+      "given": "Iwanger",
+      "family": "Mellah"
+    }
+  ],
+  "author_source_text": "MELLAH, Iwanger1*; 1 Federal University of Agriculture, Makurdi, Nigeria; *Corresponding author: whoisdrmellah@gmail.com",
+  "abstract": "Background: Methicillin-resistant Staphylococcus aureus remains a high-priority antimicrobial-resistance pathogen, while local clinical and environmental surveillance is essential for infection control. This article develops the first journal paper from a completed Medical Microbiology thesis by isolating its most internally coherent major finding: occurrence and phenotypic antimicrobial resistance of S. aureus across secondary health-care centres in Taraba State. Objective: To quantify S. aureus recovery and compare resistance patterns between clinical and hospital-environment isolates, while placing the completed experiments in contemporary 2024–2026 AMR evidence. Methods: Three hundred specimens were collected from six secondary health-care centres (50 per facility) across the Northern, Central and Southern senatorial zones. Clinical and environmental specimens underwent culture, Gram staining, catalase and coagulase testing; antimicrobial susceptibility testing was performed by agar disc diffusion using ciprofloxacin 5 µg, tetracycline 30 µg, erythromycin 15 µg, methicillin 5 µg, amoxicillin 30 µg, penicillin 10 µg, gentamicin 10 µg and ampicloxacillin 20 µg. The primary resistance endpoint uses the thesis resistance table, comprising 43 clinical and 17 environmental S. aureus isolates. Two-sided Fisher exact tests were recalculated from the reported resistance counts as a 2026 statistical update. Results: Gram/catalase screening yielded 189/300 (63.0%; 95% Wilson CI 57.4–68.3) presumptive Staphylococcus isolates. Coagulase testing identified 60/189 (31.7%; 95% CI 25.5–38.7) S. aureus, equivalent to 60/300 (20.0%; 95% CI 15.9–24.9) of all specimens. Wukari had the highest S. aureus yield (16/50; 32.0%) and Gembu the lowest (4/50; 8.0%). Across the 60 isolates, resistance was highest to penicillin (43/60; 71.7%), erythromycin (39/60; 65.0%), tetracycline (35/60; 58.3%) and ampicloxacillin (32/60; 53.3%), and lowest to gentamicin (8/60; 13.3%) and ciprofloxacin (10/60; 16.7%). Clinical versus environmental resistance was 69.8% versus 76.5% for penicillin, 69.8% versus 52.9% for erythromycin, and 23.3% versus 41.2% for methicillin. None of the eight source-group comparisons reached p<0.05 by Fisher exact test. Conclusion: The completed laboratory evidence demonstrates simultaneous clinical and environmental reservoirs of S. aureus and a substantial resistance burden, especially to penicillin, erythromycin, tetracycline and ampicloxacillin. The findings support facility-level antibiogram surveillance, antimicrobial stewardship, environmental decontamination and modern molecular follow-up.",
+  "keywords": "Staphylococcus aureus; antimicrobial resistance; hospital environment; clinical isolates; Taraba State; Nigeria; antibiogram; secondary health care",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e051",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e051/html/e051.html",
+  "source_package": "controlled Part 2 August package"
+}

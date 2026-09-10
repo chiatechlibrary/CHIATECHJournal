@@ -1,0 +1,24 @@
+{
+  "article_id": "e056",
+  "title": "Renewable Energy and Sustainable Power Systems for Rural Farming Communities in Nigeria: Productive-Use Electrification, Agricultural Resilience and an Integrated Engineering Framework",
+  "author": [
+    {
+      "given": "Gbaden",
+      "family": "Amenger"
+    }
+  ],
+  "author_source_text": "AMENGER, Gbaden; Nigeria Customs Service, Ogun State Command, Nigeria",
+  "abstract": "Background: Rural agricultural productivity in Nigeria is constrained by a persistent energy-access deficit, unreliable grid supply, high dependence on small petrol and diesel generators, and weak cold-chain and processing infrastructure. Renewable energy can therefore create development value only when electricity access is converted into productive energy services across irrigation, storage, processing and rural enterprise. Objective: This article critically synthesizes contemporary evidence on decentralized renewable energy for Nigerian farming communities and develops an engineering and implementation framework for reliable, productive-use electrification. Methods: A structured critical review was updated through September 2026 using peer-reviewed studies and authoritative policy and programme documents published mainly from 2020 to 2026, with foundational sources retained where they define established engineering practice. Evidence was prioritized from Nigeria, then Sub-Saharan Africa, and evaluated across technical reliability, agricultural productivity, economic viability, environmental safeguards and institutional feasibility. Results: Nigeria’s 2021 electricity access was about 60% nationally but only 26% in rural areas, leaving more than 85 million people without access. Evidence from northeast Nigeria shows that small solar-powered cold stores can reduce food losses while increasing horticultural sales and revenues. Rural mini-grid studies show strong gains in productive activity and reduced reliance on generators, although household-income effects are heterogeneous. Geospatial modelling indicates that financing productive-use equipment can lower the modelled levelized cost of off-grid electrification more strongly than conventional loan or capital-subsidy approaches. Solar irrigation, cold-chain systems, agro-processing loads, solar-battery mini-grids and context-appropriate biogas are the most immediately relevant technology pathways, but adoption is limited by capital cost, technical capacity, maintenance, water-resource risks, tariff design and fragmented energy-agriculture planning. Conclusion: The most effective rural-energy strategy is not technology deployment in isolation but an integrated productive-use system that begins with agricultural load and resource assessment, sizes hybrid power for reliability, couples energy finance with income-generating equipment, builds local maintenance capacity, governs water and data responsibly, and verifies outcomes such as uptime, crop loss reduction, income, energy cost and emissions. The proposed READF-N framework provides a practical pathway for engineering, financing and governing renewable energy as productive agricultural infrastructure in Nigeria.",
+  "keywords": "renewable energy; productive use of energy; rural electrification; solar irrigation; solar cold chain; mini-grids; agro-processing; biogas; energy poverty; Nigeria",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e056",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e056/html/e056.html",
+  "source_package": "controlled Part 2 August package"
+}

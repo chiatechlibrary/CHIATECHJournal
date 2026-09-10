@@ -1,0 +1,24 @@
+{
+  "article_id": "e027",
+  "title": "Explainable Deep Reinforcement Learning in Robotics: A Taxonomy of Explanations, Evaluation Criteria and Safety-Critical Deployment",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    }
+  ],
+  "author_source_text": "CHIA Shiaondo Kenneth",
+  "abstract": "Background: Deep reinforcement learning (DRL) can support robotic control, navigation and manipulation, but opaque policies create obstacles for debugging, operator trust and safety assurance. Objective: This article is a critical review and deployment framework for explainable reinforcement learning (XRL) in robotics. Methods: The analysis synthesizes XRL taxonomies, explainable-AI concepts and safe-learning literature, organizing methods by stakeholder question, temporal scope and explanation mechanism. Results: Explanations can target state features, action choice, reward structure, trajectories, counterfactual alternatives or policy summaries. Post-hoc attribution, surrogate models, trajectory examples and natural-language summaries can make behavior more inspectable, but explanation quality is multidimensional. Fidelity, stability, completeness, comprehensibility and actionability must be evaluated separately. In robotics, explanation does not constitute a safety certificate: a plausible explanation may still describe an unsafe policy. The proposed assurance stack therefore couples XRL with constrained action spaces, runtime monitors, fallback controllers, logging and human escalation. Conclusion: XRL is most valuable when linked to a concrete stakeholder decision—debugging, supervision, incident investigation or acceptance testing—and evaluated for both faithfulness to the policy and usefulness to the human operator. Safe robotic deployment requires explainability and control assurance to be designed together.",
+  "keywords": "explainable AI; reinforcement learning; robotics; deep reinforcement learning; safe learning; human–robot interaction; AI assurance",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e027",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e027/html/e027.html",
+  "source_package": "controlled Part 2 August package"
+}

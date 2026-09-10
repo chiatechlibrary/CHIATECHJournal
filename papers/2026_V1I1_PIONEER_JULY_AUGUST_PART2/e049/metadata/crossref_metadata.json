@@ -1,0 +1,32 @@
+{
+  "article_id": "e049",
+  "title": "Control-Oriented Mathematical Review of a 24 V-to-19 V PWM Buck Converter: State-Space Averaging, CCM Boundary, Type-III Loop Compensation and Design Consistency",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    },
+    {
+      "given": "Gbaden",
+      "family": "Amenger"
+    },
+    {
+      "given": "N. Y.",
+      "family": "Goshwe"
+    }
+  ],
+  "author_source_text": "CHIA, Shiaondo Kenneth¹* · AMENGER, Gbaden² · GOSHWE, N. Y.³; ¹ CHIA TECH Solutions and Resources Limited, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); ² Nigeria Customs Service, Ogun State Command, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); ³ Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi, Nigeria; project supervisor (2016); *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586",
+  "abstract": "Background: The archived 2016 project designed, simulated and implemented a 24 V-to-19 V voltage-mode PWM buck converter at 30 kHz using a 251 µH inductor, 15 µF output capacitor, 10 mΩ capacitor ESR and 2 mΩ inductor DCR. Its control design selected a 6 kHz crossover target, 60° desired phase margin and a Type-III compensator through a K-factor procedure. Objective: This paper provides a theory-centred re-analysis of the same converter, preserving the source record while reconstructing its switch-state equations, state-space averaged model, small-signal duty-to-output dynamics, CCM/DCM boundary, frequency landmarks and Type-III phase budget. It also audits mathematical inconsistencies that become visible when the archived equations are recomputed. Methods: Ideal CCM switching equations were averaged and linearized around the documented operating point. The rated 3.5 A condition was treated as the principal load case (R = 19/3.5 = 5.43 Ω), while the independently documented 5 Ω schematic load was retained as a separate source branch. Bode response, phase budget and K-factor sensitivity were computed analytically. Results: The ideal duty ratio is 0.7917, Ton = 26.39 µs and Toff = 6.94 µs. The formula-consistent inductor ripple is 0.526 A p-p, giving a CCM boundary current of about 0.263 A and Rcrit ≈ 72.3 Ω. The LC double-pole frequency is 2.594 kHz and the ESR zero is approximately 1.06 MHz. At the archived 6 kHz crossover, the ideal power-stage phase is approximately −158.2°. A 60° phase-margin target therefore requires about +38.2° compensator phase at crossover; when the Type-III integrator’s −90° baseline is included, the two lead sections must supply about 128.2° of lead, corresponding to K ≈ 18.9. The archived 150° boost gives K ≈ 57.7 and is therefore conservative but highly sensitive. The historical report also contains two explicit consistency issues: 3.5 A at 19 V implies 5.43 Ω rather than 5 Ω, and the displayed ripple equation uses Vout while its numerical substitution uses 24 V. Conclusion: The converter is theoretically coherent at the topology and loop-design level, but a modern publication benefits from separating the PWM modulator gain from LC-plant phase, distinguishing parallel source load cases and documenting arithmetic substitutions. The resulting framework is a stronger theoretical basis for simulation, frequency-response verification and future hardware replication.",
+  "keywords": "buck converter; state-space averaging; small-signal model; voltage-mode control; Type-III compensation; K-factor; CCM; Bode plot; phase margin; power electronics",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e049",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e049/html/e049.html",
+  "source_package": "controlled Part 2 August package"
+}

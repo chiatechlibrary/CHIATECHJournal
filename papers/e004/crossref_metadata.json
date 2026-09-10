@@ -1,0 +1,24 @@
+{
+  "article_id": "e004",
+  "title": "Netlify or Render for an Open-Access Journal Portal? Evidence-Based Deployment Selection for the CHIATECH JOURNAL Architecture",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    }
+  ],
+  "author_source_text": "CHIA SHIAONDO KENNETH",
+  "abstract": "Background: CHIATECH JOURNAL is implemented as a crawlable static publication portal with a same-origin serverless editorial relay, a private Google Apps Script service and a private Google Sheet. The repository is already strongly coupled to Netlify through Functions, redirects, headers, deployment previews and release controls. Objective: This study compared Netlify and Render to determine the better production deployment platform for the journal's current architecture and to identify the conditions under which migration would become technically justified. Methods: A technical case-study and weighted multi-criteria decision analysis were conducted on 17July 2026. Primary evidence comprised the journal production guide, repository map, launch checklist, Netlify configuration, redirect/header rules, ignore rules and service-worker controls. Current official Netlify and Render documentation and peer-reviewed serverless-computing literature were used for external validation. Eight criteria were weighted across architecture alignment, migration burden, secret-relay fit, preview/rollback workflow, static delivery, operational simplicity, persistent-runtime extensibility and plan sustainability. Results: The supplied release contains a Netlify Functions directory, a forced same-origin rewrite from /api/editorial to a Netlify Function, 17 redirect rules, six scoped header blocks, 15 public-package exclusion rules and nine Netlify-specific production-gate checks. The current-state decision score was 97/100 for Netlify and 69/100 for Render. Netlify preserves the existing serverless relay and source-controlled security/routing model with minimal change. Render can serve the static portal and provides strong persistent Web Services, previews and managed infrastructure, but reproducing the present architecture would require translating platform-specific routing/headers and replacing or re-hosting the Netlify relay. Conclusion: Netlify is the recommended production platform for the present journal. Render should be reconsidered only if the journal replaces Google Apps Script with a persistent Node/Python service, adopts managed Postgres as the primary data authority, requires long-running workers, WebSockets or a multi-service private-network architecture.",
+  "keywords": "",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e004",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e004/html/e004.html",
+  "source_package": "root July/August package"
+}

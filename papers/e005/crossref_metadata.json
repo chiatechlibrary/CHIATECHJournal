@@ -1,0 +1,32 @@
+{
+  "article_id": "e005",
+  "title": "Church Engagement and Perceived Reduction of Community Insecurity in Abuja, Nigeria: Survey-Weighted Evidence Across the Six FCT Area Councils",
+  "author": [
+    {
+      "given": "Syrenius Dangana",
+      "family": "Okoriko"
+    },
+    {
+      "given": "Charles Ogundu",
+      "family": "Nnaji"
+    },
+    {
+      "given": "Adeola",
+      "family": "Kehinde"
+    }
+  ],
+  "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
+  "abstract": "Background: Religious institutions are socially influential in Nigeria, but their public-security contribution should be measured as specific practices rather than presumed from visibility or doctrine. Objective: To estimate the relationship between five dimensions of Church engagement and perceived reduction of community insecurity (PRCI) across the Federal Capital Territory. Methods: A stratified multistage household survey generated 586 response records from 642 field contacts in 24 clusters. The CECIQ measured TPEMF, MDPA, SEHPC, CSEW, IIC and PRCI. Weighted Spearman correlations and a survey-weighted, cluster-robust multiple regression with prespecified covariates and Holm correction were used. Results: All five Church-engagement constructs correlated positively with PRCI (weighted ρ=.376–.450). The full model used 366 complete cases and explained 45.3% of weighted PRCI variance. TPEMF (B=.143, 95% CI [.043,.243], Holm p=.027), CSEW (B=.269, [.161,.376], p<.001) and IIC (B=.157, [.031,.283], p=.050) retained positive adjusted relationships; MDPA and SEHPC did not retain independent support after correction. CSEW was the strongest distinct predictor (standardized β=.284; ΔR²=.059). Conclusion: The evidence supports a real but bounded complementary role for Church engagement. The most defensible pattern combines peace-ethical formation, verified and lawful community-safety practice, and sustained cross-boundary collaboration. Cross-sectional perception data do not establish a causal fall in recorded crime.",
+  "keywords": "",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e005",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e005/html/e005.html",
+  "source_package": "root July/August package"
+}

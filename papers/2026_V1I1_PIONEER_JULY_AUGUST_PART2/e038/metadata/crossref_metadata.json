@@ -1,0 +1,24 @@
+{
+  "article_id": "e038",
+  "title": "Assessment of Tertiary Institution Students' Perceptions and Experiences of Security in Nigerian Higher Education",
+  "author": [
+    {
+      "given": "Wilfred",
+      "family": "Ogbu"
+    }
+  ],
+  "author_source_text": "Wilfred Ogbu",
+  "abstract": "Background: Student safety is a core condition for participation, mobility, learning and well-being in higher education, yet Nigerian campuses face heterogeneous physical, social and security risks. Objective: This study assessed tertiary-institution students’ perceptions and experiences of security across Nigeria and examined regional, temporal, gender and institutional patterns reported during January–June 2025. Methods: The 2025 Zenodo deposition reports monthly evidence from 4,832 undergraduates in 36 higher-education institutions distributed across all six geopolitical zones. Structured surveys, focus-group discussions and reviews of security-incident reports were used to examine security concern, threat perception, coping processes and institutional responses. The deposited abstract describes the design using overlapping labels (\"cross-sectional longitudinal\" and \"systematic review\"); this journal update therefore preserves the reported procedures and results without upgrading causal claims or inventing unreported design details. No row-level dataset was available for independent reanalysis. Results: The source reports the highest security concern in the Northeast/Northwest grouping (M = 4.2, SD = 0.8 on a five-point scale), compared with a lower mean in the Southwest (M = 2.8, SD = 0.6). Reported security confidence declined from 3.1 in January to 2.4 in June 2025. Female students consistently reported greater security problems than male students across geopolitical contexts. Recurrent institutional weaknesses were inadequate physical-security infrastructure, poor illumination and insufficient security personnel. Conclusion: The evidence supports a differentiated campus-safety strategy that combines environmental design, trained personnel, early warning, interagency coordination, gender-responsive safeguards, student participation and routine security-performance monitoring. Because the accessible source does not provide the full statistical tables, intermediate monthly scores, sampling weights or inferential tests, e038 limits empirical claims to quantities explicitly reported in the Zenodo record and uses newer evidence only to strengthen interpretation and implementation guidance.",
+  "keywords": "campus security; student perceptions; tertiary education; higher education; security confidence; gender; geopolitical zones; Nigeria",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e038",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e038/html/e038.html",
+  "source_package": "controlled Part 2 August package"
+}

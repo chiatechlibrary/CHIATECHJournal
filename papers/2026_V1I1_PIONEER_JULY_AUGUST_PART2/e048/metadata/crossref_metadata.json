@@ -1,0 +1,32 @@
+{
+  "article_id": "e048",
+  "title": "Loss-Aware Reliability Analysis and Contemporary Re-Engineering of a 24 V-to-19 V, 66.5 W PWM Buck Converter: Component Stress, Efficiency Bounds and Validation Protocol",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    },
+    {
+      "given": "Gbaden",
+      "family": "Amenger"
+    },
+    {
+      "given": "N. Y.",
+      "family": "Goshwe"
+    }
+  ],
+  "author_source_text": "CHIA, Shiaondo Kenneth¹* · AMENGER, Gbaden² · GOSHWE, N. Y.³; ¹ CHIA TECH Solutions and Resources Limited, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); ² Nigeria Customs Service, Ogun State Command, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); ³ Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi, Nigeria; project supervisor (2016); *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586",
+  "abstract": "Background: The archived 2016 project developed a 24 V-to-19 V pulse-width-modulated buck converter at 30 kHz with a 3.5 A, 66.5 W rated point, a 251 µH inductor, 15 µF output capacitor, 10 mΩ capacitor ESR and 2 mΩ inductor DCR. The report documents MATLAB/Simulink development, PWM waveforms and prototype implementation, and later states efficiency above 81%, but it does not preserve a complete part-specific loss budget or a traceable efficiency-test boundary. Objective: This study performs a distinct reliability-oriented re-analysis of the same engineering work, quantifying component current stress, reconstructable passive losses, semiconductor-loss sensitivity and the measurement requirements needed for a modern repeat build. Methods: Source parameters were preserved exactly. Continuous-conduction-mode equations were used to derive peak/RMS currents and ripple. Because MOSFET RDS(on), diode forward drop and switching transition times are not recoverable from the archive, they were treated as explicit sensitivity variables rather than invented historical measurements. Parametric efficiency surfaces and load sweeps were generated from transparent analytical assumptions. Results: The rated duty ratio is 0.7917 and the inductor ripple is 0.526 A p-p, giving Ipk = 3.763 A, IQ,rms = 3.117 A, ID,rms = 1.599 A and IC,rms = 0.152 A. The documented 2 mΩ inductor DCR contributes only about 24.55 mW copper loss and the 10 mΩ capacitor ESR about 0.23 mW at the rated point. Incremental loss sensitivity is approximately 0.097 W per additional 10 mΩ of MOSFET RDS(on), 0.073 W per 0.1 V of diode forward drop and 0.0126 W per additional 10 ns of combined switching transition. Even a deliberately conservative analytical stress case remains above 96% when only these modeled power-stage terms are included; therefore, the archived “>81%” statement cannot be reconstructed from the available component record alone. At 66.5 W output, exactly 81% efficiency would correspond to a 15.60 W total-loss ceiling, but the historical measurement boundary is unspecified. Conclusion: The design is a strong educational and engineering case study, but a contemporary efficiency or reliability claim should be based on a fresh parts audit, simultaneous input/output power measurement, loop-gain verification, calibrated ripple capture and thermal characterization. The paper preserves the historical prototype evidence while preventing analytical reconstructions from being misreported as new measurements.",
+  "keywords": "buck converter; power loss; efficiency; component stress; reliability; thermal design; PWM; DC-DC conversion; failure-mode analysis; validation protocol",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e048",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e048/html/e048.html",
+  "source_package": "controlled Part 2 August package"
+}

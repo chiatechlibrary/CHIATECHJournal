@@ -1,0 +1,24 @@
+{
+  "article_id": "e045",
+  "title": "Mathematical Modelling of Residential Electricity Demand for Peak-Load Reduction in Nigeria: A Demand-Response Optimisation Framework Calibrated to Dota Community, Gwagwalada",
+  "author": [
+    {
+      "given": "Abdulsalam A.",
+      "family": "Abdulrahman"
+    }
+  ],
+  "author_source_text": "Abdulsalam A. Abdulrahman",
+  "abstract": "Background: Nigeria’s electricity-access challenge is increasingly being addressed through grid reform and distributed renewable systems, but supply-side expansion does not by itself resolve concentrated residential peaks. The author’s prior Dota Community study reported a residential demand of 59.61 kWh/day and 9.62 kW peak, representing 57.43% of the community load. Objective: This study develops a transparent mathematical demand-response model that uses those aggregate values only as calibration anchors and asks a distinct question: how much peak demand can be redistributed when a defined share of household electricity use is time-flexible? Methods: A 24-hour residential archetype was reconstructed to preserve the reported daily energy and peak demand. Linear programming then shifted 10–40% of hourly demand within a bounded time window while conserving total energy. The primary objective minimized the daily maximum demand; secondary penalties represented a normalized time-of-use cost signal and shifting distance. Results: With 30% flexible demand and a ±3-hour shifting window, peak demand fell from 9.62 to 6.73 kW (30.0%), the peak-to-average ratio fell from 3.87 to 2.71, and load factor increased from 25.8% to 36.9%. The normalized cost index decreased by 9.2% with no reduction in daily energy. At 40% flexibility, peak demand fell to 5.77 kW and the cost index decreased by 12.2%. Sensitivity analysis showed that short shifting windows could achieve the same technical peak reduction in this calibrated case, while wider windows increased economic scheduling opportunity. Conclusion: Demand flexibility can complement solar-storage sizing and stochastic renewable-integration strategies in Nigerian households and mini-grids. The reported results are scenario-based technical potential—not measured behavioural response—and implementation depends on metering, controllable loads, consumer safeguards and locally validated tariffs.",
+  "keywords": "demand response; residential electricity; mathematical optimisation; load shifting; peak demand; Nigeria; smart metering; mini-grids; Dota Community; energy flexibility",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e045",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e045/html/e045.html",
+  "source_package": "controlled Part 2 August package"
+}

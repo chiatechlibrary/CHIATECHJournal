@@ -1,0 +1,24 @@
+{
+  "article_id": "e037",
+  "title": "The Educational Trinity: Home, Child, and School Environment for Secure Learning in Nigeria",
+  "author": [
+    {
+      "given": "Wilfred",
+      "family": "Ogbu"
+    }
+  ],
+  "author_source_text": "Wilfred Ogbu",
+  "abstract": "Background: Safe learning in Nigeria depends on more than school infrastructure; it also depends on the alignment of family safeguarding routines, the school safety climate and the child’s capacity to regulate behaviour, seek help and act safely. Objective: This study examined the educational trinity of home security practices (HSPS), school safety climate (SSCS) and child agency/self-regulation (CASS) in relation to a composite Child Future Readiness Index (CFRI). Methods: The archived study used an explanatory cross-sectional design and multistage sampling of 1,242 Junior Secondary Two students, 1,038 matched parents/guardians and 216 teachers from 54 public schools in Lagos, Kaduna and Anambra States (18 schools per state). Validated scales and school-record indicators were analysed with two-level models and structural equation modelling at α = .05. This journal version reproduces the deposited estimates; no row-level dataset or analysis scripts were available for independent reanalysis. Results: HSPS significantly predicted SSCS (β = .31, SE = .04, 95% CI [.23, .39], p < .001), and SSCS significantly predicted CFRI (β = .27, SE = .05, 95% CI [.17, .37], p < .001). Child agency strengthened both the HSPS→SSCS pathway (interaction β = .08, p = .006) and the SSCS→CFRI pathway (interaction β = .10, p = .004). The reported indirect HSPS→SSCS→CFRI path was β = .08 (95% CI [.05, .12], p < .001), with a direct HSPS→CFRI path of β = .06 (p = .041). Conclusion: The reported evidence supports an integrated educational-management strategy in which home-school safety alignment and child agency are treated as complementary components of secure learning. Because the design is cross-sectional, the indirect path should be interpreted as statistical mediation rather than proof of temporal causation.",
+  "keywords": "school safety; home-school partnership; child agency; school climate; future readiness; educational management; Nigeria",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e037",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e037/html/e037.html",
+  "source_package": "controlled Part 2 August package"
+}

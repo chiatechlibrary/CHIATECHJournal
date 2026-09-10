@@ -1,0 +1,28 @@
+{
+  "article_id": "e050",
+  "title": "Coupled Mathematical Modelling of Building Envelope and Cooling-Efficiency Standards for Nigerian Multi-Unit Housing: An Abuja-Calibrated BEEC–SONMELS Predictive Scenario Framework",
+  "author": [
+    {
+      "given": "Abdulsalam A.",
+      "family": "Abdulrahman"
+    },
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    }
+  ],
+  "author_source_text": "ABDULRAHMAN, Abdulsalam A.2 · CHIA, Shiaondo Kenneth1*; 1 CHIA TECH Solutions and Resources Limited, Nigeria; 2 Department of Building Technology, University of Abuja, Nigeria; *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586; Co-author contact: Abdulsalam.abdulrahman@uniabuja.edu.ng",
+  "abstract": "Background: Nigeria now has two complementary efficiency instruments that operate at different scales: the 2017 National Building Energy Efficiency Code (BEEC), which constrains building design and regulated loads, and the 2026 Standards Organisation of Nigeria Mandatory Energy Labeling Scheme (SONMELS), which classifies air-conditioner efficiency by the Nigeria Seasonal Energy Efficiency Ratio (NSEER). Their combined energy implication for multi-unit housing has not been expressed in a transparent mathematical crosswalk. Objective: This study couples the published Abuja-calibrated BEEC multi-unit apartment benchmark with current SONMELS cooling classes to quantify whole-building energy consequences under explicit cooling-service stress. Methods: The model uses the BEEC technical-study archetype of 1,200 m² with annual intensity components of 22 kWh/m² for lighting, 116 kWh/m² for cooling and 25 kWh/m² for water heating. The BEEC study reports 49% annual savings and 52% peak-load savings over regulated loads for the multi-unit benchmark. The 49% regulated-load result is reconstructed using the BEEC lighting-power-density change from 13 to 6 W/m², leaving a consistent residual cooling component. That component is then crosswalked to the SONMELS 1–5-star lower-bound NSEER thresholds (3.10, 3.60, 4.20, 4.95 and 5.80) under a cooling-service multiplier κ = 0.8–1.3. Results: The published business-as-usual archetype corresponds to 163 kWh/m²·year or 195.60 MWh/year. Reconstructing the BEEC benchmark gives 95.38 kWh/m²·year or 114.46 MWh/year, a 41.5% whole-site reduction when the unchanged 25 kWh/m² water-heating component is retained. After the BEEC package, movement from the 1-star analytical reference to the 5-star threshold reduces modeled site energy from 114.46 to 80.81 MWh/year, a further 29.4% reduction and 58.7% below the original archetype. Even under a 20% cooling-service stress (κ = 1.2), the BEEC + 5-star scenario remains at 88.54 MWh/year, 54.7% below the baseline. Conclusion: Building-envelope compliance and appliance efficiency are multiplicative rather than substitutable. The most resilient pathway for Nigerian multi-unit housing is to reduce cooling service demand through BEEC-compliant envelope and lighting measures before improving equipment efficiency through SONMELS. The results are a standards-coupled reanalysis of published and official evidence, not new field measurements.",
+  "keywords": "building energy efficiency; BEEC; SONMELS; multi-unit housing; cooling; air conditioners; NSEER; mathematical modelling; Abuja; Nigeria",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e050",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e050/html/e050.html",
+  "source_package": "controlled Part 2 August package"
+}

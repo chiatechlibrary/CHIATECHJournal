@@ -1,0 +1,24 @@
+{
+  "article_id": "e047",
+  "title": "TECHNOLOGY · CONCEPTUAL PRACTICE REVIEW AND DESIGN FRAMEWORK",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    }
+  ],
+  "author_source_text": "Prompting for Human-Centred Output: The HUMAN Framework for Credible, Context-Aware Generative AI Writing; CHIA Shiaondo Kenneth",
+  "abstract": "Generative artificial intelligence can accelerate writing, yet a fluent draft may remain generic, unsupported or misaligned with its reader. This conceptual practice review develops the HUMAN framework for credible and context-aware AI-assisted writing: Human intent and evidence; User and audience alignment; Message architecture; Authentic detail and accountability; and Natural revision and judgement. An integrative synthesis connected research on prompt design, human-AI co-writing, iterative refinement, hallucination and educational AI governance with the practical requirements of academic, professional and public communication. The synthesis shows that quality is created both upstream, by supplying verified source material and operational constraints, and downstream, through targeted human review. Surface instructions to 'sound human' cannot substitute for evidence, a real audience, a section-level purpose and accountable verification. The paper provides a nine-part prompt architecture, an editorial rubric and adoption controls covering privacy, attribution, bias, confidentiality and disclosure. The framework does not claim to detect AI authorship or to legitimise impersonation and detector evasion. It positions generative AI as a bounded drafting technology whose output becomes publishable only through human selection, verification and approval. Experimental validation across models, genres, languages and levels of writer expertise remains necessary.",
+  "keywords": "prompt engineering; generative AI; human-AI collaboration; editorial quality; source grounding; responsible AI",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e047",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e047/html/e047.html",
+  "source_package": "controlled Part 2 August package"
+}

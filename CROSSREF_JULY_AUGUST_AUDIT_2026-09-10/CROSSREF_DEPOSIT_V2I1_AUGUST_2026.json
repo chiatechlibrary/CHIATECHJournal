@@ -1,0 +1,1559 @@
+{
+  "schema": "CHIATECH_INTERNAL_CROSSREF_DEPOSIT_STAGING_V1",
+  "member": "CHIA TECH SOLUTIONS AND RESOURCES LIMITED",
+  "prefix": "10.68232",
+  "journal_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "publication_month": "2026-08",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn_print": "PENDING_ASSIGNMENT",
+  "issn_online": "PENDING_ASSIGNMENT",
+  "issn_l": "PENDING_DESIGNATION_BY_ISSN_SYSTEM",
+  "records": [
+    {
+      "article_id": "e001",
+      "title": "Design, Simulation, Implementation, and Operational Evaluation of the CACGWA Student Revision and CBT Portal: A 500-Item-Bank Randomized Assessment Model for Senior Secondary School Examinations",
+      "author": [
+        {
+          "given": "S. Kenneth",
+          "family": "Chia"
+        },
+        {
+          "given": "Bitrus Jiwayikwo",
+          "family": "Julius"
+        },
+        {
+          "given": "Peter",
+          "family": "Ukule"
+        },
+        {
+          "given": "Elizabeth",
+          "family": "Elumeyan"
+        }
+      ],
+      "author_source_text": "CHIA, S. Kenneth; JULIUS, Bitrus Jiwayikwo; UKULE, Peter; Elumeyan, Elizabeth",
+      "abstract": "Computer-based assessment can reduce manual grading burden, strengthen test security, and improve examination administration when test assembly, access control, item exposure, usability, and infrastructure are engineered as a coherent system. This empirical design-science study evaluated the CACGWA Student Revision and Computer-Based Testing (CBT) Portal implemented at Christ Anglican College, Gwagwalada, Abuja, Nigeria, during the 2025/2026 end-of-session examinations. The field deployment involved 200 students and 15 examination administrators. For each subject, the assessment model used a 500-item objective question bank from which 70 unique questions were randomly selected without replacement for each candidate paper. The implemented portal integrated class- and subject-based revision, practice CBT, a 120-minute live examination, student and examination PIN controls, Progressive Web App (PWA) revision access, automatic objective scoring, and an examination-officer console for examination windows, candidate status, results, and incident management. Exact combinatorial and hypergeometric analysis, complemented by 1,000 Monte Carlo replications of 200 candidate papers, quantified the security properties of the 500-to-70 design. Approximately 4.439 × 10 86 unordered 70-item forms are possible; two independently assembled papers share an expected 9.8 items, while the probability of an overlap of at least 20 items is approximately 0.000417. Each item is expected to appear in 28 of 200 candidate papers, with a theoretical exposure standard deviation of 4.91; simulation produced a mean maximum exposure of 43.9 candidates and a mean 95th-percentile pairwise overlap of about 14 items. The live deployment operated effectively as the school examination delivery mechanism. The findings demonstrate that large-bank, per-candidate randomization can produce substantial form diversity and low overlap, while blueprint-constrained assembly, secure randomization, accessibility, auditability, and infrastructure resilience remain essential for defensible high-stakes use.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e001",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e001/html/e001.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e002",
+      "title": "Event Decoration as a Source of Household Income Sustainability in Garkawa, Plateau State, Nigeria: A Descriptive Survey",
+      "author": [
+        {
+          "given": "Lydia Kachollom",
+          "family": "Akila"
+        }
+      ],
+      "author_source_text": "Lydia Kachollom AKILA",
+      "abstract": "Background: Event decoration is an increasingly visible creative-service microenterprise in Nigeria and can diversify household livelihoods through income generated from weddings, birthdays, corporate functions, religious events and other ceremonies. Purpose: This study examined the demographic profile, service portfolio, income contribution and operating constraints of practising event decorators in Garkawa, Plateau State, Nigeria. Methods: A descriptive cross-sectional survey was conducted among 50 practising event decorators using a structured questionnaire. Data were analysed with frequencies, percentages and arithmetic means. Results: Seventy-six percent of respondents were aged 20–40 years, 56% were women, 56% had secondary education and 24% had tertiary education. Mean reported income from event decoration was ₦35,000 per month, equivalent to ₦420,000 annually, and represented an average of 45% of total household income. Wedding decoration was offered by 90% of respondents and was perceived as the most profitable service category. Major constraints were cost and access to materials/equipment, price competition, mismatch between client expectations and budgets, transport difficulties and infrastructure limitations. Conclusion: Event decoration constitutes a meaningful source of supplementary household income in Garkawa and offers a practical pathway for creative entrepreneurship and livelihood diversification. Enterprise outcomes can be strengthened through improved costing, record keeping, equipment access, digital marketing, cooperative asset sharing and targeted business-development support.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e002",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e002/html/e002.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e003",
+      "title": "Tailoring Techniques for Special-Occasion Dresses in Berom Land: A Case Study of Jos South Local Government Area, Plateau State, Nigeria",
+      "author": [
+        {
+          "given": "Lydia Kachollom",
+          "family": "Akila"
+        }
+      ],
+      "author_source_text": "Lydia Kachollom AKILA",
+      "abstract": "Background: Berom special-occasion dress sits at the intersection of indigenous textile identity and made-to-measure garment engineering. Purpose: This study examined culturally responsive tailoring techniques for special-occasion dresses in Berom land, using Jos South Local Government Area, Plateau State, Nigeria, as a case study. Methods: A convergent mixed-method field-audit and documentary case-study design combined a criterion-based audit of 17 tailoring/fashion enterprises conducted on 16 August 2026 with structured coding of eight directly relevant empirical cultural and apparel sources. Frequencies, percentages, mean, median and structured content coding were used; the field and documentary evidence streams were kept analytically distinct. Results: Thirteen of the 17 enterprises (76.5%) were categorized as fashion designers. Ten enterprises (58.8%) displayed public-profile ratings; among rated listings the mean was 4.99/5 across 61 visible reviews, with a median of four reviews. Fitting/alteration was the most recurrent documentary technique theme (6/8), followed by digital/3D support (5/8); body measurement and pattern development each appeared in four sources. The integrated evidence supported an eight-stage quality-controlled workflow: cultural/occasion briefing, verified body measurement, design and material selection, pattern and toile/drape development, cutting/preparation, sewing and seam control, live movement-based fitting, and final embellishment/finishing. Conclusion: High-quality Berom special-occasion dress depends on treating cultural consultation and technical garment production as one controlled process. Digital tools can support measurement and visualization, but they should strengthen rather than replace skilled pattern work, live fitting and culturally informed decision-making.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e003",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e003/html/e003.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e004",
+      "title": "Netlify or Render for an Open-Access Journal Portal? Evidence-Based Deployment Selection for the CHIATECH JOURNAL Architecture",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "CHIA SHIAONDO KENNETH",
+      "abstract": "Background: CHIATECH JOURNAL is implemented as a crawlable static publication portal with a same-origin serverless editorial relay, a private Google Apps Script service and a private Google Sheet. The repository is already strongly coupled to Netlify through Functions, redirects, headers, deployment previews and release controls. Objective: This study compared Netlify and Render to determine the better production deployment platform for the journal's current architecture and to identify the conditions under which migration would become technically justified. Methods: A technical case-study and weighted multi-criteria decision analysis were conducted on 17July 2026. Primary evidence comprised the journal production guide, repository map, launch checklist, Netlify configuration, redirect/header rules, ignore rules and service-worker controls. Current official Netlify and Render documentation and peer-reviewed serverless-computing literature were used for external validation. Eight criteria were weighted across architecture alignment, migration burden, secret-relay fit, preview/rollback workflow, static delivery, operational simplicity, persistent-runtime extensibility and plan sustainability. Results: The supplied release contains a Netlify Functions directory, a forced same-origin rewrite from /api/editorial to a Netlify Function, 17 redirect rules, six scoped header blocks, 15 public-package exclusion rules and nine Netlify-specific production-gate checks. The current-state decision score was 97/100 for Netlify and 69/100 for Render. Netlify preserves the existing serverless relay and source-controlled security/routing model with minimal change. Render can serve the static portal and provides strong persistent Web Services, previews and managed infrastructure, but reproducing the present architecture would require translating platform-specific routing/headers and replacing or re-hosting the Netlify relay. Conclusion: Netlify is the recommended production platform for the present journal. Render should be reconsidered only if the journal replaces Google Apps Script with a persistent Node/Python service, adopts managed Postgres as the primary data authority, requires long-running workers, WebSockets or a multi-service private-network architecture.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e004",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e004/html/e004.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e005",
+      "title": "Church Engagement and Perceived Reduction of Community Insecurity in Abuja, Nigeria: Survey-Weighted Evidence Across the Six FCT Area Councils",
+      "author": [
+        {
+          "given": "Syrenius Dangana",
+          "family": "Okoriko"
+        },
+        {
+          "given": "Charles Ogundu",
+          "family": "Nnaji"
+        },
+        {
+          "given": "Adeola",
+          "family": "Kehinde"
+        }
+      ],
+      "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
+      "abstract": "Background: Religious institutions are socially influential in Nigeria, but their public-security contribution should be measured as specific practices rather than presumed from visibility or doctrine. Objective: To estimate the relationship between five dimensions of Church engagement and perceived reduction of community insecurity (PRCI) across the Federal Capital Territory. Methods: A stratified multistage household survey generated 586 response records from 642 field contacts in 24 clusters. The CECIQ measured TPEMF, MDPA, SEHPC, CSEW, IIC and PRCI. Weighted Spearman correlations and a survey-weighted, cluster-robust multiple regression with prespecified covariates and Holm correction were used. Results: All five Church-engagement constructs correlated positively with PRCI (weighted ρ=.376–.450). The full model used 366 complete cases and explained 45.3% of weighted PRCI variance. TPEMF (B=.143, 95% CI [.043,.243], Holm p=.027), CSEW (B=.269, [.161,.376], p<.001) and IIC (B=.157, [.031,.283], p=.050) retained positive adjusted relationships; MDPA and SEHPC did not retain independent support after correction. CSEW was the strongest distinct predictor (standardized β=.284; ΔR²=.059). Conclusion: The evidence supports a real but bounded complementary role for Church engagement. The most defensible pattern combines peace-ethical formation, verified and lawful community-safety practice, and sustained cross-boundary collaboration. Cross-sectional perception data do not establish a causal fall in recorded crime.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e005",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e005/html/e005.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e006",
+      "title": "Verified Early Warning, Lawful Reporting and Community Safety: Church Engagement and Perceived Insecurity Reduction in Abuja, Nigeria",
+      "author": [
+        {
+          "given": "Syrenius Dangana",
+          "family": "Okoriko"
+        },
+        {
+          "given": "Charles Ogundu",
+          "family": "Nnaji"
+        },
+        {
+          "given": "Adeola",
+          "family": "Kehinde"
+        }
+      ],
+      "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
+      "abstract": "Background: Community-security engagement and early-warning support is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between community-security engagement and early-warning support and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: CSEW had weighted M=3.652 (SD=0.868), α=0.800, ω=0.803. Its weighted association with PRCI was ρ=0.445 (pairwise n=503). In the full model, B=0.269, 95% CI [.161, .376], standardized β=0.284, Holm p=<.001, with ΔR²=0.059. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: the prespecified CSEW objective concerning verified warning, lawful reporting, preparedness and safeguarding",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e006",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e006/html/e006.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e007",
+      "title": "From Peace Teaching to Public Safety: Theological Peace Education, Moral Formation and Perceived Community Insecurity Reduction in Abuja, Nigeria",
+      "author": [
+        {
+          "given": "Syrenius Dangana",
+          "family": "Okoriko"
+        },
+        {
+          "given": "Charles Ogundu",
+          "family": "Nnaji"
+        },
+        {
+          "given": "Adeola",
+          "family": "Kehinde"
+        }
+      ],
+      "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
+      "abstract": "Background: Theological peace education and moral formation is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between theological peace education and moral formation and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: TPEMF had weighted M=3.433 (SD=0.937), α=0.832, ω=0.833. Its weighted association with PRCI was ρ=0.410 (pairwise n=527). In the full model, B=0.143, 95% CI [.043, .243], standardized β=0.169, Holm p=.027, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: the prespecified TPEMF objective concerning peace education, moral formation, responsible interpretation and public conduct",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e007",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e007/html/e007.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e008",
+      "title": "Bridging Faith Communities and Public Institutions: Interfaith and Institutional Collaboration and Perceived Community Security in Abuja, Nigeria",
+      "author": [
+        {
+          "given": "Syrenius Dangana",
+          "family": "Okoriko"
+        },
+        {
+          "given": "Charles Ogundu",
+          "family": "Nnaji"
+        },
+        {
+          "given": "Adeola",
+          "family": "Kehinde"
+        }
+      ],
+      "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
+      "abstract": "Background: Institutional and interfaith collaboration is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between institutional and interfaith collaboration and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: IIC had weighted M=3.753 (SD=0.909), α=0.858, ω=0.860. Its weighted association with PRCI was ρ=0.450 (pairwise n=492). In the full model, B=0.157, 95% CI [.031, .283], standardized β=0.174, Holm p=.050, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: the prespecified IIC objective concerning denominational, interfaith, governmental and professional collaboration",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e008",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e008/html/e008.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e009",
+      "title": "Church Engagement and Human Security in Nigeria: An Integrative Review of Practical Theology, Conflict Transformation and Social Capital with Implications for Abuja",
+      "author": [
+        {
+          "given": "Syrenius Dangana",
+          "family": "Okoriko"
+        },
+        {
+          "given": "Charles Ogundu",
+          "family": "Nnaji"
+        },
+        {
+          "given": "Adeola",
+          "family": "Kehinde"
+        }
+      ],
+      "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
+      "abstract": "Background: Nigeria’s insecurity is multidimensional, and the social reach of religious institutions has generated recurring claims that the Church can contribute to peace and community resilience. Those claims require a framework that distinguishes legitimate complementary action from coercive or state-substituting roles. Objective: To synthesize theological, peacebuilding, human-security and Nigerian evidence into a defensible framework for evaluating Church engagement with insecurity, with particular attention to the FCT. Methods: A critical integrative review synthesized foundational theory, Nigerian empirical/theological scholarship and recent official security evidence used in the doctoral research corpus. Sources were organized around five practice pathways: peace formation; mediation/advocacy; socioeconomic/psychosocial care; early warning/community safety; and institutional/interfaith collaboration. Synthesis: Human Security defines the people-centred outcome; Conflict Transformation explains changes in relationships, patterns and institutions; Social Capital explains the mobilization and risk of trust-bearing networks; practical theology disciplines the movement from description to normative judgement and action. Recent Nigeria/FCT evidence supports a multi-actor preventive approach but also shows why religious authority must be bounded by law, inclusion, verification, professional referral and public accountability. Conclusion: The Church’s most credible security role is complementary rather than substitutive. It lies in forming nonviolent moral agency, mediating and advocating without partisanship, reducing vulnerability through fair care, supporting verified/lawful early warning, and sustaining cross-boundary collaboration. Empirical evaluation should measure these practices and human-security outcomes without claiming causal crime reduction from institutional visibility alone.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e009",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e009/html/e009.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e010",
+      "title": "Selecting Generative AI Systems for Education and Business in 2026: A Capability–Risk Framework for Comparing Frontier and Open-Weight Model Ecosystems",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "CHIA Shiaondo Kenneth",
+      "abstract": "Background: Generative AI procurement is increasingly difficult because model capability, tool access, multimodality, deployment control, safety controls and pricing evolve faster than conventional technology-selection cycles. Objective: This article constructs a five-system comparison time-stamped, evidence-disciplined framework for selecting generative AI systems in education and business. Methods: A critical comparative review triangulated independent evaluation scholarship with official model and system documentation available through 29 August 2026. The review considers GPT-5.6 Sol, Claude Opus 5, Gemini 3.1 Pro, DeepSeek-V4-Pro and Llama 4 Maverick as representative ecosystems rather than treating vendor benchmark claims as directly commensurable scores. Results: The comparison shows persistent trade-offs. Closed frontier systems provide strong managed capabilities and integrated tools but create dependence on provider controls, pricing and service architecture. Open-weight models provide greater deployment and adaptation control but shift security, evaluation and governance burdens to the adopter. Multimodality, context length and agent functionality are increasingly common, making grounding quality, workflow control, data governance, evaluation discipline and total cost of ownership more discriminating than a single benchmark rank. Conclusion: Organizations should replace model leaderboards with use-case portfolios, risk tiers and repeatable local evaluations. The best system is the one that achieves acceptable task quality under the institution’s evidence, privacy, safety, latency, cost and audit requirements.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e010",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e010/html/e010.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e011",
+      "title": "Integrating Defensive and Offensive Cybersecurity Education: A Lab-Based Competency Framework for Workforce-Ready Learning",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "Shiaondo Kenneth Chia",
+      "abstract": "Background: Cybersecurity education often separates defensive operations from offensive testing even though workforce practice requires professionals to understand how attack paths, controls, detection and response interact. Objective: This article develops a curriculum and competency framework that integrates defensive and offensive perspectives within authorized, isolated and ethically governed laboratories. Methods: A design synthesis mapped the source curriculum against the NIST Cybersecurity Framework 2.0, the NICE Workforce Framework for Cybersecurity, CSEC2017 curricular guidance and recent research on cybersecurity teaching. Results: The proposed architecture progresses through foundations and lab setup, defensive engineering, authorized adversary emulation, specialized domains, threat hunting/incident response, automation and governance. A purple-team learning loop—understand risk, defend, emulate threats safely, detect/investigate, respond/improve—connects technical tasks to organizational outcomes. Assessment emphasizes observable competencies through threat models, hardening plans, log analysis, vulnerability reports, secure configurations, incident reports and capstone exercises. Offensive content is bounded by written authorization, scoped targets, isolated environments, no external persistence and evidence-based reporting. Conclusion: Defensive and offensive knowledge should be integrated educationally but separated operationally by strict authorization and safety controls. Workforce readiness depends on demonstrated capability, ethical judgment and communication as much as on tool familiarity.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e011",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e011/html/e011.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e012",
+      "title": "Theology in Principle, Inclusion in Practice? Divine Calling and the Theology–Practice Gap in Nigerian Anglican Seminaries",
+      "author": [
+        {
+          "given": "Peter",
+          "family": "Ukule"
+        },
+        {
+          "given": "Charles Ogundu",
+          "family": "Nnaji"
+        },
+        {
+          "given": "Adeola",
+          "family": "Kehinde"
+        }
+      ],
+      "author_source_text": "Peter Ukule; Charles Ogundu Nnaji; Adeola Kehinde",
+      "abstract": "Background: Anglican theology affirms the dignity of persons created in the image of God and the vocational agency of every member of the body of Christ, yet those affirmations do not automatically determine seminary practice. Objective: This paper examined whether inclusive theological convictions among Anglican clergy, faculty and administrators were accompanied by comparable recognition of the ministerial fitness and participation of persons with physical disabilities. Methods: A focused secondary analysis was conducted from the post-defence harmonised results of a sequential explanatory mixed-methods Ph.D. study. The realised institutional sample comprised 10 Anglican seminaries across five geopolitical zones. Of 198 Inclusion Attitudes in Theological Education Survey questionnaires distributed, 175 were returned (88.4%). Corrected direction-consistent scoring was used for theological understanding of disability (TUD) and perceived ministerial fitness (PMF); explanatory qualitative evidence came from students with physical disabilities, alumni, diocesan leaders and focus groups. Results: The corrected TUD composite was approximately 3.81/5 and the inclusion-oriented PMF composite approximately 3.54/5. Respondents strongly affirmed the Imago Dei (M=4.68), the indispensability of disabled members in the body of Christ (M=4.45), a theological mandate to remove barriers (M=4.39), and the incompatibility of exclusion with the Gospel (M=4.21). Mixed-method integration nevertheless showed that affirmation did not reliably translate into access, accommodation or recognition of leadership capacity. Conclusion: The central problem is not the total absence of inclusive doctrine but its incomplete institutionalisation. Disability inclusion becomes ecclesially credible only when confession is connected to discernment, accommodation, formation, leadership and accountable participation.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e012",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e012/html/e012.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e013",
+      "title": "When Policy Does Not Open the Door: Physical Accessibility and Disability-Inclusion Governance in Anglican Seminaries in Nigeria",
+      "author": [
+        {
+          "given": "Peter",
+          "family": "Ukule"
+        },
+        {
+          "given": "Charles Ogundu",
+          "family": "Nnaji"
+        },
+        {
+          "given": "Adeola",
+          "family": "Kehinde"
+        }
+      ],
+      "author_source_text": "Peter Ukule; Charles Ogundu Nnaji; Adeola Kehinde",
+      "abstract": "Background: Formal non-discrimination language can coexist with material and procedural barriers that make theological education inaccessible. Objective: This study examined the physical, educational, technological and policy conditions affecting access for persons with physical disabilities in sampled Anglican seminaries in Nigeria. Methods: The article reports the institutional strand of a post-defence harmonised sequential explanatory mixed-methods Ph.D. study. Seminary Accessibility Assessment Tool (SAAT) audits and Seminary Policy Analysis Matrix (SPAM) reviews were completed at 10 seminaries in five geopolitical zones. The SAAT assessed entrances, learning spaces, worship, sanitation, residence, alternative formats, library access, assistive technology and digital resources; SPAM assessed whether inclusion commitments were present and whether implementation mechanisms were documented. Results: Overall SAAT accessibility was 19.8%. The highest domain was chapel/worship access (35%), while dormitory/accommodation access was 9%, alternative formats 5% and assistive technology 3%. Nine of 10 seminaries had a general disability non-discrimination statement, but only one showed systematic implementation. Admission accommodation policies were present in 20% of institutions but had no documented implementation; academic accommodation was present in 10% with no documented implementation; no institution documented disability-specific financial aid or a field-education accessibility plan. Conclusion: The dominant institutional problem was not a lack of declaratory commitment but a governance gap between statement, procedure, budget, responsibility and remedy. Accessibility should be treated as a core quality standard of ministerial formation, supported by annual audits, phased universal-design investment and enforceable accommodation processes.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e013",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e013/html/e013.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e014",
+      "title": "Who Is Considered Fit for Ministry? Age, Region and Disability-Inclusion Attitudes among Anglican Clergy, Faculty and Administrators in Nigeria",
+      "author": [
+        {
+          "given": "Peter",
+          "family": "Ukule"
+        },
+        {
+          "given": "Charles Ogundu",
+          "family": "Nnaji"
+        },
+        {
+          "given": "Adeola",
+          "family": "Kehinde"
+        }
+      ],
+      "author_source_text": "Peter Ukule; Charles Ogundu Nnaji; Adeola Kehinde",
+      "abstract": "Background: Institutional access is shaped not only by buildings and policy but by the judgments of gatekeepers who interpret ministerial fitness, approve accommodations and influence placement. Objective: This paper examined generational and regional differences in disability-inclusion attitudes among Anglican clergy, seminary faculty and administrators. Methods: The analysis uses the post-defence corrected quantitative results of the Inclusion Attitudes in Theological Education Survey. A total of 175 usable questionnaires were returned from 198 distributed (88.4%). The respondent group was predominantly male (90.9%) and experienced, with 85.7% reporting more than six years of service. Corrected direction-consistent scoring was applied to exclusionary items. Age-group willingness to accommodate and regional differences in theological inclusivity and perceived ministerial fitness were examined using the verified t-test, ANOVA and effect-size results. Results: Younger respondents aged 18–45 (n=86) reported greater willingness to accommodate (M=3.89, SD=.88) than respondents aged 46+ (n=89; M=3.21, SD=.95), t≈4.91, p<.001, d≈.74. Regional comparison showed significant differences for theological inclusivity, F=9.51, p=.002, partial η²≈.052, and perceived ministerial fitness, F=6.89, p=.009, partial η²≈.038. The age effect was substantively larger than the regional effects. Conclusion: The findings identify a generational leadership challenge rather than an immutable Anglican position on disability. Reform should therefore include continuing formation for senior leaders, explicit ministerial-fitness criteria and structured exposure to disability theology and lived experience rather than relying on gradual generational replacement.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e014",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e014/html/e014.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e015",
+      "title": "Restricted Inclusion as an Institutional System: Mixed-Methods Evidence on Lived Experience, Gatekeeping and Barriers in Anglican Ministerial Formation in Nigeria",
+      "author": [
+        {
+          "given": "Peter",
+          "family": "Ukule"
+        },
+        {
+          "given": "Charles Ogundu",
+          "family": "Nnaji"
+        },
+        {
+          "given": "Adeola",
+          "family": "Kehinde"
+        }
+      ],
+      "author_source_text": "Peter Ukule; Charles Ogundu Nnaji; Adeola Kehinde",
+      "abstract": "Background: Disability exclusion in theological education is often discussed as a list of separate barriers. A systems perspective asks how theology, infrastructure, policy, attitudes and placement reinforce one another. Objective: This paper developed an empirically grounded account of “restricted inclusion” by integrating the major quantitative and qualitative findings of a sequential explanatory study of Anglican seminaries in Nigeria. Methods: The parent study combined 175 returned IATES surveys, SAAT accessibility audits and SPAM policy analyses at 10 seminaries in five geopolitical zones with interviews involving 65 current students with physical disabilities, 38 alumni and 28 diocesan leaders, plus six focus groups. This article uses the post-defence joint-display and coding framework to integrate the evidence without introducing new unverified participant quotations. Results: Five signals converged: TUD≈3.81/5 showed broad theological affirmation; PMF≈3.54/5 showed more conditional ministerial recognition; SAAT accessibility was 19.8%; 90% of seminaries had a general non-discrimination statement but only 10% showed systematic implementation; and younger respondents were more willing to accommodate than older respondents (d≈.74). Qualitative integration identified four mutually reinforcing layers: theological inconsistency, built-environment barriers, policy/resource vacuum and attitudinal gatekeeping. Students could be welcomed pastorally while still lacking secure agency in formation and placement. Conclusion: Restricted inclusion is best understood as an institutional system rather than a single prejudiced decision. Effective reform must act simultaneously on theology, access, governance, formation and participation, shifting the institutional logic from discretionary charity to accountable ecclesial participation.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e015",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e015/html/e015.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e016",
+      "title": "From Charity to Ecclesial Participation: Disability Theology, Divine Calling and Ministerial Formation in African Christianity — A Critical Review",
+      "author": [
+        {
+          "given": "Peter",
+          "family": "Ukule"
+        }
+      ],
+      "author_source_text": "Peter Ukule",
+      "abstract": "Background: African churches often combine strong doctrines of divine calling and human dignity with cultural and institutional practices that frame disability through healing, pity, dependence or exceptional accommodation. Objective: This critical narrative review synthesises disability theology, African Christian scholarship and theological-education literature to clarify the theological movement from charity-oriented inclusion toward full ecclesial participation in ministerial formation. Approach: The review synthesises sources assembled in the doctoral literature corpus, including foundational disability theology, African studies, practical theology, ecumenical statements and recent scholarship through 2025. It is a critical narrative review rather than a systematic review and makes no claim of exhaustive database coverage. Synthesis: Five themes recur: disability challenges perfectionist accounts of the human person; healing narratives can either liberate or reinforce deficit models; the body of Christ reframes apparently weaker members as indispensable; compassion without justice can preserve hierarchy; and theological education is a strategic site where cultural assumptions about ministerial embodiment are either reproduced or transformed. Conclusion: Theologically serious disability inclusion requires a shift from asking how the church can care for disabled people to asking how disabled Christians exercise agency, calling, leadership and mutual ministry within the church. Ministerial formation should evaluate gifts and essential functions, remove structural barriers and treat disability as a legitimate locus of theological knowledge rather than a pastoral exception.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e016",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e016/html/e016.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e017",
+      "title": "Designing the Seminary for Human Diversity: Universal Design, Reasonable Accommodation and Disability-Inclusive Theological Education — A Review",
+      "author": [
+        {
+          "given": "Peter",
+          "family": "Ukule"
+        }
+      ],
+      "author_source_text": "Peter Ukule",
+      "abstract": "Background: Theological education combines academic learning, residential life, worship and field formation, so disability access cannot be reduced to a ramp or a single admissions clause. Objective: This review synthesises scholarship on universal design, reasonable accommodation, accessible admissions, disability justice and theological education to propose an integrated “architecture of welcome” for seminaries. Approach: A critical narrative review was conducted using the literature corpus assembled in the parent doctoral study, including theological-education research, higher-education inclusion scholarship, disability-rights literature and ecumenical guidance. The review is conceptual and does not claim systematic-review completeness. Synthesis: Effective inclusion requires ten linked domains: governance, admissions, routes and entrances, teaching spaces, library/ICT, residence and sanitation, chapel/formation, transport/placement, safeguarding and participation. Universal design should minimise predictable barriers at the system level; reasonable accommodation should address individual needs that remain. Written policy must specify ownership, procedure, budget, monitoring and remedy. Conclusion: A seminary is not accessible because it can improvise help for a particular student. It is accessible when diverse bodies are anticipated in ordinary institutional design and when accommodation is a transparent right-bearing process. Annual accessibility audits, user co-design and phased capital planning provide a practical route from goodwill to measurable institutional capability.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e017",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e017/html/e017.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e018",
+      "title": "Deconstructing the Mechanisms Linking Youth Unemployment to Criminality in Nigeria’s North-Central Region: A Grounded Theory Study",
+      "author": [
+        {
+          "given": "Iboro Tom",
+          "family": "Idim"
+        }
+      ],
+      "author_source_text": "Iboro Tom Idim",
+      "abstract": "Background: The unemployment–crime relationship is often reported as a correlation, but policy design depends on knowing the processes through which labour-market exclusion can become criminal involvement. Objective: This study identified and integrated the mechanisms through which unemployed youth may move toward criminal participation across Nigeria’s North-Central region. Methods: A constructivist grounded-theory design drew on a field corpus reported as 87 in-depth interviews, 14 focus-group discussions and documentary sources from Benue, Kogi, Kwara, Nasarawa, Niger, Plateau and the Federal Capital Territory. The archived sampling table explicitly classified 75 interviewees as unemployed youth, rehabilitated former offenders, community leaders and law-enforcement personnel; the remaining interview classifications were not disaggregated in that table. Analysis used open, focused, axial and theoretical coding, constant comparison, triangulation, member checking, reflexive memoing and an audit trail. Results: Six interacting pathways were identified: idleness and routine disruption; survival-economy pressure; social-network recruitment; grievance activation; cognitive transformation; and opportunity substitution. Social-network recruitment was especially prominent among former offenders, 73% of whom reported entry through existing social ties. The mechanisms varied by settlement type, livelihood structure and crime context, and were better understood as interacting configurations than as a single linear sequence. Conclusion: Youth unemployment should not be treated as an automatic cause of crime. The findings support a mechanism-specific prevention model in which livelihood restoration, structured engagement, network disruption, psychosocial and grievance-sensitive intervention, and credible legitimate opportunities are matched to the pathway observed in a locality.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e018",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e018/html/e018.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e019",
+      "title": "Youth Labour-Market Vulnerability in Nigeria’s North-Central Zone: Mixed-Methods Evidence on Skills Mismatch, Informality, Gender and Conflict Exposure",
+      "author": [
+        {
+          "given": "Iboro Tom",
+          "family": "Idim"
+        }
+      ],
+      "author_source_text": "Iboro Tom Idim",
+      "abstract": "Background: Youth unemployment in Nigeria’s North-Central zone is intertwined with underemployment, informal work, skills mismatch, gendered barriers and insecurity. Objective: This study examined the structural and social factors associated with youth labour-market vulnerability across Benue, Kogi, Kwara, Nasarawa, Niger, Plateau and the Federal Capital Territory. Methods: The parent study used a sequential mixed-method design. A structured survey was administered to 882 youth respondents (126 per constituent unit), with reported internal consistency of α=.81. The qualitative strand comprised 35 focus-group discussions, 70 key-informant interviews and intensive case studies in Guma, Benue State, and Riyom, Plateau State. Quantitative analysis used descriptive statistics, cross-tabulation, chi-square tests and binary logistic regression; qualitative material was analysed thematically. Because Nigeria introduced a revised Labour Force Survey methodology in 2023, this article does not treat pre-2023 and revised national unemployment estimates as one directly comparable time series. Results: The source analysis reports that 73% of employed youth in the survey worked in informal activities and more than 80% of those informal workers earned below the statutory minimum wage applicable during fieldwork. Holding a tertiary Arts or Social Sciences degree rather than a STEM/vocational qualification was associated with 1.8 times the odds of unemployment (p<.01), while female respondents had 1.5 times the odds after adjustment for education and location (p<.001). Conflict exposure was closely linked to livelihood disruption, displacement and reduced youth agricultural engagement. Conclusion: The evidence supports an integrated jobs strategy combining demand-led skills, agro-industrial and digital opportunities, gender-responsive access to assets, conflict-sensitive livelihood restoration and stronger labour-market information.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e019",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e019/html/e019.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e020",
+      "title": "The Given–Unknown–Equation–Substitute–Solve (GUESS) Principle for Quantitative STEM Problem Solving: A Mixed-Methods Evaluation Across Four Undergraduate Disciplines",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "Shiaondo Kenneth Chia",
+      "abstract": "Background: Students often possess isolated formulas yet struggle to represent quantitative problems, select appropriate equations and transfer a workable solution routine across STEM disciplines. Objective: This study evaluated the Given–Unknown–Equation–Substitute–Solve (GUESS) principle as a five-step scaffold for well-structured calculation problems. Methods: A sequential explanatory mixed-methods design was reported across General Chemistry I (n=78), Calculus I (n=65), Engineering Mechanics (n=42) and",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e020",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e020/html/e020.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e021",
+      "title": "Integrated Livestock Feed Zones, Crop-Residue Utilisation and Economic Growth in Nigeria, 1990–2025: Cointegration, Causality and Error-Correction Evidence",
+      "author": [
+        {
+          "given": "Iboro Tom",
+          "family": "Idim"
+        }
+      ],
+      "author_source_text": "Iboro Tom Idim",
+      "abstract": "Background: Nigeria produces large volumes of crop residues while livestock production remains constrained by feed costs, import dependence and uneven feed-and-fodder infrastructure. Objective: This study examined the long-run and short-run relationships among crop-residue utilisation for livestock feed, livestock output, feed imports, an integration index and Nigeria’s economic growth over 1990–2025. Methods: A quantitative longitudinal ex-post-facto design used annual secondary series compiled from national and international statistical sources. The reported econometric sequence included unit-root testing, Johansen cointegration, Granger-causality analysis, log-linear OLS estimation, an error-correction model and diagnostic/robustness checks. The harmonised estimation sample comprised 35 annual observations after source alignment. Results: The reported Johansen statistics supported multiple long-run relationships; the maximum-eigenvalue criterion indicated two cointegrating equations. In the log-linear GDP model, crop-residue utilisation was positively associated with GDP (B=.158, p=.0053) and livestock output showed a larger positive coefficient (B=.590, p<.001), while feed imports were negatively associated with GDP (B=−.469, p<.001). The integration index was also negative (B=−.444, p<.001), an unexpected result interpreted cautiously as possible transition cost, threshold behaviour or measurement error. The error-correction term was −.457 (p=.0012), implying about 45.7% annual adjustment toward long-run equilibrium. Conclusion: The results support crop-residue valorisation and domestic feed development as potentially important components of livestock-sector growth, but they do not justify simple extrapolation from coefficients to national GDP gains. Policy should prioritise feed-and-fodder infrastructure, data quality, crop-production stability and staged evaluation of integration investments.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e021",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e021/html/e021.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e022",
+      "title": "Multiplex Immunohistochemistry and Immunophenotyping in Predictive Cancer Biomarker Discovery and Targeted Therapy",
+      "author": [
+        {
+          "given": "M. M.",
+          "family": "Nengem"
+        },
+        {
+          "given": "G. O.",
+          "family": "Avwioro"
+        },
+        {
+          "given": "G. I.",
+          "family": "Iyare"
+        }
+      ],
+      "author_source_text": "M. M. Nengem; G. O. Avwioro; G. I. Iyare",
+      "abstract": "Precision oncology increasingly depends on assays that preserve both biomarker identity and the spatial context of the tumor microenvironment (TME). Conventional single-plex chromogenic immunohistochemistry remains clinically valuable, but its limited plex and loss of cell-to-cell context can constrain assessment of heterogeneous immune and stromal compartments. This narrative technical review examines multiplex immunohistochemistry and immunofluorescence, high-dimensional immunophenotyping, imaging mass cytometry, and oligonucleotide-barcoded imaging systems as complementary approaches for predictive biomarker discovery and targeted therapy. It also reviews the computational pathway from image acquisition and registration through cell segmentation, phenotyping, dimensionality reduction, spatial statistics, and clinically interpretable tissue architectures. Across the cited literature, spatially resolved multi-marker measurements provide information that is not captured by isolated marker percentages or bulk molecular averages, including immune-cell proximity, exclusion, co-expression, and neighborhood organization. These features can refine hypotheses about response and resistance to immune-checkpoint inhibition and support rational combination-therapy design, while artificial-intelligence methods can improve reproducibility in segmentation and high-dimensional pattern recognition. However, translation into routine diagnostics requires standardized pre-analytics, validated antibody panels, transparent computational pipelines, external clinical validation, data infrastructure, and multidisciplinary quality assurance. Multiplex spatial pathology should therefore be viewed as a rapidly advancing complementary framework for precision oncology whose strongest clinical claims remain dependent on prospective validation and laboratory standardization.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e022",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e022/html/e022.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e023",
+      "title": "Rethinking STEM Teaching and Learning in Nigeria: An Integrated, Inquiry-Driven and Digitally Resilient Framework for the Revised Curriculum Era",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "Shiaondo Kenneth Chia",
+      "abstract": "Purpose: Nigeria’s revised school curriculum creates an opportunity to move STEM education from subject coverage toward integrated problem solving, practical competence and purposeful technology use. This article critically synthesizes the author’s STEM reform manuscript, current curriculum policy and recent research to specify a practical framework for teaching and learning. Approach: A critical integrative review was used rather than a systematic review. The synthesis combines the source manuscript’s constructivist and interdisciplinary argument with official Nigerian curriculum documents, recent integrated-STEM evidence and two author-supplied Gwagwalada field summaries: a survey of 150 STEM teachers and an evaluative CBT case involving 200 students and 15 administrators. Findings: Contemporary evidence converges on integration, real-world problems, inquiry, design and teamwork as core features of integrated STEM. The local summaries identify implementation constraints that matter for Nigeria: only 28% of surveyed teachers reportedly used digital tools actively in practical STEM, 72% reported infrastructure deficits, 65% reported insufficient digital skills and 84% perceived stronger e-learning capacity as an added security resilience measure. In the CBT case, result-processing time reportedly fell by 85%, 76% of students developed high usability skills after orientation, and a 1:3 computer-to-student ratio plus weak alternative power constrained deployment. Contribution: The article proposes a seven-pillar Nigerian STEM implementation framework linking integrated problem contexts, guided inquiry/PBL/design, digital and offline resilience, teacher capability, authentic assessment, equity/local relevance, and partnership with continuous evaluation. Conclusion: Curriculum reform will produce stronger STEM outcomes only when pedagogy, teacher development, infrastructure, assessment and equity are implemented as one system rather than as separate projects.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e023",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e023/html/e023.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e024",
+      "title": "The SETEHEM Model for Knowledge Democratization and Workforce Innovation in Nigeria: A Bidirectional Interdisciplinary Framework Linking Education, Technology and Entrepreneurship",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "Shiaondo Kenneth Chia",
+      "abstract": "Purpose: Disciplinary specialization is essential for depth, yet Nigeria’s education-to-work transition increasingly requires graduates who can combine technical knowledge with pedagogy, social interpretation, enterprise creation and implementation capability. This article develops the SETEHEM Model as a bidirectional interdisciplinary framework for knowledge democratization and workforce innovation. Conceptual approach: Its core constructs were mapped to diffusion of innovations, constructivist/experiential learning, systems thinking, absorptive capacity and Triple/Quadruple Helix perspectives, then aligned with current Nigerian higher-education and labour-market policy. Model: In this framework SETEHEM denotes Science, Engineering, Technology, Education, Humanities, Entrepreneurship and Mathematics. Management is treated as a cross-cutting implementation capability governing coordination, resources, incentives, quality and scaling. The model proposes bidirectional knowledge exchange among disciplines through challenge studios, co-teaching, industry/community projects, internships, incubation and applied research. Six testable propositions link interdisciplinary breadth, bidirectional exchange, experiential challenge work, ecosystem partnerships, management capability and contextual equity to problem framing, technology adoption, job versatility and entrepreneurial outcomes. Implications: The National Universities Commission’s 70% core/30% institution-specific CCMAS structure and its Skills Development and Entrepreneurship mandate create policy space for locally designed interdisciplinary modules. Conclusion: SETEHEM is best viewed as a theoretically grounded, testable architecture—not as a validated effect model. Its value will depend on implementation fidelity and future multi-institutional evaluation using explicit constructs and outcome measures.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e024",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e024/html/e024.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e025",
+      "title": "Multiplex Immunohistochemistry and Spatial Immunophenotyping in Precision Oncology: Predictive Biomarkers, AI-Assisted Analysis and Clinical Translation",
+      "author": [
+        {
+          "given": "M. M.",
+          "family": "Nengem"
+        },
+        {
+          "given": "G. O.",
+          "family": "Avwioro"
+        },
+        {
+          "given": "G. I.",
+          "family": "Iyare"
+        }
+      ],
+      "author_source_text": "M. M. Nengem; G. O. Avwioro; G. I. Iyare",
+      "abstract": "Background: Precision oncology increasingly depends on tissue assays that preserve biomarker identity together with the spatial architecture of the tumor microenvironment (TME). Single-plex immunohistochemistry remains indispensable for routine diagnosis, but it cannot fully resolve multicellular phenotypes, immune-exclusion patterns or cell-to-cell neighborhoods that may influence response and resistance to targeted and immune therapies. Objective: To critically synthesize the technical, computational and translational evidence supporting multiplex immunohistochemistry/immunofluorescence (mIHC/IF), high-parameter spatial proteomics and AI-assisted immunophenotyping as platforms for predictive biomarker discovery. Evidence approach: The seminar evidence base was updated through a targeted review of PubMed-indexed literature, professional guidance and peer-reviewed publisher sources available through August 2026. Priority was given to formalin-fixed paraffin-embedded tissue workflows, assay validation, image analysis, spatial biomarker studies and reporting standards; this is a critical narrative review rather than a systematic review or meta-analysis. Synthesis: TSA-based multiplex fluorescence, imaging mass cytometry, MIBI-like metal-tag imaging and DNA-barcoded cyclic systems can quantify multiple proteins while retaining tissue geography. Spatial endpoints—including intratumoral CD8+ density, tumor-margin gradients, immune-exclusion patterns, tertiary lymphoid structure organization and suppressive-cell neighborhoods—provide information not available from bulk abundance alone. High-plex imaging studies and recent immunotherapy cohorts demonstrate that topology can be prognostic or predictive, but clinical use requires analytical validation, external replication and demonstration of incremental utility over established biomarkers. AI enables artifact detection, segmentation, phenotyping, clustering and graph-based spatial analysis, yet algorithmic outputs remain vulnerable to pre-analytic variation, batch effects, domain shift and opaque feature definitions. Conclusion: The most defensible near-term role of multiplex spatial pathology is not replacement of conventional pathology, but a validated extension of morphology into cell-resolved, quantitative and spatially explicit biomarker science. Standardized assay design, STORMI-aligned reporting, transparent computational pipelines and prospective clinical validation are essential for translating discovery-grade spatial signatures into clinically actionable tests.",
+      "keywords": "",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e025",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e025/html/e025.html",
+      "source_package": "root July/August package"
+    },
+    {
+      "article_id": "e026",
+      "title": "Prompt Engineering for Reliable Large-Language-Model Interaction: From Instruction Design and Grounding to Evaluation and Prompt-Injection Resilience",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "CHIA Shiaondo Kenneth",
+      "abstract": "Background: Prompt engineering has evolved from ad hoc wording tricks into a broader discipline for specifying tasks, supplying evidence, orchestrating tools and evaluating model behavior. Objective: This article critically synthesizes prompt-engineering research and proposes a reliability-oriented architecture for human–LLM interaction that integrates instruction design, grounding, tool governance, security and verification. Methods: A critical narrative review integrated foundational prompting studies, recent prompting taxonomies, retrieval-augmented generation, tool-using agents and generative-AI risk guidance. Results: Effective prompting is best understood as a five-layer system: task specification, contextual grounding, reasoning scaffolds, tool/action orchestration and output verification. Techniques such as few-shot prompting, decomposition, self-consistency, retrieval and ReAct can improve performance, but effects depend on model, task and evaluation conditions. Reliability deteriorates when prompts substitute for missing evidence, when tool permissions are excessive, or when untrusted retrieved content can alter instructions. Prompt injection therefore changes prompt engineering from a productivity concern into a security and governance concern. Conclusion: Reliable AI interaction requires prompt design to be coupled with source control, structured outputs, least-privilege tools, repeatable tests and human review proportional to risk. The proposed architecture shifts attention from 'clever prompts' to verifiable workflows.",
+      "keywords": "prompt engineering; large language models; retrieval-augmented generation; prompt injection; AI reliability; LLM evaluation; agentic AI",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e026",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e026/html/e026.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e027",
+      "title": "Explainable Deep Reinforcement Learning in Robotics: A Taxonomy of Explanations, Evaluation Criteria and Safety-Critical Deployment",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "CHIA Shiaondo Kenneth",
+      "abstract": "Background: Deep reinforcement learning (DRL) can support robotic control, navigation and manipulation, but opaque policies create obstacles for debugging, operator trust and safety assurance. Objective: This article is a critical review and deployment framework for explainable reinforcement learning (XRL) in robotics. Methods: The analysis synthesizes XRL taxonomies, explainable-AI concepts and safe-learning literature, organizing methods by stakeholder question, temporal scope and explanation mechanism. Results: Explanations can target state features, action choice, reward structure, trajectories, counterfactual alternatives or policy summaries. Post-hoc attribution, surrogate models, trajectory examples and natural-language summaries can make behavior more inspectable, but explanation quality is multidimensional. Fidelity, stability, completeness, comprehensibility and actionability must be evaluated separately. In robotics, explanation does not constitute a safety certificate: a plausible explanation may still describe an unsafe policy. The proposed assurance stack therefore couples XRL with constrained action spaces, runtime monitors, fallback controllers, logging and human escalation. Conclusion: XRL is most valuable when linked to a concrete stakeholder decision—debugging, supervision, incident investigation or acceptance testing—and evaluated for both faithfulness to the policy and usefulness to the human operator. Safe robotic deployment requires explainability and control assurance to be designed together.",
+      "keywords": "explainable AI; reinforcement learning; robotics; deep reinforcement learning; safe learning; human–robot interaction; AI assurance",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e027",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e027/html/e027.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e028",
+      "title": "Microlearning for Faculty TPACK Development in Higher Education: An Evidence-Informed Design and Evaluation Framework",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "CHIA Shiaondo Kenneth",
+      "abstract": "Background: Faculty are expected to integrate rapidly changing digital and AI tools into teaching, yet professional development is often detached from disciplinary content, constrained by time and evaluated mainly through self-report. Objective: This article develops an evidence-informed microlearning architecture for strengthening faculty TPACK through authentic, discipline-linked practice and multi-source evaluation. Methods: A critical design synthesis connected the Technological Pedagogical Content Knowledge (TPACK) framework with recent systematic reviews of micro-courses, teacher digital competence and AI-focused professional development. Results: Microlearning is most defensible when short modules are embedded in an iterative cycle of diagnosis, focused instruction, authentic teaching practice, feedback, reflection and evidence of transfer. Five-to-ten-minute units can lower participation barriers, but duration alone does not create learning; modules must be sequenced around real pedagogical problems and supported by practice. The proposed 12-week model progresses from baseline diagnosis and core integration decisions to discipline-specific design, assessment/AI use and classroom transfer. Evaluation should combine TPACK measures with artifact rubrics, technology-use logs, observations, student feedback and interviews. Conclusion: Microlearning can be a practical delivery architecture for faculty TPACK development, but its effectiveness depends on coherence, authentic application, institutional support and multi-source evaluation rather than on the brevity of content.",
+      "keywords": "TPACK; microlearning; faculty development; higher education; teacher digital competence; professional development; AI in education",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e028",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e028/html/e028.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e029",
+      "title": "Augmented-Reality-Enhanced Problem-Based Learning in STEM Education: Mechanisms, Evidence and an Implementation Framework for Engagement and Critical Thinking",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "CHIA Shiaondo Kenneth",
+      "abstract": "Background: Augmented reality (AR) can overlay manipulable digital information on physical environments, while problem-based learning (PBL) organizes learning around authentic problems. Their combination is promising for STEM education but can also amplify cognitive load, novelty effects and access inequalities if technology is not pedagogically integrated. Objective: This article critically synthesizes evidence on augmented-reality-enhanced problem-based learning (AR-PBL) and develops an implementation and evaluation framework for engagement, critical thinking, conceptual learning and transfer. Methods: The framework draws on systematic reviews and meta-analytic evidence on AR/immersive STEM learning and PBL, while preserving The article’s emphasis on engagement, critical thinking and content learning. Results: Existing evidence supports positive average effects of AR on STEM achievement, but effect size varies by subject, learner level, design and implementation. AR contributes most when it makes invisible or spatial phenomena inspectable, supports manipulation and provides timely feedback inside a meaningful problem-solving cycle. The proposed five-stage model links authentic problems, AR visualization, inquiry/manipulation, collaborative solution building and reflection/transfer. Evaluation should separate behavioral, cognitive and emotional engagement from critical-thinking and content outcomes and should monitor cognitive load, accessibility and retention. Conclusion: AR is not a pedagogy and PBL is not improved merely by adding immersive media. Productive integration requires representational purpose, learner agency, structured collaboration, reflection and equitable access.",
+      "keywords": "augmented reality; problem-based learning; STEM education; critical thinking; student engagement; immersive learning; constructivism",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e029",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e029/html/e029.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e030",
+      "title": "Teaching Further Mathematics in Nigerian Secondary Schools: An Evidence-Informed Multi-Pedagogy Framework for Problem Solving, Inquiry, Technology and Collaboration",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "CHIA Shiaondo Kenneth",
+      "abstract": "Background: Further Mathematics is important for students progressing into mathematics-intensive STEM fields, yet examination evidence repeatedly identifies weaknesses in interpretation, matrices, vectors, calculus, units, diagram use and the communication of mathematical working. Objective: This article critically synthesizes mathematics-education evidence and Nigerian curriculum/examination priorities into a multi-pedagogy framework for teaching Further Mathematics in secondary schools. Methods: A critical review integrated The article’s focus on teacher-centred instruction, problem-solving, inquiry, technology-integrated instruction and collaborative learning with WAEC Chief Examiner evidence and recent mathematics-education research. Results: No single pedagogy is sufficient for the range of conceptual, procedural and representational demands in Further Mathematics. Explicit instruction is valuable for modelling unfamiliar procedures; structured problem solving develops representation and transfer; inquiry supports conjecture and conceptual reasoning; digital tools support visualization and rapid experimentation; and collaboration can expose reasoning when tasks require explanation rather than answer sharing. The proposed framework sequences these approaches around concept formation, guided modelling, problem representation, investigation, deliberate practice and reflective feedback. Conclusion: Improvement requires orchestration rather than replacement of teaching methods. Examination preparation should preserve complete reasoning, units and diagrams while classroom learning should progressively move students from teacher modelling to independent and collaborative problem solving.",
+      "keywords": "Further Mathematics; mathematics pedagogy; problem solving; inquiry-based learning; technology integration; collaborative learning; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e030",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e030/html/e030.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e031",
+      "title": "Fundamental Tools for Ethical Hacking in the AI Era: Ethical Procedures, Current Standards, and a Defensible Technical Workflow for Authorized Cybersecurity Assessment",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "CHIA Shiaondo Kenneth",
+      "abstract": "Background: Ethical hacking has moved from a tool-centric craft toward an evidence-driven security assurance discipline operating across cloud, identity, software supply chains, AI-enabled systems and continuously changing attack surfaces. Artificial intelligence now assists analysts with reconnaissance synthesis, code and configuration review, vulnerability correlation, log interpretation and report drafting, but it also introduces hallucination, prompt-injection, data-leakage, automation and accountability risks. Objective: This article defines a technically rigorous, legally bounded and standards-aligned foundation for ethical hacking in the AI era, with emphasis on current tools, procedures, evidence, prioritization and human control. Methods: A structured technical synthesis was conducted using authoritative standards and practice references current to August 2026, including NIST CSF 2.0, NIST SP 800-115, NIST SP 800-61 Rev. 3, NICE Framework Components 2.2.0, OWASP Top 10:2025, OWASP ASVS 5.0.0, OWASP WSTG 4.2, CIS Controls v8.1, MITRE ATT&CK v19.2, ISO/IEC 27001/27002/27005, ISO/IEC 29147 and 30111, FIRST CVSS v4.0 and EPSS, CISA KEV, and NIST AI-security publications. Nigerian legal context is considered through the Cybercrimes (Prohibition, Prevention, etc.) (Amendment) Act 2024 and Nigeria Data Protection Act 2023. Results: The paper proposes a seven-layer ethical-hacking toolchain, a gated assessment lifecycle, a standards crosswalk, an AI-assistance control plane and an evidence-based vulnerability prioritization method that combines technical severity, exploit likelihood, known exploitation, exposure, asset criticality and compensating controls. It distinguishes vulnerability assessment, penetration testing, adversary emulation and red teaming, and specifies mandatory rules of engagement, data handling, stop conditions, reporting and coordinated disclosure. Conclusion: In the AI era, ethical hacking competence is not measured by the number of exploits executed or tools installed. It is measured by authorized scope discipline, technical reproducibility, defensible evidence, safe validation, prioritized remediation, transparent use of AI and the ability to improve organizational security without creating new risk.",
+      "keywords": "ethical hacking; penetration testing; AI security; NIST CSF 2.0; OWASP ASVS; MITRE ATT&CK; vulnerability management; CVSS v4.0; EPSS; cybersecurity governance",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e031",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e031/html/e031.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e032",
+      "title": "Establishment of a Mean Body-Measurement Chart for School Uniforms and Accessories of Primary-School Children Aged 6–12 Years in Jos, Plateau State, Nigeria: An Anthropometric and Prototype-Development Study",
+      "author": [
+        {
+          "given": "Lydia Kachollom",
+          "family": "Akila"
+        },
+        {
+          "given": "D. A.",
+          "family": "Agbo"
+        }
+      ],
+      "author_source_text": "Lydia Kachollom AKILA¹* and D. A. AGBO²; ¹Department of Home and Rural Economics, Plateau State College of Agriculture, Garkawa, Plateau State, Nigeria; ²Department of Home Science and Management, Joseph Sarwuan Tarka University, Makurdi, Benue State, Nigeria; Corresponding author: lydiaakila1@gmail.com; Revised and expanded from the open Zenodo v1 record (10 November 2024; DOI 10.5281/zenodo.17928414; CC BY 4.0).",
+      "abstract": "Background: Age labels alone rarely capture the body-size variation needed for well-fitting school uniforms. Locally measured anthropometric data are therefore important for garment sizing, comfort and production planning. Purpose: This study established an age-banded mean body-measurement chart for primary-school children aged 6–12 years in Jos, Plateau State, and translated the chart into school-uniform and accessory prototypes. Methods: The archived study used an applied mixed-methods design. Its substantiated quantitative core comprised measurements from 367 children grouped as 6–7, 8–9 and 10–12 years. Stature, chest, waist and hip measurements were summarized with means and standard deviations in SPSS. This revised article recomputed coefficients of variation from the published summaries and examined six prototype plates and two wearer-trial plates supplied with the research record. Results: Mean stature progressed from 115 to 130 and 145 cm across the three age bands; corresponding chest means were 60, 70 and 80 cm, waist means were 55, 65 and 75 cm, and hip means were 65, 75 and 85 cm. Reported standard deviations ranged from 1.174 to 5.992 cm. Relative dispersion was greatest for waist circumference in every band (10.9%, 6.3% and 5.1%, respectively). The measurements were translated into three graded base sizes and applied to boys’ and girls’ uniform families, headwear, neckwear and school bags. Photographs document construction and wearer application, but no numerical fit scores accompanied the archive. Conclusion: The study provides a useful local base chart and demonstrates its manufacturability. It should be treated as a provisional production reference—not a population sizing standard—until raw-data percentiles, sex-specific distributions, coverage rates, measurement error and structured wearer-fit outcomes are established.",
+      "keywords": "anthropometry; school uniform; clothing sizing system; primary-school children; garment prototype; apparel fit; Jos; Plateau State; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e032",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e032/html/e032.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e033",
+      "title": "Integrating Business Intelligence and Data Mining for Venture Capital Assessment of Technology Startups: Hybrid Predictive Analytics, Explainable Risk Scoring and Real-Time Signals",
+      "author": [
+        {
+          "given": "Elizabeth Titilayo",
+          "family": "Olumeyan"
+        }
+      ],
+      "author_source_text": "OLUMEYAN Elizabeth Titilayo; National Teachers Institute, Gwagwalada Study Centre, FCT Abuja, Nigeria",
+      "abstract": "Background: Venture-capital (VC) assessment of technology startups is constrained by sparse financial histories, intangible assets, heterogeneous business models and substantial information asymmetry. Business intelligence (BI) can integrate fragmented evidence, while data-mining and machine-learning methods can convert structured and unstructured signals into reproducible estimates of venture potential. Objective: This study evaluates a hybrid BI-data-mining framework for technology-startup assessment and translates predictive outputs into an explainable VC risk protocol. Methods: The empirical workflow integrated financial and funding information, patent indicators, market dynamics, founder/team characteristics, news, social signals and web-derived data. Preprocessing included data cleaning, missing-value treatment, normalization, entity integration and natural-language processing. Logistic regression, support-vector machines, Random Forest, Gradient Boosting and deep neural networks (DNNs) were considered within training, validation and test workflows supported by cross-validation. Model performance was assessed using accuracy, precision, recall, F1-score and ROC-AUC; feature importance, sensitivity analysis and SHAP-based explanations supported decision interpretation. Results: The retained test results show overall accuracy of 87.3%, precision of 0.84, recall of 0.89, F1-score of 0.86 and ROC-AUC of 0.91. DNNs achieved 87.3% accuracy, compared with 85.7% for Gradient Boosting and 84.2% for Random Forest. Financial metrics contributed 27% of feature importance, technology indicators 25%, market dynamics 25% and team composition 23%; sensitivity results were closely aligned. The risk protocol classified 15% of startups as high potential, 45% as medium risk and 40% as high risk. High-potential recommendations achieved an 82% reported success rate, with 12% false positives and 8% false negatives. The operational comparison reported 35% lower assessment time, 42% higher prediction accuracy, 47% fewer false positives and a 2.8-fold ROI improvement relative to the traditional comparator. Conclusion: BI and data mining can strengthen VC decision support when prediction is embedded within transparent data provenance, out-of-time validation, explainable risk scoring and human due diligence. The findings support a decision-intelligence model in which algorithms prioritize and structure evidence rather than autonomously determine investment decisions.",
+      "keywords": "business intelligence; data mining; venture capital; technology startups; startup success prediction; explainable artificial intelligence; predictive analytics; risk assessment; entrepreneurial finance",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e033",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e033/html/e033.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e034",
+      "title": "Accounting Practices, Digitalisation and Financial-Risk Analytics among Informal Small Businesses in Gwagwalada, Abuja: An Empirical Accounting Data-Science Study",
+      "author": [
+        {
+          "given": "Elizabeth Titilayo",
+          "family": "Olumeyan"
+        }
+      ],
+      "author_source_text": "Olumeyan Elizabeth Titilayo; National Teachers Institute, Gwagwalada Study Centre, FCT Abuja, Nigeria",
+      "abstract": "Background: Informal and microbusinesses depend on timely financial information, yet many operate with incomplete records, weak separation of business and personal funds, and irregular reconciliation. Digitalisation creates new opportunities for affordable record keeping and data-driven risk monitoring, but evidence from local informal-business settings remains limited. Objective: This study examined accounting practices, financial patterns and study-defined financial-risk classification among informal small businesses in Gwagwalada, Abuja, and evaluated whether basic accounting-practice variables provide useful internal risk discrimination. Methods: A cross-sectional empirical dataset comprising 150 businesses from seven commercial clusters and eight business categories was analysed. Variables covered daily revenue, expense, profit and gross margin; primary record-keeping method; business banking; separation of personal and business funds; reconciliation frequency; financial challenges; a study-derived digital-accounting score; accounting-maturity class; and a binary financial-risk label. Descriptive statistics, chi-square tests, Cramér’s V, Mann–Whitney testing, odds ratios and repeated stratified five-fold cross-validation were used. Results: Notebook/ledger recording was most common (61.3%), 24.0% relied on mental/no records and only 10.0% primarily used a mobile/digital method. Although 75.3% used a business bank account, only 29.3% separated personal and business funds. Forty-four percent were classified as high risk. Financial-risk classification differed significantly by record-keeping method (χ²(3)=18.99, p<.001, V=.356), fund separation (χ²(1)=6.14, p=.013, V=.202) and reconciliation frequency (χ²(4)=23.62, p<.001, V=.397), but not by business-bank-account use (p=.219). Mental/no-record businesses had 6.20 times the odds of high-risk classification compared with notebook/ledger users, while never reconciling carried 5.63 times the odds relative to daily reconciliation. An accounting-practice random forest achieved mean repeated-cross-validation ROC-AUC=.737±.099, indicating moderate internal discrimination rather than deployment-ready credit prediction. Conclusion: The strongest risk signals in this local sample were not mere access to banking or high turnover, but the discipline of recording, separating funds and reconciling accounts. Practical digital bookkeeping should therefore be implemented as an accounting-control intervention, supported by training and simple analytics, rather than as technology adoption alone.",
+      "keywords": "accounting data science; record keeping; digital accounting; informal enterprises; financial risk; internal control; small business; Gwagwalada; Nigeria; machine learning",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e034",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e034/html/e034.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e035",
+      "title": "Optimizing Primary-School Uniform Mass Production Through Computer-Aided Basic-Block Development: A Reproducible Parametric Grading and Marker-Planning Experiment",
+      "author": [
+        {
+          "given": "Lydia Kachollom",
+          "family": "Akila"
+        },
+        {
+          "given": "Godiya Chindang",
+          "family": "Mwanle"
+        },
+        {
+          "given": "Mariya Mohammed",
+          "family": "Usman"
+        }
+      ],
+      "author_source_text": "Lydia Kachollom AKILA¹*, Godiya Chindang MWANLE¹ and Mariya Mohammed USMAN²; ¹Department of Home and Rural Economics, Plateau State College of Agriculture, Garkawa, Plateau State, Nigeria; ²Home Economics Department, Federal College of Education (Technical), Gombe, Gombe State, Nigeria; *Corresponding author: lydiaakila1@gmail.com · Co-authors: godiyakady@gmail.com; mariyamusman1977@gmail.com",
+      "abstract": "Background: Primary-school uniform production depends on repeatable sizing, accurate blocks and economical markers. Yet many small and medium clothing operations still redraft patterns by size and plan cutting layouts sequentially. Purpose: This study developed and evaluated a software-neutral, computer-aided workflow for translating a local three-size body chart into parametric school-shirt and trouser cutting envelopes and mixed-size marker plans. Methods: The design experiment used published aggregate measurements for 367 children aged 6-12 years in Jos, Nigeria. Three base profiles - JOS-115, JOS-130 and JOS-145 - supplied stature, chest, waist and hip inputs. Transparent drafting rules produced 15 cutting envelopes per uniform set. A deterministic best-fit-decreasing shelf algorithm was compared with a size-batched next-fit-row baseline under four production mixes and usable fabric widths of 140, 147 and 150 cm, yielding 12 scenarios. Primary outcomes were marker length and percentage reduction; modelled planar occupancy and fabric area were secondary diagnostics. Results: Across the nine 30-set production scenarios, optimized marker length was 7.51-12.32% lower than the baseline (mean 9.59%). Mean modelled planar occupancy increased from 63.57% to 70.31%, a gain of 6.74 percentage points. At 147 cm width, marker-length reductions were 8.61%, 9.31% and 10.21% for balanced, younger-heavy and older-heavy size mixes, respectively. These corresponded to projected savings of 107.4-140.3 linear metres of 147 cm fabric per 1,000 uniform sets under the model assumptions. Conclusion: Parametric grading and mixed-size marker planning can convert a local body chart into a consistent, auditable pre-production system and materially reduce modelled fabric demand. The cutting envelopes are proof-of-concept geometry, not production patterns; physical toile fitting, fabric-specific constraints, shrinkage and factory validation remain mandatory before adoption.",
+      "keywords": "computer-aided design; school uniform; basic block; parametric grading; marker planning; fabric utilization; mass production; Jos; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e035",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e035/html/e035.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e036",
+      "title": "Accounting Data Science, Digital Record-Keeping and Financial-Risk Management among MSMEs in Nigeria: A Critical Review of Evidence, Infrastructure and Policy",
+      "author": [
+        {
+          "given": "Elizabeth Titilayo",
+          "family": "Olumeyan"
+        }
+      ],
+      "author_source_text": "Olumeyan Elizabeth Titilayo; National Teachers Institute, Gwagwalada Study Centre, FCT Abuja, Nigeria",
+      "abstract": "Background: Nigeria’s micro, small and medium enterprise (MSME) economy is large, highly informal and increasingly digital. Yet digital payments do not automatically produce reliable accounts, and access to a bank or fintech channel does not guarantee disciplined record keeping, fund separation, reconciliation or usable financial statements. Objective: This review synthesizes Nigerian evidence on accounting practices, digital record-keeping, accounting information systems, financial inclusion and emerging data-analytics approaches, and develops a practical accounting-data-science framework for MSME financial management and risk assessment. Review approach: A structured critical review prioritized Nigeria-specific peer-reviewed studies and authoritative institutional evidence published mainly from 2020 to August 2026, supplemented by foundational guidance on alternative data and small-business reporting. Evidence was organized around record quality, internal control, digital adoption, analytics, credit access, taxation and data governance. Synthesis: The 2021 SMEDAN/NBS survey reported about 39.65 million MSMEs; PwC’s synthesis of that survey attributes 46.32% of GDP, 96.9% of businesses and 87.9% of employment to the sector. NBS reported that 93.0% of employment was informal in Q2 2024. Nigerian studies consistently link record keeping and accounting-information use with stronger business control and financial performance, while digital-accounting studies identify perceived usefulness, technological literacy, cost, complexity and support as important adoption conditions. A Nigerian e-bookkeeping pilot found that personalized micro-consulting alongside digital tools increased first-adoption steps by 95% compared with information alone and improved precision in profit recall. Meanwhile, CBN payment statistics show transaction volumes large enough to generate substantial digital business footprints, and recent World Bank/IFC evidence identifies alternative transaction data as a potential bridge to MSME credit where conventional financial statements are weak. Conclusion: The central policy and practice challenge is no longer simply whether Nigerian MSMEs have access to digital finance; it is whether transaction trails are converted into reliable accounting information, internal control, explainable analytics and decision-ready evidence. The review proposes a six-level Nigerian MSME accounting-data-science maturity model and recommends record-first digitalization, reconciliation-centered training, interoperable bookkeeping/payment tools, privacy-preserving analytics, accountant-supported adoption and externally validated credit-risk models.",
+      "keywords": "accounting data science; MSMEs; digital record-keeping; accounting information systems; financial inclusion; financial risk analytics; alternative data; Nigeria; informal economy",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e036",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e036/html/e036.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e037",
+      "title": "The Educational Trinity: Home, Child, and School Environment for Secure Learning in Nigeria",
+      "author": [
+        {
+          "given": "Wilfred",
+          "family": "Ogbu"
+        }
+      ],
+      "author_source_text": "Wilfred Ogbu",
+      "abstract": "Background: Safe learning in Nigeria depends on more than school infrastructure; it also depends on the alignment of family safeguarding routines, the school safety climate and the child’s capacity to regulate behaviour, seek help and act safely. Objective: This study examined the educational trinity of home security practices (HSPS), school safety climate (SSCS) and child agency/self-regulation (CASS) in relation to a composite Child Future Readiness Index (CFRI). Methods: The archived study used an explanatory cross-sectional design and multistage sampling of 1,242 Junior Secondary Two students, 1,038 matched parents/guardians and 216 teachers from 54 public schools in Lagos, Kaduna and Anambra States (18 schools per state). Validated scales and school-record indicators were analysed with two-level models and structural equation modelling at α = .05. This journal version reproduces the deposited estimates; no row-level dataset or analysis scripts were available for independent reanalysis. Results: HSPS significantly predicted SSCS (β = .31, SE = .04, 95% CI [.23, .39], p < .001), and SSCS significantly predicted CFRI (β = .27, SE = .05, 95% CI [.17, .37], p < .001). Child agency strengthened both the HSPS→SSCS pathway (interaction β = .08, p = .006) and the SSCS→CFRI pathway (interaction β = .10, p = .004). The reported indirect HSPS→SSCS→CFRI path was β = .08 (95% CI [.05, .12], p < .001), with a direct HSPS→CFRI path of β = .06 (p = .041). Conclusion: The reported evidence supports an integrated educational-management strategy in which home-school safety alignment and child agency are treated as complementary components of secure learning. Because the design is cross-sectional, the indirect path should be interpreted as statistical mediation rather than proof of temporal causation.",
+      "keywords": "school safety; home-school partnership; child agency; school climate; future readiness; educational management; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e037",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e037/html/e037.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e038",
+      "title": "Assessment of Tertiary Institution Students' Perceptions and Experiences of Security in Nigerian Higher Education",
+      "author": [
+        {
+          "given": "Wilfred",
+          "family": "Ogbu"
+        }
+      ],
+      "author_source_text": "Wilfred Ogbu",
+      "abstract": "Background: Student safety is a core condition for participation, mobility, learning and well-being in higher education, yet Nigerian campuses face heterogeneous physical, social and security risks. Objective: This study assessed tertiary-institution students’ perceptions and experiences of security across Nigeria and examined regional, temporal, gender and institutional patterns reported during January–June 2025. Methods: The 2025 Zenodo deposition reports monthly evidence from 4,832 undergraduates in 36 higher-education institutions distributed across all six geopolitical zones. Structured surveys, focus-group discussions and reviews of security-incident reports were used to examine security concern, threat perception, coping processes and institutional responses. The deposited abstract describes the design using overlapping labels (\"cross-sectional longitudinal\" and \"systematic review\"); this journal update therefore preserves the reported procedures and results without upgrading causal claims or inventing unreported design details. No row-level dataset was available for independent reanalysis. Results: The source reports the highest security concern in the Northeast/Northwest grouping (M = 4.2, SD = 0.8 on a five-point scale), compared with a lower mean in the Southwest (M = 2.8, SD = 0.6). Reported security confidence declined from 3.1 in January to 2.4 in June 2025. Female students consistently reported greater security problems than male students across geopolitical contexts. Recurrent institutional weaknesses were inadequate physical-security infrastructure, poor illumination and insufficient security personnel. Conclusion: The evidence supports a differentiated campus-safety strategy that combines environmental design, trained personnel, early warning, interagency coordination, gender-responsive safeguards, student participation and routine security-performance monitoring. Because the accessible source does not provide the full statistical tables, intermediate monthly scores, sampling weights or inferential tests, e038 limits empirical claims to quantities explicitly reported in the Zenodo record and uses newer evidence only to strengthen interpretation and implementation guidance.",
+      "keywords": "campus security; student perceptions; tertiary education; higher education; security confidence; gender; geopolitical zones; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e038",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e038/html/e038.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e039",
+      "title": "Textile Upcycling, Family Empowerment and Circular Livelihoods in Jos North, Nigeria: Empirical Evidence from 100 Upcycling Households",
+      "author": [
+        {
+          "given": "L. K.",
+          "family": "Akila"
+        },
+        {
+          "given": "D. A.",
+          "family": "Agbo"
+        }
+      ],
+      "author_source_text": "Akila, L. K.¹* · Agbo, D. A.²; ¹ Department of Home and Rural Economics, Plateau State College of Agriculture, Garkawa, Plateau State, Nigeria. ² Department of Home Science and Management, Joseph Sarwuan Tarka University, Makurdi, Benue State, Nigeria.; *Corresponding author: lydiaakila1@gmail.com · Co-author: drdianadagbo@gmail.com",
+      "abstract": "Background: Textile upcycling converts discarded or surplus fabrics into products of renewed or higher use value and can link household livelihood strategies with circular-economy objectives. Objective: This study examined upcycling participation, family empowerment, income effects, environmental benefits and practical constraints among families engaged in textile upcycling in Jos North, Plateau State, Nigeria. Methods: A cross-sectional survey was conducted among 100 families purposefully selected from a field-identified population of 312 families involved in upcycling activities around Katako, Terminus and adjoining Jos North communities. Data were collected in person with the Upcycling and Family Empowerment Questionnaire and analysed with percentages, descriptive comparison, Pearson correlation and an independent-samples t-test. Results: Participation increased from low (20%) to medium (50%) and high (80%) levels alongside progressively more complex activities, from scrap use and stuffing to garment transformation, household products and recovery of buttons, zippers and trims. Reported family-income increases were +10%, +25% and +50% across the low, medium and high participation levels, respectively. The principal barriers were lack of tools/equipment (30%), insufficient training/skills (20%) and limited market access (15%). Upcycling participation was strongly associated with family empowerment (r=.75, p<.01; derived 95% CI .65-.82). The environmental hypothesis was also supported (t=2.56, p<.05), indicating greater waste reduction/resource recovery among more active upcycling families. Conclusion: In Jos North, textile upcycling operates simultaneously as a material-circulation practice and a household livelihood strategy. Its expansion, however, depends on skills, equipment, product-quality development, market access and supportive circular-economy institutions. The evidence supports integrating household upcycling into vocational training, microenterprise support and locally grounded textile-waste strategies while avoiding causal claims that exceed the cross-sectional design.",
+      "keywords": "textile upcycling; circular economy; family empowerment; household livelihoods; textile waste; sustainable fashion; resource recovery; Jos North; Plateau State; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e039",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e039/html/e039.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e040",
+      "title": "Digital Transformation in Clothing Technology: Awareness, Practical Adoption and Barriers to Computer-Aided Design among Tailors in Jos Metropolis, Nigeria",
+      "author": [
+        {
+          "given": "L. K.",
+          "family": "Akila"
+        },
+        {
+          "given": "Jacks Zongoro",
+          "family": "Anisah"
+        }
+      ],
+      "author_source_text": "Akila, L. K.¹* · Anisah, Jacks Zongoro²; ¹ Department of Home and Rural Economics, Plateau State College of Agriculture, Garkawa, Plateau State, Nigeria. ² Federal College of Education (Technical), Gombe, Gombe State, Nigeria.; *Corresponding author: lydiaakila1@gmail.com · Co-author: ajzongoro@gmail.com",
+      "abstract": "Background: Computer-aided design (CAD) has become integral to contemporary apparel design, pattern engineering, grading, specification development and digitally mediated production, yet adoption within informal tailoring enterprises can lag behind awareness. Objective: This study assessed awareness, practical use and barriers to CAD adoption among tailors in Jos Metropolis, Plateau State, Nigeria, and interpreted the findings within current clothing-technology and vocational-skills evidence. Methods: A descriptive survey design was used. A structured questionnaire was administered to a purposive sample of 150 tailors in Jos Metropolis. The analysis used descriptive percentages; two additional descriptive indicators—the awareness–use gap and use-to-awareness ratio—were calculated directly from the reported percentages. Results: CAD awareness was 68.4%, whereas only 18.2% of respondents reported practical use of CAD for pattern drafting and clothing-design work. The resulting awareness–use gap was 50.2 percentage points, and practical use represented approximately 26.6% of the reported awareness level. The leading barriers were the high cost of computer hardware/software (82.5%), epileptic power supply (76.0%) and lack of technical training (64.3%). These results indicate that knowledge of CAD is substantially more widespread than the capability to integrate it into routine tailoring practice. Conclusion: Digital transformation in the Jos tailoring sector is constrained by a combined affordability–infrastructure–skills problem rather than by awareness alone. Practical adoption requires shared or subsidised digital-fashion infrastructure, reliable power, modular hands-on CAD training and integration of digital pattern-making into informal apprenticeship and vocational education. The study provides locally grounded evidence for a staged transition from CAD awareness to routine, productivity-oriented digital clothing practice.",
+      "keywords": "computer-aided design; clothing technology; digital fashion; fashion entrepreneurship; pattern drafting; technology adoption; informal apprenticeship; vocational education; Jos Metropolis; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e040",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e040/html/e040.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e041",
+      "title": "Security Challenges and Principals' Management Strategies in North-Central Nigerian Secondary Schools",
+      "author": [
+        {
+          "given": "Wilfred",
+          "family": "Ogbu"
+        }
+      ],
+      "author_source_text": "Wilfred Ogbu",
+      "abstract": "Background: Security threats can disrupt attendance, teaching, learning and school administration, while principals are expected to coordinate preventive, protective, detective and response functions within constrained local environments. Objective: This study examined prevalent security challenges in public senior secondary schools in three North-Central Nigerian states and assessed the effectiveness of principals' security-management strategies. Methods: The source manuscript reports a descriptive correlational survey of 45 schools drawn from a population of 894 public senior secondary schools in Benue, Kogi and Nasarawa. Respondents comprised 45 principals, 375 teachers and 384 students. Three four-point questionnaires were used, with reported reliability coefficients of 0.73–0.79. Descriptive statistics and ANOVA were reported at the 0.05 level. Results: The overall security-challenge mean was 2.80 (SD=0.86). Violence (M=3.06), kidnapping/abduction (M=3.04) and communal clashes (M=2.93) were the highest-rated threats. State-level challenge means were Nasarawa 2.93, Kogi 2.65 and Benue 2.57, with a reported significant difference (F=3.689, p=.033). Principals were rated effective in safety programmes (M=2.71), asset protection (M=2.67) and detective strategies (M=2.60), but ineffective in threat prevention (M=2.43) and emergency response (M=2.20). State differences were reported only for asset-protection strategy (F=3.293, p=.038). Conclusion: The evidence indicates a high-threat environment combined with a management gap in prevention and emergency response. The publication update preserves the source statistics without re-estimation and situates the findings within Nigeria's current safe-schools policy framework.",
+      "keywords": "school security; principals; security management; kidnapping; emergency response; secondary schools; North-Central Nigeria; educational administration",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e041",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e041/html/e041.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e042",
+      "title": "Artificial Intelligence and Smart Border Surveillance for Intellectual Property Rights Enforcement at Nigeria’s Land Borders: A Critical Evidence Review and Responsible Implementation Framework",
+      "author": [
+        {
+          "given": "Gbaden",
+          "family": "Amenger"
+        }
+      ],
+      "author_source_text": "AMENGER, Gbaden; Nigeria Customs Service, Ogun State Command, Nigeria",
+      "abstract": "Background: Counterfeit and pirated trade undermines intellectual property rights (IPR), consumer safety, legitimate enterprise and revenue administration. Border enforcement is becoming harder as illicit trade fragments into small consignments and adapts to complex logistics. Objective: This article critically reviews the evidence for artificial intelligence (AI), data analytics and smart border-surveillance technologies in strengthening IPR enforcement at Nigeria’s land borders and develops a legally bounded implementation framework. Review approach: A structured critical review prioritized official evidence from the World Customs Organization (WCO), World Trade Organization (WTO), OECD/EUIPO, Nigeria Customs Service (NCS), Nigeria Data Protection Commission (NDPC) and African Union, supplemented by peer-reviewed customs-risk, African surveillance and IPR-enforcement scholarship published principally from 2020 to August 2026. Synthesis: OECD/EUIPO estimates place global counterfeit and pirated trade at about USD 467 billion in 2021, equivalent to 2.3% of global imports; shipments of fewer than ten items accounted for 79% of customs seizures in 2020–2021, intensifying selectivity pressures. WCO guidance identifies AI/ML, data analytics and cloud technologies as high-interest Customs technologies but stresses data governance, interoperability, cybersecurity, cost-benefit analysis, workforce capability, MLOps, fairness and transparency. Nigeria has moved beyond conceptual readiness: NCS modernization plans include AI-supported risk management, data analytics and geospatial surveillance, while a 2026 Nigeria–Benin operation demonstrated operational use of geospatial intelligence, drones, shared communications and risk profiling. For IPR enforcement, however, technology must be integrated with TRIPS-compliant border procedures, rights-holder product intelligence, human adjudication and data-protection safeguards. Conclusion: The strongest policy case is for phased, evidence-gated adoption rather than technology-first procurement. A Nigerian smart-IPR border architecture should combine reliable Customs data, rights-holder authentication, risk analytics, geospatial targeting and non-intrusive inspection with human review, auditable decisions, privacy-by-design and cross-border cooperation.",
+      "keywords": "artificial intelligence; smart customs; intellectual property rights; counterfeiting; Nigeria Customs Service; border surveillance; geospatial intelligence; customs risk management; responsible AI; trade facilitation",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e042",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e042/html/e042.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e043",
+      "title": "From Risk Profiles to Counterfeit Interception: AI-Enabled Customs Risk Targeting, Geospatial Intelligence and Non-Intrusive Inspection at Nigeria’s Land Borders",
+      "author": [
+        {
+          "given": "Gbaden",
+          "family": "Amenger"
+        }
+      ],
+      "author_source_text": "AMENGER, Gbaden; Nigeria Customs Service, Ogun State Command, Nigeria",
+      "abstract": "Background: Customs administrations must identify high-risk consignments while allowing compliant trade to move with minimal delay. At Nigeria’s land borders, porous routes, infrastructure constraints, fragmented data and high inspection demands make this selectivity problem particularly acute. Objective: This review examines the operational evidence for AI/ML risk targeting, anomaly detection, geospatial intelligence (GEOINT), AI-assisted non-intrusive inspection (NII) and product-authentication systems, and proposes a performance-assured detection architecture for counterfeit and other IPR-infringing goods. Review approach: Current WCO, WTO, NCS and OECD/EUIPO evidence through August 2026 was synthesized with peer-reviewed Customs risk-management and AI literature. Synthesis: International practice supports a layered model in which structured declaration data, trader history, seizure outcomes and rights-holder alerts feed risk analytics; GEOINT directs attention to spatial hotspots; NII and computer vision support cargo examination; and product-authentication platforms support IPR-specific verification. Nigeria has relevant operational foundations. NCS has documented GEOINT use for illicit-route detection and corridor monitoring, while the 2026 Nigeria–Benin Operation GEOCONTROL used GIS/GEOINT, drones, risk profiling and near-real-time information exchange and recorded 37 seizures during an eight-day operation. Internationally, China Customs has deployed AI-assisted inspection-image analysis at scale, demonstrating technical feasibility but not automatic transferability to Nigeria. The review argues that model quality must be measured with enforcement and facilitation metrics together: precision, recall, calibration, false-positive inspections, clearance time, robustness across border posts and commodities, human override, cybersecurity and cost per actionable hit. Conclusion: A Nigerian smart-border detection system should be multi-modal, human-in-the-loop and locally validated. The operational goal is not maximum automation but better allocation of scarce inspection resources with transparent evidence, continuous monitoring and legally defensible officer decisions.",
+      "keywords": "customs risk management; artificial intelligence; anomaly detection; geospatial intelligence; non-intrusive inspection; computer vision; counterfeiting; intellectual property enforcement; Nigeria; smart borders",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e043",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e043/html/e043.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e044",
+      "title": "Resilient Hybrid Power Architecture for 24/7 Nigeria Customs Land-Border Operations: Grid, Solar PV, Battery Storage and Generator Coordination",
+      "author": [
+        {
+          "given": "Gbaden",
+          "family": "Amenger"
+        }
+      ],
+      "author_source_text": "AMENGER, Gbaden; Nigeria Customs Service, Ogun State Command, Nigeria; Officer-in-Charge (Electricity), Idiroko Barracks, Ogun I Area Command",
+      "abstract": "Background: Nigeria Customs land-border commands increasingly depend on continuous electricity for communications, ICT, access control, lighting, electronic documentation, surveillance and, where deployed, non-intrusive inspection and other smart-border technologies. Yet national-grid variability and local distribution constraints make generator dependence a persistent operational risk. Objective: This review synthesizes Nigerian power-sector evidence, Customs modernization requirements and microgrid-resilience literature to develop a practical hybrid energy framework for 24/7 border operations. Review approach: Official evidence from NERC, the Nigeria Energy Transition Plan, World Bank distributed-energy programmes, Nigeria Customs Service and World Customs Organization guidance was integrated with peer-reviewed literature on solar-battery-diesel microgrids, battery storage, resilience, energy management and protection through August 2026. Synthesis: NERC reported that average available grid-connected generation fell from 5,400.38 MW in 2025/Q4 to 4,457.96 MW in 2026/Q1, while Q1 2026 recorded one total and one partial system collapse. A border command should therefore treat utility supply as one source rather than the sole source. The proposed architecture combines grid supply, solar PV, lithium-ion battery energy storage, standby generators, automatic transfer/static switching, load criticality, protection and an energy-management system. Battery storage provides rapid ride-through and short-duration autonomy; solar reduces daytime fuel use and recharges storage; generators become controlled long-duration backup rather than continuously loaded prime sources. The framework emphasizes measured load profiles, N+1 thinking for critical backup, battery state-of-charge reserves, power-quality monitoring, black-start capability, preventive maintenance and lifecycle-cost optimization. Conclusion: Maximum border availability is achieved not by adding more generators but by engineering source diversity, fast storage, protected critical buses and disciplined control. Nigeria Customs should move from fragmented grid-generator-solar arrangements toward standardized, monitored hybrid microgrids designed around mission-critical loads and locally validated reliability targets.",
+      "keywords": "energy resilience; hybrid microgrid; Nigeria Customs Service; land-border operations; solar photovoltaic; battery energy storage system; diesel generator; critical infrastructure; power quality; energy management system",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e044",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e044/html/e044.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e045",
+      "title": "Mathematical Modelling of Residential Electricity Demand for Peak-Load Reduction in Nigeria: A Demand-Response Optimisation Framework Calibrated to Dota Community, Gwagwalada",
+      "author": [
+        {
+          "given": "Abdulsalam A.",
+          "family": "Abdulrahman"
+        }
+      ],
+      "author_source_text": "Abdulsalam A. Abdulrahman",
+      "abstract": "Background: Nigeria’s electricity-access challenge is increasingly being addressed through grid reform and distributed renewable systems, but supply-side expansion does not by itself resolve concentrated residential peaks. The author’s prior Dota Community study reported a residential demand of 59.61 kWh/day and 9.62 kW peak, representing 57.43% of the community load. Objective: This study develops a transparent mathematical demand-response model that uses those aggregate values only as calibration anchors and asks a distinct question: how much peak demand can be redistributed when a defined share of household electricity use is time-flexible? Methods: A 24-hour residential archetype was reconstructed to preserve the reported daily energy and peak demand. Linear programming then shifted 10–40% of hourly demand within a bounded time window while conserving total energy. The primary objective minimized the daily maximum demand; secondary penalties represented a normalized time-of-use cost signal and shifting distance. Results: With 30% flexible demand and a ±3-hour shifting window, peak demand fell from 9.62 to 6.73 kW (30.0%), the peak-to-average ratio fell from 3.87 to 2.71, and load factor increased from 25.8% to 36.9%. The normalized cost index decreased by 9.2% with no reduction in daily energy. At 40% flexibility, peak demand fell to 5.77 kW and the cost index decreased by 12.2%. Sensitivity analysis showed that short shifting windows could achieve the same technical peak reduction in this calibrated case, while wider windows increased economic scheduling opportunity. Conclusion: Demand flexibility can complement solar-storage sizing and stochastic renewable-integration strategies in Nigerian households and mini-grids. The reported results are scenario-based technical potential—not measured behavioural response—and implementation depends on metering, controllable loads, consumer safeguards and locally validated tariffs.",
+      "keywords": "demand response; residential electricity; mathematical optimisation; load shifting; peak demand; Nigeria; smart metering; mini-grids; Dota Community; energy flexibility",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e045",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e045/html/e045.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e046",
+      "title": "Design, Small-Signal Modeling and Prototype Implementation of a 24 V-to-19 V PWM Buck Converter with Type-III Voltage-Mode Compensation",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        },
+        {
+          "given": "Gbaden",
+          "family": "Amenger"
+        },
+        {
+          "given": "N. Y.",
+          "family": "Goshwe"
+        }
+      ],
+      "author_source_text": "CHIA, Shiaondo Kenneth¹*. AMENGER, Gbaden2; GOSHWE, N. Y.3; ¹ CHIA TECH Solutions and Resources Limited, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586",
+      "abstract": "Background: A 2016 engineering project at the Federal University of Agriculture Makurdi designed and implemented a pulse-width-modulated buck converter to step 24 V DC down to a regulated 19 V output. Objective: This article converts that archived project into a compact, publication-ready engineering paper, reconstructing the power-stage mathematics, voltage-mode feedback loop and Type-III compensation while preserving the documented prototype and simulation evidence. Methods: The archived specifications were audited and re-expressed using continuous-conduction-mode (CCM) equations, small-signal control-to-output modeling, K-factor pole-zero placement and analytical ripple calculations. The source specifies 24 V input, 19 V rated output, 3.5 A, 66.5 W, 30 kHz switching, L = 251 µH, C = 15 µF, capacitor ESR = 10 mΩ and inductor DCR = 2 mΩ. Results: The ideal duty ratio is 0.7917. At the 3.5 A design point the equivalent rated load is 5.43 Ω, while the archived simulation schematic separately uses a nominal 5 Ω test load. The reconstructed inductor ripple is approximately 0.526 A peak-to-peak (15.0% of rated output current), with an analytical output-ripple estimate of about 0.151 V peak-to-peak when capacitive and ESR terms are combined. The LC double-pole frequency is approximately 2.594 kHz and the capacitor-ESR zero approximately 1.061 MHz. The documented Type-III network (R1 = 2.2 kΩ, R2 = 5.9 kΩ, R3 = 38.8 Ω, C1 = 34.2 nF, C2 = 0.6 nF, C3 = 90 nF) is consistent with a voltage-mode compensation strategy that places two zeros around the LC resonance and high-frequency poles above the crossover region. Conclusion: The archived design is technically coherent at its rated point and demonstrates the engineering value of PWM, CCM energy transfer and Type-III loop shaping. The article also identifies legacy reporting inconsistencies that should not be interpreted as new measurements, notably the source wording that labels 19 V and 3.5 A as ripple values.",
+      "keywords": "buck converter; DC-DC conversion; pulse-width modulation; voltage-mode control; Type-III compensation; K-factor; small-signal model; continuous conduction mode; power electronics",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e046",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e046/html/e046.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e047",
+      "title": "TECHNOLOGY · CONCEPTUAL PRACTICE REVIEW AND DESIGN FRAMEWORK",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "Prompting for Human-Centred Output: The HUMAN Framework for Credible, Context-Aware Generative AI Writing; CHIA Shiaondo Kenneth",
+      "abstract": "Generative artificial intelligence can accelerate writing, yet a fluent draft may remain generic, unsupported or misaligned with its reader. This conceptual practice review develops the HUMAN framework for credible and context-aware AI-assisted writing: Human intent and evidence; User and audience alignment; Message architecture; Authentic detail and accountability; and Natural revision and judgement. An integrative synthesis connected research on prompt design, human-AI co-writing, iterative refinement, hallucination and educational AI governance with the practical requirements of academic, professional and public communication. The synthesis shows that quality is created both upstream, by supplying verified source material and operational constraints, and downstream, through targeted human review. Surface instructions to 'sound human' cannot substitute for evidence, a real audience, a section-level purpose and accountable verification. The paper provides a nine-part prompt architecture, an editorial rubric and adoption controls covering privacy, attribution, bias, confidentiality and disclosure. The framework does not claim to detect AI authorship or to legitimise impersonation and detector evasion. It positions generative AI as a bounded drafting technology whose output becomes publishable only through human selection, verification and approval. Experimental validation across models, genres, languages and levels of writer expertise remains necessary.",
+      "keywords": "prompt engineering; generative AI; human-AI collaboration; editorial quality; source grounding; responsible AI",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e047",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e047/html/e047.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e048",
+      "title": "Loss-Aware Reliability Analysis and Contemporary Re-Engineering of a 24 V-to-19 V, 66.5 W PWM Buck Converter: Component Stress, Efficiency Bounds and Validation Protocol",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        },
+        {
+          "given": "Gbaden",
+          "family": "Amenger"
+        },
+        {
+          "given": "N. Y.",
+          "family": "Goshwe"
+        }
+      ],
+      "author_source_text": "CHIA, Shiaondo Kenneth¹* · AMENGER, Gbaden² · GOSHWE, N. Y.³; ¹ CHIA TECH Solutions and Resources Limited, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); ² Nigeria Customs Service, Ogun State Command, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); ³ Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi, Nigeria; project supervisor (2016); *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586",
+      "abstract": "Background: The archived 2016 project developed a 24 V-to-19 V pulse-width-modulated buck converter at 30 kHz with a 3.5 A, 66.5 W rated point, a 251 µH inductor, 15 µF output capacitor, 10 mΩ capacitor ESR and 2 mΩ inductor DCR. The report documents MATLAB/Simulink development, PWM waveforms and prototype implementation, and later states efficiency above 81%, but it does not preserve a complete part-specific loss budget or a traceable efficiency-test boundary. Objective: This study performs a distinct reliability-oriented re-analysis of the same engineering work, quantifying component current stress, reconstructable passive losses, semiconductor-loss sensitivity and the measurement requirements needed for a modern repeat build. Methods: Source parameters were preserved exactly. Continuous-conduction-mode equations were used to derive peak/RMS currents and ripple. Because MOSFET RDS(on), diode forward drop and switching transition times are not recoverable from the archive, they were treated as explicit sensitivity variables rather than invented historical measurements. Parametric efficiency surfaces and load sweeps were generated from transparent analytical assumptions. Results: The rated duty ratio is 0.7917 and the inductor ripple is 0.526 A p-p, giving Ipk = 3.763 A, IQ,rms = 3.117 A, ID,rms = 1.599 A and IC,rms = 0.152 A. The documented 2 mΩ inductor DCR contributes only about 24.55 mW copper loss and the 10 mΩ capacitor ESR about 0.23 mW at the rated point. Incremental loss sensitivity is approximately 0.097 W per additional 10 mΩ of MOSFET RDS(on), 0.073 W per 0.1 V of diode forward drop and 0.0126 W per additional 10 ns of combined switching transition. Even a deliberately conservative analytical stress case remains above 96% when only these modeled power-stage terms are included; therefore, the archived “>81%” statement cannot be reconstructed from the available component record alone. At 66.5 W output, exactly 81% efficiency would correspond to a 15.60 W total-loss ceiling, but the historical measurement boundary is unspecified. Conclusion: The design is a strong educational and engineering case study, but a contemporary efficiency or reliability claim should be based on a fresh parts audit, simultaneous input/output power measurement, loop-gain verification, calibrated ripple capture and thermal characterization. The paper preserves the historical prototype evidence while preventing analytical reconstructions from being misreported as new measurements.",
+      "keywords": "buck converter; power loss; efficiency; component stress; reliability; thermal design; PWM; DC-DC conversion; failure-mode analysis; validation protocol",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e048",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e048/html/e048.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e049",
+      "title": "Control-Oriented Mathematical Review of a 24 V-to-19 V PWM Buck Converter: State-Space Averaging, CCM Boundary, Type-III Loop Compensation and Design Consistency",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        },
+        {
+          "given": "Gbaden",
+          "family": "Amenger"
+        },
+        {
+          "given": "N. Y.",
+          "family": "Goshwe"
+        }
+      ],
+      "author_source_text": "CHIA, Shiaondo Kenneth¹* · AMENGER, Gbaden² · GOSHWE, N. Y.³; ¹ CHIA TECH Solutions and Resources Limited, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); ² Nigeria Customs Service, Ogun State Command, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); ³ Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi, Nigeria; project supervisor (2016); *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586",
+      "abstract": "Background: The archived 2016 project designed, simulated and implemented a 24 V-to-19 V voltage-mode PWM buck converter at 30 kHz using a 251 µH inductor, 15 µF output capacitor, 10 mΩ capacitor ESR and 2 mΩ inductor DCR. Its control design selected a 6 kHz crossover target, 60° desired phase margin and a Type-III compensator through a K-factor procedure. Objective: This paper provides a theory-centred re-analysis of the same converter, preserving the source record while reconstructing its switch-state equations, state-space averaged model, small-signal duty-to-output dynamics, CCM/DCM boundary, frequency landmarks and Type-III phase budget. It also audits mathematical inconsistencies that become visible when the archived equations are recomputed. Methods: Ideal CCM switching equations were averaged and linearized around the documented operating point. The rated 3.5 A condition was treated as the principal load case (R = 19/3.5 = 5.43 Ω), while the independently documented 5 Ω schematic load was retained as a separate source branch. Bode response, phase budget and K-factor sensitivity were computed analytically. Results: The ideal duty ratio is 0.7917, Ton = 26.39 µs and Toff = 6.94 µs. The formula-consistent inductor ripple is 0.526 A p-p, giving a CCM boundary current of about 0.263 A and Rcrit ≈ 72.3 Ω. The LC double-pole frequency is 2.594 kHz and the ESR zero is approximately 1.06 MHz. At the archived 6 kHz crossover, the ideal power-stage phase is approximately −158.2°. A 60° phase-margin target therefore requires about +38.2° compensator phase at crossover; when the Type-III integrator’s −90° baseline is included, the two lead sections must supply about 128.2° of lead, corresponding to K ≈ 18.9. The archived 150° boost gives K ≈ 57.7 and is therefore conservative but highly sensitive. The historical report also contains two explicit consistency issues: 3.5 A at 19 V implies 5.43 Ω rather than 5 Ω, and the displayed ripple equation uses Vout while its numerical substitution uses 24 V. Conclusion: The converter is theoretically coherent at the topology and loop-design level, but a modern publication benefits from separating the PWM modulator gain from LC-plant phase, distinguishing parallel source load cases and documenting arithmetic substitutions. The resulting framework is a stronger theoretical basis for simulation, frequency-response verification and future hardware replication.",
+      "keywords": "buck converter; state-space averaging; small-signal model; voltage-mode control; Type-III compensation; K-factor; CCM; Bode plot; phase margin; power electronics",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e049",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e049/html/e049.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e050",
+      "title": "Coupled Mathematical Modelling of Building Envelope and Cooling-Efficiency Standards for Nigerian Multi-Unit Housing: An Abuja-Calibrated BEEC–SONMELS Predictive Scenario Framework",
+      "author": [
+        {
+          "given": "Abdulsalam A.",
+          "family": "Abdulrahman"
+        },
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "ABDULRAHMAN, Abdulsalam A.2 · CHIA, Shiaondo Kenneth1*; 1 CHIA TECH Solutions and Resources Limited, Nigeria; 2 Department of Building Technology, University of Abuja, Nigeria; *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586; Co-author contact: Abdulsalam.abdulrahman@uniabuja.edu.ng",
+      "abstract": "Background: Nigeria now has two complementary efficiency instruments that operate at different scales: the 2017 National Building Energy Efficiency Code (BEEC), which constrains building design and regulated loads, and the 2026 Standards Organisation of Nigeria Mandatory Energy Labeling Scheme (SONMELS), which classifies air-conditioner efficiency by the Nigeria Seasonal Energy Efficiency Ratio (NSEER). Their combined energy implication for multi-unit housing has not been expressed in a transparent mathematical crosswalk. Objective: This study couples the published Abuja-calibrated BEEC multi-unit apartment benchmark with current SONMELS cooling classes to quantify whole-building energy consequences under explicit cooling-service stress. Methods: The model uses the BEEC technical-study archetype of 1,200 m² with annual intensity components of 22 kWh/m² for lighting, 116 kWh/m² for cooling and 25 kWh/m² for water heating. The BEEC study reports 49% annual savings and 52% peak-load savings over regulated loads for the multi-unit benchmark. The 49% regulated-load result is reconstructed using the BEEC lighting-power-density change from 13 to 6 W/m², leaving a consistent residual cooling component. That component is then crosswalked to the SONMELS 1–5-star lower-bound NSEER thresholds (3.10, 3.60, 4.20, 4.95 and 5.80) under a cooling-service multiplier κ = 0.8–1.3. Results: The published business-as-usual archetype corresponds to 163 kWh/m²·year or 195.60 MWh/year. Reconstructing the BEEC benchmark gives 95.38 kWh/m²·year or 114.46 MWh/year, a 41.5% whole-site reduction when the unchanged 25 kWh/m² water-heating component is retained. After the BEEC package, movement from the 1-star analytical reference to the 5-star threshold reduces modeled site energy from 114.46 to 80.81 MWh/year, a further 29.4% reduction and 58.7% below the original archetype. Even under a 20% cooling-service stress (κ = 1.2), the BEEC + 5-star scenario remains at 88.54 MWh/year, 54.7% below the baseline. Conclusion: Building-envelope compliance and appliance efficiency are multiplicative rather than substitutable. The most resilient pathway for Nigerian multi-unit housing is to reduce cooling service demand through BEEC-compliant envelope and lighting measures before improving equipment efficiency through SONMELS. The results are a standards-coupled reanalysis of published and official evidence, not new field measurements.",
+      "keywords": "building energy efficiency; BEEC; SONMELS; multi-unit housing; cooling; air conditioners; NSEER; mathematical modelling; Abuja; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e050",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e050/html/e050.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e051",
+      "title": "Antimicrobial Resistance Profiles of Clinical and Environmental Staphylococcus aureus Across Six Secondary Health-Care Centres in Taraba State, Nigeria: Laboratory Evidence and Contemporary AMR Implications",
+      "author": [
+        {
+          "given": "Iwanger",
+          "family": "Mellah"
+        }
+      ],
+      "author_source_text": "MELLAH, Iwanger1*; 1 Federal University of Agriculture, Makurdi, Nigeria; *Corresponding author: whoisdrmellah@gmail.com",
+      "abstract": "Background: Methicillin-resistant Staphylococcus aureus remains a high-priority antimicrobial-resistance pathogen, while local clinical and environmental surveillance is essential for infection control. This article develops the first journal paper from a completed Medical Microbiology thesis by isolating its most internally coherent major finding: occurrence and phenotypic antimicrobial resistance of S. aureus across secondary health-care centres in Taraba State. Objective: To quantify S. aureus recovery and compare resistance patterns between clinical and hospital-environment isolates, while placing the completed experiments in contemporary 2024–2026 AMR evidence. Methods: Three hundred specimens were collected from six secondary health-care centres (50 per facility) across the Northern, Central and Southern senatorial zones. Clinical and environmental specimens underwent culture, Gram staining, catalase and coagulase testing; antimicrobial susceptibility testing was performed by agar disc diffusion using ciprofloxacin 5 µg, tetracycline 30 µg, erythromycin 15 µg, methicillin 5 µg, amoxicillin 30 µg, penicillin 10 µg, gentamicin 10 µg and ampicloxacillin 20 µg. The primary resistance endpoint uses the thesis resistance table, comprising 43 clinical and 17 environmental S. aureus isolates. Two-sided Fisher exact tests were recalculated from the reported resistance counts as a 2026 statistical update. Results: Gram/catalase screening yielded 189/300 (63.0%; 95% Wilson CI 57.4–68.3) presumptive Staphylococcus isolates. Coagulase testing identified 60/189 (31.7%; 95% CI 25.5–38.7) S. aureus, equivalent to 60/300 (20.0%; 95% CI 15.9–24.9) of all specimens. Wukari had the highest S. aureus yield (16/50; 32.0%) and Gembu the lowest (4/50; 8.0%). Across the 60 isolates, resistance was highest to penicillin (43/60; 71.7%), erythromycin (39/60; 65.0%), tetracycline (35/60; 58.3%) and ampicloxacillin (32/60; 53.3%), and lowest to gentamicin (8/60; 13.3%) and ciprofloxacin (10/60; 16.7%). Clinical versus environmental resistance was 69.8% versus 76.5% for penicillin, 69.8% versus 52.9% for erythromycin, and 23.3% versus 41.2% for methicillin. None of the eight source-group comparisons reached p<0.05 by Fisher exact test. Conclusion: The completed laboratory evidence demonstrates simultaneous clinical and environmental reservoirs of S. aureus and a substantial resistance burden, especially to penicillin, erythromycin, tetracycline and ampicloxacillin. The findings support facility-level antibiogram surveillance, antimicrobial stewardship, environmental decontamination and modern molecular follow-up.",
+      "keywords": "Staphylococcus aureus; antimicrobial resistance; hospital environment; clinical isolates; Taraba State; Nigeria; antibiogram; secondary health care",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e051",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e051/html/e051.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e052",
+      "title": "From AC Socket to Silicon: End-to-End Circuit Analysis of 65 W Modern Laptop Power Systems — A Comparative Study of HP, Dell and Lenovo Architectures",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        },
+        {
+          "given": "Gbaden",
+          "family": "Amenger"
+        }
+      ],
+      "author_source_text": "CHIA, Shiaondo Kenneth¹* · AMENGER, Gbaden²; ¹ CHIA TECH Solutions and Resources Limited, Nigeria; Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi, Nigeria; ² Nigeria Customs Service, Ogun State Command, Nigeria; Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi, Nigeria; *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586",
+      "abstract": "Background: Modern laptops are powered by a cascade of converters extending from universal AC mains through an isolated adapter, USB-C Power Delivery (PD), protected motherboard power paths, battery charging, always-on rails and high-current point-of-load regulators. Public documentation usually describes these blocks separately, making end-to-end circuit interpretation difficult. Objective: To develop and validate a unified circuit-level model of the complete laptop power chain and compare three common 65 W-class business platforms: HP ProBook 440 G10, Dell Latitude 5540 and Lenovo ThinkPad E14 Gen 5. Methods: A comparative technical case-study was performed using official OEM adapter/battery specifications, USB-IF power-delivery requirements, and contemporary notebook reference designs from Texas Instruments. The authors derived the AC rectification, USB-PD power contract, input-path loss, NVDC buck-boost battery interface, CC-CV charging behavior, motherboard power-tree, multiphase CPU regulation and end-to-end loss equations. No proprietary motherboard schematic or undisclosed OEM measurement is claimed. Results: All three sample platforms converge on the 65 W class, with 20 V/3.25 A representing the dominant full-power USB-C operating point. At 230 V mains, the rectified peak is 325.3 V. A published 65 W GaN quasi-resonant adapter reference design reports 94.32% full-load efficiency at 230 V, implying about 68.9 W real input for 65 W DC output under that reference condition. The Dell sample documents an 11.4 V, 54 Wh three-cell battery, giving 4.74 Ah nominal energy capacity and an ideal 20 V-to-11.4 V buck duty ratio of about 0.57. The maximum listed batteries of the HP, Dell and Lenovo samples are 51, 54 and 57 Wh respectively. Conclusion: The modern laptop is best understood as a digitally negotiated, multi-stage power-conversion system rather than a single 19–20 V appliance. Reliable diagnosis and design require following energy, control and protection from the AC socket to the final sub-1.2 V silicon rails.",
+      "keywords": "laptop power system; USB-C Power Delivery; GaN charger; flyback converter; NVDC battery charger; buck-boost converter; multiphase VRM; motherboard power rails; HP; Dell; Lenovo",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e052",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e052/html/e052.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e053",
+      "title": "Molecular Virulence and Clonal Architecture of Clinical and Environmental Staphylococcus aureus in Taraba State, Nigeria: PVL, mecA, SCCmec and spa-Typing Evidence",
+      "author": [
+        {
+          "given": "Iwanger",
+          "family": "Mellah"
+        }
+      ],
+      "author_source_text": "MELLAH, Iwanger¹*; ¹ Federal University of Agriculture, Makurdi, Nigeria; *Corresponding author: whoisdrmellah@gmail.com",
+      "abstract": "Background: Molecular surveillance is necessary to distinguish methicillin resistance, virulence and clonal spread within Staphylococcus aureus populations. This article develops the molecular-epidemiology findings of a completed six-hospital laboratory investigation in Taraba State, Nigeria. Methods: The parent study processed 300 clinical and hospital-environment specimens. Sixty coagulase-positive S. aureus isolates were obtained after culture and biochemical identification. Molecular work included PCR confirmation with the S. aureus-specific nuc target; detection of mecA and Panton-Valentine leukocidin (PVL) targets; SCCmec characterization; and protein A (spa) typing, with Sanger sequencing of PCR products. Results: The thesis reports that all MRSA isolates carried mecA. One PVL-positive MRSA was assigned SCCmec I/spa t8439 and a second PVL-positive MRSA SCCmec IV/spa t8440; other MRSA were reported as non-typeable by the applied SCCmec assay. The two resolved spa fingerprints were 07-23-21-17-34-383-16-34-33-13 and 07-13-12-12-34-34-33-212, respectively. The thesis further reports dominance of spa-CC084 among clinical isolates. An archived virulence-gene table reported significant clinical-environmental contrasts, but its category counts are internally inconsistent with the 43-clinical/17-environmental isolate partition; those inferential values are therefore preserved as source-reported outputs rather than recalculated. Contemporary Nigerian whole-genome evidence now demonstrates additional PVL-positive MRSA lineages, including t657/ST772/SCCmec V and t4690/ST152/SCCmec Vc. Conclusion: The Taraba dataset documents genetically heterogeneous PVL-positive MRSA and illustrates why local spa/SCCmec surveillance should progress toward whole-genome sequencing with strict denominator and metadata control.",
+      "keywords": "Staphylococcus aureus; MRSA; mecA; Panton-Valentine leukocidin; SCCmec; spa typing; molecular epidemiology; Taraba State; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e053",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e053/html/e053.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e054",
+      "title": "Renal Biochemical Signatures of Pregnancy-Induced Hypertension in Tertiary Antenatal Care in Enugu State, Nigeria: Electrolyte, Urea–Creatinine and Plasma-Protein Profiles",
+      "author": [
+        {
+          "given": "Cephasking Ogbotu",
+          "family": "Emmanuel"
+        }
+      ],
+      "author_source_text": "EMMANUEL, CEPHASKING OGBOTU¹*; ¹ Department of Biochemistry, Joseph Sarwuan Tarka University, Makurdi, Nigeria; original study investigator (research completed 2021); *Corresponding author: cephasking2021@gmail.com",
+      "abstract": "Background: Hypertensive disorders of pregnancy remain a major maternal–fetal health problem in Nigeria, and renal involvement is clinically important because pre-eclampsia can alter renal perfusion, glomerular filtration and protein handling before conventional azotemia becomes prominent. Objective: To characterize serum electrolytes, nitrogenous-waste markers and plasma proteins in women with pregnancy-induced hypertension (PIH) compared with normotensive pregnant women across gestation, using the completed 2021 tertiary-hospital study as the primary evidence base and contemporary guidance for interpretation. Methods: The archived study recruited pregnant women aged 24–36 years attending the University of Nigeria Teaching Hospital and Enugu State University Teaching Hospital. The listed analytic groups comprised 149 women: normotensive first trimester (n=30), normotensive second trimester (n=30), normotensive third trimester (n=30), hypertensive second trimester (n=30) and hypertensive third trimester (n=29). Serum Na⁺, K⁺, Cl⁻, HCO₃⁻, urea, creatinine, total protein, albumin and globulin were assessed by documented colorimetric/titrimetric methods. The source analysis used one- and two-way ANOVA, Duncan multiple-range testing and SPSS v24, with p<0.05 as significant. Results: The original analysis found no significant between-group differences in Na⁺, K⁺, Cl⁻, HCO₃⁻, urea or creatinine (all reported p>0.05), although urea and creatinine were numerically higher in the hypertensive third-trimester group than in the corresponding normotensive group. In contrast, total protein, albumin and globulin were significantly lower in hypertensive groups (p<0.05). Digitization of the archived figures places albumin at approximately 31.4 g/L in hypertensive second trimester and 27.7 g/L in hypertensive third trimester, versus approximately 43.6 and 40.4 g/L in trimester-matched normotensive groups. Conclusion: The completed cohort shows a biochemical phenotype dominated by plasma-protein depletion rather than overt electrolyte failure or statistically demonstrable azotemia. Contemporary interpretation requires caution: preserved serum creatinine and electrolytes do not exclude pre-eclamptic renal involvement, and the study did not quantify urine protein. Current practice should integrate blood pressure with urine protein:creatinine or albumin:creatinine ratio, serum creatinine and broader maternal-organ assessment.",
+      "keywords": "pregnancy-induced hypertension; pre-eclampsia; renal biochemistry; creatinine; albumin; total protein; electrolytes; Nigeria; Enugu State",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e054",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e054/html/e054.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e055",
+      "title": "From Antibiograms to Whole-Genome Surveillance: A Critical Review of Methicillin-Resistant Staphylococcus aureus in Nigeria Across Clinical, Environmental and One Health Interfaces",
+      "author": [
+        {
+          "given": "Iwanger",
+          "family": "Mellah"
+        }
+      ],
+      "author_source_text": "MELLAH, Iwanger¹*; ¹ Federal University of Agriculture, Makurdi, Nigeria; *Corresponding author: whoisdrmellah@gmail.com",
+      "abstract": "Background: Methicillin-resistant Staphylococcus aureus (MRSA) remains a high-priority antimicrobial-resistance pathogen and an important cause of healthcare-, community- and livestock-associated infection. Nigeria now has an evidence base spanning classical antibiograms, targeted PCR, spa/SCCmec typing and, increasingly, whole-genome sequencing (WGS), yet these layers are rarely synthesized into a single surveillance pathway. Objective: To critically integrate Nigerian evidence on antimicrobial resistance, mecA/mecC-SCCmec architecture, Panton-Valentine leukocidin (PVL), clonal diversity, environmental persistence and One Health transmission, while identifying the laboratory and policy transition required for contemporary surveillance. Review approach: This structured critical narrative review searched PubMed/PMC-indexed literature, publisher records, World Health Organization (WHO) reports and Nigerian AMR policy documents, prioritizing Nigerian studies and systematic reviews published through 30 August 2026. It is not presented as an exhaustive systematic review or meta-analysis. Synthesis: Nigeria exhibits marked MRSA heterogeneity across settings. Historical studies documented diverse spa backgrounds and PVL-positive strains; recent clinical WGS from Lagos identified a dominant PVL-positive t657/ST772/SCCmec V Bengal Bay lineage, whereas other Nigerian studies report ST152, ST8, mecC, heterogeneous SCCmec types, biofilm determinants and clinically important phenotype-genotype discordance. A 2025 Nigerian One Health meta-analysis estimated pooled mecA prevalence at 51% (95% CI 14-86%) across included resistance-gene studies, with substantial heterogeneity. Livestock, foods and hospital environments provide plausible connected reservoirs, reinforcing the need to link clinical microbiology with environmental and veterinary surveillance. Conclusion: Nigeria should move from isolated antibiograms and single-gene PCR toward a tiered national model in which standardized AST and targeted molecular confirmation feed referral WGS, interoperable metadata and One Health response. The country's 2024-2028 AMR National Action Plan provides a policy platform for this transition.",
+      "keywords": "Staphylococcus aureus; MRSA; antimicrobial resistance; mecA; mecC; Panton-Valentine leukocidin; SCCmec; spa typing; whole-genome sequencing; One Health; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e055",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e055/html/e055.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e056",
+      "title": "Renewable Energy and Sustainable Power Systems for Rural Farming Communities in Nigeria: Productive-Use Electrification, Agricultural Resilience and an Integrated Engineering Framework",
+      "author": [
+        {
+          "given": "Gbaden",
+          "family": "Amenger"
+        }
+      ],
+      "author_source_text": "AMENGER, Gbaden; Nigeria Customs Service, Ogun State Command, Nigeria",
+      "abstract": "Background: Rural agricultural productivity in Nigeria is constrained by a persistent energy-access deficit, unreliable grid supply, high dependence on small petrol and diesel generators, and weak cold-chain and processing infrastructure. Renewable energy can therefore create development value only when electricity access is converted into productive energy services across irrigation, storage, processing and rural enterprise. Objective: This article critically synthesizes contemporary evidence on decentralized renewable energy for Nigerian farming communities and develops an engineering and implementation framework for reliable, productive-use electrification. Methods: A structured critical review was updated through September 2026 using peer-reviewed studies and authoritative policy and programme documents published mainly from 2020 to 2026, with foundational sources retained where they define established engineering practice. Evidence was prioritized from Nigeria, then Sub-Saharan Africa, and evaluated across technical reliability, agricultural productivity, economic viability, environmental safeguards and institutional feasibility. Results: Nigeria’s 2021 electricity access was about 60% nationally but only 26% in rural areas, leaving more than 85 million people without access. Evidence from northeast Nigeria shows that small solar-powered cold stores can reduce food losses while increasing horticultural sales and revenues. Rural mini-grid studies show strong gains in productive activity and reduced reliance on generators, although household-income effects are heterogeneous. Geospatial modelling indicates that financing productive-use equipment can lower the modelled levelized cost of off-grid electrification more strongly than conventional loan or capital-subsidy approaches. Solar irrigation, cold-chain systems, agro-processing loads, solar-battery mini-grids and context-appropriate biogas are the most immediately relevant technology pathways, but adoption is limited by capital cost, technical capacity, maintenance, water-resource risks, tariff design and fragmented energy-agriculture planning. Conclusion: The most effective rural-energy strategy is not technology deployment in isolation but an integrated productive-use system that begins with agricultural load and resource assessment, sizes hybrid power for reliability, couples energy finance with income-generating equipment, builds local maintenance capacity, governs water and data responsibly, and verifies outcomes such as uptime, crop loss reduction, income, energy cost and emissions. The proposed READF-N framework provides a practical pathway for engineering, financing and governing renewable energy as productive agricultural infrastructure in Nigeria.",
+      "keywords": "renewable energy; productive use of energy; rural electrification; solar irrigation; solar cold chain; mini-grids; agro-processing; biogas; energy poverty; Nigeria",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e056",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e056/html/e056.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e057",
+      "title": "HUMANITIES & SOCIAL SCIENCES · NORMATIVE POLICY REVIEW AND SAFEGUARDING FRAMEWORK",
+      "author": [
+        {
+          "given": "Peter",
+          "family": "Ukule"
+        }
+      ],
+      "author_source_text": "Responsible Digital Technology Adoption in Nigerian Secondary STEM Education: A Rights, Religious-Pluralism and Child-Safeguarding Framework; UKULE, Peter¹*; ¹Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria; Corresponding author: rev.ukulepeter@gmail.com",
+      "abstract": "Digital platforms, learning analytics and generative artificial intelligence may widen access to STEM resources, support teachers and enable new forms of inquiry. They may also collect children's data, mediate speech and belief, amplify bias, expose learners to harm or displace accountable human judgment. This normative policy review examines responsible adoption in Nigerian secondary STEM education through constitutional rights, child-rights standards, data-protection law, education policy and international ethical guidance. It proposes the RIGHTS framework: Rights and best interests; Inclusion and equitable access; Governance of data and vendors; Human agency and pedagogical purpose; Trust, transparency and contestability; and Safeguarding across the technology lifecycle. Religious pluralism is treated as a rights and professional-practice issue: public education should neither impose nor disparage belief, and digital systems should support age-appropriate inquiry without profiling, stereotyping or coercion. The framework specifies a pre-procurement assessment, proportionate data controls, accessibility and offline alternatives, human review of consequential outputs, reporting and remedy pathways, and periodic exit decisions. It is a legal-ethical and policy synthesis, not legal advice, an empirical survey or a theological adjudication. Nigerian schools and authorities should obtain competent legal and safeguarding review for particular deployments. Responsible innovation is defined not by tool novelty but by demonstrated educational value, lawful and minimal data use, child participation, pluralism, safety and accountable human control.",
+      "keywords": "children's rights; digital education; religious pluralism; safeguarding; data protection; Nigeria; artificial intelligence",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e057",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e057/html/e057.html",
+      "source_package": "controlled Part 2 August package"
+    },
+    {
+      "article_id": "e058",
+      "title": "ENTREPRENEURSHIP & MANAGEMENT · POLICY AND MANAGEMENT REVIEW",
+      "author": [
+        {
+          "given": "Shiaondo Kenneth",
+          "family": "Chia"
+        }
+      ],
+      "author_source_text": "Empowering Nigerian MSMEs through Finance, Technology and Capability: The SCALE Framework for Sustainable Industrial Development; CHIA Shiaondo Kenneth",
+      "abstract": "Micro, small and medium enterprises are central to Nigerian livelihoods and production, yet policy discussion often treats finance, technology, management capability, markets and infrastructure as separate problems. This review synthesises official Nigerian enterprise statistics, finance-market studies, credit-infrastructure evidence, data-protection law and technology-adoption literature. It proposes the SCALE framework: Structured records and formalisation pathways; Capital suited to business need and cash flow; Adoption of useful and trustworthy technology; Linkages to customers, suppliers and support institutions; and Enabling infrastructure, capability and resilience. SCALE treats credit as one component of an enterprise system rather than a universal first intervention. It sequences basic transaction records and unit economics before more complex digital systems, aligns working-capital instruments with cash-conversion cycles, and links adoption decisions to measurable operating problems. It also addresses cyber risk, personal-data governance, gender and disability inclusion, business continuity and climate exposure. A staged implementation scorecard separates reach from use, business performance and causal impact. The paper does not update the 2017 national MSME census, estimate a current enterprise population or claim that the framework improves survival or employment. Published finance-gap estimates are reported with their study dates and definitions and should not be treated as interchangeable. SCALE is a testable management and policy architecture whose modules should be adapted by sector, firm maturity and location, then evaluated against explicit counterfactual and cost assumptions.",
+      "keywords": "MSMEs; Nigeria; access to finance; digital adoption; management capability; industrial development; business resilience",
+      "proposed_doi": "10.68232/chiatech.v2i1.august2026.e058",
+      "doi_status": "PENDING_REGISTRATION",
+      "container_title": "CHIATECH JOURNAL",
+      "volume": "2",
+      "issue": "1",
+      "published_online": [
+        2026,
+        8
+      ],
+      "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e058/html/e058.html",
+      "source_package": "controlled Part 2 August package"
+    }
+  ]
+}

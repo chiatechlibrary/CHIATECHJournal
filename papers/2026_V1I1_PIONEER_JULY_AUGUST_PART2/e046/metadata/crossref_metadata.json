@@ -1,0 +1,32 @@
+{
+  "article_id": "e046",
+  "title": "Design, Small-Signal Modeling and Prototype Implementation of a 24 V-to-19 V PWM Buck Converter with Type-III Voltage-Mode Compensation",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    },
+    {
+      "given": "Gbaden",
+      "family": "Amenger"
+    },
+    {
+      "given": "N. Y.",
+      "family": "Goshwe"
+    }
+  ],
+  "author_source_text": "CHIA, Shiaondo Kenneth¹*. AMENGER, Gbaden2; GOSHWE, N. Y.3; ¹ CHIA TECH Solutions and Resources Limited, Nigeria; original project investigator, Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi (2016); *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586",
+  "abstract": "Background: A 2016 engineering project at the Federal University of Agriculture Makurdi designed and implemented a pulse-width-modulated buck converter to step 24 V DC down to a regulated 19 V output. Objective: This article converts that archived project into a compact, publication-ready engineering paper, reconstructing the power-stage mathematics, voltage-mode feedback loop and Type-III compensation while preserving the documented prototype and simulation evidence. Methods: The archived specifications were audited and re-expressed using continuous-conduction-mode (CCM) equations, small-signal control-to-output modeling, K-factor pole-zero placement and analytical ripple calculations. The source specifies 24 V input, 19 V rated output, 3.5 A, 66.5 W, 30 kHz switching, L = 251 µH, C = 15 µF, capacitor ESR = 10 mΩ and inductor DCR = 2 mΩ. Results: The ideal duty ratio is 0.7917. At the 3.5 A design point the equivalent rated load is 5.43 Ω, while the archived simulation schematic separately uses a nominal 5 Ω test load. The reconstructed inductor ripple is approximately 0.526 A peak-to-peak (15.0% of rated output current), with an analytical output-ripple estimate of about 0.151 V peak-to-peak when capacitive and ESR terms are combined. The LC double-pole frequency is approximately 2.594 kHz and the capacitor-ESR zero approximately 1.061 MHz. The documented Type-III network (R1 = 2.2 kΩ, R2 = 5.9 kΩ, R3 = 38.8 Ω, C1 = 34.2 nF, C2 = 0.6 nF, C3 = 90 nF) is consistent with a voltage-mode compensation strategy that places two zeros around the LC resonance and high-frequency poles above the crossover region. Conclusion: The archived design is technically coherent at its rated point and demonstrates the engineering value of PWM, CCM energy transfer and Type-III loop shaping. The article also identifies legacy reporting inconsistencies that should not be interpreted as new measurements, notably the source wording that labels 19 V and 3.5 A as ripple values.",
+  "keywords": "buck converter; DC-DC conversion; pulse-width modulation; voltage-mode control; Type-III compensation; K-factor; small-signal model; continuous conduction mode; power electronics",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e046",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e046/html/e046.html",
+  "source_package": "controlled Part 2 August package"
+}

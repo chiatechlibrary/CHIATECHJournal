@@ -1,0 +1,24 @@
+{
+  "article_id": "e036",
+  "title": "Accounting Data Science, Digital Record-Keeping and Financial-Risk Management among MSMEs in Nigeria: A Critical Review of Evidence, Infrastructure and Policy",
+  "author": [
+    {
+      "given": "Elizabeth Titilayo",
+      "family": "Olumeyan"
+    }
+  ],
+  "author_source_text": "Olumeyan Elizabeth Titilayo; National Teachers Institute, Gwagwalada Study Centre, FCT Abuja, Nigeria",
+  "abstract": "Background: Nigeria’s micro, small and medium enterprise (MSME) economy is large, highly informal and increasingly digital. Yet digital payments do not automatically produce reliable accounts, and access to a bank or fintech channel does not guarantee disciplined record keeping, fund separation, reconciliation or usable financial statements. Objective: This review synthesizes Nigerian evidence on accounting practices, digital record-keeping, accounting information systems, financial inclusion and emerging data-analytics approaches, and develops a practical accounting-data-science framework for MSME financial management and risk assessment. Review approach: A structured critical review prioritized Nigeria-specific peer-reviewed studies and authoritative institutional evidence published mainly from 2020 to August 2026, supplemented by foundational guidance on alternative data and small-business reporting. Evidence was organized around record quality, internal control, digital adoption, analytics, credit access, taxation and data governance. Synthesis: The 2021 SMEDAN/NBS survey reported about 39.65 million MSMEs; PwC’s synthesis of that survey attributes 46.32% of GDP, 96.9% of businesses and 87.9% of employment to the sector. NBS reported that 93.0% of employment was informal in Q2 2024. Nigerian studies consistently link record keeping and accounting-information use with stronger business control and financial performance, while digital-accounting studies identify perceived usefulness, technological literacy, cost, complexity and support as important adoption conditions. A Nigerian e-bookkeeping pilot found that personalized micro-consulting alongside digital tools increased first-adoption steps by 95% compared with information alone and improved precision in profit recall. Meanwhile, CBN payment statistics show transaction volumes large enough to generate substantial digital business footprints, and recent World Bank/IFC evidence identifies alternative transaction data as a potential bridge to MSME credit where conventional financial statements are weak. Conclusion: The central policy and practice challenge is no longer simply whether Nigerian MSMEs have access to digital finance; it is whether transaction trails are converted into reliable accounting information, internal control, explainable analytics and decision-ready evidence. The review proposes a six-level Nigerian MSME accounting-data-science maturity model and recommends record-first digitalization, reconciliation-centered training, interoperable bookkeeping/payment tools, privacy-preserving analytics, accountant-supported adoption and externally validated credit-risk models.",
+  "keywords": "accounting data science; MSMEs; digital record-keeping; accounting information systems; financial inclusion; financial risk analytics; alternative data; Nigeria; informal economy",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e036",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e036/html/e036.html",
+  "source_package": "controlled Part 2 August package"
+}

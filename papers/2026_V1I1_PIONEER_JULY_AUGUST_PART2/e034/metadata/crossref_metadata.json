@@ -1,0 +1,24 @@
+{
+  "article_id": "e034",
+  "title": "Accounting Practices, Digitalisation and Financial-Risk Analytics among Informal Small Businesses in Gwagwalada, Abuja: An Empirical Accounting Data-Science Study",
+  "author": [
+    {
+      "given": "Elizabeth Titilayo",
+      "family": "Olumeyan"
+    }
+  ],
+  "author_source_text": "Olumeyan Elizabeth Titilayo; National Teachers Institute, Gwagwalada Study Centre, FCT Abuja, Nigeria",
+  "abstract": "Background: Informal and microbusinesses depend on timely financial information, yet many operate with incomplete records, weak separation of business and personal funds, and irregular reconciliation. Digitalisation creates new opportunities for affordable record keeping and data-driven risk monitoring, but evidence from local informal-business settings remains limited. Objective: This study examined accounting practices, financial patterns and study-defined financial-risk classification among informal small businesses in Gwagwalada, Abuja, and evaluated whether basic accounting-practice variables provide useful internal risk discrimination. Methods: A cross-sectional empirical dataset comprising 150 businesses from seven commercial clusters and eight business categories was analysed. Variables covered daily revenue, expense, profit and gross margin; primary record-keeping method; business banking; separation of personal and business funds; reconciliation frequency; financial challenges; a study-derived digital-accounting score; accounting-maturity class; and a binary financial-risk label. Descriptive statistics, chi-square tests, Cramér’s V, Mann–Whitney testing, odds ratios and repeated stratified five-fold cross-validation were used. Results: Notebook/ledger recording was most common (61.3%), 24.0% relied on mental/no records and only 10.0% primarily used a mobile/digital method. Although 75.3% used a business bank account, only 29.3% separated personal and business funds. Forty-four percent were classified as high risk. Financial-risk classification differed significantly by record-keeping method (χ²(3)=18.99, p<.001, V=.356), fund separation (χ²(1)=6.14, p=.013, V=.202) and reconciliation frequency (χ²(4)=23.62, p<.001, V=.397), but not by business-bank-account use (p=.219). Mental/no-record businesses had 6.20 times the odds of high-risk classification compared with notebook/ledger users, while never reconciling carried 5.63 times the odds relative to daily reconciliation. An accounting-practice random forest achieved mean repeated-cross-validation ROC-AUC=.737±.099, indicating moderate internal discrimination rather than deployment-ready credit prediction. Conclusion: The strongest risk signals in this local sample were not mere access to banking or high turnover, but the discipline of recording, separating funds and reconciling accounts. Practical digital bookkeeping should therefore be implemented as an accounting-control intervention, supported by training and simple analytics, rather than as technology adoption alone.",
+  "keywords": "accounting data science; record keeping; digital accounting; informal enterprises; financial risk; internal control; small business; Gwagwalada; Nigeria; machine learning",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e034",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e034/html/e034.html",
+  "source_package": "controlled Part 2 August package"
+}

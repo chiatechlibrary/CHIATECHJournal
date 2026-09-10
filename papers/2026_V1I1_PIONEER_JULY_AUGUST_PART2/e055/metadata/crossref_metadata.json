@@ -1,0 +1,24 @@
+{
+  "article_id": "e055",
+  "title": "From Antibiograms to Whole-Genome Surveillance: A Critical Review of Methicillin-Resistant Staphylococcus aureus in Nigeria Across Clinical, Environmental and One Health Interfaces",
+  "author": [
+    {
+      "given": "Iwanger",
+      "family": "Mellah"
+    }
+  ],
+  "author_source_text": "MELLAH, Iwanger¹*; ¹ Federal University of Agriculture, Makurdi, Nigeria; *Corresponding author: whoisdrmellah@gmail.com",
+  "abstract": "Background: Methicillin-resistant Staphylococcus aureus (MRSA) remains a high-priority antimicrobial-resistance pathogen and an important cause of healthcare-, community- and livestock-associated infection. Nigeria now has an evidence base spanning classical antibiograms, targeted PCR, spa/SCCmec typing and, increasingly, whole-genome sequencing (WGS), yet these layers are rarely synthesized into a single surveillance pathway. Objective: To critically integrate Nigerian evidence on antimicrobial resistance, mecA/mecC-SCCmec architecture, Panton-Valentine leukocidin (PVL), clonal diversity, environmental persistence and One Health transmission, while identifying the laboratory and policy transition required for contemporary surveillance. Review approach: This structured critical narrative review searched PubMed/PMC-indexed literature, publisher records, World Health Organization (WHO) reports and Nigerian AMR policy documents, prioritizing Nigerian studies and systematic reviews published through 30 August 2026. It is not presented as an exhaustive systematic review or meta-analysis. Synthesis: Nigeria exhibits marked MRSA heterogeneity across settings. Historical studies documented diverse spa backgrounds and PVL-positive strains; recent clinical WGS from Lagos identified a dominant PVL-positive t657/ST772/SCCmec V Bengal Bay lineage, whereas other Nigerian studies report ST152, ST8, mecC, heterogeneous SCCmec types, biofilm determinants and clinically important phenotype-genotype discordance. A 2025 Nigerian One Health meta-analysis estimated pooled mecA prevalence at 51% (95% CI 14-86%) across included resistance-gene studies, with substantial heterogeneity. Livestock, foods and hospital environments provide plausible connected reservoirs, reinforcing the need to link clinical microbiology with environmental and veterinary surveillance. Conclusion: Nigeria should move from isolated antibiograms and single-gene PCR toward a tiered national model in which standardized AST and targeted molecular confirmation feed referral WGS, interoperable metadata and One Health response. The country's 2024-2028 AMR National Action Plan provides a policy platform for this transition.",
+  "keywords": "Staphylococcus aureus; MRSA; antimicrobial resistance; mecA; mecC; Panton-Valentine leukocidin; SCCmec; spa typing; whole-genome sequencing; One Health; Nigeria",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e055",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e055/html/e055.html",
+  "source_package": "controlled Part 2 August package"
+}

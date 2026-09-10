@@ -1,0 +1,28 @@
+{
+  "article_id": "e052",
+  "title": "From AC Socket to Silicon: End-to-End Circuit Analysis of 65 W Modern Laptop Power Systems — A Comparative Study of HP, Dell and Lenovo Architectures",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    },
+    {
+      "given": "Gbaden",
+      "family": "Amenger"
+    }
+  ],
+  "author_source_text": "CHIA, Shiaondo Kenneth¹* · AMENGER, Gbaden²; ¹ CHIA TECH Solutions and Resources Limited, Nigeria; Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi, Nigeria; ² Nigeria Customs Service, Ogun State Command, Nigeria; Department of Electrical/Electronic Engineering, Federal University of Agriculture Makurdi, Nigeria; *Corresponding author: chiakenneth01@gmail.com · ORCID: https://orcid.org/0009-0009-6434-4586",
+  "abstract": "Background: Modern laptops are powered by a cascade of converters extending from universal AC mains through an isolated adapter, USB-C Power Delivery (PD), protected motherboard power paths, battery charging, always-on rails and high-current point-of-load regulators. Public documentation usually describes these blocks separately, making end-to-end circuit interpretation difficult. Objective: To develop and validate a unified circuit-level model of the complete laptop power chain and compare three common 65 W-class business platforms: HP ProBook 440 G10, Dell Latitude 5540 and Lenovo ThinkPad E14 Gen 5. Methods: A comparative technical case-study was performed using official OEM adapter/battery specifications, USB-IF power-delivery requirements, and contemporary notebook reference designs from Texas Instruments. The authors derived the AC rectification, USB-PD power contract, input-path loss, NVDC buck-boost battery interface, CC-CV charging behavior, motherboard power-tree, multiphase CPU regulation and end-to-end loss equations. No proprietary motherboard schematic or undisclosed OEM measurement is claimed. Results: All three sample platforms converge on the 65 W class, with 20 V/3.25 A representing the dominant full-power USB-C operating point. At 230 V mains, the rectified peak is 325.3 V. A published 65 W GaN quasi-resonant adapter reference design reports 94.32% full-load efficiency at 230 V, implying about 68.9 W real input for 65 W DC output under that reference condition. The Dell sample documents an 11.4 V, 54 Wh three-cell battery, giving 4.74 Ah nominal energy capacity and an ideal 20 V-to-11.4 V buck duty ratio of about 0.57. The maximum listed batteries of the HP, Dell and Lenovo samples are 51, 54 and 57 Wh respectively. Conclusion: The modern laptop is best understood as a digitally negotiated, multi-stage power-conversion system rather than a single 19–20 V appliance. Reliable diagnosis and design require following energy, control and protection from the AC socket to the final sub-1.2 V silicon rails.",
+  "keywords": "laptop power system; USB-C Power Delivery; GaN charger; flyback converter; NVDC battery charger; buck-boost converter; multiphase VRM; motherboard power rails; HP; Dell; Lenovo",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e052",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e052/html/e052.html",
+  "source_package": "controlled Part 2 August package"
+}

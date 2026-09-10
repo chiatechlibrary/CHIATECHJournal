@@ -1,0 +1,24 @@
+{
+  "article_id": "e026",
+  "title": "Prompt Engineering for Reliable Large-Language-Model Interaction: From Instruction Design and Grounding to Evaluation and Prompt-Injection Resilience",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    }
+  ],
+  "author_source_text": "CHIA Shiaondo Kenneth",
+  "abstract": "Background: Prompt engineering has evolved from ad hoc wording tricks into a broader discipline for specifying tasks, supplying evidence, orchestrating tools and evaluating model behavior. Objective: This article critically synthesizes prompt-engineering research and proposes a reliability-oriented architecture for human–LLM interaction that integrates instruction design, grounding, tool governance, security and verification. Methods: A critical narrative review integrated foundational prompting studies, recent prompting taxonomies, retrieval-augmented generation, tool-using agents and generative-AI risk guidance. Results: Effective prompting is best understood as a five-layer system: task specification, contextual grounding, reasoning scaffolds, tool/action orchestration and output verification. Techniques such as few-shot prompting, decomposition, self-consistency, retrieval and ReAct can improve performance, but effects depend on model, task and evaluation conditions. Reliability deteriorates when prompts substitute for missing evidence, when tool permissions are excessive, or when untrusted retrieved content can alter instructions. Prompt injection therefore changes prompt engineering from a productivity concern into a security and governance concern. Conclusion: Reliable AI interaction requires prompt design to be coupled with source control, structured outputs, least-privilege tools, repeatable tests and human review proportional to risk. The proposed architecture shifts attention from 'clever prompts' to verifiable workflows.",
+  "keywords": "prompt engineering; large language models; retrieval-augmented generation; prompt injection; AI reliability; LLM evaluation; agentic AI",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e026",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e026/html/e026.html",
+  "source_package": "controlled Part 2 August package"
+}

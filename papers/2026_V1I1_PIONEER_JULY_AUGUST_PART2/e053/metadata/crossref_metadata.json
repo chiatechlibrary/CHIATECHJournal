@@ -1,0 +1,24 @@
+{
+  "article_id": "e053",
+  "title": "Molecular Virulence and Clonal Architecture of Clinical and Environmental Staphylococcus aureus in Taraba State, Nigeria: PVL, mecA, SCCmec and spa-Typing Evidence",
+  "author": [
+    {
+      "given": "Iwanger",
+      "family": "Mellah"
+    }
+  ],
+  "author_source_text": "MELLAH, Iwanger¹*; ¹ Federal University of Agriculture, Makurdi, Nigeria; *Corresponding author: whoisdrmellah@gmail.com",
+  "abstract": "Background: Molecular surveillance is necessary to distinguish methicillin resistance, virulence and clonal spread within Staphylococcus aureus populations. This article develops the molecular-epidemiology findings of a completed six-hospital laboratory investigation in Taraba State, Nigeria. Methods: The parent study processed 300 clinical and hospital-environment specimens. Sixty coagulase-positive S. aureus isolates were obtained after culture and biochemical identification. Molecular work included PCR confirmation with the S. aureus-specific nuc target; detection of mecA and Panton-Valentine leukocidin (PVL) targets; SCCmec characterization; and protein A (spa) typing, with Sanger sequencing of PCR products. Results: The thesis reports that all MRSA isolates carried mecA. One PVL-positive MRSA was assigned SCCmec I/spa t8439 and a second PVL-positive MRSA SCCmec IV/spa t8440; other MRSA were reported as non-typeable by the applied SCCmec assay. The two resolved spa fingerprints were 07-23-21-17-34-383-16-34-33-13 and 07-13-12-12-34-34-33-212, respectively. The thesis further reports dominance of spa-CC084 among clinical isolates. An archived virulence-gene table reported significant clinical-environmental contrasts, but its category counts are internally inconsistent with the 43-clinical/17-environmental isolate partition; those inferential values are therefore preserved as source-reported outputs rather than recalculated. Contemporary Nigerian whole-genome evidence now demonstrates additional PVL-positive MRSA lineages, including t657/ST772/SCCmec V and t4690/ST152/SCCmec Vc. Conclusion: The Taraba dataset documents genetically heterogeneous PVL-positive MRSA and illustrates why local spa/SCCmec surveillance should progress toward whole-genome sequencing with strict denominator and metadata control.",
+  "keywords": "Staphylococcus aureus; MRSA; mecA; Panton-Valentine leukocidin; SCCmec; spa typing; molecular epidemiology; Taraba State; Nigeria",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e053",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e053/html/e053.html",
+  "source_package": "controlled Part 2 August package"
+}

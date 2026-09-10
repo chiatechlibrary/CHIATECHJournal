@@ -1,0 +1,24 @@
+{
+  "article_id": "e033",
+  "title": "Integrating Business Intelligence and Data Mining for Venture Capital Assessment of Technology Startups: Hybrid Predictive Analytics, Explainable Risk Scoring and Real-Time Signals",
+  "author": [
+    {
+      "given": "Elizabeth Titilayo",
+      "family": "Olumeyan"
+    }
+  ],
+  "author_source_text": "OLUMEYAN Elizabeth Titilayo; National Teachers Institute, Gwagwalada Study Centre, FCT Abuja, Nigeria",
+  "abstract": "Background: Venture-capital (VC) assessment of technology startups is constrained by sparse financial histories, intangible assets, heterogeneous business models and substantial information asymmetry. Business intelligence (BI) can integrate fragmented evidence, while data-mining and machine-learning methods can convert structured and unstructured signals into reproducible estimates of venture potential. Objective: This study evaluates a hybrid BI-data-mining framework for technology-startup assessment and translates predictive outputs into an explainable VC risk protocol. Methods: The empirical workflow integrated financial and funding information, patent indicators, market dynamics, founder/team characteristics, news, social signals and web-derived data. Preprocessing included data cleaning, missing-value treatment, normalization, entity integration and natural-language processing. Logistic regression, support-vector machines, Random Forest, Gradient Boosting and deep neural networks (DNNs) were considered within training, validation and test workflows supported by cross-validation. Model performance was assessed using accuracy, precision, recall, F1-score and ROC-AUC; feature importance, sensitivity analysis and SHAP-based explanations supported decision interpretation. Results: The retained test results show overall accuracy of 87.3%, precision of 0.84, recall of 0.89, F1-score of 0.86 and ROC-AUC of 0.91. DNNs achieved 87.3% accuracy, compared with 85.7% for Gradient Boosting and 84.2% for Random Forest. Financial metrics contributed 27% of feature importance, technology indicators 25%, market dynamics 25% and team composition 23%; sensitivity results were closely aligned. The risk protocol classified 15% of startups as high potential, 45% as medium risk and 40% as high risk. High-potential recommendations achieved an 82% reported success rate, with 12% false positives and 8% false negatives. The operational comparison reported 35% lower assessment time, 42% higher prediction accuracy, 47% fewer false positives and a 2.8-fold ROI improvement relative to the traditional comparator. Conclusion: BI and data mining can strengthen VC decision support when prediction is embedded within transparent data provenance, out-of-time validation, explainable risk scoring and human due diligence. The findings support a decision-intelligence model in which algorithms prioritize and structure evidence rather than autonomously determine investment decisions.",
+  "keywords": "business intelligence; data mining; venture capital; technology startups; startup success prediction; explainable artificial intelligence; predictive analytics; risk assessment; entrepreneurial finance",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e033",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e033/html/e033.html",
+  "source_package": "controlled Part 2 August package"
+}

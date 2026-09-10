@@ -1,0 +1,24 @@
+{
+  "article_id": "e028",
+  "title": "Microlearning for Faculty TPACK Development in Higher Education: An Evidence-Informed Design and Evaluation Framework",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    }
+  ],
+  "author_source_text": "CHIA Shiaondo Kenneth",
+  "abstract": "Background: Faculty are expected to integrate rapidly changing digital and AI tools into teaching, yet professional development is often detached from disciplinary content, constrained by time and evaluated mainly through self-report. Objective: This article develops an evidence-informed microlearning architecture for strengthening faculty TPACK through authentic, discipline-linked practice and multi-source evaluation. Methods: A critical design synthesis connected the Technological Pedagogical Content Knowledge (TPACK) framework with recent systematic reviews of micro-courses, teacher digital competence and AI-focused professional development. Results: Microlearning is most defensible when short modules are embedded in an iterative cycle of diagnosis, focused instruction, authentic teaching practice, feedback, reflection and evidence of transfer. Five-to-ten-minute units can lower participation barriers, but duration alone does not create learning; modules must be sequenced around real pedagogical problems and supported by practice. The proposed 12-week model progresses from baseline diagnosis and core integration decisions to discipline-specific design, assessment/AI use and classroom transfer. Evaluation should combine TPACK measures with artifact rubrics, technology-use logs, observations, student feedback and interviews. Conclusion: Microlearning can be a practical delivery architecture for faculty TPACK development, but its effectiveness depends on coherence, authentic application, institutional support and multi-source evaluation rather than on the brevity of content.",
+  "keywords": "TPACK; microlearning; faculty development; higher education; teacher digital competence; professional development; AI in education",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e028",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e028/html/e028.html",
+  "source_package": "controlled Part 2 August package"
+}

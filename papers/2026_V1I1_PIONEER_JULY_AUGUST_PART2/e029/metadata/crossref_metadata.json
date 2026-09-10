@@ -1,0 +1,24 @@
+{
+  "article_id": "e029",
+  "title": "Augmented-Reality-Enhanced Problem-Based Learning in STEM Education: Mechanisms, Evidence and an Implementation Framework for Engagement and Critical Thinking",
+  "author": [
+    {
+      "given": "Shiaondo Kenneth",
+      "family": "Chia"
+    }
+  ],
+  "author_source_text": "CHIA Shiaondo Kenneth",
+  "abstract": "Background: Augmented reality (AR) can overlay manipulable digital information on physical environments, while problem-based learning (PBL) organizes learning around authentic problems. Their combination is promising for STEM education but can also amplify cognitive load, novelty effects and access inequalities if technology is not pedagogically integrated. Objective: This article critically synthesizes evidence on augmented-reality-enhanced problem-based learning (AR-PBL) and develops an implementation and evaluation framework for engagement, critical thinking, conceptual learning and transfer. Methods: The framework draws on systematic reviews and meta-analytic evidence on AR/immersive STEM learning and PBL, while preserving The article’s emphasis on engagement, critical thinking and content learning. Results: Existing evidence supports positive average effects of AR on STEM achievement, but effect size varies by subject, learner level, design and implementation. AR contributes most when it makes invisible or spatial phenomena inspectable, supports manipulation and provides timely feedback inside a meaningful problem-solving cycle. The proposed five-stage model links authentic problems, AR visualization, inquiry/manipulation, collaborative solution building and reflection/transfer. Evaluation should separate behavioral, cognitive and emotional engagement from critical-thinking and content outcomes and should monitor cognitive load, accessibility and retention. Conclusion: AR is not a pedagogy and PBL is not improved merely by adding immersive media. Productive integration requires representational purpose, learner agency, structured collaboration, reflection and equitable access.",
+  "keywords": "augmented reality; problem-based learning; STEM education; critical thinking; student engagement; immersive learning; constructivism",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e029",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e029/html/e029.html",
+  "source_package": "controlled Part 2 August package"
+}

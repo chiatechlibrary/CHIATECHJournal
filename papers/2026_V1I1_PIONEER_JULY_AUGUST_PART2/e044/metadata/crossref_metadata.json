@@ -1,0 +1,24 @@
+{
+  "article_id": "e044",
+  "title": "Resilient Hybrid Power Architecture for 24/7 Nigeria Customs Land-Border Operations: Grid, Solar PV, Battery Storage and Generator Coordination",
+  "author": [
+    {
+      "given": "Gbaden",
+      "family": "Amenger"
+    }
+  ],
+  "author_source_text": "AMENGER, Gbaden; Nigeria Customs Service, Ogun State Command, Nigeria; Officer-in-Charge (Electricity), Idiroko Barracks, Ogun I Area Command",
+  "abstract": "Background: Nigeria Customs land-border commands increasingly depend on continuous electricity for communications, ICT, access control, lighting, electronic documentation, surveillance and, where deployed, non-intrusive inspection and other smart-border technologies. Yet national-grid variability and local distribution constraints make generator dependence a persistent operational risk. Objective: This review synthesizes Nigerian power-sector evidence, Customs modernization requirements and microgrid-resilience literature to develop a practical hybrid energy framework for 24/7 border operations. Review approach: Official evidence from NERC, the Nigeria Energy Transition Plan, World Bank distributed-energy programmes, Nigeria Customs Service and World Customs Organization guidance was integrated with peer-reviewed literature on solar-battery-diesel microgrids, battery storage, resilience, energy management and protection through August 2026. Synthesis: NERC reported that average available grid-connected generation fell from 5,400.38 MW in 2025/Q4 to 4,457.96 MW in 2026/Q1, while Q1 2026 recorded one total and one partial system collapse. A border command should therefore treat utility supply as one source rather than the sole source. The proposed architecture combines grid supply, solar PV, lithium-ion battery energy storage, standby generators, automatic transfer/static switching, load criticality, protection and an energy-management system. Battery storage provides rapid ride-through and short-duration autonomy; solar reduces daytime fuel use and recharges storage; generators become controlled long-duration backup rather than continuously loaded prime sources. The framework emphasizes measured load profiles, N+1 thinking for critical backup, battery state-of-charge reserves, power-quality monitoring, black-start capability, preventive maintenance and lifecycle-cost optimization. Conclusion: Maximum border availability is achieved not by adding more generators but by engineering source diversity, fast storage, protected critical buses and disciplined control. Nigeria Customs should move from fragmented grid-generator-solar arrangements toward standardized, monitored hybrid microgrids designed around mission-critical loads and locally validated reliability targets.",
+  "keywords": "energy resilience; hybrid microgrid; Nigeria Customs Service; land-border operations; solar photovoltaic; battery energy storage system; diesel generator; critical infrastructure; power quality; energy management system",
+  "proposed_doi": "10.68232/chiatech.v2i1.august2026.e044",
+  "doi_status": "PENDING_REGISTRATION",
+  "container_title": "CHIATECH JOURNAL",
+  "volume": "2",
+  "issue": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e044/html/e044.html",
+  "source_package": "controlled Part 2 August package"
+}
