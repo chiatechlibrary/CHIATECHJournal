@@ -1,5 +1,22 @@
 {
   "paper_count": 58,
-  "issues": [],
+  "issues": [
+    {
+      "article_id": "e006",
+      "issue": "TRUNCATED_CONCLUSION_REQUIRES_AUTHORITATIVE_VOR_RECOVERY"
+    },
+    {
+      "article_id": "e007",
+      "issue": "TRUNCATED_CONCLUSION_REQUIRES_AUTHORITATIVE_VOR_RECOVERY"
+    },
+    {
+      "article_id": "e008",
+      "issue": "TRUNCATED_CONCLUSION_REQUIRES_AUTHORITATIVE_VOR_RECOVERY"
+    },
+    {
+      "article_id": "e020",
+      "issue": "REBUILD_FROM_FINAL_MANUSCRIPT_AND_VERIFY_AGAINST_VOR"
+    }
+  ],
   "interpretation": "Issues are editorial controls, not placeholder data. Resolve each before deposit if present. No DOI is claimed registered."
 }
