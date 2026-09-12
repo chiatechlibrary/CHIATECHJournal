@@ -1,0 +1,19 @@
+Welcome to CHIATECH Journal. This is the explanatory summary for article e007.
+
+The paper is titled From Peace Teaching to Public Safety: Theological Peace Education, Moral Formation and Perceived Community Insecurity Reduction in Abuja, Nigeria.
+
+The paper reports the following.
+
+
+
+Theological peace education and moral formation is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. 
+
+To determine the relationship between theological peace education and moral formation and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. 
+
+The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. 
+
+TPEMF had weighted M=3.433 (SD=0.937), α=0.832, ω=0.833. Its weighted association with PRCI was ρ=0.410 (pairwise n=527). In the full model, B=0.143, 95% CI [.043, .243], standardized β=0.169, Holm p=.027, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. 
+
+the prespecified TPEMF objective concerning peace education, moral formation, responsible interpretation and public conduct 
+
+For the full methods, findings, limitations, and references, read article e007 at the paper link shown on screen.

@@ -1,0 +1,19 @@
+Welcome to CHIATECH Journal. This is the explanatory summary for article e006.
+
+The paper is titled Verified Early Warning, Lawful Reporting and Community Safety: Church Engagement and Perceived Insecurity Reduction in Abuja, Nigeria.
+
+The paper reports the following.
+
+
+
+Community-security engagement and early-warning support is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. 
+
+To determine the relationship between community-security engagement and early-warning support and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. 
+
+The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. 
+
+CSEW had weighted M=3.652 (SD=0.868), α=0.800, ω=0.803. Its weighted association with PRCI was ρ=0.445 (pairwise n=503). In the full model, B=0.269, 95% CI [.161, .376], standardized β=0.284, Holm p=<.001, with ΔR²=0.059. The relationship remained positive in the equal-weight sensitivity analysis. 
+
+the prespecified CSEW objective concerning verified warning, lawful reporting, preparedness and safeguarding 
+
+For the full methods, findings, limitations, and references, read article e006 at the paper link shown on screen.

@@ -1,9 +1,9 @@
 {
   "journal": "CHIATECH JOURNAL",
   "portfolio": "SETEHEM",
-  "volume": "1",
+  "volume": "2",
   "issue": "1",
-  "month": "JULY 2026",
+  "month": "AUGUST 2026",
   "year": "2026",
   "elocator": "e008",
   "title": "Bridging Faith Communities and Public Institutions: Interfaith and Institutional Collaboration and Perceived Community Security in Abuja, Nigeria",
@@ -25,7 +25,7 @@
   "unresolved_placeholder_terms": 0,
   "stable_article_id": "e008",
   "article_type": "Empirical Research Article",
-  "issue_collection_title": "Pioneer Publication · July 2026",
+  "issue_collection_title": "Pioneer Continuation · August 2026",
   "language": "English",
   "authors": [
     {
@@ -47,7 +47,7 @@
       "affiliation": "Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
     }
   ],
-  "abstract": "Background: Institutional and interfaith collaboration is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between institutional and interfaith collaboration and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: IIC had weighted M=3.753 (SD=0.909), α=0.858, ω=0.860. Its weighted association with PRCI was ρ=0.450 (pairwise n=492). In the full model, B=0.157, 95% CI [.031, .283], standardized β=0.174, Holm p=.050, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: the prespecified IIC objective concerning denominational, interfaith, governmental and professional collaboration ",
+  "abstract": "Background: Institutional and interfaith collaboration is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between institutional and interfaith collaboration and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: IIC had weighted M=3.753 (SD=0.909), α=0.858, ω=0.860. Its weighted association with PRCI was ρ=0.450 (pairwise n=492). In the full model, B=0.157, 95% CI [.031, .283], standardized β=0.174, Holm p=.050, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion:",
   "keywords": [
     "interfaith collaboration",
     "institutional collaboration",
@@ -75,7 +75,7 @@
   "version_of_record_status": "Public derivatives built from the approved manuscript; authenticated publication and live HTTPS verification remain required.",
   "pdf_page_count": 8,
   "canonical_url": "https://journal.chiatechsolutions.com/papers/e008/",
-  "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Bridging Faith Communities and Public Institutions: Interfaith and Institutional Collaboration and Perceived Community Security in Abuja, Nigeria. CHIATECH JOURNAL, 1(1), e008. https://journal.chiatechsolutions.com/papers/e008/",
+  "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Bridging Faith Communities and Public Institutions: Interfaith and Institutional Collaboration and Perceived Community Security in Abuja, Nigeria. CHIATECH JOURNAL, 2(1), e008. https://journal.chiatechsolutions.com/papers/e008/",
   "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e008_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e008_Bridging_Faith_Communities_and_Public_Institutions_Interfaith_and_Institutional_Collaboration_and_Perceived_Co.docx",
   "author_contributions": "Author contributionsS.D.O.: conceptualization, investigation, data curation, formal analysis and original drafting. C.O.N.: supervision, methodology review, interpretation and critical revision. A.K.: co-supervision, theological interpretation and critical revision. All authors approved the submitted version and accept responsibility for the work.",
   "update_date": "2026-09-05"

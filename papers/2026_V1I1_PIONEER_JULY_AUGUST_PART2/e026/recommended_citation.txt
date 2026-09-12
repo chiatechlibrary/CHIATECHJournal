@@ -1,0 +1,1 @@
+Prompt Engineering for Reliable Large-Language-Model Interaction: From Instruction Design and Grounding to Evaluation and Prompt-Injection Resilience. CHIATECH JOURNAL · SETEHEM, 1(1), e026. DOI pending registration; ISSN pending assignment.

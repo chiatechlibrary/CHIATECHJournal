@@ -1,0 +1,28 @@
+{
+  "article_id": "e036",
+  "title": "Accounting Data Science, Digital Record-Keeping and Financial-Risk Management among MSMEs in Nigeria: A Critical Review of Evidence, Infrastructure and Policy",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/11_e036__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e036_Accounting_Data_Science_Digital_Record_Keeping_and_Financial_Risk_Management_among_MSMEs_in_Nigeria.docx",
+  "source_sha256": "C738723E1512477F721092D2755A0F6A4BFF4A6E92368CC37BE4E1950079B21A",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e036/manuscript/CHIATECH_JOURNAL_2026_V1I1_e036_PIONEER_PART2.docx",
+  "manuscript_sha256": "56062C138D7E307C3E2BBA038ABD82FA409FE86EDEC795D3F99110371E249A76",
+  "conceptual_diagram_redraws": [
+    "e036-01.png",
+    "e036-02.png",
+    "e036-03.png",
+    "e036-04.png",
+    "e036-05.png",
+    "e036-06.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE"
+}

@@ -74,11 +74,13 @@ const PUBLIC_DEFAULTS = {
   publisher: 'CHIA TECH SOLUTIONS AND RESOURCES LIMITED',
   publisherRegistration: 'RC 1839865',
   issn: 'Pending assignment',
-  doiPrefix: 'Not yet assigned',
+  // Crossref membership and prefix confirmed from the publisher notice.
+  // Individual article DOIs remain pending until authenticated deposits succeed.
+  doiPrefix: '10.68232',
   contactEmail: 'chiatechlibrary@gmail.com',
   submissionStatus: 'Open',
-  currentIssueLabel: 'Continuous publication',
-  publicAnnouncement: 'The CHIATECH JOURNAL submission and publishing portal is open.',
+  currentIssueLabel: 'Volume 2, Issue 1 · August 2026',
+  publicAnnouncement: 'Crossref member prefix confirmed: 10.68232. Article DOI registration is pending authenticated deposit.',
   managingEditorName: 'CHIA SHIAONDO KENNETH',
   managingEditorTitle: 'Founding Editor & Managing Editor',
   managingEditorAffiliation: 'CHIA TECH SOLUTIONS AND RESOURCES LIMITED',
@@ -579,7 +581,7 @@ function normaliseDoiStatus(value, doi) {
 
 function isEligiblePioneerDoiPendingRelease(volume, issue, issueTitle, published, doiStatus) {
   return doiStatus === 'PENDING_REGISTRATION' && volume === '1' && issue === '1' &&
-    /pioneer/i.test(issueTitle) && /^2026-07-/.test(published || '');
+    /pioneer/i.test(issueTitle) && /^2026-(07|08)-/.test(published || '');
 }
 
 function setArticleStatus(data) {

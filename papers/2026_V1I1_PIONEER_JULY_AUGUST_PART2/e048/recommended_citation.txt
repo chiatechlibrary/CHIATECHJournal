@@ -1,0 +1,1 @@
+Loss-Aware Reliability Analysis and Contemporary Re-Engineering of a 24 V-to-19 V, 66.5 W PWM Buck Converter: Component Stress, Efficiency Bounds and Validation Protocol. CHIATECH JOURNAL · SETEHEM, 1(1), e048. DOI pending registration; ISSN pending assignment.

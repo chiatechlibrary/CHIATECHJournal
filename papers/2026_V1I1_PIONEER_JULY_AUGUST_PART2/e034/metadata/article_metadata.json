@@ -1,0 +1,28 @@
+{
+  "article_id": "e034",
+  "title": "Accounting Practices, Digitalisation and Financial-Risk Analytics among Informal Small Businesses in Gwagwalada, Abuja: An Empirical Accounting Data-Science Study",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/09_e034__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e034_Accounting_Practices_Digitalisation_and_Financial_Risk_Analytics_among_Informal_Small_Businesses_in_Gwagwalada.docx",
+  "source_sha256": "668CD640C1F1CC60333C246B8C5018BB451959CFE2BDB1881EE126FBC1265491",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e034/manuscript/CHIATECH_JOURNAL_2026_V1I1_e034_PIONEER_PART2.docx",
+  "manuscript_sha256": "B2BB2F1F4B7E0C3A9ADE6ECEACC86F21D4E77D3C81B757B1BE034FE23CE91A7F",
+  "conceptual_diagram_redraws": [
+    "e034-01.png",
+    "e034-02.png",
+    "e034-03.png",
+    "e034-04.png",
+    "e034-05.png",
+    "e034-06.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE"
+}

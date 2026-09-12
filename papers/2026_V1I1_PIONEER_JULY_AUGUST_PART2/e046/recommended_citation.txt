@@ -1,0 +1,1 @@
+Design, Small-Signal Modeling and Prototype Implementation of a 24 V-to-19 V PWM Buck Converter with Type-III Voltage-Mode Compensation. CHIATECH JOURNAL · SETEHEM, 1(1), e046. DOI pending registration; ISSN pending assignment.

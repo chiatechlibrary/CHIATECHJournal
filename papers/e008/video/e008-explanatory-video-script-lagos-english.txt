@@ -1,0 +1,19 @@
+Welcome to CHIATECH Journal. This is the explanatory summary for article e008.
+
+The paper is titled Bridging Faith Communities and Public Institutions: Interfaith and Institutional Collaboration and Perceived Community Security in Abuja, Nigeria.
+
+The paper reports the following.
+
+
+
+Institutional and interfaith collaboration is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. 
+
+To determine the relationship between institutional and interfaith collaboration and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. 
+
+The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. 
+
+IIC had weighted M=3.753 (SD=0.909), α=0.858, ω=0.860. Its weighted association with PRCI was ρ=0.450 (pairwise n=492). In the full model, B=0.157, 95% CI [.031, .283], standardized β=0.174, Holm p=.050, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. 
+
+the prespecified IIC objective concerning denominational, interfaith, governmental and professional collaboration 
+
+For the full methods, findings, limitations, and references, read article e008 at the paper link shown on screen.

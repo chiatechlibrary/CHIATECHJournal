@@ -1,0 +1,19 @@
+Welcome to CHIATECH Journal. This is the explanatory summary for article e010.
+
+The paper is titled Selecting Generative AI Systems for Education and Business in 2026: A Capability–Risk Framework for Comparing Frontier and Open-Weight Model Ecosystems.
+
+The paper reports the following.
+
+
+
+Generative AI procurement is increasingly difficult because model capability, tool access, multimodality, deployment control, safety controls and pricing evolve faster than conventional technology-selection cycles. 
+
+This article constructs a five-system comparison time-stamped, evidence-disciplined framework for selecting generative AI systems in education and business. 
+
+A critical comparative review triangulated independent evaluation scholarship with official model and system documentation available through 29 August 2026. The review considers GPT-5.6 Sol, Claude Opus 5, Gemini 3.1 Pro, DeepSeek-V4-Pro and Llama 4 Maverick as representative ecosystems rather than treating vendor benchmark claims as directly commensurable scores. 
+
+The comparison shows persistent trade-offs. Closed frontier systems provide strong managed capabilities and integrated tools but create dependence on provider controls, pricing and service architecture. Open-weight models provide greater deployment and adaptation control but shift security, evaluation and governance burdens to the adopter. Multimodality, context length and agent functionality are increasingly common, making grounding quality, workflow control, data governance, evaluation discipline and total cost of ownership more discriminating than a single benchmark rank. 
+
+Organizations should replace model leaderboards with use-case portfolios, risk tiers and repeatable local evaluations. The best system is the one that achieves acceptable task quality under the institution’s evidence, privacy, safety, latency, cost and audit requirements.
+
+For the full methods, findings, limitations, and references, read article e010 at the paper link shown on screen.

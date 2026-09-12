@@ -1,0 +1,27 @@
+{
+  "article_id": "e050",
+  "title": "Coupled Mathematical Modelling of Building Envelope and Cooling-Efficiency Standards for Nigerian Multi-Unit Housing: An Abuja-Calibrated BEEC–SONMELS Predictive Scenario Framework",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/25_e050__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e050_Coupled_Mathematical_Modelling_of_Building_Envelope_and_Cooling_Efficiency_Standards_for_Nigerian_Multi_Unit.docx",
+  "source_sha256": "8A780C74E7D1EEF7270F5B62E557477A09624DA31BA6BEFBEAD53ACFE4A216C9",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e050/manuscript/CHIATECH_JOURNAL_2026_V1I1_e050_PIONEER_PART2.docx",
+  "manuscript_sha256": "D6134BB4CC0B0DCC1D2D314AEDD9629DB9FAF5638CD286911C4CCEBD7A7CFF95",
+  "conceptual_diagram_redraws": [
+    "e050-01.png",
+    "e050-02.png",
+    "e050-03.png",
+    "e050-04.png",
+    "e050-05.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE"
+}

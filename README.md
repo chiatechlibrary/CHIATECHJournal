@@ -45,7 +45,7 @@ These values agree with the supplied current source; external identity, ORCID an
 
 Submission and peer review are free. Payment or waiver requests must not influence scholarly decisions. Confirm whether the dated pioneer offer remains approved before launch; no dates or business rules were invented to extend it.
 
-ISSN remains pending and the DOI prefix is not assigned. No external indexing membership is claimed. Future DOI, ISSN, publication dates, authorship, acceptance and peer-review claims require authentic evidence.
+ISSN Print, ISSN Online and ISSN-L remain pending assignment/designation. Crossref DOI prefix 10.68232 is now confirmed for CHIA TECH SOLUTIONS AND RESOURCES LIMITED. No external indexing membership is claimed. Future DOI, ISSN, publication dates, authorship, acceptance and peer-review claims require authentic evidence.
 
 ## Review Engine and publication controls
 

@@ -1,0 +1,1 @@
+Control-Oriented Mathematical Review of a 24 V-to-19 V PWM Buck Converter: State-Space Averaging, CCM Boundary, Type-III Loop Compensation and Design Consistency. CHIATECH JOURNAL · SETEHEM, 1(1), e049. DOI pending registration; ISSN pending assignment.

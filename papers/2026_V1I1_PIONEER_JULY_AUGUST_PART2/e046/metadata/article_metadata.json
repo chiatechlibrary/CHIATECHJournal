@@ -1,0 +1,32 @@
+{
+  "article_id": "e046",
+  "title": "Design, Small-Signal Modeling and Prototype Implementation of a 24 V-to-19 V PWM Buck Converter with Type-III Voltage-Mode Compensation",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/21_e046__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e046_Design_Small_Signal_Modeling_and_Prototype_Implementation_of_a_24_V_to_19_V.docx",
+  "source_sha256": "9C72B9549239CDE36CB162153DB902B454FCED3723BBE14AD751FB68327BECD1",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e046/manuscript/CHIATECH_JOURNAL_2026_V1I1_e046_PIONEER_PART2.docx",
+  "manuscript_sha256": "18FCF96111F485F2A966A576586E396C823AC0918CC09DFEC5F0163E81682E96",
+  "conceptual_diagram_redraws": [
+    "e046-01.png",
+    "e046-02.png",
+    "e046-03.png",
+    "e046-04.png",
+    "e046-05.png",
+    "e046-06.png",
+    "e046-07.png",
+    "e046-08.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE",
+  "author_contributions": "Author contributions: Chia, Shiaondo Kenneth, and Amenger, Gbaden: conceptualization, methodology, formal analysis, engineering reconstruction, validation, visualization, investigation, writing—original draft, and writing—review and editing. Goshwe, N. Y.: supervisory contribution and critical review as recorded in the supplied manuscript. All authors must confirm this statement in the final editorial proof.",
+  "author_contribution_status": "EDITORIAL_STATEMENT_REQUIRES_ALL_AUTHOR_CONFIRMATION"
+}

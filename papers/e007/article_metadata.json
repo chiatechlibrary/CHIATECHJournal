@@ -1,9 +1,9 @@
 {
   "journal": "CHIATECH JOURNAL",
   "portfolio": "SETEHEM",
-  "volume": "1",
+  "volume": "2",
   "issue": "1",
-  "month": "JULY 2026",
+  "month": "AUGUST 2026",
   "year": "2026",
   "elocator": "e007",
   "title": "From Peace Teaching to Public Safety: Theological Peace Education, Moral Formation and Perceived Community Insecurity Reduction in Abuja, Nigeria",
@@ -25,7 +25,7 @@
   "unresolved_placeholder_terms": 0,
   "stable_article_id": "e007",
   "article_type": "Empirical Research Article",
-  "issue_collection_title": "Pioneer Publication · July 2026",
+  "issue_collection_title": "Pioneer Continuation · August 2026",
   "language": "English",
   "authors": [
     {
@@ -47,7 +47,7 @@
       "affiliation": "Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
     }
   ],
-  "abstract": "Background: Theological peace education and moral formation is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between theological peace education and moral formation and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: TPEMF had weighted M=3.433 (SD=0.937), α=0.832, ω=0.833. Its weighted association with PRCI was ρ=0.410 (pairwise n=527). In the full model, B=0.143, 95% CI [.043, .243], standardized β=0.169, Holm p=.027, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: the prespecified TPEMF objective concerning peace education, moral formation, responsible interpretation and public conduct ",
+  "abstract": "Background: Theological peace education and moral formation is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between theological peace education and moral formation and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: TPEMF had weighted M=3.433 (SD=0.937), α=0.832, ω=0.833. Its weighted association with PRCI was ρ=0.410 (pairwise n=527). In the full model, B=0.143, 95% CI [.043, .243], standardized β=0.169, Holm p=.027, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion:",
   "keywords": [
     "practical theology",
     "peace education",
@@ -75,7 +75,7 @@
   "version_of_record_status": "Public derivatives built from the approved manuscript; authenticated publication and live HTTPS verification remain required.",
   "pdf_page_count": 8,
   "canonical_url": "https://journal.chiatechsolutions.com/papers/e007/",
-  "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). From Peace Teaching to Public Safety: Theological Peace Education, Moral Formation and Perceived Community Insecurity Reduction in Abuja, Nigeria. CHIATECH JOURNAL, 1(1), e007. https://journal.chiatechsolutions.com/papers/e007/",
+  "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). From Peace Teaching to Public Safety: Theological Peace Education, Moral Formation and Perceived Community Insecurity Reduction in Abuja, Nigeria. CHIATECH JOURNAL, 2(1), e007. https://journal.chiatechsolutions.com/papers/e007/",
   "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e007_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e007_From_Peace_Teaching_to_Public_Safety_Theological_Peace_Education_Moral_Formation_and_Perceived_Community.docx",
   "author_contributions": "Author contributionsS.D.O.: conceptualization, investigation, data curation, formal analysis and original drafting. C.O.N.: supervision, methodology review, interpretation and critical revision. A.K.: co-supervision, theological interpretation and critical revision. All authors approved the submitted version and accept responsibility for the work.",
   "update_date": "2026-09-05"

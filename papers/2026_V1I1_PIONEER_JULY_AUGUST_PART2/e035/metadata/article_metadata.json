@@ -1,0 +1,29 @@
+{
+  "article_id": "e035",
+  "title": "Optimizing Primary-School Uniform Mass Production Through Computer-Aided Basic-Block Development: A Reproducible Parametric Grading and Marker-Planning Experiment",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/10_e035__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e035_Optimizing_Primary_School_Uniform_Mass_Production_Through_Computer_Aided_Basic_Block_Development_A_Reproducibl.docx",
+  "source_sha256": "F52B2EAB09D55BB32AA07D47B2CB562EC175E05BCA58560F08A5046F239EC764",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e035/manuscript/CHIATECH_JOURNAL_2026_V1I1_e035_PIONEER_PART2.docx",
+  "manuscript_sha256": "5716E295EFFEA932FACCCAFA55FCFA4AA0507E82DE080B67328E1AA1C2477893",
+  "conceptual_diagram_redraws": [
+    "e035-01.png",
+    "e035-02.png",
+    "e035-03.png",
+    "e035-04.png",
+    "e035-05.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE",
+  "author_contributions": "Author contributions: The supplied manuscript establishes the three-author order but does not include a CRediT statement. Contribution roles must be confirmed by all authors in the final editorial proof; no unverified roles are assigned in this copy.",
+  "author_contribution_status": "AUTHOR_CONFIRMATION_REQUIRED"
+}

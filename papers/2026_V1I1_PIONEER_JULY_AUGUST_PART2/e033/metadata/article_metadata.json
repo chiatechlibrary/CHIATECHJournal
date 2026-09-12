@@ -1,0 +1,28 @@
+{
+  "article_id": "e033",
+  "title": "Integrating Business Intelligence and Data Mining for Venture Capital Assessment of Technology Startups: Hybrid Predictive Analytics, Explainable Risk Scoring and Real-Time Signals",
+  "issue": "Volume 1, Issue 1 · Pioneer July/August 2026 · Part 2",
+  "month": "AUGUST 2026",
+  "volume": "1",
+  "issue_number": "1",
+  "part": "2",
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1_I2_AUGUST_2026_READY_PAPERS/PAPERS_SORTED_BY_ELOCATOR/08_e033__CHIATECH_JOURNAL_SETEHEM_2026_V1I2_e033_Integrating_Business_Intelligence_and_Data_Mining_for_Venture_Capital_Assessment_of_Technology_Startups_Hybrid.docx",
+  "source_sha256": "E678EE6B6AE2FD4DC397217FC0A88EA492C8D17B59B4C9F38C07059AB8C42092",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e033/manuscript/CHIATECH_JOURNAL_2026_V1I1_e033_PIONEER_PART2.docx",
+  "manuscript_sha256": "BCD9725984DA5A3055FED006AE06DB0BCE84DEC907EC78FDC8570C262E4B99D2",
+  "conceptual_diagram_redraws": [
+    "e033-01.png",
+    "e033-02.png",
+    "e033-03.png",
+    "e033-04.png",
+    "e033-05.png",
+    "e033-06.png"
+  ],
+  "figure_policy": "Source photographs, charts and technical evidence were retained. Identified conceptual diagrams were redrawn as editable pen-and-ink SVG/PNG assets; no generative AI imagery was used.",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_DOI_ISSN_AND_RELEASE_CHECKS_COMPLETE"
+}
