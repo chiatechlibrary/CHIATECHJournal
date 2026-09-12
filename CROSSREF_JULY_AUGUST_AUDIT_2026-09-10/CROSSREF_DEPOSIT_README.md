@@ -10,6 +10,6 @@
 - ISSN Print, ISSN Online and ISSN-L remain pending.
 - Publication date precision: year and month only; no day `01` is fabricated.
 
-The XML intentionally excludes e006–e008 and e020 until their authoritative abstracts pass final editorial verification. The corrected pilot must begin with the journal title-level record plus e001, then proceed in controlled batches.
+The e006, e007, e008 and e020 abstract holds were resolved on 12 September 2026 from final manuscript text and verified across DOCX, HTML and PDF outputs. All 58 article records are now included in this staging batch. The corrected pilot should still begin with the journal title-level record plus e001, then proceed in controlled batches after XSD validation and Chief Editor approval.
 
-`CROSSREF_RECONCILIATION_ISSUES.json` records the remaining abstract holds. Do not upload the production XML until that file is reviewed and the title/volume/URL reconciliation is approved.
+`CROSSREF_RECONCILIATION_ISSUES.json` is the machine-readable control report. The stable legacy URL path is retained for link continuity; Volume 2, Issue 1 is authoritative in issue and article metadata. Do not upload the production XML until it passes XSD validation and the title/volume/URL policy is approved.

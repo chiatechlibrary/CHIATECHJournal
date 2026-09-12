@@ -47,6 +47,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e001/html/e001.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -72,6 +73,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e002/html/e002.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -97,6 +99,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e003/html/e003.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -122,6 +125,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e004/html/e004.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -155,6 +159,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e005/html/e005.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -175,8 +180,8 @@
         }
       ],
       "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
-      "abstract": "",
-      "abstract_status": "TRUNCATED_CONCLUSION_REQUIRES_AUTHORITATIVE_VOR_RECOVERY",
+      "abstract": "Background: Community-security engagement and early-warning support is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between community-security engagement and early-warning support and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: CSEW had weighted M=3.652 (SD=0.868), α=0.800, ω=0.803. Its weighted association with PRCI was ρ=0.445 (pairwise n=503). In the full model, B=0.269, 95% CI [.161, .376], standardized β=0.284, Holm p=<.001, with ΔR²=0.059. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: Verified early warning, lawful reporting, clear risk communication and safeguarding formed the strongest distinct Church-engagement domain associated with PRCI in the FCT dataset. The finding supports a practical model in which churches strengthen community preparedness and truthful information flow while remaining outside investigation and coercive enforcement. For church-based early warning to be credible, trust must be disciplined by verification, lawful referral, confidentiality and professional safeguarding.",
+      "abstract_status": "EDITORIAL_RECONCILED_FROM_FINAL_MANUSCRIPT",
       "keywords": "",
       "proposed_doi": "10.68232/cj.e006",
       "doi_status": "PENDING_REGISTRATION",
@@ -188,6 +193,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e006/html/e006.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -208,8 +214,8 @@
         }
       ],
       "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
-      "abstract": "",
-      "abstract_status": "TRUNCATED_CONCLUSION_REQUIRES_AUTHORITATIVE_VOR_RECOVERY",
+      "abstract": "Background: Theological peace education and moral formation is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between theological peace education and moral formation and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: TPEMF had weighted M=3.433 (SD=0.937), α=0.832, ω=0.833. Its weighted association with PRCI was ρ=0.410 (pairwise n=527). In the full model, B=0.143, 95% CI [.043, .243], standardized β=0.169, Holm p=.027, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: Theological peace education and moral formation were positively associated with perceived community-security improvement in the FCT after adjustment for other Church practices and contextual factors. The public value of formation appeared strongest when it was concrete: affirming dignity, rejecting revenge, interpreting Scripture responsibly, encouraging lawful protection and disciplining communication. The weaker performance of rumour resistance shows where churches can convert theology into more credible human-security practice.",
+      "abstract_status": "EDITORIAL_RECONCILED_FROM_FINAL_MANUSCRIPT",
       "keywords": "",
       "proposed_doi": "10.68232/cj.e007",
       "doi_status": "PENDING_REGISTRATION",
@@ -221,6 +227,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e007/html/e007.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -241,8 +248,8 @@
         }
       ],
       "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
-      "abstract": "",
-      "abstract_status": "TRUNCATED_CONCLUSION_REQUIRES_AUTHORITATIVE_VOR_RECOVERY",
+      "abstract": "Background: Institutional and interfaith collaboration is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between institutional and interfaith collaboration and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: IIC had weighted M=3.753 (SD=0.909), α=0.858, ω=0.860. Its weighted association with PRCI was ρ=0.450 (pairwise n=492). In the full model, B=0.157, 95% CI [.031, .283], standardized β=0.174, Holm p=.050, with ΔR²=0.020. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: Institutional and interfaith collaboration was one of the strongest public-facing dimensions of Church engagement in the FCT study. Its value appears to lie in bridging religious boundaries and linking community trust to authorized or professional capacities through clear roles, protocols and review. The evidence supports sustained, accountable collaboration—not institutional substitution—as a credible component of the Church's complementary human-security role.",
+      "abstract_status": "EDITORIAL_RECONCILED_FROM_FINAL_MANUSCRIPT",
       "keywords": "",
       "proposed_doi": "10.68232/cj.e008",
       "doi_status": "PENDING_REGISTRATION",
@@ -254,6 +261,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e008/html/e008.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -287,6 +295,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e009/html/e009.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -312,6 +321,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e010/html/e010.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -337,6 +347,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e011/html/e011.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -370,6 +381,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e012/html/e012.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -403,6 +415,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e013/html/e013.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -436,6 +449,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e014/html/e014.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -469,6 +483,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e015/html/e015.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -494,6 +509,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e016/html/e016.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -519,6 +535,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e017/html/e017.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -544,6 +561,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e018/html/e018.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -569,6 +587,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e019/html/e019.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -581,8 +600,8 @@
         }
       ],
       "author_source_text": "Shiaondo Kenneth Chia",
-      "abstract": "",
-      "abstract_status": "REBUILD_FROM_FINAL_MANUSCRIPT_AND_VERIFY_AGAINST_VOR",
+      "abstract": "Background: Students often possess isolated formulas yet struggle to represent quantitative problems, select appropriate equations and transfer a workable solution routine across STEM disciplines. Objective: This study evaluated the Given–Unknown–Equation–Substitute–Solve (GUESS) principle as a five-step scaffold for well-structured calculation problems. Methods: A sequential explanatory mixed-methods design was reported across General Chemistry I (n=78), Calculus I (n=65), Engineering Mechanics (n=42) and Introduction to Physics (n=56) at the University of Abuja during 2023–2024 (N=241). Students were assigned within courses to GUESS or traditional instruction. Pre/post problem-solving tests, structured error analysis, student interviews (n=40), classroom observations, instructor journals and think-aloud protocols (n=20) were used. Results: Reported pre–post gains were larger in GUESS groups in every course (14.7–18.2 points) than in controls (6.2–8.6 points). The reported two-way ANOVA showed a main effect of teaching approach, F(1,233)=42.68, p<.001, partial η²=.155, with no significant discipline effect or approach×discipline interaction. Equation-selection errors were 16% in the GUESS group versus 36% in controls, and variable-misidentification errors were 12% versus 24% (both p<.001). Consistent use of all five steps had the largest reported regression coefficient (B=.45, SE=.09, p<.001). Qualitative evidence indicated improved problem representation, confidence and cross-course transfer, alongside an initial time cost and resistance among some high-performing students. Conclusion: The evidence supports GUESS as a promising cross-disciplinary scaffold for well-structured quantitative problems, especially where novices need an explicit bridge from problem representation to execution. Replication should report group sizes, attrition, instrument reliability, ethics procedures and raw data so that effects can be independently verified.",
+      "abstract_status": "EDITORIAL_RECONCILED_FROM_FINAL_MANUSCRIPT",
       "keywords": "",
       "proposed_doi": "10.68232/cj.e020",
       "doi_status": "PENDING_REGISTRATION",
@@ -594,6 +613,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e020/html/e020.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -619,6 +639,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e021/html/e021.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -652,6 +673,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e022/html/e022.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -677,6 +699,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e023/html/e023.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -702,6 +725,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e024/html/e024.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -735,6 +759,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e025/html/e025.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "root July/August package"
     },
     {
@@ -760,6 +785,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e026/html/e026.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -785,6 +811,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e027/html/e027.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -810,6 +837,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e028/html/e028.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -835,6 +863,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e029/html/e029.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -860,6 +889,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e030/html/e030.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -885,6 +915,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e031/html/e031.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -914,6 +945,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e032/html/e032.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -939,6 +971,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e033/html/e033.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -964,6 +997,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e034/html/e034.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -997,6 +1031,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e035/html/e035.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1022,6 +1057,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e036/html/e036.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1047,6 +1083,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e037/html/e037.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1072,6 +1109,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e038/html/e038.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1101,6 +1139,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e039/html/e039.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1130,6 +1169,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e040/html/e040.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1155,6 +1195,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e041/html/e041.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1180,6 +1221,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e042/html/e042.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1205,6 +1247,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e043/html/e043.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1230,6 +1273,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e044/html/e044.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1255,6 +1299,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e045/html/e045.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1288,6 +1333,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e046/html/e046.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1313,6 +1359,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e047/html/e047.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1346,6 +1393,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e048/html/e048.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1379,6 +1427,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e049/html/e049.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1408,6 +1457,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e050/html/e050.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1433,6 +1483,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e051/html/e051.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1462,6 +1513,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e052/html/e052.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1487,6 +1539,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e053/html/e053.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1512,6 +1565,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e054/html/e054.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1537,6 +1591,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e055/html/e055.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1562,6 +1617,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e056/html/e056.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1587,6 +1643,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e057/html/e057.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     },
     {
@@ -1612,6 +1669,7 @@
         8
       ],
       "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e058/html/e058.html",
+      "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
       "source_package": "controlled Part 2 August package"
     }
   ]

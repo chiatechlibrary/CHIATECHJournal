@@ -16,8 +16,8 @@
     }
   ],
   "author_source_text": "Syrenius Dangana Okoriko; Charles Ogundu Nnaji; Adeola Kehinde",
-  "abstract": "",
-  "abstract_status": "TRUNCATED_CONCLUSION_REQUIRES_AUTHORITATIVE_VOR_RECOVERY",
+  "abstract": "Background: Community-security engagement and early-warning support is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between community-security engagement and early-warning support and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: CSEW had weighted M=3.652 (SD=0.868), α=0.800, ω=0.803. Its weighted association with PRCI was ρ=0.445 (pairwise n=503). In the full model, B=0.269, 95% CI [.161, .376], standardized β=0.284, Holm p=<.001, with ΔR²=0.059. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: Verified early warning, lawful reporting, clear risk communication and safeguarding formed the strongest distinct Church-engagement domain associated with PRCI in the FCT dataset. The finding supports a practical model in which churches strengthen community preparedness and truthful information flow while remaining outside investigation and coercive enforcement. For church-based early warning to be credible, trust must be disciplined by verification, lawful referral, confidentiality and professional safeguarding.",
+  "abstract_status": "EDITORIAL_RECONCILED_FROM_FINAL_MANUSCRIPT",
   "keywords": "",
   "proposed_doi": "10.68232/cj.e006",
   "doi_status": "PENDING_REGISTRATION",
@@ -29,5 +29,6 @@
     8
   ],
   "URL": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e006/html/e006.html",
+  "url_path_policy": "STABLE_LEGACY_PATH; bibliographic issue metadata is authoritative",
   "source_package": "root July/August package"
 }

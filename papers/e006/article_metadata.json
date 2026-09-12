@@ -1,9 +1,9 @@
 {
   "journal": "CHIATECH JOURNAL",
   "portfolio": "SETEHEM",
-  "volume": "1",
+  "volume": "2",
   "issue": "1",
-  "month": "JULY 2026",
+  "month": "AUGUST 2026",
   "year": "2026",
   "elocator": "e006",
   "title": "Verified Early Warning, Lawful Reporting and Community Safety: Church Engagement and Perceived Insecurity Reduction in Abuja, Nigeria",
@@ -25,7 +25,7 @@
   "unresolved_placeholder_terms": 0,
   "stable_article_id": "e006",
   "article_type": "Empirical Research Article",
-  "issue_collection_title": "Pioneer Publication · July 2026",
+  "issue_collection_title": "Pioneer Continuation · August 2026",
   "language": "English",
   "authors": [
     {
@@ -47,7 +47,7 @@
       "affiliation": "Department of Christian Studies and Religious Communication, University of Abuja, Abuja, Nigeria"
     }
   ],
-  "abstract": "Background: Community-security engagement and early-warning support is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between community-security engagement and early-warning support and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: CSEW had weighted M=3.652 (SD=0.868), α=0.800, ω=0.803. Its weighted association with PRCI was ρ=0.445 (pairwise n=503). In the full model, B=0.269, 95% CI [.161, .376], standardized β=0.284, Holm p=<.001, with ΔR²=0.059. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion: the prespecified CSEW objective concerning verified warning, lawful reporting, preparedness and safeguarding ",
+  "abstract": "Background: Community-security engagement and early-warning support is frequently invoked in Christian responses to insecurity, but its relationship with community-level outcomes requires specific measurement. Objective: To determine the relationship between community-security engagement and early-warning support and perceived reduction of community insecurity (PRCI) in the FCT, Abuja. Methods: The study used the 586-response CECIQ household survey drawn from 24 clusters across all six FCT Area Councils. Scale reliability, item distributions, weighted Spearman association and the prespecified survey-weighted simultaneous model were examined; the full model used 366 complete cases and Holm correction across five hypotheses. Results: CSEW had weighted M=3.652 (SD=0.868), α=0.800, ω=0.803. Its weighted association with PRCI was ρ=0.445 (pairwise n=503). In the full model, B=0.269, 95% CI [.161, .376], standardized β=0.284, Holm p=<.001, with ΔR²=0.059. The relationship remained positive in the equal-weight sensitivity analysis. Conclusion:",
   "keywords": [
     "early warning",
     "community security",
@@ -75,7 +75,7 @@
   "version_of_record_status": "Public derivatives built from the approved manuscript; authenticated publication and live HTTPS verification remain required.",
   "pdf_page_count": 8,
   "canonical_url": "https://journal.chiatechsolutions.com/papers/e006/",
-  "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Verified Early Warning, Lawful Reporting and Community Safety: Church Engagement and Perceived Insecurity Reduction in Abuja, Nigeria. CHIATECH JOURNAL, 1(1), e006. https://journal.chiatechsolutions.com/papers/e006/",
+  "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Verified Early Warning, Lawful Reporting and Community Safety: Church Engagement and Perceived Insecurity Reduction in Abuja, Nigeria. CHIATECH JOURNAL, 2(1), e006. https://journal.chiatechsolutions.com/papers/e006/",
   "source_manuscript": "C:/Users/user/Desktop/PUBLICATION READY/CHIATECHchiefEditor/05_ISSUES/2026_V1_I1_JULY_2026_READY_PAPERS/2026_V1I1_JULY_2026_PIONEER_PUBLICATION_PACKAGES/CHIATECH_JOURNAL_2026_V1I1_e006_PUBLICATION_READY_PACKAGE/manuscript/CHIATECH_JOURNAL_SETEHEM_2026_V1I1_e006_Verified_Early_Warning_Lawful_Reporting_and_Community_Safety_Church_Engagement_and_Perceived_Insecurity_Reduct.docx",
   "author_contributions": "Author contributionsS.D.O.: conceptualization, investigation, data curation, formal analysis and original drafting. C.O.N.: supervision, methodology review, interpretation and critical revision. A.K.: co-supervision, theological interpretation and critical revision. All authors approved the submitted version and accept responsibility for the work.",
   "update_date": "2026-09-05"
