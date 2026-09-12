@@ -53,3 +53,7 @@ Thumbs.db
 /articles/2026/
 /articles/JULY 2026/
 /articles/_editorial_work/
+
+# Office temporary/lock files
+.~lock.*#
+~$*

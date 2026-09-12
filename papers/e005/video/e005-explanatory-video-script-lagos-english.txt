@@ -1,0 +1,19 @@
+Welcome to CHIATECH Journal. This is the explanatory summary for article e005.
+
+The paper is titled Church Engagement and Perceived Reduction of Community Insecurity in Abuja, Nigeria: Survey-Weighted Evidence Across the Six FCT Area Councils.
+
+The paper reports the following.
+
+
+
+Religious institutions are socially influential in Nigeria, but their public-security contribution should be measured as specific practices rather than presumed from visibility or doctrine. 
+
+To estimate the relationship between five dimensions of Church engagement and perceived reduction of community insecurity (PRCI) across the Federal Capital Territory. 
+
+A stratified multistage household survey generated 586 response records from 642 field contacts in 24 clusters. The CECIQ measured TPEMF, MDPA, SEHPC, CSEW, IIC and PRCI. Weighted Spearman correlations and a survey-weighted, cluster-robust multiple regression with prespecified covariates and Holm correction were used. 
+
+All five Church-engagement constructs correlated positively with PRCI (weighted ρ=.376–.450). The full model used 366 complete cases and explained 45.3% of weighted PRCI variance. TPEMF (B=.143, 95% CI [.043,.243], Holm p=.027), CSEW (B=.269, [.161,.376], p<.001) and IIC (B=.157, [.031,.283], p=.050) retained positive adjusted relationships; MDPA and SEHPC did not retain independent support after correction. CSEW was the strongest distinct predictor (standardized β=.284; ΔR²=.059). 
+
+The evidence supports a real but bounded complementary role for Church engagement. The most defensible pattern combines peace-ethical formation, verified and lawful community-safety practice, and sustained cross-boundary collaboration. Cross-sectional perception data do not establish a causal fall in recorded crime. 
+
+For the full methods, findings, limitations, and references, read article e005 at the paper link shown on screen.

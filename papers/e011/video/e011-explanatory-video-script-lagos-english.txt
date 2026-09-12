@@ -1,0 +1,19 @@
+Welcome to CHIATECH Journal. This is the explanatory summary for article e011.
+
+The paper is titled Integrating Defensive and Offensive Cybersecurity Education: A Lab-Based Competency Framework for Workforce-Ready Learning.
+
+The paper reports the following.
+
+
+
+Cybersecurity education often separates defensive operations from offensive testing even though workforce practice requires professionals to understand how attack paths, controls, detection and response interact. 
+
+This article develops a curriculum and competency framework that integrates defensive and offensive perspectives within authorized, isolated and ethically governed laboratories. 
+
+A design synthesis mapped the source curriculum against the NIST Cybersecurity Framework 2.0, the NICE Workforce Framework for Cybersecurity, CSEC2017 curricular guidance and recent research on cybersecurity teaching. 
+
+The proposed architecture progresses through foundations and lab setup, defensive engineering, authorized adversary emulation, specialized domains, threat hunting/incident response, automation and governance. A purple-team learning loop—understand risk, defend, emulate threats safely, detect/investigate, respond/improve—connects technical tasks to organizational outcomes. Assessment emphasizes observable competencies through threat models, hardening plans, log analysis, vulnerability reports, secure configurations, incident reports and capstone exercises. Offensive content is bounded by written authorization, scoped targets, isolated environments, no external persistence and evidence-based reporting. 
+
+Defensive and offensive knowledge should be integrated educationally but separated operationally by strict authorization and safety controls. Workforce readiness depends on demonstrated capability, ethical judgment and communication as much as on tool familiarity.
+
+For the full methods, findings, limitations, and references, read article e011 at the paper link shown on screen.
