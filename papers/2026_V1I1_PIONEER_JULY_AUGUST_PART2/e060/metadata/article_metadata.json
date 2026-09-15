@@ -1,0 +1,31 @@
+{
+  "article_id": "e060",
+  "title": "The Impact of National Cybersecurity Operations Coordination on Critical Economic Sectors and Economic Growth in Nigeria, 2000-2025: A Policy-Economic Evidence Synthesis and Evaluation Framework",
+  "author": [
+    {
+      "given": "Iboro Tom",
+      "family": "Idim"
+    }
+  ],
+  "abstract": "Background: Nigeria's economic activity increasingly depends on networked services, creating systemic exposure to cyber disruption. Objective: This study examines how national cybersecurity operations coordination can protect critical economic sectors and support resilience while distinguishing defensible evidence from causal claims that available national time series cannot sustain. Methods: A longitudinal policy-economic evidence synthesis maps institutional milestones, economic transmission channels and an evaluation design using Nigerian laws, national coordination and incident-response materials, critical-infrastructure policy, financial-sector frameworks, ITU capability benchmarks and macroeconomic indicators. Results: Nigeria's architecture has moved toward a coordinated model centred on NCCC, ngCERT and sector CSIRTs; the 2024 CNII Order identifies thirteen critical sectors. Conclusion: Coordination is best understood as resilience infrastructure whose value lies in avoided loss, shorter disruption, faster recovery and stronger confidence. A credible growth estimate requires harmonised incident, downtime, response-time, loss and sector-output data; this article provides a reproducible evaluation framework rather than an invented treatment effect.",
+  "keywords": "cybersecurity economics; National Cybersecurity Coordination Centre; ngCERT; critical national information infrastructure; economic growth; operational resilience; Nigeria",
+  "issue": "Volume 2, Issue 1 · August 2026",
+  "volume": "2",
+  "issue_number": "1",
+  "published_online": [
+    2026,
+    8
+  ],
+  "status": "ACCEPTED_PRODUCTION_APPROVED_PENDING_DOI_REGISTRATION",
+  "proposed_doi": "10.68232/cj.e060",
+  "doi": "",
+  "doi_status": "PENDING_REGISTRATION",
+  "issn": "",
+  "issn_status": "PENDING_ASSIGNMENT",
+  "source_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e060/source/CHIATECH_JOURNAL_2026_V1I2_AUGUST_e060_Iboro_Tom_IDIM_PURE_BW_PRINT_FINAL.docx",
+  "source_sha256": "BA170BAD48C2B991ED1B143E9C6E6EAC49067E06B80BF8C24810444EC735F95F",
+  "manuscript_file": "papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e060/manuscript/CHIATECH_JOURNAL_2026_V2I1_e060_AUGUST_2026_EDITORIAL_FINAL.docx",
+  "manuscript_sha256": "A978E4221D55BC424A540F0A0A470BFB521701D4A4A448BE33F34815607F1024",
+  "public_version_of_record": "NOT_CLAIMED_UNTIL_AUTHENTICATED_CROSSREF_DEPOSIT_AND_RELEASE_CHECKS_COMPLETE",
+  "landing_page_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e060/html/e060.html"
+}
