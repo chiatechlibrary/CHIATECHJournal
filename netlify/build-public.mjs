@@ -174,9 +174,7 @@ const privateEditorialPaperEntry = relative => {
     'crossref_metadata.json'
   ].includes(filename) ||
     [
-      'html',
       'manuscript',
-      'pdf',
       'video',
       '_qa_rebuild'
     ].some(directory =>
@@ -453,6 +451,7 @@ const sources = [
   'success',
   'articles/index.html',
   'articles/read/index.html',
+  'papers/index.html',
   'index.html',
   '404.html',
   'offline.html',

@@ -55,6 +55,10 @@ const HEADERS = {
     'published', 'language', 'license', 'license_url', 'copyright_holder',
     'html_url', 'pdf_url', 'pdf_download_url', 'video_title', 'video_url',
     'video_poster_url', 'video_caption_url', 'video_transcript_url',
+    'acceptance_documented', 'copyediting_complete', 'author_proof_approved',
+    'accessibility_review_complete', 'html_pdf_match_confirmed',
+    'figures_tables_references_consistent', 'pdf_clean_confirmed',
+    'video_rights_review_complete', 'video_accessibility_confirmed',
     'status', 'published_by'
   ],
   BlogPosts: [
@@ -74,13 +78,13 @@ const PUBLIC_DEFAULTS = {
   publisher: 'CHIA TECH SOLUTIONS AND RESOURCES LIMITED',
   publisherRegistration: 'RC 1839865',
   issn: 'Pending assignment',
-  // Crossref membership and prefix confirmed from the publisher notice.
-  // Individual article DOIs remain pending until authenticated deposits succeed.
+  // Crossref membership and prefix are known. Public DOI links require final
+  // registration evidence; a prefix or proposed suffix is never displayed.
   doiPrefix: '10.68232',
   contactEmail: 'chiatechlibrary@gmail.com',
   submissionStatus: 'Open',
-  currentIssueLabel: 'Volume 2, Issue 1 · August 2026',
-  publicAnnouncement: 'Crossref member prefix confirmed: 10.68232. Article DOI registration is pending authenticated deposit.',
+  currentIssueLabel: 'Volume 1, Issue 2 · Pioneer Volume · August 2026 · Part 2',
+  publicAnnouncement: 'Crossref member. Journal DOI 10.68232/cj and Pioneer article DOIs e001-e060 are registered with Crossref.',
   managingEditorName: 'CHIA SHIAONDO KENNETH',
   managingEditorTitle: 'Founding Editor & Managing Editor',
   managingEditorAffiliation: 'CHIA TECH SOLUTIONS AND RESOURCES LIMITED',
@@ -527,8 +531,16 @@ function normaliseArticle(data, id, status, actor) {
   const volume = cleanText(data.volume, 30);
   const issue = cleanText(data.issue, 30);
   const issueTitle = cleanText(data.issueTitle, 160);
-  const published = isoDate(data.published);
+  const published = publicationDate(data.published);
   const doiStatus = normaliseDoiStatus(data.doiStatus, doi);
+  if (doi) {
+    const verified = parseJson(PropertiesService.getScriptProperties().getProperty('CROSSREF_VERIFIED_REGISTRATIONS') || '{}', {});
+    const evidence = verified[doi];
+    if (!evidence || evidence.status !== 'Success' || !evidence.submission_id || !evidence.log_sha256) throw serviceError('This DOI has no verified Crossref success record in the server registration registry. Import the finalization evidence before using the registered DOI field.');
+  }
+  if (/^e(?:00[1-9]|0[1-5][0-9]|060)$/.test(id) && doi && doi !== '10.68232/cj.' + id) {
+    throw serviceError('A Pioneer article DOI must match its stable article ID exactly, for example e026 must use 10.68232/cj.e026.');
+  }
   const htmlUrl = safePublicUrl(data.htmlUrl, false);
   const pdfUrl = safePublicUrl(data.pdfUrl || data.fullTextUrl, false);
   const pdfDownloadUrl = safePublicUrl(data.pdfDownloadUrl, true) || pdfUrl;
@@ -540,12 +552,26 @@ function normaliseArticle(data, id, status, actor) {
   if (!id || !title || CONFIG.domains.indexOf(domain) < 0) throw serviceError('Article ID, title and a valid SETEHEM portfolio are required.');
   if (status === 'PUBLISHED') {
     const metadataIssues = [];
+    if (!cleanText(data.license, 100) || !safePublicUrl(data.licenseUrl, true)) throw serviceError('Verified licence name and URL are required before publication.');
+    if (/^e\d{3}$/.test(id) && cleanText(data.eLocator, 50) !== id) throw serviceError('The eLocator must match the stable article ID.');
     if (!authors.length) metadataIssues.push('at least one author');
     if (!abstract) metadataIssues.push('a complete abstract');
     if (keywords.length < 3) metadataIssues.push('at least three keywords');
     if (metadataIssues.length) throw serviceError('Publication metadata is incomplete: add ' + metadataIssues.join(', ') + '. Refresh the Editorial Desk and try again.');
     if (!isoDate(data.received) || !isoDate(data.accepted) || !published) throw serviceError('Record the authentic received, accepted and published dates before publication.');
-    if (!doi && !isEligiblePioneerDoiPendingRelease(volume, issue, issueTitle, published, doiStatus)) throw serviceError('A registered DOI is required unless this is the explicitly labelled Volume 1, Issue 1, July 2026 Pioneer Release with DOI status PENDING_REGISTRATION.');
+    if (!doi || doiStatus !== 'REGISTERED') throw serviceError('A verified registered DOI is required before a paper can be published. Keep proposed or unregistered DOI records as drafts.');
+    const productionChecks = [
+      ['documented acceptance', data.acceptanceDocumented],
+      ['copyediting completion', data.copyeditingComplete],
+      ['author proof approval', data.authorProofApproved],
+      ['accessibility review', data.accessibilityReviewComplete],
+      ['HTML/PDF bibliographic agreement', data.htmlPdfMatchConfirmed],
+      ['figures, tables and references consistency', data.figuresTablesReferencesConsistent],
+      ['PDF final/clean review', data.pdfCleanConfirmed],
+      ['video rights review', data.videoRightsReviewComplete],
+      ['video accessibility review', data.videoAccessibilityConfirmed]
+    ].filter(function (item) { return item[1] !== true; }).map(function (item) { return item[0]; });
+    if (productionChecks.length) throw serviceError('Publication safeguards are incomplete: confirm ' + productionChecks.join(', ') + '.');
     if (!htmlUrl || data.htmlConfirmed !== true) throw serviceError('Confirm and provide the approved full-paper HTML URL before publication.');
     if (!pdfUrl || data.pdfConfirmed !== true) throw serviceError('Confirm and provide the authorised full-paper PDF URL before publication.');
     if (!videoTitle || !videoUrl || data.videoConfirmed !== true) throw serviceError('Confirm and provide the complimentary explanatory video title and direct media URL before publication.');
@@ -561,27 +587,33 @@ function normaliseArticle(data, id, status, actor) {
     pages: cleanText(data.pages, 50), received: isoDate(data.received),
     revised: isoDate(data.revised), accepted: isoDate(data.accepted),
     published: published, language: cleanText(data.language, 40) || 'English',
-    license: cleanText(data.license, 100) || 'CC BY 4.0',
-    license_url: safePublicUrl(data.licenseUrl, true) || 'https://creativecommons.org/licenses/by/4.0/',
-    copyright_holder: cleanText(data.copyrightHolder, 180) || 'The author(s)',
+    license: cleanText(data.license, 100),
+    license_url: safePublicUrl(data.licenseUrl, true),
+    copyright_holder: cleanText(data.copyrightHolder, 180),
     html_url: htmlUrl, pdf_url: pdfUrl, pdf_download_url: pdfDownloadUrl,
     video_title: videoTitle, video_url: videoUrl, video_poster_url: videoPosterUrl,
     video_caption_url: videoCaptionUrl, video_transcript_url: videoTranscriptUrl,
+    acceptance_documented: data.acceptanceDocumented === true ? 'TRUE' : 'FALSE',
+    copyediting_complete: data.copyeditingComplete === true ? 'TRUE' : 'FALSE',
+    author_proof_approved: data.authorProofApproved === true ? 'TRUE' : 'FALSE',
+    accessibility_review_complete: data.accessibilityReviewComplete === true ? 'TRUE' : 'FALSE',
+    html_pdf_match_confirmed: data.htmlPdfMatchConfirmed === true ? 'TRUE' : 'FALSE',
+    figures_tables_references_consistent: data.figuresTablesReferencesConsistent === true ? 'TRUE' : 'FALSE',
+    pdf_clean_confirmed: data.pdfCleanConfirmed === true ? 'TRUE' : 'FALSE',
+    video_rights_review_complete: data.videoRightsReviewComplete === true ? 'TRUE' : 'FALSE',
+    video_accessibility_confirmed: data.videoAccessibilityConfirmed === true ? 'TRUE' : 'FALSE',
     status: status,
     published_by: status === 'PUBLISHED' ? actor : ''
   };
 }
 
 function normaliseDoiStatus(value, doi) {
-  if (doi) return 'ASSIGNED';
-  const status = cleanText(value, 40).toUpperCase() || 'PENDING_REGISTRATION';
-  if (status !== 'PENDING_REGISTRATION') throw serviceError('An article without a registered DOI must use DOI status PENDING_REGISTRATION.');
-  return status;
-}
-
-function isEligiblePioneerDoiPendingRelease(volume, issue, issueTitle, published, doiStatus) {
-  return doiStatus === 'PENDING_REGISTRATION' && volume === '1' && issue === '1' &&
-    /pioneer/i.test(issueTitle) && /^2026-(07|08)-/.test(published || '');
+  const status = cleanText(value, 40).toUpperCase() || (doi ? 'REGISTERED' : 'UNREGISTERED_DRAFT');
+  if (doi && (status === 'PENDING_REGISTRATION' || status === 'UNREGISTERED_DRAFT')) throw serviceError('A registered DOI may be used only with DOI status REGISTERED.');
+  if (doi && (status === 'REGISTERED' || status === 'ASSIGNED')) return 'REGISTERED';
+  if (doi) throw serviceError('Select REGISTERED only after a successful Crossref submission diagnostic.');
+  if (status === 'PENDING_REGISTRATION' || status === 'UNREGISTERED_DRAFT') return 'UNREGISTERED_DRAFT';
+  throw serviceError('An article without a registered DOI must be marked UNREGISTERED_DRAFT.');
 }
 
 function setArticleStatus(data) {
@@ -830,7 +862,7 @@ function articleForPublic(article) {
     id: article.id, title: article.title, domain: article.domain,
     articleType: article.article_type, authors: parseJson(article.authors_json, []),
     abstract: article.abstract, keywords: parseJson(article.keywords_json, []),
-    doi: article.doi, doiStatus: article.doi_status || (article.doi ? 'ASSIGNED' : 'PENDING_REGISTRATION'), volume: article.volume, issue: article.issue,
+    doi: article.doi, doiStatus: article.doi_status || (article.doi ? 'REGISTERED' : 'UNREGISTERED_DRAFT'), volume: article.volume, issue: article.issue,
     issueTitle: article.issue_title, eLocator: article.elocator, pages: article.pages,
     received: article.received, revised: article.revised, accepted: article.accepted,
     published: article.published, language: article.language,
@@ -847,6 +879,17 @@ function articleForDashboard(article) {
   const result = articleForPublic(article);
   result.status = article.status;
   result.updatedAt = article.updated_at;
+  result.publicationChecks = {
+    acceptanceDocumented: article.acceptance_documented === 'TRUE',
+    copyeditingComplete: article.copyediting_complete === 'TRUE',
+    authorProofApproved: article.author_proof_approved === 'TRUE',
+    accessibilityReviewComplete: article.accessibility_review_complete === 'TRUE',
+    htmlPdfMatchConfirmed: article.html_pdf_match_confirmed === 'TRUE',
+    figuresTablesReferencesConsistent: article.figures_tables_references_consistent === 'TRUE',
+    pdfCleanConfirmed: article.pdf_clean_confirmed === 'TRUE',
+    videoRightsReviewComplete: article.video_rights_review_complete === 'TRUE',
+    videoAccessibilityConfirmed: article.video_accessibility_confirmed === 'TRUE'
+  };
   return result;
 }
 
@@ -1077,10 +1120,16 @@ function cleanAuthor(author) {
 }
 
 function cleanDoi(value) {
-  const text = String(value || '').trim().replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, '');
+  const text = String(value || '').trim().replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, '').toLowerCase();
   if (!text) return '';
+  if (/^(pending|n\/?a|none|unknown|tbd)$/i.test(text)) throw serviceError('The registered DOI field accepts only a formally registered DOI. Leave it empty while registration is pending.');
   if (!/^10\.\d{4,9}\/[\-._;()/:A-Z0-9]+$/i.test(text)) throw serviceError('Enter a valid, formally assigned DOI or leave the DOI field empty.');
   return text;
+}
+function publicationDate(value) {
+  const text = String(value || '').trim();
+  if (/^\d{4}-(0[1-9]|1[0-2])$/.test(text)) return text;
+  return isoDate(text);
 }
 function isoDate(value) {
   const text = String(value || '');

@@ -475,7 +475,7 @@
       language: article.language || 'English', abstract: article.abstract, keywords: (article.keywords || []).join(', '),
       received: article.received, revised: article.revised, accepted: article.accepted, published: article.published,
       volume: article.volume, issue: article.issue, issue_title: article.issueTitle, elocator: article.eLocator,
-      pages: article.pages, doi: article.doi, doi_status: article.doiStatus || (article.doi ? 'ASSIGNED' : 'PENDING_REGISTRATION'), license: article.license, license_url: article.licenseUrl,
+      pages: article.pages, doi: article.doi, doi_status: article.doiStatus || (article.doi ? 'REGISTERED' : 'UNREGISTERED_DRAFT'), license: article.license, license_url: article.licenseUrl,
       copyright_holder: article.copyrightHolder, html_url: article.htmlUrl,
       pdf_url: article.pdfUrl, pdf_download_url: article.pdfDownloadUrl,
       video_title: article.videoTitle, video_url: article.videoUrl,
@@ -487,6 +487,16 @@
     field(articleForm, 'html_confirmed').checked = false;
     field(articleForm, 'pdf_confirmed').checked = false;
     field(articleForm, 'video_confirmed').checked = false;
+    const checks = article.publicationChecks || {};
+    field(articleForm, 'acceptance_documented').checked = checks.acceptanceDocumented === true;
+    field(articleForm, 'copyediting_complete').checked = checks.copyeditingComplete === true;
+    field(articleForm, 'author_proof_approved').checked = checks.authorProofApproved === true;
+    field(articleForm, 'accessibility_review_complete').checked = checks.accessibilityReviewComplete === true;
+    field(articleForm, 'html_pdf_match_confirmed').checked = false;
+    field(articleForm, 'figures_tables_references_consistent').checked = checks.figuresTablesReferencesConsistent === true;
+    field(articleForm, 'pdf_clean_confirmed').checked = false;
+    field(articleForm, 'video_rights_review_complete').checked = checks.videoRightsReviewComplete === true;
+    field(articleForm, 'video_accessibility_confirmed').checked = checks.videoAccessibilityConfirmed === true;
     setAuthors(article.authors || []);
     activatePane('papers');
     articleForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -503,16 +513,33 @@
       const keywords = field(articleForm, 'keywords').value.split(',').map(item => item.trim()).filter(Boolean);
       const metadataIssues = status === 'PUBLISHED' ? publicationMetadataIssues(authors, abstract, keywords) : [];
       if (metadataIssues.length) throw new Error(`Publication metadata is incomplete: add ${metadataIssues.join(', ')}.`);
+      const articleId = field(articleForm, 'article_id').value.trim().toLowerCase();
+      const volume = field(articleForm, 'volume').value.trim();
+      const issue = field(articleForm, 'issue').value.trim();
+      const issueTitle = field(articleForm, 'issue_title').value.trim();
+      const published = field(articleForm, 'published').value;
+      const doiStatus = field(articleForm, 'doi_status').value;
+      const doi = field(articleForm, 'doi').value.trim().replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, '').toLowerCase();
+      if (/^(pending|n\/?a|none|unknown|tbd)$/i.test(doi)) throw new Error('Registered article DOI must contain only a formally registered DOI. Leave the field empty for a draft.');
+      if (doi && !/^10\.\d{4,9}\/[\-._;()/:a-z0-9]+$/.test(doi)) throw new Error('Enter a valid registered DOI or leave the field empty.');
+      if (/^e(?:00[1-9]|0[1-5][0-9]|060)$/.test(articleId) && doi && doi !== `10.68232/cj.${articleId}`) throw new Error(`The registered Pioneer DOI must be 10.68232/cj.${articleId}.`);
+      if (status === 'PUBLISHED' && (!doi || doiStatus !== 'REGISTERED')) throw new Error('A verified registered DOI is required before publication. Save this record as a draft until final Crossref verification is recorded.');
+      if (doi && doiStatus !== 'REGISTERED') throw new Error('A DOI value can be saved only with DOI status REGISTERED.');
+      const safeguardNames = ['acceptance_documented', 'copyediting_complete', 'author_proof_approved', 'accessibility_review_complete', 'html_pdf_match_confirmed', 'figures_tables_references_consistent', 'pdf_clean_confirmed', 'video_rights_review_complete', 'video_accessibility_confirmed'];
+      if (status === 'PUBLISHED') {
+        const missingSafeguards = safeguardNames.filter(name => !field(articleForm, name).checked);
+        if (missingSafeguards.length) throw new Error('Complete every publication-safeguard confirmation before publication.');
+      }
       const response = await api({
-        action: 'saveArticle', status, id: field(articleForm, 'article_id').value.trim(),
+        action: 'saveArticle', status, id: articleId,
         articleType: field(articleForm, 'article_type').value.trim(), title: field(articleForm, 'title').value.trim(),
         domain: field(articleForm, 'domain').value, language: field(articleForm, 'language').value.trim(),
         authors, abstract, keywords,
         received: field(articleForm, 'received').value, revised: field(articleForm, 'revised').value,
-        accepted: field(articleForm, 'accepted').value, published: field(articleForm, 'published').value,
-        volume: field(articleForm, 'volume').value.trim(), issue: field(articleForm, 'issue').value.trim(),
-        issueTitle: field(articleForm, 'issue_title').value.trim(), eLocator: field(articleForm, 'elocator').value.trim(),
-        pages: field(articleForm, 'pages').value.trim(), doi: field(articleForm, 'doi').value.trim(), doiStatus: field(articleForm, 'doi_status').value,
+        accepted: field(articleForm, 'accepted').value, published,
+        volume, issue,
+        issueTitle, eLocator: field(articleForm, 'elocator').value.trim(),
+        pages: field(articleForm, 'pages').value.trim(), doi, doiStatus,
         license: field(articleForm, 'license').value.trim(), licenseUrl: field(articleForm, 'license_url').value.trim(),
         copyrightHolder: field(articleForm, 'copyright_holder').value.trim(),
         htmlUrl: field(articleForm, 'html_url').value.trim(), htmlConfirmed: field(articleForm, 'html_confirmed').checked,
@@ -522,11 +549,20 @@
         videoPosterUrl: field(articleForm, 'video_poster_url').value.trim(),
         videoCaptionUrl: field(articleForm, 'video_caption_url').value.trim(),
         videoTranscriptUrl: field(articleForm, 'video_transcript_url').value.trim(),
-        videoConfirmed: field(articleForm, 'video_confirmed').checked
+        videoConfirmed: field(articleForm, 'video_confirmed').checked,
+        acceptanceDocumented: field(articleForm, 'acceptance_documented').checked,
+        copyeditingComplete: field(articleForm, 'copyediting_complete').checked,
+        authorProofApproved: field(articleForm, 'author_proof_approved').checked,
+        accessibilityReviewComplete: field(articleForm, 'accessibility_review_complete').checked,
+        htmlPdfMatchConfirmed: field(articleForm, 'html_pdf_match_confirmed').checked,
+        figuresTablesReferencesConsistent: field(articleForm, 'figures_tables_references_consistent').checked,
+        pdfCleanConfirmed: field(articleForm, 'pdf_clean_confirmed').checked,
+        videoRightsReviewComplete: field(articleForm, 'video_rights_review_complete').checked,
+        videoAccessibilityConfirmed: field(articleForm, 'video_accessibility_confirmed').checked
       });
       if (!response.ok) throw new Error(response.error || 'The paper record could not be saved.');
       resetArticle();
-      const doiMessage = response.article?.doiStatus === 'PENDING_REGISTRATION' ? 'Paper published with the visible DOI pending registration notice. Verify the full HTML, both PDF actions, explanatory video, captions/transcript, public metadata and subsequent Crossref update before announcing it.' : 'Paper published. Verify the DOI, full HTML, both PDF actions, explanatory video, captions/transcript and public metadata before announcing it.';
+      const doiMessage = 'Paper published. Verify the registered DOI, full HTML, both PDF actions, explanatory video, captions/transcript and public metadata before announcing it.';
       await loadDesk(status === 'PUBLISHED' ? doiMessage : 'Paper draft saved.');
       activatePane('papers');
     } catch (error) { show(error.message || 'The paper record could not be saved.', 'error'); }

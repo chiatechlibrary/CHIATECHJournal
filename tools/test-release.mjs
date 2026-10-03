@@ -43,15 +43,19 @@ check('sessions expire on either absolute or idle deadline', () => {
 });
 check('unassigned founder DOI is absent; ORCID checksum validated', () => { assert.equal(c.publicProfile().managingEditorDoi,''); assert.equal(c.cleanOrcid('0009-0009-6434-4586'),'0009-0009-6434-4586'); assert.throws(() => c.cleanOrcid('0000-0000-0000-0000')); });
 check('dangerous Sheet formula prefixes are neutralised', () => { assert.equal(c.safeSheetValue('=IMPORTXML("https://invalid", "//x")'), '\'=IMPORTXML("https://invalid", "//x")'); assert.equal(c.safeSheetValue('+2347037689917'), "'+2347037689917"); });
-check('publication requires actual boolean confirmation and metadata, with one bounded DOI-pending Pioneer exception', () => {
+check('publication requires actual boolean confirmation, verified DOI evidence and complete metadata', () => {
   for (const value of [false, 'false', 'true', 1, null]) assert.throws(() => c.saveArticle({...h.article,token:adminToken,pdfConfirmed:value}));
   assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:''}));
-  assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:'',doiStatus:'ASSIGNED'}));
+  assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:'',doiStatus:'REGISTERED'}));
   assert.throws(() => c.saveArticle({...h.article,token:adminToken,authors:[]}));
-  const pioneer = c.saveArticle({...h.article,token:adminToken,doi:'',doiStatus:'PENDING_REGISTRATION',received:'2026-07-01',accepted:'2026-07-20',published:'2026-07-31',volume:'1',issue:'1',issueTitle:'July 2026 Pioneer Launch Issue'});
-  assert.equal(pioneer.article.doiStatus,'PENDING_REGISTRATION');
-  assert.equal(c.publicArticle(h.article.id).article.doiStatus,'PENDING_REGISTRATION');
-  assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:'',doiStatus:'PENDING_REGISTRATION',issueTitle:'Standard issue',published:'2026-07-31'}));
+  assert.throws(() => c.saveArticle({...h.article,id:'e001',eLocator:'e001',token:adminToken,doi:'',doiStatus:'UNREGISTERED_DRAFT',received:'2026-07-01',accepted:'2026-07-20',published:'2026-07-31',volume:'1',issue:'1',issueTitle:'Pioneer Volume · July 2026 · Part 1'}),/verified registered DOI/);
+  assert.throws(() => c.saveArticle({...h.article,id:'e060',eLocator:'e060',token:adminToken,doi:'',doiStatus:'UNREGISTERED_DRAFT',received:'2026-08-01',accepted:'2026-08-20',published:'2026-08-31',volume:'1',issue:'2',issueTitle:'Pioneer Volume · August 2026 · Part 2'}),/verified registered DOI/);
+  const draft = c.saveArticle({...h.article,id:'e001',eLocator:'e001',token:adminToken,status:'DRAFT',doi:'',doiStatus:'UNREGISTERED_DRAFT'});
+  assert.equal(draft.article.doiStatus,'UNREGISTERED_DRAFT');
+  c.setArticleStatus({token:adminToken,id:'e001',status:'DRAFT'});
+  assert.throws(() => c.saveArticle({...h.article,id:'e026',token:adminToken,doi:'10.68232/cj.e027',doiStatus:'REGISTERED'}));
+  assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:'10.68232/cj.e001',doiStatus:'REGISTERED'}),/no verified Crossref/);
+  assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:'10.55555/local-qa-only',doiStatus:'UNREGISTERED_DRAFT'}),/REGISTERED/);
 });
 check('invalid login is rejected and repeated failures are throttled', () => {
   for (let i=0;i<8;i++) assert.equal(c.login({email:'absent@example.invalid',password:'Incorrect local QA input'}).ok,false);

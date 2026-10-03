@@ -16,6 +16,44 @@
 /articles/2026/* /404.html 410!
 /articles/JULY%202026/* /404.html 410!
 /articles/_editorial_work/* /404.html 404!
+# CHIATECH DOI LEGACY TARGETS START
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e026/html/e026.html /papers/e026/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e027/html/e027.html /papers/e027/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e028/html/e028.html /papers/e028/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e029/html/e029.html /papers/e029/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e030/html/e030.html /papers/e030/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e031/html/e031.html /papers/e031/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e032/html/e032.html /papers/e032/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e033/html/e033.html /papers/e033/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e034/html/e034.html /papers/e034/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e035/html/e035.html /papers/e035/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e036/html/e036.html /papers/e036/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e037/html/e037.html /papers/e037/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e038/html/e038.html /papers/e038/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e039/html/e039.html /papers/e039/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e040/html/e040.html /papers/e040/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e041/html/e041.html /papers/e041/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e042/html/e042.html /papers/e042/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e043/html/e043.html /papers/e043/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e044/html/e044.html /papers/e044/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e045/html/e045.html /papers/e045/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e046/html/e046.html /papers/e046/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e047/html/e047.html /papers/e047/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e048/html/e048.html /papers/e048/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e049/html/e049.html /papers/e049/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e050/html/e050.html /papers/e050/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e051/html/e051.html /papers/e051/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e052/html/e052.html /papers/e052/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e053/html/e053.html /papers/e053/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e054/html/e054.html /papers/e054/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e055/html/e055.html /papers/e055/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e056/html/e056.html /papers/e056/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e057/html/e057.html /papers/e057/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e058/html/e058.html /papers/e058/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e059/html/e059.html /papers/e059/ 301!
+/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e060/html/e060.html /papers/e060/ 301!
+# CHIATECH DOI LEGACY TARGETS END
+
 /downloads/CHIATECH_Review_Engine_Report_Template.docx /downloads/CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx 301
 /downloads/CHIATECH_Review_Engine_Report_Template_Updated.docx /downloads/CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx 301
 /downloads/CHIATECH-STEM_Camera-Ready_Manuscript_Template.docx /downloads/CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx 301
@@ -40,3 +78,4 @@
 /LAUNCH-CHECKLIST.md /404.html 404
 /PROJECT-DIRECTORY.md /404.html 404
 /* /404.html 404
+
