@@ -1,0 +1,54 @@
+CHIATECH JOURNAL - CHIEF EDITOR VIDEO COPY/PASTE
+PUBLIC-SAFE VERIFIED MEDIA FIELDS - e002-e005
+
+Only the four records below have a complete MP4, poster, WebVTT and transcript asset set.
+The videos are concise silent visual summaries; do not describe them as human-narrated recordings.
+Do not populate these fields for e001 or e006-e060 until approved assets actually exist.
+
+========================================================================================
+ARTICLE ID: e002
+Registered DOI: 10.68232/cj.e002
+Complimentary explanatory video: AVAILABLE - SILENT VISUAL SUMMARY
+Public video title: Complimentary explanatory visual summary: Event Decoration as a Source of Household Income Sustainability in Garkawa, Plateau State, Nigeria: A Descriptive Survey
+Direct video URL: https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary.mp4
+Poster image URL: https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary-poster.png
+WebVTT captions URL: https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary.vtt
+Accessible transcript URL: https://journal.chiatechsolutions.com/papers/e002/explanatory-transcript.html
+Accessibility evidence: WebVTT captions and HTML transcript present
+Rights/approval note: retain the existing editorial confirmation control; this file does not replace rights review.
+
+========================================================================================
+ARTICLE ID: e003
+Registered DOI: 10.68232/cj.e003
+Complimentary explanatory video: AVAILABLE - SILENT VISUAL SUMMARY
+Public video title: Complimentary explanatory visual summary: Tailoring Techniques for Special-Occasion Dresses in Berom Land: A Case Study of Jos South Local Government Area, Plateau State, Nigeria
+Direct video URL: https://journal.chiatechsolutions.com/papers/e003/media/e003-explanatory-summary.mp4
+Poster image URL: https://journal.chiatechsolutions.com/papers/e003/media/e003-explanatory-summary-poster.png
+WebVTT captions URL: https://journal.chiatechsolutions.com/papers/e003/media/e003-explanatory-summary.vtt
+Accessible transcript URL: https://journal.chiatechsolutions.com/papers/e003/explanatory-transcript.html
+Accessibility evidence: WebVTT captions and HTML transcript present
+Rights/approval note: retain the existing editorial confirmation control; this file does not replace rights review.
+
+========================================================================================
+ARTICLE ID: e004
+Registered DOI: 10.68232/cj.e004
+Complimentary explanatory video: AVAILABLE - SILENT VISUAL SUMMARY
+Public video title: Complimentary explanatory visual summary: Netlify or Render for an Open-Access Journal Portal? Evidence-Based Deployment Selection for the CHIATECH JOURNAL Architecture
+Direct video URL: https://journal.chiatechsolutions.com/papers/e004/media/e004-explanatory-summary.mp4
+Poster image URL: https://journal.chiatechsolutions.com/papers/e004/media/e004-explanatory-summary-poster.png
+WebVTT captions URL: https://journal.chiatechsolutions.com/papers/e004/media/e004-explanatory-summary.vtt
+Accessible transcript URL: https://journal.chiatechsolutions.com/papers/e004/explanatory-transcript.html
+Accessibility evidence: WebVTT captions and HTML transcript present
+Rights/approval note: retain the existing editorial confirmation control; this file does not replace rights review.
+
+========================================================================================
+ARTICLE ID: e005
+Registered DOI: 10.68232/cj.e005
+Complimentary explanatory video: AVAILABLE - SILENT VISUAL SUMMARY
+Public video title: Complimentary explanatory visual summary: Church Engagement and Perceived Reduction of Community Insecurity in Abuja, Nigeria: Survey-Weighted Evidence Across the Six FCT Area Councils
+Direct video URL: https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary.mp4
+Poster image URL: https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary-poster.png
+WebVTT captions URL: https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary.vtt
+Accessible transcript URL: https://journal.chiatechsolutions.com/papers/e005/explanatory-transcript.html
+Accessibility evidence: WebVTT captions and HTML transcript present
+Rights/approval note: retain the existing editorial confirmation control; this file does not replace rights review.
