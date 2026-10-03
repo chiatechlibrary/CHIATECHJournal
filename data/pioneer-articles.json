@@ -1,6 +1,6 @@
 {
   "schema": "chiatech-journal-public-articles/v1",
-  "generated_at": "2026-10-03T09:16:12.271481+00:00",
+  "generated_at": "2026-10-03T22:08:21.282299+00:00",
   "journal_doi": "10.68232/cj",
   "records": [
     {
@@ -63,7 +63,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Chia, S. K., Julius, B. J., Ukule, P., & Elumeyan, E. (2026). Design, Simulation, Implementation, and Operational Evaluation of the CACGWA Student Revision and CBT Portal: A 500-Item-Bank Randomized Assessment Model for Senior Secondary School Examinations. CHIATECH JOURNAL, 1(1), e001. https://doi.org/10.68232/cj.e001",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e001/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e001/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e002",
@@ -107,7 +114,15 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Akila, L. K. (2026). Event Decoration as a Source of Household Income Sustainability in Garkawa, Plateau State, Nigeria: A Descriptive Survey. CHIATECH JOURNAL, 1(1), e002. https://doi.org/10.68232/cj.e002",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e002/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e002/",
+      "video": {
+        "title": "Complimentary explanatory visual summary: Event Decoration as a Source of Household Income Sustainability in Garkawa, Plateau State, Nigeria: A Descriptive Survey",
+        "url": "https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary.mp4",
+        "poster_url": "https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary-poster.png",
+        "captions_vtt_url": "https://journal.chiatechsolutions.com/papers/e002/media/e002-explanatory-summary.vtt",
+        "transcript_url": "https://journal.chiatechsolutions.com/papers/e002/explanatory-transcript.html",
+        "format_note": "Concise silent visual summary with WebVTT captions and an accessible HTML transcript."
+      }
     },
     {
       "article_id": "e003",
@@ -151,7 +166,15 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Akila, L. K. (2026). Tailoring Techniques for Special-Occasion Dresses in Berom Land: A Case Study of Jos South Local Government Area, Plateau State, Nigeria. CHIATECH JOURNAL, 1(1), e003. https://doi.org/10.68232/cj.e003",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e003/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e003/",
+      "video": {
+        "title": "Complimentary explanatory visual summary: Tailoring Techniques for Special-Occasion Dresses in Berom Land: A Case Study of Jos South Local Government Area, Plateau State, Nigeria",
+        "url": "https://journal.chiatechsolutions.com/papers/e003/media/e003-explanatory-summary.mp4",
+        "poster_url": "https://journal.chiatechsolutions.com/papers/e003/media/e003-explanatory-summary-poster.png",
+        "captions_vtt_url": "https://journal.chiatechsolutions.com/papers/e003/media/e003-explanatory-summary.vtt",
+        "transcript_url": "https://journal.chiatechsolutions.com/papers/e003/explanatory-transcript.html",
+        "format_note": "Concise silent visual summary with WebVTT captions and an accessible HTML transcript."
+      }
     },
     {
       "article_id": "e004",
@@ -195,7 +218,15 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Chia, S. K. (2026). Netlify or Render for an Open-Access Journal Portal? Evidence-Based Deployment Selection for the CHIATECH JOURNAL Architecture. CHIATECH JOURNAL, 1(1), e004. https://doi.org/10.68232/cj.e004",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e004/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e004/",
+      "video": {
+        "title": "Complimentary explanatory visual summary: Netlify or Render for an Open-Access Journal Portal? Evidence-Based Deployment Selection for the CHIATECH JOURNAL Architecture",
+        "url": "https://journal.chiatechsolutions.com/papers/e004/media/e004-explanatory-summary.mp4",
+        "poster_url": "https://journal.chiatechsolutions.com/papers/e004/media/e004-explanatory-summary-poster.png",
+        "captions_vtt_url": "https://journal.chiatechsolutions.com/papers/e004/media/e004-explanatory-summary.vtt",
+        "transcript_url": "https://journal.chiatechsolutions.com/papers/e004/explanatory-transcript.html",
+        "format_note": "Concise silent visual summary with WebVTT captions and an accessible HTML transcript."
+      }
     },
     {
       "article_id": "e005",
@@ -251,7 +282,15 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Church Engagement and Perceived Reduction of Community Insecurity in Abuja, Nigeria: Survey-Weighted Evidence Across the Six FCT Area Councils. CHIATECH JOURNAL, 1(1), e005. https://doi.org/10.68232/cj.e005",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e005/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e005/",
+      "video": {
+        "title": "Complimentary explanatory visual summary: Church Engagement and Perceived Reduction of Community Insecurity in Abuja, Nigeria: Survey-Weighted Evidence Across the Six FCT Area Councils",
+        "url": "https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary.mp4",
+        "poster_url": "https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary-poster.png",
+        "captions_vtt_url": "https://journal.chiatechsolutions.com/papers/e005/media/e005-explanatory-summary.vtt",
+        "transcript_url": "https://journal.chiatechsolutions.com/papers/e005/explanatory-transcript.html",
+        "format_note": "Concise silent visual summary with WebVTT captions and an accessible HTML transcript."
+      }
     },
     {
       "article_id": "e006",
@@ -307,7 +346,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Verified Early Warning, Lawful Reporting and Community Safety: Church Engagement and Perceived Insecurity Reduction in Abuja, Nigeria. CHIATECH JOURNAL, 1(1), e006. https://doi.org/10.68232/cj.e006",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e006/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e006/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e007",
@@ -363,7 +409,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). From Peace Teaching to Public Safety: Theological Peace Education, Moral Formation and Perceived Community Insecurity Reduction in Abuja, Nigeria. CHIATECH JOURNAL, 1(1), e007. https://doi.org/10.68232/cj.e007",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e007/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e007/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e008",
@@ -419,7 +472,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Bridging Faith Communities and Public Institutions: Interfaith and Institutional Collaboration and Perceived Community Security in Abuja, Nigeria. CHIATECH JOURNAL, 1(1), e008. https://doi.org/10.68232/cj.e008",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e008/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e008/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e009",
@@ -475,7 +535,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Okoriko, S. D., Nnaji, C. O., & Kehinde, A. (2026). Church Engagement and Human Security in Nigeria: An Integrative Review of Practical Theology, Conflict Transformation and Social Capital with Implications for Abuja. CHIATECH JOURNAL, 1(1), e009. https://doi.org/10.68232/cj.e009",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e009/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e009/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e010",
@@ -518,7 +585,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "The authors",
       "recommended_citation": "Chia, S. K. (2026). Selecting Generative AI Systems for Education and Business in 2026: A Capability–Risk Framework for Comparing Frontier and Open-Weight Model Ecosystems. CHIATECH JOURNAL, 1(1), e010. https://doi.org/10.68232/cj.e010",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e010/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e010/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e011",
@@ -561,7 +635,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Integrating Defensive and Offensive Cybersecurity Education: A Lab-Based Competency Framework for Workforce-Ready Learning. CHIATECH JOURNAL, 1(1), e011. https://doi.org/10.68232/cj.e011",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e011/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e011/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e012",
@@ -616,7 +697,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). Theology in Principle, Inclusion in Practice? Divine Calling and the Theology–Practice Gap in Nigerian Anglican Seminaries. CHIATECH JOURNAL, 1(1), e012. https://doi.org/10.68232/cj.e012",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e012/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e012/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e013",
@@ -671,7 +759,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). When Policy Does Not Open the Door: Physical Accessibility and Disability-Inclusion Governance in Anglican Seminaries in Nigeria. CHIATECH JOURNAL, 1(1), e013. https://doi.org/10.68232/cj.e013",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e013/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e013/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e014",
@@ -726,7 +821,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). Who Is Considered Fit for Ministry? Age, Region and Disability-Inclusion Attitudes among Anglican Clergy, Faculty and Administrators in Nigeria. CHIATECH JOURNAL, 1(1), e014. https://doi.org/10.68232/cj.e014",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e014/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e014/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e015",
@@ -781,7 +883,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ukule, P., Nnaji, C. O., & Kehinde, A. (2026). Restricted Inclusion as an Institutional System: Mixed-Methods Evidence on Lived Experience, Gatekeeping and Barriers in Anglican Ministerial Formation in Nigeria. CHIATECH JOURNAL, 1(1), e015. https://doi.org/10.68232/cj.e015",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e015/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e015/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e016",
@@ -824,7 +933,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ukule, P. (2026). From Charity to Ecclesial Participation: Disability Theology, Divine Calling and Ministerial Formation in African Christianity — A Critical Review. CHIATECH JOURNAL, 1(1), e016. https://doi.org/10.68232/cj.e016",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e016/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e016/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e017",
@@ -867,7 +983,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ukule, P. (2026). Designing the Seminary for Human Diversity: Universal Design, Reasonable Accommodation and Disability-Inclusive Theological Education — A Review. CHIATECH JOURNAL, 1(1), e017. https://doi.org/10.68232/cj.e017",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e017/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e017/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e018",
@@ -911,7 +1034,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Idim, I. T. (2026). Deconstructing the Mechanisms Linking Youth Unemployment to Criminality in Nigeria’s North-Central Region: A Grounded Theory Study. CHIATECH JOURNAL, 1(1), e018. https://doi.org/10.68232/cj.e018",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e018/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e018/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e019",
@@ -955,7 +1085,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Idim, I. T. (2026). Youth Labour-Market Vulnerability in Nigeria’s North-Central Zone: Mixed-Methods Evidence on Skills Mismatch, Informality, Gender and Conflict Exposure. CHIATECH JOURNAL, 1(1), e019. https://doi.org/10.68232/cj.e019",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e019/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e019/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e020",
@@ -999,7 +1136,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). The Given–Unknown–Equation–Substitute–Solve (GUESS) Principle for Quantitative STEM Problem Solving: A Mixed-Methods Evaluation Across Four Undergraduate Disciplines. CHIATECH JOURNAL, 1(1), e020. https://doi.org/10.68232/cj.e020",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e020/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e020/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e021",
@@ -1043,7 +1187,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Idim, I. T. (2026). Integrated Livestock Feed Zones, Crop-Residue Utilisation and Economic Growth in Nigeria, 1990–2025: Cointegration, Causality and Error-Correction Evidence. CHIATECH JOURNAL, 1(1), e021. https://doi.org/10.68232/cj.e021",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e021/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e021/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e022",
@@ -1097,7 +1248,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Nengem, M. M., Avwioro, G. O., & Iyare, G. I. (2026). Multiplex Immunohistochemistry and Immunophenotyping in Predictive Cancer Biomarker Discovery and Targeted Therapy. CHIATECH JOURNAL, 1(1), e022. https://doi.org/10.68232/cj.e022",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e022/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e022/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e023",
@@ -1143,7 +1301,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Rethinking STEM Teaching and Learning in Nigeria: An Integrated, Inquiry-Driven and Digitally Resilient Framework for the Revised Curriculum Era. CHIATECH JOURNAL, 1(1), e023. https://doi.org/10.68232/cj.e023",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e023/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e023/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e024",
@@ -1188,7 +1353,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). The SETEHEM Model for Knowledge Democratization and Workforce Innovation in Nigeria: A Bidirectional Interdisciplinary Framework Linking Education, Technology and Entrepreneurship. CHIATECH JOURNAL, 1(1), e024. https://doi.org/10.68232/cj.e024",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e024/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e024/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e025",
@@ -1246,7 +1418,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Nengem, M. M., Avwioro, G. O., & Iyare, G. I. (2026). Multiplex Immunohistochemistry and Spatial Immunophenotyping in Precision Oncology: Predictive Biomarkers, AI-Assisted Analysis and Clinical Translation. CHIATECH JOURNAL, 1(1), e025. https://doi.org/10.68232/cj.e025",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e025/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e025/",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e026",
@@ -1289,7 +1468,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Prompt Engineering for Reliable Large-Language-Model Interaction: From Instruction Design and Grounding to Evaluation and Prompt-Injection Resilience. CHIATECH JOURNAL, 1(2), e026. https://doi.org/10.68232/cj.e026",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e026/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e026/html/e026.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e027",
@@ -1332,7 +1518,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Explainable Deep Reinforcement Learning in Robotics: A Taxonomy of Explanations, Evaluation Criteria and Safety-Critical Deployment. CHIATECH JOURNAL, 1(2), e027. https://doi.org/10.68232/cj.e027",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e027/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e027/html/e027.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e028",
@@ -1375,7 +1568,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Microlearning for Faculty TPACK Development in Higher Education: An Evidence-Informed Design and Evaluation Framework. CHIATECH JOURNAL, 1(2), e028. https://doi.org/10.68232/cj.e028",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e028/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e028/html/e028.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e029",
@@ -1418,7 +1618,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Augmented-Reality-Enhanced Problem-Based Learning in STEM Education: Mechanisms, Evidence and an Implementation Framework for Engagement and Critical Thinking. CHIATECH JOURNAL, 1(2), e029. https://doi.org/10.68232/cj.e029",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e029/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e029/html/e029.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e030",
@@ -1461,7 +1668,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Teaching Further Mathematics in Nigerian Secondary Schools: An Evidence-Informed Multi-Pedagogy Framework for Problem Solving, Inquiry, Technology and Collaboration. CHIATECH JOURNAL, 1(2), e030. https://doi.org/10.68232/cj.e030",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e030/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e030/html/e030.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e031",
@@ -1507,7 +1721,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Integrating Defensive and Offensive Cybersecurity Education: A Lab-Based Competency Framework for Workforce-Ready Learning. CHIATECH JOURNAL, 1(2), e031. https://doi.org/10.68232/cj.e031",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e031/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e031/html/e031.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e032",
@@ -1558,7 +1779,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Akila, L. K. & Agbo, D. A. (2026). Establishment of a Mean Body-Measurement Chart for School Uniforms and Accessories of Primary-School Children Aged 6–12 Years in Jos, Plateau State, Nigeria: An Anthropometric and Prototype-Development Study. CHIATECH JOURNAL, 1(2), e032. https://doi.org/10.68232/cj.e032",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e032/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e032/html/e032.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e033",
@@ -1603,7 +1831,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Olumeyan, E. T. (2026). Integrating Business Intelligence and Data Mining for Venture Capital Assessment of Technology Startups: Hybrid Predictive Analytics, Explainable Risk Scoring and Real-Time Signals. CHIATECH JOURNAL, 1(2), e033. https://doi.org/10.68232/cj.e033",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e033/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e033/html/e033.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e034",
@@ -1649,7 +1884,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Olumeyan, E. T. (2026). Accounting Practices, Digitalisation and Financial-Risk Analytics among Informal Small Businesses in Gwagwalada, Abuja: An Empirical Accounting Data-Science Study. CHIATECH JOURNAL, 1(2), e034. https://doi.org/10.68232/cj.e034",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e034/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e034/html/e034.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e035",
@@ -1706,7 +1948,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Akila, L. K., Mwanle, G. C., & Usman, M. M. (2026). Optimizing Primary-School Uniform Mass Production Through Computer-Aided Basic-Block Development: A Reproducible Parametric Grading and Marker-Planning Experiment. CHIATECH JOURNAL, 1(2), e035. https://doi.org/10.68232/cj.e035",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e035/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e035/html/e035.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e036",
@@ -1751,7 +2000,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Olumeyan, E. T. (2026). Accounting Data Science, Digital Record-Keeping and Financial-Risk Management among MSMEs in Nigeria: A Critical Review of Evidence, Infrastructure and Policy. CHIATECH JOURNAL, 1(2), e036. https://doi.org/10.68232/cj.e036",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e036/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e036/html/e036.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e037",
@@ -1794,7 +2050,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ogbu, W. (2026). The Educational Trinity: Home, Child, and School Environment for Secure Learning in Nigeria. CHIATECH JOURNAL, 1(2), e037. https://doi.org/10.68232/cj.e037",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e037/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e037/html/e037.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e038",
@@ -1838,7 +2101,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ogbu, W. (2026). Assessment of Tertiary Institution Students' Perceptions and Experiences of Security in Nigerian Higher Education. CHIATECH JOURNAL, 1(2), e038. https://doi.org/10.68232/cj.e038",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e038/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e038/html/e038.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e039",
@@ -1890,7 +2160,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Akila, L. K. & Agbo, D. A. (2026). Textile Upcycling, Family Empowerment and Circular Livelihoods in Jos North, Nigeria: Empirical Evidence from 100 Upcycling Households. CHIATECH JOURNAL, 1(2), e039. https://doi.org/10.68232/cj.e039",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e039/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e039/html/e039.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e040",
@@ -1942,7 +2219,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Akila, L. K. & Anisah, J. Z. (2026). Digital Transformation in Clothing Technology: Awareness, Practical Adoption and Barriers to Computer-Aided Design among Tailors in Jos Metropolis, Nigeria. CHIATECH JOURNAL, 1(2), e040. https://doi.org/10.68232/cj.e040",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e040/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e040/html/e040.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e041",
@@ -1986,7 +2270,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ogbu, W. (2026). Security Challenges and Principals' Management Strategies in North-Central Nigerian Secondary Schools. CHIATECH JOURNAL, 1(2), e041. https://doi.org/10.68232/cj.e041",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e041/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e041/html/e041.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e042",
@@ -2032,7 +2323,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Amenger, G. (2026). Artificial Intelligence and Smart Border Surveillance for Intellectual Property Rights Enforcement at Nigeria’s Land Borders: A Critical Evidence Review and Responsible Implementation Framework. CHIATECH JOURNAL, 1(2), e042. https://doi.org/10.68232/cj.e042",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e042/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e042/html/e042.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e043",
@@ -2078,7 +2376,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Amenger, G. (2026). From Risk Profiles to Counterfeit Interception: AI-Enabled Customs Risk Targeting, Geospatial Intelligence and Non-Intrusive Inspection at Nigeria’s Land Borders. CHIATECH JOURNAL, 1(2), e043. https://doi.org/10.68232/cj.e043",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e043/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e043/html/e043.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e044",
@@ -2124,7 +2429,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Amenger, G. (2026). Resilient Hybrid Power Architecture for 24/7 Nigeria Customs Land-Border Operations: Grid, Solar PV, Battery Storage and Generator Coordination. CHIATECH JOURNAL, 1(2), e044. https://doi.org/10.68232/cj.e044",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e044/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e044/html/e044.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e045",
@@ -2170,7 +2482,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Abdulrahman, A. A. (2026). Mathematical Modelling of Residential Electricity Demand for Peak-Load Reduction in Nigeria: A Demand-Response Optimisation Framework Calibrated to Dota Community, Gwagwalada. CHIATECH JOURNAL, 1(2), e045. https://doi.org/10.68232/cj.e045",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e045/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e045/html/e045.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e046",
@@ -2227,7 +2546,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K., Amenger, G., & Goshwe, N. Y. (2026). Design, Small-Signal Modeling and Prototype Implementation of a 24 V-to-19 V PWM Buck Converter with Type-III Voltage-Mode Compensation. CHIATECH JOURNAL, 1(2), e046. https://doi.org/10.68232/cj.e046",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e046/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e046/html/e046.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e047",
@@ -2269,7 +2595,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Prompting for Human-Centred Output: The HUMAN Framework for Credible, Context-Aware Generative AI Writing. CHIATECH JOURNAL, 1(2), e047. https://doi.org/10.68232/cj.e047",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e047/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e047/html/e047.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e048",
@@ -2327,7 +2660,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K., Amenger, G., & Goshwe, N. Y. (2026). Loss-Aware Reliability Analysis and Contemporary Re-Engineering of a 24 V-to-19 V, 66.5 W PWM Buck Converter: Component Stress, Efficiency Bounds and Validation Protocol. CHIATECH JOURNAL, 1(2), e048. https://doi.org/10.68232/cj.e048",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e048/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e048/html/e048.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e049",
@@ -2385,7 +2725,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K., Amenger, G., & Goshwe, N. Y. (2026). Control-Oriented Mathematical Review of a 24 V-to-19 V PWM Buck Converter: State-Space Averaging, CCM Boundary, Type-III Loop Compensation and Design Consistency. CHIATECH JOURNAL, 1(2), e049. https://doi.org/10.68232/cj.e049",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e049/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e049/html/e049.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e050",
@@ -2437,7 +2784,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Abdulrahman, A. A. & Chia, S. K. (2026). Coupled Mathematical Modelling of Building Envelope and Cooling-Efficiency Standards for Nigerian Multi-Unit Housing: An Abuja-Calibrated BEEC–SONMELS Predictive Scenario Framework. CHIATECH JOURNAL, 1(2), e050. https://doi.org/10.68232/cj.e050",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e050/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e050/html/e050.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e051",
@@ -2481,7 +2835,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Mellah, I. (2026). Antimicrobial Resistance Profiles of Clinical and Environmental Staphylococcus aureus Across Six Secondary Health-Care Centres in Taraba State, Nigeria: Laboratory Evidence and Contemporary AMR Implications. CHIATECH JOURNAL, 1(2), e051. https://doi.org/10.68232/cj.e051",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e051/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e051/html/e051.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e052",
@@ -2534,7 +2895,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. & Amenger, G. (2026). From AC Socket to Silicon: End-to-End Circuit Analysis of 65 W Modern Laptop Power Systems — A Comparative Study of HP, Dell and Lenovo Architectures. CHIATECH JOURNAL, 1(2), e052. https://doi.org/10.68232/cj.e052",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e052/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e052/html/e052.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e053",
@@ -2579,7 +2947,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Mellah, I. (2026). Molecular Virulence and Clonal Architecture of Clinical and Environmental Staphylococcus aureus in Taraba State, Nigeria: PVL, mecA, SCCmec and spa-Typing Evidence. CHIATECH JOURNAL, 1(2), e053. https://doi.org/10.68232/cj.e053",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e053/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e053/html/e053.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e054",
@@ -2624,7 +2999,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Emmanuel, C. O. (2026). Renal Biochemical Signatures of Pregnancy-Induced Hypertension in Tertiary Antenatal Care in Enugu State, Nigeria: Electrolyte, Urea–Creatinine and Plasma-Protein Profiles. CHIATECH JOURNAL, 1(2), e054. https://doi.org/10.68232/cj.e054",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e054/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e054/html/e054.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e055",
@@ -2671,7 +3053,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Mellah, I. (2026). From Antibiograms to Whole-Genome Surveillance: A Critical Review of Methicillin-Resistant Staphylococcus aureus in Nigeria Across Clinical, Environmental and One Health Interfaces. CHIATECH JOURNAL, 1(2), e055. https://doi.org/10.68232/cj.e055",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e055/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e055/html/e055.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e056",
@@ -2717,7 +3106,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Amenger, G. (2026). Renewable Energy and Sustainable Power Systems for Rural Farming Communities in Nigeria: Productive-Use Electrification, Agricultural Resilience and an Integrated Engineering Framework. CHIATECH JOURNAL, 1(2), e056. https://doi.org/10.68232/cj.e056",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e056/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e056/html/e056.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e057",
@@ -2760,7 +3156,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Ukule, P. (2026). Responsible Digital Technology Adoption in Nigerian Secondary STEM Education: A Rights, Religious-Pluralism and Child-Safeguarding Framework. CHIATECH JOURNAL, 1(2), e057. https://doi.org/10.68232/cj.e057",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e057/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e057/html/e057.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e058",
@@ -2803,7 +3206,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Chia, S. K. (2026). Empowering Nigerian MSMEs through Finance, Technology and Capability: The SCALE Framework for Sustainable Industrial Development. CHIATECH JOURNAL, 1(2), e058. https://doi.org/10.68232/cj.e058",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e058/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e058/html/e058.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e059",
@@ -2847,7 +3257,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Zachariah, T. (2026). Testing a Motivation-Based Intervention for Mathematics and English Language Achievement among Senior Secondary School Students: A Randomized Pretest–Posttest Study Protocol. CHIATECH JOURNAL, 1(2), e059. https://doi.org/10.68232/cj.e059",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e059/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e059/html/e059.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     },
     {
       "article_id": "e060",
@@ -2890,7 +3307,14 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "copyright_holder": "",
       "recommended_citation": "Idim, I. T. (2026). The Impact of National Cybersecurity Operations Coordination on Critical Economic Sectors and Economic Growth in Nigeria, 2000-2025: A Policy-Economic Evidence Synthesis and Evaluation Framework. CHIATECH JOURNAL, 1(2), e060. https://doi.org/10.68232/cj.e060",
-      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/e060/"
+      "crossref_resource_url": "https://journal.chiatechsolutions.com/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e060/html/e060.html",
+      "video": {
+        "title": "",
+        "url": "",
+        "poster_url": "",
+        "captions_vtt_url": "",
+        "transcript_url": ""
+      }
     }
   ]
 }

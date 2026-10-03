@@ -19,6 +19,7 @@ import json
 import re
 import shutil
 import ssl
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -52,6 +53,7 @@ PUBLISHER = "CHIA TECH SOLUTIONS AND RESOURCES LIMITED"
 USER_AGENT = "CHIATECH DOI release audit/1.0 (mailto:chiatechlibrary@gmail.com)"
 ISSUE_1 = "Pioneer Volume · July 2026 · Part 1"
 ISSUE_2 = "Pioneer Volume · August 2026 · Part 2"
+PUBLIC_VIDEO_IDS = {"e002", "e003", "e004", "e005"}
 STAMP = datetime.now(timezone.utc).isoformat()
 
 
@@ -109,6 +111,22 @@ def recommended_citation(record: dict[str, Any]) -> str:
     )
 
 
+def video_record(record: dict[str, Any]) -> dict[str, Any]:
+    """Return only verified, present public supplementary-video assets."""
+    eid = record["article_id"]
+    if eid not in PUBLIC_VIDEO_IDS:
+        return {"title": "", "url": "", "poster_url": "", "captions_vtt_url": "", "transcript_url": ""}
+    base = f"{BASE_URL}/papers/{eid}"
+    return {
+        "title": f"Complimentary explanatory visual summary: {record['title']}",
+        "url": f"{base}/media/{eid}-explanatory-summary.mp4",
+        "poster_url": f"{base}/media/{eid}-explanatory-summary-poster.png",
+        "captions_vtt_url": f"{base}/media/{eid}-explanatory-summary.vtt",
+        "transcript_url": f"{base}/explanatory-transcript.html",
+        "format_note": "Concise silent visual summary with WebVTT captions and an accessible HTML transcript.",
+    }
+
+
 def registered_record(record: dict[str, Any], crossref: dict[str, Any]) -> dict[str, Any]:
     eid = record["article_id"]
     issue = "1" if int(eid[1:]) <= 25 else "2"
@@ -130,6 +148,7 @@ def registered_record(record: dict[str, Any], crossref: dict[str, Any]) -> dict[
             "crossref_resource_url": crossref.get("resource_url", legacy),
             "crossref_verified_at": STAMP,
             "crossref_api_title": crossref.get("title", ""),
+            "video": video_record(record),
             "license_name": record.get("license_name") or "CC BY 4.0",
             "license_url": record.get("license_url") or "https://creativecommons.org/licenses/by/4.0/",
         }
@@ -145,9 +164,18 @@ def registered_record(record: dict[str, Any], crossref: dict[str, Any]) -> dict[
 
 
 def request_json(url: str) -> dict[str, Any]:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
-    with urllib.request.urlopen(request, timeout=45, context=ssl.create_default_context()) as response:
-        return json.load(response)
+    last_error: Exception | None = None
+    for attempt in range(3):
+        request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+        try:
+            with urllib.request.urlopen(request, timeout=60, context=ssl.create_default_context()) as response:
+                return json.load(response)
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(2 * (attempt + 1))
+    assert last_error is not None
+    raise last_error
 
 
 def verify_crossref(record: dict[str, Any]) -> dict[str, Any]:
@@ -166,17 +194,25 @@ def verify_crossref(record: dict[str, Any]) -> dict[str, Any]:
 
 def resolver_check(doi: str, expected_eid: str) -> dict[str, Any]:
     url = f"https://doi.org/{doi}"
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urllib.request.urlopen(request, timeout=45, context=ssl.create_default_context()) as response:
-            final = response.geturl()
-            code = response.getcode()
-        matched = expected_eid == "journal" or f"/{expected_eid}/" in final.lower()
-        return {"doi": doi, "http_status": code, "redirect_chain": f"{url} -> {final}", "final_url": final, "expected_article": expected_eid, "matches_expected_article": "YES" if matched else "NO", "result": "PASS" if code == 200 and matched else "FAIL"}
-    except urllib.error.HTTPError as exc:
-        return {"doi": doi, "http_status": exc.code, "redirect_chain": url, "final_url": exc.geturl(), "expected_article": expected_eid, "matches_expected_article": "NO", "result": "DEPLOYMENT_REQUIRED" if exc.code == 404 else "FAIL"}
-    except Exception as exc:
-        return {"doi": doi, "http_status": "", "redirect_chain": url, "final_url": "", "expected_article": expected_eid, "matches_expected_article": "NO", "result": "ERROR: " + str(exc)}
+    last_error: Exception | None = None
+    for attempt in range(3):
+        request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        try:
+            with urllib.request.urlopen(request, timeout=60, context=ssl.create_default_context()) as response:
+                final = response.geturl()
+                code = response.getcode()
+            matched = expected_eid == "journal" or f"/{expected_eid}/" in final.lower()
+            return {"doi": doi, "http_status": code, "redirect_chain": f"{url} -> {final}", "final_url": final, "expected_article": expected_eid, "matches_expected_article": "YES" if matched else "NO", "result": "PASS" if code == 200 and matched else "FAIL"}
+        except urllib.error.HTTPError as exc:
+            if exc.code < 500:
+                return {"doi": doi, "http_status": exc.code, "redirect_chain": url, "final_url": exc.geturl(), "expected_article": expected_eid, "matches_expected_article": "NO", "result": "DEPLOYMENT_REQUIRED" if exc.code == 404 else "FAIL"}
+            last_error = exc
+        except Exception as exc:
+            last_error = exc
+        if attempt < 2:
+            time.sleep(2 * (attempt + 1))
+    assert last_error is not None
+    return {"doi": doi, "http_status": "", "redirect_chain": url, "final_url": "", "expected_article": expected_eid, "matches_expected_article": "NO", "result": "ERROR: " + str(last_error)}
 
 
 def public_record(record: dict[str, Any]) -> dict[str, Any]:
@@ -187,7 +223,7 @@ def public_record(record: dict[str, Any]) -> dict[str, Any]:
             "received", "revised", "accepted", "published", "volume", "issue", "issue_title",
             "elocator", "doi_status", "registered_doi", "canonical_doi_url", "html_url",
             "pdf_reader_url", "pdf_download_url", "license_name", "license_url",
-            "copyright_holder", "recommended_citation", "crossref_resource_url"
+            "copyright_holder", "recommended_citation", "crossref_resource_url", "video"
         )
     }
 
@@ -306,12 +342,16 @@ def article_pages(record: dict[str, Any]) -> None:
     directory = ROOT / "papers" / eid
     directory.mkdir(parents=True, exist_ok=True)
     (directory / "html").mkdir(exist_ok=True)
+    video = record.get("video") or {}
+    video_section = ""
+    if video.get("url"):
+        video_section = f'''<section aria-labelledby="explanatory-video"><h2 id="explanatory-video">Complimentary explanatory video</h2><p>{html.escape(video['format_note'])}</p><video controls preload="metadata" poster="{html.escape(video['poster_url'], quote=True)}" style="width:100%;height:auto"><source src="{html.escape(video['url'], quote=True)}" type="video/mp4"><track kind="captions" srclang="en" label="English" src="{html.escape(video['captions_vtt_url'], quote=True)}" default>Your browser does not support embedded video. <a href="{html.escape(video['url'], quote=True)}">Download the explanatory video</a>.</video><p><a href="{html.escape(video['transcript_url'], quote=True)}">Read the accessible transcript</a> · <a href="{html.escape(video['captions_vtt_url'], quote=True)}">Download WebVTT captions</a></p></section>'''
     landing = f'''<!doctype html><html lang="en"><head>{head(record, record['title'])}</head><body><a class="skip-link" href="#main-content">Skip to main content</a><main id="main-content" class="article-release">
 <p class="eyebrow">CHIATECH JOURNAL · Registered Version of Record</p><h1>{html.escape(record['title'])}</h1>{byline(record)}{metadata_block(record)}
 <p><strong>Abstract</strong></p><p>{html.escape(record['abstract'])}</p><p><strong>Keywords:</strong> {html.escape('; '.join(record['keywords']))}</p>
 <div class="article-actions"><a class="btn btn-primary" href="/papers/{eid}/html/">Read HTML full text</a><a class="btn btn-outline" href="/papers/{eid}/pdf/{eid}.pdf">Read PDF</a><a class="btn btn-outline" href="/papers/{eid}/pdf/{eid}.pdf" download>Download PDF</a></div>
 <section aria-labelledby="how-to-cite"><h2 id="how-to-cite">Recommended citation</h2><div class="citation-box"><p id="citation-text">{html.escape(record['recommended_citation'])}</p><button type="button" data-copy-target="citation-text">Copy citation</button> <button type="button" data-copy-value="{record['canonical_doi_url']}">Copy DOI</button></div></section>
-<p><strong>Licence:</strong> <a href="{html.escape(record.get('license_url') or 'https://creativecommons.org/licenses/by/4.0/')}">{html.escape(record.get('license_name') or 'CC BY 4.0')}</a></p>
+{video_section}<p><strong>Licence:</strong> <a href="{html.escape(record.get('license_url') or 'https://creativecommons.org/licenses/by/4.0/')}">{html.escape(record.get('license_name') or 'CC BY 4.0')}</a></p>
 <p><small>Published by {PUBLISHER}. ISSN assignment remains pending.</small></p></main><script src="/assets/js/doi-copy.js" defer></script></body></html>'''
     full = f'''<!doctype html><html lang="en"><head>{head(record, record['title'] + ' - Full text')}</head><body><a class="skip-link" href="#main-content">Skip to main content</a><main id="main-content" class="article-release full-text">
 <p class="eyebrow">CHIATECH JOURNAL · HTML Version of Record</p><h1>{html.escape(record['title'])}</h1>{byline(record)}{metadata_block(record)}
@@ -470,6 +510,37 @@ def repository_map() -> None:
     write_text(REPORTS / "repository-map.md", content)
 
 
+def chief_editor_video_copy_paste(records: list[dict[str, Any]]) -> None:
+    lines = [
+        "CHIATECH JOURNAL - CHIEF EDITOR VIDEO COPY/PASTE",
+        "PUBLIC-SAFE VERIFIED MEDIA FIELDS - e002-e005",
+        "",
+        "Only the four records below have a complete MP4, poster, WebVTT and transcript asset set.",
+        "The videos are concise silent visual summaries; do not describe them as human-narrated recordings.",
+        "Do not populate these fields for e001 or e006-e060 until approved assets actually exist.",
+        "",
+    ]
+    for record in records:
+        video = record.get("video") or {}
+        if not video.get("url"):
+            continue
+        lines.extend([
+            "=" * 88,
+            f"ARTICLE ID: {record['article_id']}",
+            f"Registered DOI: {record['registered_doi']}",
+            f"Complimentary explanatory video: AVAILABLE - SILENT VISUAL SUMMARY",
+            f"Public video title: {video['title']}",
+            f"Direct video URL: {video['url']}",
+            f"Poster image URL: {video['poster_url']}",
+            f"WebVTT captions URL: {video['captions_vtt_url']}",
+            f"Accessible transcript URL: {video['transcript_url']}",
+            "Accessibility evidence: WebVTT captions and HTML transcript present",
+            "Rights/approval note: retain the existing editorial confirmation control; this file does not replace rights review.",
+            "",
+        ])
+    write_text(REPORTS / "CHIEF_EDITOR_VIDEO_COPY_PASTE_e002-e005.txt", "\n".join(lines))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--apply", action="store_true")
@@ -484,7 +555,7 @@ def main() -> int:
     if args.resolver_audit_only:
         REPORTS.mkdir(parents=True, exist_ok=True)
         resolver_inputs = [(JOURNAL_DOI, "journal")] + [(expected_doi(r["article_id"]), r["article_id"]) for r in records]
-        with ThreadPoolExecutor(max_workers=6) as pool:
+        with ThreadPoolExecutor(max_workers=3) as pool:
             resolver_rows = list(pool.map(lambda item: resolver_check(*item), resolver_inputs))
         resolver_rows.sort(key=lambda row: row["doi"])
         write_csv(REPORTS / "doi-resolution-audit.csv", resolver_rows, ["doi", "http_status", "redirect_chain", "final_url", "expected_article", "matches_expected_article", "result"])
@@ -494,7 +565,7 @@ def main() -> int:
     if args.skip_network:
         crossref_rows = [{"article_id": r["article_id"], "doi": expected_doi(r["article_id"]), "api_status": "SKIPPED", "title": r["title"], "resource_url": r.get("html_url", ""), "expected_title": r["title"], "identity_match": "SKIPPED", "error": ""} for r in records]
     else:
-        with ThreadPoolExecutor(max_workers=6) as pool:
+        with ThreadPoolExecutor(max_workers=3) as pool:
             crossref_rows = list(pool.map(verify_crossref, records))
         crossref_rows.sort(key=lambda row: row["article_id"])
         failures = [row for row in crossref_rows if row["api_status"] != "PASS"]
@@ -512,6 +583,7 @@ def main() -> int:
     write_json(SOURCE_REGISTRY, canonical)
     write_json(PUBLIC_REGISTRY, {"schema": "chiatech-journal-public-articles/v1", "generated_at": STAMP, "journal_doi": JOURNAL_DOI, "records": [public_record(r) for r in synced]})
     repository_map()
+    chief_editor_video_copy_paste(synced)
     for record in synced:
         article_pages(record)
     if args.skip_pdfs:

@@ -81,6 +81,41 @@ class DoiReleaseTests(unittest.TestCase):
             # is removed. A large drop is therefore evidence of lost article content.
             self.assertGreaterEqual(len(output_text), int(len(source_text) * 0.85), record["article_id"])
 
+    def test_public_explanatory_video_records(self) -> None:
+        published_video_ids = {"e002", "e003", "e004", "e005"}
+        for record in self.records:
+            eid = record["article_id"]
+            video = record.get("video") or {}
+            if eid not in published_video_ids:
+                self.assertFalse(video.get("url"), eid)
+                continue
+            expected = {
+                "url": f"https://journal.chiatechsolutions.com/papers/{eid}/media/{eid}-explanatory-summary.mp4",
+                "poster_url": f"https://journal.chiatechsolutions.com/papers/{eid}/media/{eid}-explanatory-summary-poster.png",
+                "captions_vtt_url": f"https://journal.chiatechsolutions.com/papers/{eid}/media/{eid}-explanatory-summary.vtt",
+                "transcript_url": f"https://journal.chiatechsolutions.com/papers/{eid}/explanatory-transcript.html",
+            }
+            for key, value in expected.items():
+                self.assertEqual(video.get(key), value, f"{eid} {key}")
+            for relative in (
+                f"papers/{eid}/media/{eid}-explanatory-summary.mp4",
+                f"papers/{eid}/media/{eid}-explanatory-summary-poster.png",
+                f"papers/{eid}/media/{eid}-explanatory-summary.vtt",
+                f"papers/{eid}/explanatory-transcript.html",
+            ):
+                self.assertGreater((ROOT / relative).stat().st_size, 0, relative)
+            landing = (ROOT / "papers" / eid / "index.html").read_text(encoding="utf-8")
+            self.assertIn("<video controls", landing)
+            self.assertIn(expected["poster_url"], landing)
+            self.assertIn(expected["captions_vtt_url"], landing)
+            captions = (ROOT / "papers" / eid / "media" / f"{eid}-explanatory-summary.vtt").read_text(encoding="utf-8")
+            self.assertIn(f"10.68232/cj.{eid}", captions)
+            self.assertNotRegex(captions, r"(?i)DOI (?:registration )?pending")
+        copy_paste = (ROOT / "reports" / "doi-release" / "CHIEF_EDITOR_VIDEO_COPY_PASTE_e002-e005.txt").read_text(encoding="utf-8")
+        for eid in published_video_ids:
+            self.assertIn(f"ARTICLE ID: {eid}", copy_paste)
+            self.assertIn(f"10.68232/cj.{eid}", copy_paste)
+
     def test_manifest_and_internal_links(self) -> None:
         manifest = json.loads((ROOT / "data" / "public-asset-manifest.json").read_text(encoding="utf-8"))
         self.assertEqual(len(manifest["articles"]), 60)

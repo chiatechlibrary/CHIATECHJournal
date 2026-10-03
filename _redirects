@@ -15,6 +15,30 @@
 /articles/2026/* /404.html 410!
 /articles/JULY%202026/* /404.html 410!
 /articles/_editorial_work/* /404.html 404!
+
+/downloads/CHIATECH_Review_Engine_Report_Template.docx /downloads/CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx 301
+/downloads/CHIATECH_Review_Engine_Report_Template_Updated.docx /downloads/CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx 301
+/downloads/CHIATECH-STEM_Camera-Ready_Manuscript_Template.docx /downloads/CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx 301
+/downloads/CHIATECH-STEM_Author_Guidelines_and_Camera-Ready_Guide.docx /downloads/CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx 301
+/downloads/CHIATECH-STEM_Title_Page_Template.docx /downloads/CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx 301
+/downloads/CHIATECH_JOURNAL_Title_Page_Template.docx /downloads/CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx 301
+/authors/CHIATECH_JOURNAL_Author_Guidelines.docx /downloads/CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx 301
+/authors/CHIATECH_JOURNAL_Camera_Ready_Template.docx /downloads/CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx 301
+/authors/CHIATECH_JOURNAL_Title_Page_Template.docx /downloads/CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx 301
+/.git/* /404.html 404!
+/.agents/* /404.html 404!
+/.env /404.html 404!
+/netlify/* /404.html 404!
+/reports/* /404.html 404!
+/downloads/README.txt /404.html 404!
+/tools/* /404.html 404!
+/backend/* /404.html 404!
+/cloudflare/* /404.html 404
+/don't%20push/* /404.html 404!
+/don%27t%20push/* /404.html 404!
+/README.md /404.html 404
+/LAUNCH-CHECKLIST.md /404.html 404
+/PROJECT-DIRECTORY.md /404.html 404
 # CHIATECH DOI LEGACY TARGETS START
 /papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e026/html/e026.html /papers/e026/ 301!
 /papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e027/html/e027.html /papers/e027/ 301!
@@ -53,27 +77,4 @@
 /papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e060/html/e060.html /papers/e060/ 301!
 # CHIATECH DOI LEGACY TARGETS END
 
-/downloads/CHIATECH_Review_Engine_Report_Template.docx /downloads/CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx 301
-/downloads/CHIATECH_Review_Engine_Report_Template_Updated.docx /downloads/CHIATECH_JOURNAL_Review_Engine_Report_Template_SETEHEM.docx 301
-/downloads/CHIATECH-STEM_Camera-Ready_Manuscript_Template.docx /downloads/CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx 301
-/downloads/CHIATECH-STEM_Author_Guidelines_and_Camera-Ready_Guide.docx /downloads/CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx 301
-/downloads/CHIATECH-STEM_Title_Page_Template.docx /downloads/CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx 301
-/downloads/CHIATECH_JOURNAL_Title_Page_Template.docx /downloads/CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx 301
-/authors/CHIATECH_JOURNAL_Author_Guidelines.docx /downloads/CHIATECH_JOURNAL_Author_Guidelines_and_Camera_Ready_Guide_SETEHEM.docx 301
-/authors/CHIATECH_JOURNAL_Camera_Ready_Template.docx /downloads/CHIATECH_JOURNAL_Camera_Ready_Manuscript_Template_SETEHEM.docx 301
-/authors/CHIATECH_JOURNAL_Title_Page_Template.docx /downloads/CHIATECH_JOURNAL_Title_Page_Template_SETEHEM.docx 301
-/.git/* /404.html 404!
-/.agents/* /404.html 404!
-/.env /404.html 404!
-/netlify/* /404.html 404!
-/reports/* /404.html 404!
-/downloads/README.txt /404.html 404!
-/tools/* /404.html 404!
-/backend/* /404.html 404!
-/cloudflare/* /404.html 404
-/don't%20push/* /404.html 404!
-/don%27t%20push/* /404.html 404!
-/README.md /404.html 404
-/LAUNCH-CHECKLIST.md /404.html 404
-/PROJECT-DIRECTORY.md /404.html 404
 /* /404.html 404
