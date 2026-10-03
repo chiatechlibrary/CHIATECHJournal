@@ -1,62 +1,62 @@
 ﻿doi,http_status,redirect_chain,final_url,expected_article,matches_expected_article,result
-10.68232/cj,SKIPPED,,,journal,SKIPPED,SKIPPED
-10.68232/cj.e001,SKIPPED,,,e001,SKIPPED,SKIPPED
-10.68232/cj.e002,SKIPPED,,,e002,SKIPPED,SKIPPED
-10.68232/cj.e003,SKIPPED,,,e003,SKIPPED,SKIPPED
-10.68232/cj.e004,SKIPPED,,,e004,SKIPPED,SKIPPED
-10.68232/cj.e005,SKIPPED,,,e005,SKIPPED,SKIPPED
-10.68232/cj.e006,SKIPPED,,,e006,SKIPPED,SKIPPED
-10.68232/cj.e007,SKIPPED,,,e007,SKIPPED,SKIPPED
-10.68232/cj.e008,SKIPPED,,,e008,SKIPPED,SKIPPED
-10.68232/cj.e009,SKIPPED,,,e009,SKIPPED,SKIPPED
-10.68232/cj.e010,SKIPPED,,,e010,SKIPPED,SKIPPED
-10.68232/cj.e011,SKIPPED,,,e011,SKIPPED,SKIPPED
-10.68232/cj.e012,SKIPPED,,,e012,SKIPPED,SKIPPED
-10.68232/cj.e013,SKIPPED,,,e013,SKIPPED,SKIPPED
-10.68232/cj.e014,SKIPPED,,,e014,SKIPPED,SKIPPED
-10.68232/cj.e015,SKIPPED,,,e015,SKIPPED,SKIPPED
-10.68232/cj.e016,SKIPPED,,,e016,SKIPPED,SKIPPED
-10.68232/cj.e017,SKIPPED,,,e017,SKIPPED,SKIPPED
-10.68232/cj.e018,SKIPPED,,,e018,SKIPPED,SKIPPED
-10.68232/cj.e019,SKIPPED,,,e019,SKIPPED,SKIPPED
-10.68232/cj.e020,SKIPPED,,,e020,SKIPPED,SKIPPED
-10.68232/cj.e021,SKIPPED,,,e021,SKIPPED,SKIPPED
-10.68232/cj.e022,SKIPPED,,,e022,SKIPPED,SKIPPED
-10.68232/cj.e023,SKIPPED,,,e023,SKIPPED,SKIPPED
-10.68232/cj.e024,SKIPPED,,,e024,SKIPPED,SKIPPED
-10.68232/cj.e025,SKIPPED,,,e025,SKIPPED,SKIPPED
-10.68232/cj.e026,SKIPPED,,,e026,SKIPPED,SKIPPED
-10.68232/cj.e027,SKIPPED,,,e027,SKIPPED,SKIPPED
-10.68232/cj.e028,SKIPPED,,,e028,SKIPPED,SKIPPED
-10.68232/cj.e029,SKIPPED,,,e029,SKIPPED,SKIPPED
-10.68232/cj.e030,SKIPPED,,,e030,SKIPPED,SKIPPED
-10.68232/cj.e031,SKIPPED,,,e031,SKIPPED,SKIPPED
-10.68232/cj.e032,SKIPPED,,,e032,SKIPPED,SKIPPED
-10.68232/cj.e033,SKIPPED,,,e033,SKIPPED,SKIPPED
-10.68232/cj.e034,SKIPPED,,,e034,SKIPPED,SKIPPED
-10.68232/cj.e035,SKIPPED,,,e035,SKIPPED,SKIPPED
-10.68232/cj.e036,SKIPPED,,,e036,SKIPPED,SKIPPED
-10.68232/cj.e037,SKIPPED,,,e037,SKIPPED,SKIPPED
-10.68232/cj.e038,SKIPPED,,,e038,SKIPPED,SKIPPED
-10.68232/cj.e039,SKIPPED,,,e039,SKIPPED,SKIPPED
-10.68232/cj.e040,SKIPPED,,,e040,SKIPPED,SKIPPED
-10.68232/cj.e041,SKIPPED,,,e041,SKIPPED,SKIPPED
-10.68232/cj.e042,SKIPPED,,,e042,SKIPPED,SKIPPED
-10.68232/cj.e043,SKIPPED,,,e043,SKIPPED,SKIPPED
-10.68232/cj.e044,SKIPPED,,,e044,SKIPPED,SKIPPED
-10.68232/cj.e045,SKIPPED,,,e045,SKIPPED,SKIPPED
-10.68232/cj.e046,SKIPPED,,,e046,SKIPPED,SKIPPED
-10.68232/cj.e047,SKIPPED,,,e047,SKIPPED,SKIPPED
-10.68232/cj.e048,SKIPPED,,,e048,SKIPPED,SKIPPED
-10.68232/cj.e049,SKIPPED,,,e049,SKIPPED,SKIPPED
-10.68232/cj.e050,SKIPPED,,,e050,SKIPPED,SKIPPED
-10.68232/cj.e051,SKIPPED,,,e051,SKIPPED,SKIPPED
-10.68232/cj.e052,SKIPPED,,,e052,SKIPPED,SKIPPED
-10.68232/cj.e053,SKIPPED,,,e053,SKIPPED,SKIPPED
-10.68232/cj.e054,SKIPPED,,,e054,SKIPPED,SKIPPED
-10.68232/cj.e055,SKIPPED,,,e055,SKIPPED,SKIPPED
-10.68232/cj.e056,SKIPPED,,,e056,SKIPPED,SKIPPED
-10.68232/cj.e057,SKIPPED,,,e057,SKIPPED,SKIPPED
-10.68232/cj.e058,SKIPPED,,,e058,SKIPPED,SKIPPED
-10.68232/cj.e059,SKIPPED,,,e059,SKIPPED,SKIPPED
-10.68232/cj.e060,SKIPPED,,,e060,SKIPPED,SKIPPED
+10.68232/cj,200,https://doi.org/10.68232/cj -> https://journal.chiatechsolutions.com/,https://journal.chiatechsolutions.com/,journal,YES,PASS
+10.68232/cj.e001,200,https://doi.org/10.68232/cj.e001 -> https://journal.chiatechsolutions.com/papers/e001/,https://journal.chiatechsolutions.com/papers/e001/,e001,YES,PASS
+10.68232/cj.e002,200,https://doi.org/10.68232/cj.e002 -> https://journal.chiatechsolutions.com/papers/e002/,https://journal.chiatechsolutions.com/papers/e002/,e002,YES,PASS
+10.68232/cj.e003,200,https://doi.org/10.68232/cj.e003 -> https://journal.chiatechsolutions.com/papers/e003/,https://journal.chiatechsolutions.com/papers/e003/,e003,YES,PASS
+10.68232/cj.e004,200,https://doi.org/10.68232/cj.e004 -> https://journal.chiatechsolutions.com/papers/e004/,https://journal.chiatechsolutions.com/papers/e004/,e004,YES,PASS
+10.68232/cj.e005,200,https://doi.org/10.68232/cj.e005 -> https://journal.chiatechsolutions.com/papers/e005/,https://journal.chiatechsolutions.com/papers/e005/,e005,YES,PASS
+10.68232/cj.e006,200,https://doi.org/10.68232/cj.e006 -> https://journal.chiatechsolutions.com/papers/e006/,https://journal.chiatechsolutions.com/papers/e006/,e006,YES,PASS
+10.68232/cj.e007,200,https://doi.org/10.68232/cj.e007 -> https://journal.chiatechsolutions.com/papers/e007/,https://journal.chiatechsolutions.com/papers/e007/,e007,YES,PASS
+10.68232/cj.e008,200,https://doi.org/10.68232/cj.e008 -> https://journal.chiatechsolutions.com/papers/e008/,https://journal.chiatechsolutions.com/papers/e008/,e008,YES,PASS
+10.68232/cj.e009,200,https://doi.org/10.68232/cj.e009 -> https://journal.chiatechsolutions.com/papers/e009/,https://journal.chiatechsolutions.com/papers/e009/,e009,YES,PASS
+10.68232/cj.e010,200,https://doi.org/10.68232/cj.e010 -> https://journal.chiatechsolutions.com/papers/e010/,https://journal.chiatechsolutions.com/papers/e010/,e010,YES,PASS
+10.68232/cj.e011,200,https://doi.org/10.68232/cj.e011 -> https://journal.chiatechsolutions.com/papers/e011/,https://journal.chiatechsolutions.com/papers/e011/,e011,YES,PASS
+10.68232/cj.e012,200,https://doi.org/10.68232/cj.e012 -> https://journal.chiatechsolutions.com/papers/e012/,https://journal.chiatechsolutions.com/papers/e012/,e012,YES,PASS
+10.68232/cj.e013,200,https://doi.org/10.68232/cj.e013 -> https://journal.chiatechsolutions.com/papers/e013/,https://journal.chiatechsolutions.com/papers/e013/,e013,YES,PASS
+10.68232/cj.e014,200,https://doi.org/10.68232/cj.e014 -> https://journal.chiatechsolutions.com/papers/e014/,https://journal.chiatechsolutions.com/papers/e014/,e014,YES,PASS
+10.68232/cj.e015,200,https://doi.org/10.68232/cj.e015 -> https://journal.chiatechsolutions.com/papers/e015/,https://journal.chiatechsolutions.com/papers/e015/,e015,YES,PASS
+10.68232/cj.e016,200,https://doi.org/10.68232/cj.e016 -> https://journal.chiatechsolutions.com/papers/e016/,https://journal.chiatechsolutions.com/papers/e016/,e016,YES,PASS
+10.68232/cj.e017,200,https://doi.org/10.68232/cj.e017 -> https://journal.chiatechsolutions.com/papers/e017/,https://journal.chiatechsolutions.com/papers/e017/,e017,YES,PASS
+10.68232/cj.e018,200,https://doi.org/10.68232/cj.e018 -> https://journal.chiatechsolutions.com/papers/e018/,https://journal.chiatechsolutions.com/papers/e018/,e018,YES,PASS
+10.68232/cj.e019,200,https://doi.org/10.68232/cj.e019 -> https://journal.chiatechsolutions.com/papers/e019/,https://journal.chiatechsolutions.com/papers/e019/,e019,YES,PASS
+10.68232/cj.e020,200,https://doi.org/10.68232/cj.e020 -> https://journal.chiatechsolutions.com/papers/e020/,https://journal.chiatechsolutions.com/papers/e020/,e020,YES,PASS
+10.68232/cj.e021,200,https://doi.org/10.68232/cj.e021 -> https://journal.chiatechsolutions.com/papers/e021/,https://journal.chiatechsolutions.com/papers/e021/,e021,YES,PASS
+10.68232/cj.e022,200,https://doi.org/10.68232/cj.e022 -> https://journal.chiatechsolutions.com/papers/e022/,https://journal.chiatechsolutions.com/papers/e022/,e022,YES,PASS
+10.68232/cj.e023,200,https://doi.org/10.68232/cj.e023 -> https://journal.chiatechsolutions.com/papers/e023/,https://journal.chiatechsolutions.com/papers/e023/,e023,YES,PASS
+10.68232/cj.e024,200,https://doi.org/10.68232/cj.e024 -> https://journal.chiatechsolutions.com/papers/e024/,https://journal.chiatechsolutions.com/papers/e024/,e024,YES,PASS
+10.68232/cj.e025,200,https://doi.org/10.68232/cj.e025 -> https://journal.chiatechsolutions.com/papers/e025/,https://journal.chiatechsolutions.com/papers/e025/,e025,YES,PASS
+10.68232/cj.e026,200,https://doi.org/10.68232/cj.e026 -> https://journal.chiatechsolutions.com/papers/e026/,https://journal.chiatechsolutions.com/papers/e026/,e026,YES,PASS
+10.68232/cj.e027,200,https://doi.org/10.68232/cj.e027 -> https://journal.chiatechsolutions.com/papers/e027/,https://journal.chiatechsolutions.com/papers/e027/,e027,YES,PASS
+10.68232/cj.e028,200,https://doi.org/10.68232/cj.e028 -> https://journal.chiatechsolutions.com/papers/e028/,https://journal.chiatechsolutions.com/papers/e028/,e028,YES,PASS
+10.68232/cj.e029,200,https://doi.org/10.68232/cj.e029 -> https://journal.chiatechsolutions.com/papers/e029/,https://journal.chiatechsolutions.com/papers/e029/,e029,YES,PASS
+10.68232/cj.e030,200,https://doi.org/10.68232/cj.e030 -> https://journal.chiatechsolutions.com/papers/e030/,https://journal.chiatechsolutions.com/papers/e030/,e030,YES,PASS
+10.68232/cj.e031,200,https://doi.org/10.68232/cj.e031 -> https://journal.chiatechsolutions.com/papers/e031/,https://journal.chiatechsolutions.com/papers/e031/,e031,YES,PASS
+10.68232/cj.e032,200,https://doi.org/10.68232/cj.e032 -> https://journal.chiatechsolutions.com/papers/e032/,https://journal.chiatechsolutions.com/papers/e032/,e032,YES,PASS
+10.68232/cj.e033,200,https://doi.org/10.68232/cj.e033 -> https://journal.chiatechsolutions.com/papers/e033/,https://journal.chiatechsolutions.com/papers/e033/,e033,YES,PASS
+10.68232/cj.e034,200,https://doi.org/10.68232/cj.e034 -> https://journal.chiatechsolutions.com/papers/e034/,https://journal.chiatechsolutions.com/papers/e034/,e034,YES,PASS
+10.68232/cj.e035,200,https://doi.org/10.68232/cj.e035 -> https://journal.chiatechsolutions.com/papers/e035/,https://journal.chiatechsolutions.com/papers/e035/,e035,YES,PASS
+10.68232/cj.e036,200,https://doi.org/10.68232/cj.e036 -> https://journal.chiatechsolutions.com/papers/e036/,https://journal.chiatechsolutions.com/papers/e036/,e036,YES,PASS
+10.68232/cj.e037,200,https://doi.org/10.68232/cj.e037 -> https://journal.chiatechsolutions.com/papers/e037/,https://journal.chiatechsolutions.com/papers/e037/,e037,YES,PASS
+10.68232/cj.e038,200,https://doi.org/10.68232/cj.e038 -> https://journal.chiatechsolutions.com/papers/e038/,https://journal.chiatechsolutions.com/papers/e038/,e038,YES,PASS
+10.68232/cj.e039,200,https://doi.org/10.68232/cj.e039 -> https://journal.chiatechsolutions.com/papers/e039/,https://journal.chiatechsolutions.com/papers/e039/,e039,YES,PASS
+10.68232/cj.e040,200,https://doi.org/10.68232/cj.e040 -> https://journal.chiatechsolutions.com/papers/e040/,https://journal.chiatechsolutions.com/papers/e040/,e040,YES,PASS
+10.68232/cj.e041,200,https://doi.org/10.68232/cj.e041 -> https://journal.chiatechsolutions.com/papers/e041/,https://journal.chiatechsolutions.com/papers/e041/,e041,YES,PASS
+10.68232/cj.e042,200,https://doi.org/10.68232/cj.e042 -> https://journal.chiatechsolutions.com/papers/e042/,https://journal.chiatechsolutions.com/papers/e042/,e042,YES,PASS
+10.68232/cj.e043,200,https://doi.org/10.68232/cj.e043 -> https://journal.chiatechsolutions.com/papers/e043/,https://journal.chiatechsolutions.com/papers/e043/,e043,YES,PASS
+10.68232/cj.e044,200,https://doi.org/10.68232/cj.e044 -> https://journal.chiatechsolutions.com/papers/e044/,https://journal.chiatechsolutions.com/papers/e044/,e044,YES,PASS
+10.68232/cj.e045,200,https://doi.org/10.68232/cj.e045 -> https://journal.chiatechsolutions.com/papers/e045/,https://journal.chiatechsolutions.com/papers/e045/,e045,YES,PASS
+10.68232/cj.e046,200,https://doi.org/10.68232/cj.e046 -> https://journal.chiatechsolutions.com/papers/e046/,https://journal.chiatechsolutions.com/papers/e046/,e046,YES,PASS
+10.68232/cj.e047,200,https://doi.org/10.68232/cj.e047 -> https://journal.chiatechsolutions.com/papers/e047/,https://journal.chiatechsolutions.com/papers/e047/,e047,YES,PASS
+10.68232/cj.e048,200,https://doi.org/10.68232/cj.e048 -> https://journal.chiatechsolutions.com/papers/e048/,https://journal.chiatechsolutions.com/papers/e048/,e048,YES,PASS
+10.68232/cj.e049,200,https://doi.org/10.68232/cj.e049 -> https://journal.chiatechsolutions.com/papers/e049/,https://journal.chiatechsolutions.com/papers/e049/,e049,YES,PASS
+10.68232/cj.e050,200,https://doi.org/10.68232/cj.e050 -> https://journal.chiatechsolutions.com/papers/e050/,https://journal.chiatechsolutions.com/papers/e050/,e050,YES,PASS
+10.68232/cj.e051,200,https://doi.org/10.68232/cj.e051 -> https://journal.chiatechsolutions.com/papers/e051/,https://journal.chiatechsolutions.com/papers/e051/,e051,YES,PASS
+10.68232/cj.e052,200,https://doi.org/10.68232/cj.e052 -> https://journal.chiatechsolutions.com/papers/e052/,https://journal.chiatechsolutions.com/papers/e052/,e052,YES,PASS
+10.68232/cj.e053,200,https://doi.org/10.68232/cj.e053 -> https://journal.chiatechsolutions.com/papers/e053/,https://journal.chiatechsolutions.com/papers/e053/,e053,YES,PASS
+10.68232/cj.e054,200,https://doi.org/10.68232/cj.e054 -> https://journal.chiatechsolutions.com/papers/e054/,https://journal.chiatechsolutions.com/papers/e054/,e054,YES,PASS
+10.68232/cj.e055,200,https://doi.org/10.68232/cj.e055 -> https://journal.chiatechsolutions.com/papers/e055/,https://journal.chiatechsolutions.com/papers/e055/,e055,YES,PASS
+10.68232/cj.e056,200,https://doi.org/10.68232/cj.e056 -> https://journal.chiatechsolutions.com/papers/e056/,https://journal.chiatechsolutions.com/papers/e056/,e056,YES,PASS
+10.68232/cj.e057,200,https://doi.org/10.68232/cj.e057 -> https://journal.chiatechsolutions.com/papers/e057/,https://journal.chiatechsolutions.com/papers/e057/,e057,YES,PASS
+10.68232/cj.e058,200,https://doi.org/10.68232/cj.e058 -> https://journal.chiatechsolutions.com/papers/e058/,https://journal.chiatechsolutions.com/papers/e058/,e058,YES,PASS
+10.68232/cj.e059,200,https://doi.org/10.68232/cj.e059 -> https://journal.chiatechsolutions.com/papers/e059/,https://journal.chiatechsolutions.com/papers/e059/,e059,YES,PASS
+10.68232/cj.e060,200,https://doi.org/10.68232/cj.e060 -> https://journal.chiatechsolutions.com/papers/e060/,https://journal.chiatechsolutions.com/papers/e060/,e060,YES,PASS

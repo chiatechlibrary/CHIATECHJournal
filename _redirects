@@ -2,7 +2,6 @@
 /articles/read/ /.netlify/functions/paper-page 200!
 /articles/read/index.html /.netlify/functions/paper-page 200!
 /sitemap.xml /.netlify/functions/public-index 200!
-/feed.xml /.netlify/functions/public-index?format=rss 200!
 /admin /portal/chief-editor-login/ 302
 /admin/ /portal/chief-editor-login/ 302
 /about/editorial-board /admin 302!
@@ -78,4 +77,3 @@
 /LAUNCH-CHECKLIST.md /404.html 404
 /PROJECT-DIRECTORY.md /404.html 404
 /* /404.html 404
-

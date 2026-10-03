@@ -475,11 +475,22 @@ def main() -> int:
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--skip-network", action="store_true")
     parser.add_argument("--skip-pdfs", action="store_true")
+    parser.add_argument("--resolver-audit-only", action="store_true")
     args = parser.parse_args()
     source = json.loads(SOURCE_REGISTRY.read_text(encoding="utf-8"))
     records = source["records"]
     if len(records) != 60 or [r["article_id"] for r in records] != [f"e{i:03d}" for i in range(1, 61)]:
         raise SystemExit("Refused: canonical Pioneer registry is not the exact e001-e060 sequence.")
+    if args.resolver_audit_only:
+        REPORTS.mkdir(parents=True, exist_ok=True)
+        resolver_inputs = [(JOURNAL_DOI, "journal")] + [(expected_doi(r["article_id"]), r["article_id"]) for r in records]
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            resolver_rows = list(pool.map(lambda item: resolver_check(*item), resolver_inputs))
+        resolver_rows.sort(key=lambda row: row["doi"])
+        write_csv(REPORTS / "doi-resolution-audit.csv", resolver_rows, ["doi", "http_status", "redirect_chain", "final_url", "expected_article", "matches_expected_article", "result"])
+        failures = [row for row in resolver_rows if row["result"] != "PASS"]
+        print(f"DOI resolver audit: {len(resolver_rows) - len(failures)} PASS; {len(failures)} FAIL.")
+        return 1 if failures else 0
     if args.skip_network:
         crossref_rows = [{"article_id": r["article_id"], "doi": expected_doi(r["article_id"]), "api_status": "SKIPPED", "title": r["title"], "resource_url": r.get("html_url", ""), "expected_title": r["title"], "identity_match": "SKIPPED", "error": ""} for r in records]
     else:
