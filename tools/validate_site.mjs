@@ -5,7 +5,8 @@ const root = process.cwd();
 const errors = [];
 const skipDirectories = new Set([
   '.git', '.agents', 'node_modules', 'tools', 'backend', 'cloudflare',
-  '_qa_site', '_qa_review_report', 'dist', "don't push", 'reports'
+  '_qa_site', '_qa_review_report', 'dist', "don't push", 'reports',
+  'tmp', 'tooling', 'crossref', 'scripts'
 ]);
 const skipFiles = new Set(['README.md', 'LAUNCH-CHECKLIST.md', 'PROJECT-DIRECTORY.md']);
 
@@ -248,7 +249,7 @@ for (const required of ["'renewSession'", "'importBlogBotDraft'"]) requireText(p
 
 for (const required of [
   "'doi'", "'html_url'", "'pdf_url'", "'video_title'", "'video_url'",
-  "'video_caption_url'", "'video_transcript_url'", "'doi_status'", 'isEligiblePioneerDoiPendingRelease', 'PENDING_REGISTRATION',
+  "'video_caption_url'", "'video_transcript_url'", "'doi_status'", 'CROSSREF_VERIFIED_REGISTRATIONS', 'REGISTERED',
   'Confirm and provide the approved full-paper HTML URL', 'Confirm and provide the complimentary explanatory video title'
 ]) requireText(appScript, required, 'backend/google-apps-script/Code.gs');
 
@@ -321,7 +322,16 @@ for (const required of ['/articles/', '/blog/']) requireText(sitemap, required, 
 for (const prohibited of ['/portal/', '/api/', '/articles/read/', '/blog/read/']) rejectText(sitemap, prohibited, 'sitemap.xml');
 
 const feed = await read('feed.xml');
-if (/<item\b/i.test(feed)) errors.push('feed.xml: static feed must not contain unverified publication items');
+const pioneerRegistry = JSON.parse(await read('data/pioneer-articles.json'));
+const feedItems = [...feed.matchAll(/<item\b/g)].length;
+if (!Array.isArray(pioneerRegistry.records) || pioneerRegistry.records.length !== 60 || feedItems !== 60) {
+  errors.push('feed.xml: expected exactly 60 entries from the registered Pioneer registry');
+}
+for (const article of pioneerRegistry.records || []) {
+  if (article.doi_status !== 'REGISTERED' || !feed.includes(article.canonical_doi_url)) {
+    errors.push(`feed.xml: missing registered DOI item for ${article.article_id || '(unknown)'}`);
+  }
+}
 
 const textExtensions = new Set(['.html', '.js', '.mjs', '.css', '.xml', '.txt', '.webmanifest', '.toml']);
 for (const file of files.filter(file => textExtensions.has(path.extname(file).toLowerCase()) || path.basename(file).startsWith('_'))) {

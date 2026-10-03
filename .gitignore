@@ -7,6 +7,13 @@
 
 # Generated/local build output
 /dist/
+/tmp/
+/tooling/cache/crossref-schema-git/
+/tooling/cache/crossref-schema-master/
+/tooling/cache/crossref-5.5-extract/
+/tooling/cache/*.zip
+/tooling/cache/*.tar
+/crossref/private/
 
 # Local development/agent material
 /agents/
