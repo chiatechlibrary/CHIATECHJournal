@@ -416,13 +416,18 @@ def redirects(records: list[dict[str, Any]]) -> None:
     path = ROOT / "_redirects"
     raw = path.read_text(encoding="utf-8")
     raw = re.sub(r"\n# CHIATECH DOI LEGACY TARGETS START.*?# CHIATECH DOI LEGACY TARGETS END\n?", "\n", raw, flags=re.S)
-    lines = ["", "# CHIATECH DOI LEGACY TARGETS START"]
+    lines = ["# CHIATECH DOI LEGACY TARGETS START"]
     for r in records:
         if r["issue"] == "2":
             eid = r["article_id"]
             lines.append(f"/papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/{eid}/html/{eid}.html /papers/{eid}/ 301!")
     lines += ["# CHIATECH DOI LEGACY TARGETS END", ""]
-    write_text(path, raw.rstrip() + "\n" + "\n".join(lines))
+    block = "\n".join(lines)
+    catch_alls = list(re.finditer(r"(?m)^/\* /404\.html 404!?$", raw))
+    if not catch_alls:
+        raise RuntimeError("Catch-all redirect was not found; refusing to create unreachable DOI compatibility routes.")
+    catch_all = catch_alls[-1]
+    write_text(path, raw[:catch_all.start()] + block + "\n" + raw[catch_all.start():])
 
 
 def update_site_copy() -> None:
