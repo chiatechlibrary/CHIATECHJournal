@@ -544,11 +544,20 @@ function normaliseArticle(data, id, status, actor) {
   const htmlUrl = safePublicUrl(data.htmlUrl, false);
   const pdfUrl = safePublicUrl(data.pdfUrl || data.fullTextUrl, false);
   const pdfDownloadUrl = safePublicUrl(data.pdfDownloadUrl, true) || pdfUrl;
-  const videoTitle = cleanText(data.videoTitle, 220);
+  let videoTitle = cleanText(data.videoTitle, 220);
   const videoUrl = safePublicUrl(data.videoUrl, false);
-  const videoPosterUrl = safePublicUrl(data.videoPosterUrl, true);
-  const videoCaptionUrl = safePublicUrl(data.videoCaptionUrl, true);
-  const videoTranscriptUrl = safePublicUrl(data.videoTranscriptUrl, true);
+  let videoPosterUrl = safePublicUrl(data.videoPosterUrl, true);
+  let videoCaptionUrl = safePublicUrl(data.videoCaptionUrl, true);
+  let videoTranscriptUrl = safePublicUrl(data.videoTranscriptUrl, true);
+  // A video is an optional supplement. Without a direct media URL, discard
+  // orphaned/pre-filled companion values so they cannot block publication or
+  // create incomplete public metadata.
+  if (!videoUrl) {
+    videoTitle = '';
+    videoPosterUrl = '';
+    videoCaptionUrl = '';
+    videoTranscriptUrl = '';
+  }
   if (!id || !title || CONFIG.domains.indexOf(domain) < 0) throw serviceError('Article ID, title and a valid SETEHEM portfolio are required.');
   if (status === 'PUBLISHED') {
     const metadataIssues = [];
@@ -560,22 +569,27 @@ function normaliseArticle(data, id, status, actor) {
     if (metadataIssues.length) throw serviceError('Publication metadata is incomplete: add ' + metadataIssues.join(', ') + '. Refresh the Editorial Desk and try again.');
     if (!isoDate(data.received) || !isoDate(data.accepted) || !published) throw serviceError('Record the authentic received, accepted and published dates before publication.');
     if (!doi || doiStatus !== 'REGISTERED') throw serviceError('A verified registered DOI is required before a paper can be published. Keep proposed or unregistered DOI records as drafts.');
-    const productionChecks = [
+    let productionChecks = [
       ['documented acceptance', data.acceptanceDocumented],
       ['copyediting completion', data.copyeditingComplete],
       ['author proof approval', data.authorProofApproved],
       ['accessibility review', data.accessibilityReviewComplete],
       ['HTML/PDF bibliographic agreement', data.htmlPdfMatchConfirmed],
       ['figures, tables and references consistency', data.figuresTablesReferencesConsistent],
-      ['PDF final/clean review', data.pdfCleanConfirmed],
-      ['video rights review', data.videoRightsReviewComplete],
-      ['video accessibility review', data.videoAccessibilityConfirmed]
-    ].filter(function (item) { return item[1] !== true; }).map(function (item) { return item[0]; });
+      ['PDF final/clean review', data.pdfCleanConfirmed]
+    ];
+    if (videoUrl) {
+      productionChecks = productionChecks.concat([
+        ['video rights review', data.videoRightsReviewComplete],
+        ['video accessibility review', data.videoAccessibilityConfirmed]
+      ]);
+    }
+    productionChecks = productionChecks.filter(function (item) { return item[1] !== true; }).map(function (item) { return item[0]; });
     if (productionChecks.length) throw serviceError('Publication safeguards are incomplete: confirm ' + productionChecks.join(', ') + '.');
     if (!htmlUrl || data.htmlConfirmed !== true) throw serviceError('Confirm and provide the approved full-paper HTML URL before publication.');
     if (!pdfUrl || data.pdfConfirmed !== true) throw serviceError('Confirm and provide the authorised full-paper PDF URL before publication.');
-    if (!videoTitle || !videoUrl || data.videoConfirmed !== true) throw serviceError('Confirm and provide the complimentary explanatory video title and direct media URL before publication.');
-    if (!videoCaptionUrl && !videoTranscriptUrl) throw serviceError('Provide captions or a transcript for the explanatory video before publication.');
+    if (videoUrl && (!videoTitle || data.videoConfirmed !== true)) throw serviceError('When an explanatory video is supplied, confirm it and provide its public title.');
+    if (videoUrl && !videoCaptionUrl && !videoTranscriptUrl) throw serviceError('When an explanatory video is supplied, provide captions or an accessible transcript.');
   }
   return {
     id: id, title: title, domain: domain,
