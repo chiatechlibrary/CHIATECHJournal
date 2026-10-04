@@ -6,9 +6,9 @@ Generated for the Pioneer e001-e060 post-Crossref publication synchronization.
 
 - Repository: `C:\Users\user\Documents\PROJECTS\CHIATECHJournal`
 - Branch: `release/crossref-doi-sync-e001-e060-20261003`
-- Commit: `PENDING`
-- Push result: **PENDING**
-- Production deployment smoke test: **NOT RUN**
+- Commit: `0ce24b61ef8640f066a351a94ca9fe4a9540c5d7`
+- Push result: **SUCCESS**
+- Production deployment smoke test: **PASS**
 
 ## Publication counts
 
@@ -26,6 +26,10 @@ Generated for the Pioneer e001-e060 post-Crossref publication synchronization.
 - ScholarlyArticle JSON-LD records updated: **120**
 - Issue pages updated: **2**
 - Author pages updated: **0** (no separate author-page architecture exists)
+- Complimentary explanatory videos updated: **4** (e002-e005; silent visual summaries)
+- Video posters updated: **4**
+- WebVTT caption records updated: **4**
+- Accessible transcript links verified: **4**
 - Sitemap updated: **YES**
 
 ## Mandatory QA
@@ -44,17 +48,17 @@ Generated for the Pioneer e001-e060 post-Crossref publication synchronization.
 
 ## GitHub publication boundary
 
-- Changed/untracked paths classified: **448**
-- Classified PUSH: **218**
+- Changed/untracked paths classified: **233**
+- Classified PUSH: **3**
 - Classified DO NOT PUSH: **230**
-- Files committed: **218**
+- Files committed: **231**
 - Public-file audit: **PASS**
 
 Excluded categories include raw Crossref/source evidence, private/internal controls, historical-route working copies, unrelated backend documentation, local QA/render output, and pre-existing editorial control-file changes. Exclusion preserves the operator's existing working tree and keeps private material outside the public release.
 
 ## DOI resolution note
 
-Crossref REST identity verification passed for all 60 registered article DOIs. Before deployment, 35 Part 2 resolvers reached registered historical URLs that returned 404 in production; this release adds permanent redirects to `/papers/e026/` through `/papers/e060/`. The committed `doi-resolution-audit.csv` records the measured state at its run time. A post-deployment smoke test is required before reporting the redirects as live.
+Crossref REST identity verification passed for all 60 registered article DOIs. Before deployment, 35 Part 2 resolvers reached registered historical URLs that returned 404 in production; this release adds permanent redirects to `/papers/e026/` through `/papers/e060/`. The post-deployment `doi-resolution-audit.csv` records **61 PASS and 0 FAIL**, including the journal DOI and every article DOI.
 
 ## Remaining operational/editorial actions
 

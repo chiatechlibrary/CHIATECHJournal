@@ -1,12 +1,5 @@
 ﻿path,git_status,classification,reason,contains_personal_data,contains_secret,public_web_asset,commit
-.gitignore,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
-_redirects,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
-about/indexing-archiving/index.html,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
-assets/css/main.css,A ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
-assets/js/doi-copy.js,A ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
-assets/js/editorial-desk.js,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
 backend/google-apps-script/BLOGBOT-HANDOFF.md, M,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
-backend/google-apps-script/Code.gs,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
 backend/google-apps-script/SETUP.md, M,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 books/chapter-manuscript/index.html,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 books/index.html,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
@@ -136,13 +129,6 @@ CROSSREF_JULY_AUGUST_AUDIT_2026-09-10/CROSSREF_DEPOSIT_V2I1_AUGUST_2026.json, D,
 CROSSREF_JULY_AUGUST_AUDIT_2026-09-10/CROSSREF_DEPOSIT_V2I1_AUGUST_2026.xml, D,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 CROSSREF_JULY_AUGUST_AUDIT_2026-09-10/CROSSREF_RECONCILIATION_ISSUES.json, D,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 CROSSREF_JULY_AUGUST_AUDIT_2026-09-10/CROSSREF_REGISTRATION_AND_RELEASE_GUIDE.md, D,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
-data/pioneer-articles.json,A ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
-data/public-asset-manifest.json,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
-feed.xml,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
-index.html,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
-issues/volume-1-issue-1/index.html,A ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
-issues/volume-1-issue-2/index.html,A ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
-netlify/build-public.mjs,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
 papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e026/html/e026.html, M,DO NOT PUSH,Pre-existing historical-route working changes preserved but excluded; redirects provide compatibility,NO,NO,NO,NO
 papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e027/html/e027.html, M,DO NOT PUSH,Pre-existing historical-route working changes preserved but excluded; redirects provide compatibility,NO,NO,NO,NO
 papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e028/html/e028.html, M,DO NOT PUSH,Pre-existing historical-route working changes preserved but excluded; redirects provide compatibility,NO,NO,NO,NO
@@ -179,232 +165,37 @@ papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e058/html/e058.html, M,DO NOT PUSH,Pr
 papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e059/pdf/e059-source-preserved.pdf,??,DO NOT PUSH,Pre-existing historical-route working changes preserved but excluded; redirects provide compatibility,NO,NO,NO,NO
 papers/2026_V1I1_PIONEER_JULY_AUGUST_PART2/e060/pdf/e060-source-preserved.pdf,??,DO NOT PUSH,Pre-existing historical-route working changes preserved but excluded; redirects provide compatibility,NO,NO,NO,NO
 papers/e001/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e001/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e001/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e001/pdf/e001.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e002/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e002/explanatory-transcript.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e002/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e002/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e002/pdf/e002.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e003/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e003/explanatory-transcript.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e003/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e003/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e003/pdf/e003.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e004/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e004/explanatory-transcript.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e004/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e004/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e004/pdf/e004.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e005/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e005/explanatory-transcript.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e005/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e005/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e005/pdf/e005.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e006/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e006/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e006/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e006/pdf/e006.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e007/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e007/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e007/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e007/pdf/e007.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e008/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e008/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e008/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e008/pdf/e008.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e009/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e009/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e009/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e009/pdf/e009.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e010/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e010/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e010/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e010/pdf/e010.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e011/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e011/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e011/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e011/pdf/e011.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e012/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e012/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e012/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e012/pdf/e012.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e013/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e013/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e013/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e013/pdf/e013.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e014/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e014/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e014/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e014/pdf/e014.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e015/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e015/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e015/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e015/pdf/e015.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e016/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e016/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e016/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e016/pdf/e016.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e017/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e017/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e017/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e017/pdf/e017.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e018/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e018/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e018/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e018/pdf/e018.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e019/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e019/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e019/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e019/pdf/e019.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e020/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e020/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e020/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e020/pdf/e020.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e021/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e021/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e021/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e021/pdf/e021.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e022/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e022/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e022/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e022/pdf/e022.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e023/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e023/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e023/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e023/pdf/e023.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e024/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e024/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e024/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e024/pdf/e024.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
 papers/e025/ADMIN_FORM_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing editorial control-file deletion is unrelated to this release,POSSIBLE,NO,NO,NO
-papers/e025/html/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e025/index.html,M ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e025/pdf/e025.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e026/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e026/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e026/pdf/e026.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e027/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e027/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e027/pdf/e027.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e028/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e028/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e028/pdf/e028.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e029/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e029/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e029/pdf/e029.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e030/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e030/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e030/pdf/e030.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e031/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e031/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e031/pdf/e031.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e032/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e032/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e032/pdf/e032.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e033/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e033/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e033/pdf/e033.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e034/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e034/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e034/pdf/e034.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e035/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e035/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e035/pdf/e035.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e036/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e036/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e036/pdf/e036.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e037/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e037/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e037/pdf/e037.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e038/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e038/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e038/pdf/e038.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e039/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e039/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e039/pdf/e039.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e040/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e040/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e040/pdf/e040.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e041/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e041/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e041/pdf/e041.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e042/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e042/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e042/pdf/e042.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e043/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e043/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e043/pdf/e043.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e044/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e044/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e044/pdf/e044.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e045/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e045/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e045/pdf/e045.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e046/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e046/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e046/pdf/e046.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e047/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e047/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e047/pdf/e047.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e048/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e048/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e048/pdf/e048.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e049/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e049/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e049/pdf/e049.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e050/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e050/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e050/pdf/e050.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e051/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e051/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e051/pdf/e051.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e052/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e052/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e052/pdf/e052.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e053/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e053/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e053/pdf/e053.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e054/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e054/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e054/pdf/e054.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e055/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e055/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e055/pdf/e055.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e056/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e056/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e056/pdf/e056.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e057/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e057/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e057/pdf/e057.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e058/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e058/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e058/pdf/e058.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e059/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e059/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e059/pdf/e059.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e060/html/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e060/index.html,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/e060/pdf/e060.pdf,A ,PUSH,"Published article HTML, PDF, or accessibility asset",NO,NO,YES,YES
-papers/index.html,A ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
 PIONEER_UPDATE_2026-09-09/CHIEF_EDITOR_PART2_ALL_PAPERS_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 PIONEER_UPDATE_2026-09-09/START_HERE.md, D,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 PIONEER_UPDATE_2026-09-15/CHIEF_EDITOR_PIONEER_PART2_e026_e060_PENDING_DOI_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 PIONEER_UPDATE_2026-09-15/CHIEF_EDITOR_PIONEER_PART2_e026_e060_REGISTERED_DOI_COPY_PASTE.txt, D,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
-portal/chief-editor-login/index.html,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
 PUBLICATION_UPDATE_GUIDE_2026-09-12.md, D,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
-reports/doi-release/article-doi-audit.csv,A ,PUSH,Public-safe DOI QA evidence,NO,NO,NO,YES
-reports/doi-release/crossref-metadata-conflicts.csv,A ,PUSH,Public-safe DOI QA evidence,NO,NO,NO,YES
-reports/doi-release/doi-resolution-audit.csv,A ,PUSH,Public-safe DOI QA evidence,NO,NO,NO,YES
-reports/doi-release/FINAL_RELEASE_REPORT.md,A ,PUSH,Required evidence-honest release report,NO,NO,NO,YES
-reports/doi-release/github-publication-manifest.csv,A ,PUSH,Required release classification report,NO,NO,NO,YES
-reports/doi-release/html-pdf-consistency.csv,A ,PUSH,Public-safe DOI QA evidence,NO,NO,NO,YES
-reports/doi-release/link-check.csv,A ,PUSH,Public-safe DOI QA evidence,NO,NO,NO,YES
-reports/doi-release/pdf-doi-audit.csv,A ,PUSH,Public-safe DOI QA evidence,NO,NO,NO,YES
-reports/doi-release/reference-cleanup-audit.csv,A ,PUSH,Public-safe DOI QA evidence,NO,NO,NO,YES
-reports/doi-release/repository-map.md,A ,PUSH,Public-safe DOI QA evidence,NO,NO,NO,YES
-reports/doi-release/stale-doi-text-audit.csv,A ,PUSH,Public-safe DOI QA evidence,NO,NO,NO,YES
+reports/doi-release/FINAL_RELEASE_REPORT.md, M,PUSH,Required evidence-honest release report,NO,NO,NO,YES
+reports/doi-release/github-publication-manifest.csv, M,PUSH,Required release classification report,NO,NO,NO,YES
 scripts/crossref/build-publication-package.py,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 scripts/crossref/export-missing-pdfs.ps1,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 scripts/crossref/finalize-registration.py,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
@@ -414,7 +205,6 @@ scripts/crossref/prepare-direct-crossref-upload.py,??,DO NOT PUSH,Pre-existing o
 scripts/crossref/quarantine-obsolete-publication-material.ps1,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 scripts/crossref/render-package-pdf-qa.py,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 scripts/crossref/validate-publication-package.py,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
-sitemap.xml,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,YES,YES
 tooling/cache/crossref-xsd/5.5.0/AccessIndicators.xsd,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 tooling/cache/crossref-xsd/5.5.0/clinicaltrials.xsd,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 tooling/cache/crossref-xsd/5.5.0/common5.5.0.xsd,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
@@ -437,13 +227,8 @@ tooling/cache/crossref-xsd/5.5.0/standard-modules/xlink.xsd,??,DO NOT PUSH,Pre-e
 tooling/cache/crossref-xsd/5.5.0/standard-modules/xml.xsd,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 tooling/cache/crossref-xsd/5.5.0/w3c-xml.xsd,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 tools/audit_july_august_crossref.py, M,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
-tools/doi_release_sync.py,A ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
 tools/inspect_media_runtime.py,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
 tools/pioneer_runtime.py,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
-tools/qa-harness.mjs,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
 tools/rebuild_pioneer_crossref.py,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
-tools/test-release.mjs,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
-tools/test_doi_release.py,A ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
 tools/test_pioneer_rebuild.py,??,DO NOT PUSH,Pre-existing or unrelated working-tree change preserved and not included,POSSIBLE,POSSIBLE,NO,NO
-tools/validate_site.mjs,M ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
-tools/write_doi_release_reports.py,A ,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
+tools/write_doi_release_reports.py, M,PUSH,Reviewed DOI release implementation or public output,NO,NO,NO,YES
