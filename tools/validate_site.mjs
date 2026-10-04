@@ -250,7 +250,7 @@ for (const required of ["'renewSession'", "'importBlogBotDraft'"]) requireText(p
 for (const required of [
   "'doi'", "'html_url'", "'pdf_url'", "'video_title'", "'video_url'",
   "'video_caption_url'", "'video_transcript_url'", "'doi_status'", 'CROSSREF_VERIFIED_REGISTRATIONS', 'REGISTERED',
-  'Confirm and provide the approved full-paper HTML URL', 'Confirm and provide the complimentary explanatory video title'
+  'Confirm and provide the approved full-paper HTML URL', 'When an explanatory video is supplied, confirm it and provide its public title'
 ]) requireText(appScript, required, 'backend/google-apps-script/Code.gs');
 
 const redirects = await read('_redirects');

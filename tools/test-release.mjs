@@ -9,6 +9,31 @@ let checks = 0;
 const check = (label, work) => { work(); checks++; console.log(`PASS ${label}`); };
 const h = createHarness(), c = h.context;
 const adminToken = h.login(), editorToken = h.login('EDITOR');
+check('published articles may omit the optional explanatory video', () => {
+  const article = c.normaliseArticle({
+    ...h.article,
+    videoTitle: 'Pre-filled title that must not activate video validation',
+    videoUrl: '',
+    videoPosterUrl: '/__qa/poster.png',
+    videoCaptionUrl: '/__qa/video.vtt',
+    videoTranscriptUrl: '/__qa/transcript.txt',
+    videoConfirmed: false,
+    videoRightsReviewComplete: false,
+    videoAccessibilityConfirmed: false
+  }, h.article.id, 'PUBLISHED', 'qa-admin@example.invalid');
+  assert.equal(article.video_title, '');
+  assert.equal(article.video_url, '');
+  assert.equal(article.video_poster_url, '');
+  assert.equal(article.video_caption_url, '');
+  assert.equal(article.video_transcript_url, '');
+});
+check('a supplied explanatory video still requires an accessible alternative', () => {
+  assert.throws(() => c.normaliseArticle({
+    ...h.article,
+    videoCaptionUrl: '',
+    videoTranscriptUrl: ''
+  }, h.article.id, 'PUBLISHED', 'qa-admin@example.invalid'), /provide captions or an accessible transcript/i);
+});
 check('manifest is valid V8 JSON, not a .gs file', () => { const manifest = JSON.parse(fs.readFileSync("backend/google-apps-script/appsscript.json")); assert.equal(manifest.runtimeVersion,'V8'); assert.equal(manifest.webapp.executeAs,'USER_DEPLOYING'); });
 check('guest board request returns no identities', () => { const result = JSON.parse(c.doGet({ parameter:{ action:'editors' } }).text); assert.equal(result.ok,false); assert(!JSON.stringify(result).includes('LOCAL QA EDITOR')); });
 check('admin sees board; section editor does not', () => { assert.equal(c.getEditorialDashboard({ token:adminToken }).editors.length,1); assert.equal(c.getEditorialDashboard({ token:editorToken }).editors.length,0); });

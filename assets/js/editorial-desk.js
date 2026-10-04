@@ -525,7 +525,9 @@
       if (/^e(?:00[1-9]|0[1-5][0-9]|060)$/.test(articleId) && doi && doi !== `10.68232/cj.${articleId}`) throw new Error(`The registered Pioneer DOI must be 10.68232/cj.${articleId}.`);
       if (status === 'PUBLISHED' && (!doi || doiStatus !== 'REGISTERED')) throw new Error('A verified registered DOI is required before publication. Save this record as a draft until final Crossref verification is recorded.');
       if (doi && doiStatus !== 'REGISTERED') throw new Error('A DOI value can be saved only with DOI status REGISTERED.');
-      const safeguardNames = ['acceptance_documented', 'copyediting_complete', 'author_proof_approved', 'accessibility_review_complete', 'html_pdf_match_confirmed', 'figures_tables_references_consistent', 'pdf_clean_confirmed', 'video_rights_review_complete', 'video_accessibility_confirmed'];
+      const videoUrl = field(articleForm, 'video_url').value.trim();
+      const safeguardNames = ['acceptance_documented', 'copyediting_complete', 'author_proof_approved', 'accessibility_review_complete', 'html_pdf_match_confirmed', 'figures_tables_references_consistent', 'pdf_clean_confirmed'];
+      if (videoUrl) safeguardNames.push('video_rights_review_complete', 'video_accessibility_confirmed');
       if (status === 'PUBLISHED') {
         const missingSafeguards = safeguardNames.filter(name => !field(articleForm, name).checked);
         if (missingSafeguards.length) throw new Error('Complete every publication-safeguard confirmation before publication.');
@@ -545,7 +547,7 @@
         htmlUrl: field(articleForm, 'html_url').value.trim(), htmlConfirmed: field(articleForm, 'html_confirmed').checked,
         pdfUrl: field(articleForm, 'pdf_url').value.trim(),
         pdfDownloadUrl: field(articleForm, 'pdf_download_url').value.trim(), pdfConfirmed: field(articleForm, 'pdf_confirmed').checked,
-        videoTitle: field(articleForm, 'video_title').value.trim(), videoUrl: field(articleForm, 'video_url').value.trim(),
+        videoTitle: field(articleForm, 'video_title').value.trim(), videoUrl,
         videoPosterUrl: field(articleForm, 'video_poster_url').value.trim(),
         videoCaptionUrl: field(articleForm, 'video_caption_url').value.trim(),
         videoTranscriptUrl: field(articleForm, 'video_transcript_url').value.trim(),
