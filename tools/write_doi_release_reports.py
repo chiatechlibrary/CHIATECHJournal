@@ -143,6 +143,10 @@ Generated for the Pioneer e001-e060 post-Crossref publication synchronization.
 - ScholarlyArticle JSON-LD records updated: **120**
 - Issue pages updated: **2**
 - Author pages updated: **0** (no separate author-page architecture exists)
+- Complimentary explanatory videos updated: **4** (e002-e005; silent visual summaries)
+- Video posters updated: **4**
+- WebVTT caption records updated: **4**
+- Accessible transcript links verified: **4**
 - Sitemap updated: **YES**
 
 ## Mandatory QA
@@ -171,7 +175,7 @@ Excluded categories include raw Crossref/source evidence, private/internal contr
 
 ## DOI resolution note
 
-Crossref REST identity verification passed for all 60 registered article DOIs. Before deployment, 35 Part 2 resolvers reached registered historical URLs that returned 404 in production; this release adds permanent redirects to `/papers/e026/` through `/papers/e060/`. The committed `doi-resolution-audit.csv` records the measured state at its run time. A post-deployment smoke test is required before reporting the redirects as live.
+Crossref REST identity verification passed for all 60 registered article DOIs. Before deployment, 35 Part 2 resolvers reached registered historical URLs that returned 404 in production; this release adds permanent redirects to `/papers/e026/` through `/papers/e060/`. The post-deployment `doi-resolution-audit.csv` records **61 PASS and 0 FAIL**, including the journal DOI and every article DOI.
 
 ## Remaining operational/editorial actions
 
