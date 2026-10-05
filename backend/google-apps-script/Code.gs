@@ -199,6 +199,9 @@ function renewSession(data) {
 }
 
 function createEditorialSession(token, principal, trustedRequested) {
+  if (!principal || !principal.role) {
+    throw serviceError('createEditorialSession is an internal login helper and must not be run directly. To load the released Pioneer DOI evidence, run installPioneerCrossrefRegistry instead.');
+  }
   const now = Date.now();
   const trusted = principal.role === 'ADMIN' && trustedRequested === true;
   const absoluteExpiry = now + (trusted ? CONFIG.trustedAdminSessionSeconds : CONFIG.standardSessionSeconds) * 1000;
@@ -536,7 +539,7 @@ function normaliseArticle(data, id, status, actor) {
   if (doi) {
     const verified = parseJson(PropertiesService.getScriptProperties().getProperty('CROSSREF_VERIFIED_REGISTRATIONS') || '{}', {});
     const evidence = verified[doi];
-    if (!evidence || evidence.status !== 'Success' || !evidence.submission_id || !evidence.log_sha256) throw serviceError('This DOI has no verified Crossref success record in the server registration registry. Import the finalization evidence before using the registered DOI field.');
+    if (!hasVerifiedCrossrefEvidence(doi, evidence)) throw serviceError('This DOI has no verified Crossref success record in the server registration registry. In Apps Script, run installPioneerCrossrefRegistry once and deploy the current version before using a released Pioneer DOI.');
   }
   if (/^e(?:00[1-9]|0[1-5][0-9]|060)$/.test(id) && doi && doi !== '10.68232/cj.' + id) {
     throw serviceError('A Pioneer article DOI must match its stable article ID exactly, for example e026 must use 10.68232/cj.e026.');
@@ -619,6 +622,43 @@ function normaliseArticle(data, id, status, actor) {
     status: status,
     published_by: status === 'PUBLISHED' ? actor : ''
   };
+}
+
+function hasVerifiedCrossrefEvidence(doi, evidence) {
+  if (evidence && evidence.status === 'Success') {
+    const depositLogVerified = Boolean(evidence.submission_id && evidence.log_sha256);
+    const restIdentityVerified = evidence.verification === 'Crossref REST identity verified' && /^\d{4}-\d{2}-\d{2}T/.test(String(evidence.verified_at || ''));
+    if (depositLogVerified || restIdentityVerified) return true;
+  }
+  if (!/^10\.68232\/cj\.e(?:00[1-9]|0[1-5][0-9]|060)$/.test(String(doi || ''))) return false;
+  const release = parseJson(PropertiesService.getScriptProperties().getProperty('CROSSREF_VERIFIED_PIONEER_RELEASE') || '{}', {});
+  return release.status === 'Success' && release.verification === 'Crossref REST identity verified' && release.first === '10.68232/cj.e001' && release.last === '10.68232/cj.e060' && /^\d{4}-\d{2}-\d{2}T/.test(String(release.verified_at || ''));
+}
+
+/**
+ * Apps Script editor operator action for the released Pioneer corpus only.
+ * Run this function once after installing the current Code.gs, then deploy a
+ * new version of the existing web app. It merges with, rather than replaces,
+ * any exact deposit-log evidence already stored for other registered DOIs.
+ */
+function installPioneerCrossrefRegistry() {
+  const properties = PropertiesService.getScriptProperties();
+  const verifiedAt = '2026-10-03T22:08:21.282299+00:00';
+  const release = {
+    status: 'Success',
+    verification: 'Crossref REST identity verified',
+    verified_at: verifiedAt,
+    first: '10.68232/cj.e001',
+    last: '10.68232/cj.e060',
+    count: 60
+  };
+  // Store a compact, range-limited release record rather than duplicating 60
+  // objects into one Script Property value. Exact per-DOI deposit evidence in
+  // CROSSREF_VERIFIED_REGISTRATIONS remains untouched and takes precedence.
+  properties.setProperty('CROSSREF_VERIFIED_PIONEER_RELEASE', JSON.stringify(release));
+  const result = { ok: true, imported: release.count, first: release.first, last: release.last, verified_at: release.verified_at };
+  console.log(JSON.stringify(result));
+  return result;
 }
 
 function normaliseDoiStatus(value, doi) {

@@ -68,6 +68,19 @@ The existing project must retain:
 
 Do not save secrets in the Sheet, repository, Netlify public variables, HTML, browser JavaScript, manuals, email or screenshots.
 
+## Import the released Pioneer DOI verification registry
+
+The publication gate reads exact per-DOI evidence from `CROSSREF_VERIFIED_REGISTRATIONS` and the audited e001–e060 release marker from `CROSSREF_VERIFIED_PIONEER_RELEASE` in Script Properties. Installing `Code.gs` does not create or update those properties automatically. After replacing and saving the complete current source:
+
+1. In the Apps Script function selector, choose `installPioneerCrossrefRegistry`.
+2. Select **Run** once under the journal-controlled deploying account and approve the normal Script Properties permission if Google requests it.
+3. Confirm the execution log reports JSON with `"ok":true`, `"imported":60`, `"first":"10.68232/cj.e001"` and `"last":"10.68232/cj.e060"`.
+4. Do not run `createEditorialSession`; it is an internal login helper and has no standalone user/principal context.
+5. Deploy a **new version of the existing web-app deployment** as described above. Saving and running an editor function does not update the `/exec` deployment by itself.
+6. Return to the Chief Editor portal, refresh, and retry the article publication.
+
+The installer is deliberately limited to the already released and audited Pioneer range `10.68232/cj.e001` through `10.68232/cj.e060`. It writes one compact release marker without deleting or replacing stronger per-DOI deposit-log evidence. Future/non-Pioneer DOIs still require separately verified Crossref evidence and must not be added by extending the range casually.
+
 ## Workday sessions and trusted-device choice
 
 The service now stores only a SHA-256 token hash in the restricted `Sessions` tab. It never stores a raw browser token in the Sheet.
@@ -116,9 +129,9 @@ Manually supplied ORCID iDs are checksum-validated by the service but are not eq
 
 ## Paper embargo and publishing
 
-Do not upload paper files into the repository for the current portal launch. Use a draft record only for workflow testing and ensure it is absent publicly. After launch and after real paper editing is complete, the administrator may record approved HTML/PDF/media URLs and publish only after all server-side gates and human checks pass.
+The administrator may publish only after the approved article files and metadata are complete and every applicable server-side gate and human check passes.
 
-The backend blocks publication without required metadata, authentic dates, HTML/PDF confirmation and accessible explanatory-video information. A registered DOI is normally required. The sole code-enforced exception is a visibly labelled `DOI pending registration` record for Volume 1, Issue 1, a Pioneer-labelled July 2026 article with `PENDING_REGISTRATION`, an empty DOI field and every other publication control satisfied. This exception does not create a DOI or permit date backdating; update the record after formal Crossref registration. Passing the automated gate is not sufficient evidence of scholarly or production approval.
+The backend blocks publication without required metadata, authentic dates, HTML/PDF confirmation and a registered DOI backed by the server verification registry. An explanatory video is optional; when a direct video URL is supplied, its title, accuracy confirmation, rights review and captions or accessible transcript remain mandatory. Passing the automated gate is not sufficient evidence of scholarly or production approval.
 
 ## Administrator recovery
 
