@@ -9,6 +9,22 @@ let checks = 0;
 const check = (label, work) => { work(); checks++; console.log(`PASS ${label}`); };
 const h = createHarness(), c = h.context;
 const adminToken = h.login(), editorToken = h.login('EDITOR');
+check('Pioneer Crossref registry installer preserves existing evidence and imports all 60 released DOIs', () => {
+  const result = c.installPioneerCrossrefRegistry();
+  const registry = JSON.parse(h.properties.get('CROSSREF_VERIFIED_REGISTRATIONS'));
+  const release = JSON.parse(h.properties.get('CROSSREF_VERIFIED_PIONEER_RELEASE'));
+  assert.equal(result.imported, 60);
+  assert.equal(registry['10.55555/local-qa-only'].submission_id, 'LOCAL_TEST_ONLY');
+  assert.equal(release.verification, 'Crossref REST identity verified');
+  assert.equal(release.count, 60);
+  assert.equal(c.hasVerifiedCrossrefEvidence('10.68232/cj.e001', null), true);
+  assert.equal(c.hasVerifiedCrossrefEvidence('10.68232/cj.e060', null), true);
+  assert.equal(c.hasVerifiedCrossrefEvidence('10.68232/cj.e061', null), false);
+  assert.equal(c.hasVerifiedCrossrefEvidence('10.55555/unverified-qa-only', { status: 'Success' }), false);
+});
+check('manual execution of the internal session helper gives the DOI operator the correct action', () => {
+  assert.throws(() => c.createEditorialSession(), /run installPioneerCrossrefRegistry instead/i);
+});
 check('published articles may omit the optional explanatory video', () => {
   const article = c.normaliseArticle({
     ...h.article,
@@ -79,7 +95,7 @@ check('publication requires actual boolean confirmation, verified DOI evidence a
   assert.equal(draft.article.doiStatus,'UNREGISTERED_DRAFT');
   c.setArticleStatus({token:adminToken,id:'e001',status:'DRAFT'});
   assert.throws(() => c.saveArticle({...h.article,id:'e026',token:adminToken,doi:'10.68232/cj.e027',doiStatus:'REGISTERED'}));
-  assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:'10.68232/cj.e001',doiStatus:'REGISTERED'}),/no verified Crossref/);
+  assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:'10.55555/unverified-qa-only',doiStatus:'REGISTERED'}),/no verified Crossref/);
   assert.throws(() => c.saveArticle({...h.article,token:adminToken,doi:'10.55555/local-qa-only',doiStatus:'UNREGISTERED_DRAFT'}),/REGISTERED/);
 });
 check('invalid login is rejected and repeated failures are throttled', () => {
