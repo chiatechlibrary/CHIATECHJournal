@@ -1,7 +1,6 @@
 /api/editorial /.netlify/functions/editorial-api 200!
 /articles/read/ /.netlify/functions/paper-page 200!
 /articles/read/index.html /.netlify/functions/paper-page 200!
-/sitemap.xml /.netlify/functions/public-index 200!
 /admin /portal/chief-editor-login/ 302
 /admin/ /portal/chief-editor-login/ 302
 /about/editorial-board /admin 302!
@@ -12,6 +11,8 @@
 /stemblog /blog/ 301
 /chiatechjournalofstemsolutionsandresources/ / 301
 /issues/2026/* /issues/ 301
+/issues/2026-v2-i1-august-2026/ /issues/volume-1-issue-2/ 301!
+/issues/2026-v2-i1-august-2026/index.html /issues/volume-1-issue-2/ 301!
 /articles/2026/* /404.html 410!
 /articles/JULY%202026/* /404.html 410!
 /articles/_editorial_work/* /404.html 404!

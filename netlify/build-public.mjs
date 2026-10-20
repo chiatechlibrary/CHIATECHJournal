@@ -2,6 +2,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { writeIssuePages } from './render-issues.mjs';
+import { validateIssueOutput } from './validate-issues.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'dist');
@@ -517,6 +519,12 @@ const allowed = async source => {
     return false;
   }
 
+  // Preserve historical issue artifacts in source; publish only their redirect.
+  const retiredIssue = path.join(root, 'issues', '2026-v2-i1-august-2026');
+  if (source.startsWith(retiredIssue + path.sep) && source !== path.join(retiredIssue, 'index.html')) {
+    return false;
+  }
+
   return true;
 };
 
@@ -552,6 +560,8 @@ for (const relative of sources) {
 }
 
 await copyValidatedPublicationAssets();
+await writeIssuePages(root, output);
+await validateIssueOutput(root, output);
 
 let files = 0;
 
